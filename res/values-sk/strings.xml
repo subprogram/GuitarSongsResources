@@ -1,0 +1,518 @@
+<resources>
+  <!---->
+  <string name="songLanguage">Jazyky</string>
+  <!---->
+  <string name="chooseLang">Zvoľ si jazyk </string>
+  <!---->
+  <string name="accordNotFound">Neznámy akord </string>
+  <!---->
+  <string name="removingInProgress">Odstraňujem\nProsím čakajte…</string>
+  <!---->
+  <string name="dbServerSongsCount">Dostupné piesne: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Známe akordy: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Dátum poslednej synchronizácie </string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Nedávno pridané piesne</string>
+  <!---->
+  <string name="dbInitError">Chyba pri načítavaní databázy!\nProsím vyberte správnu cestu v nastaveniach.</string>
+  <!---->
+  <string name="inetReceiveMessage">Posielam dáta\nProsím čakajte…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Aktualizujem zoznam akordov…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Aktualizujem komentáre…</string>
+  <!---->
+  <string name="inetReceiveError">Chyba (%d) server neodpovedá!\nProsím, skontrolujte svoje internetové nastavenia a skúste znovu </string>
+  <!---->
+  <string name="loadingInProgress">Rozbaľujem.\nProsím čakajte…</string>
+  <!---->
+  <string name="rateSong">Hodnotiť </string>
+  <!---->
+  <string name="chooseKey">Zvoľte kľúč </string>
+  <!---->
+  <string name="append">Pridať </string>
+  <!---->
+  <string name="restart">Reštart </string>
+  <!---->
+  <string name="pause">Pauza</string>
+  <!---->
+  <string name="save">Uložiť </string>
+  <!---->
+  <string name="yes">Áno </string>
+  <!---->
+  <string name="no">Nie </string>
+  <!---->
+  <string name="more">Možnosti </string>
+  <!---->
+  <string name="cancel">Zrušiť </string>
+  <!---->
+  <string name="exit">Odísť </string>
+  <!---->
+  <string name="accords">Akordy</string>
+  <!---->
+  <string name="versionInfo">Verzia aplikácie </string>
+  <!---->
+  <string name="feedback">Odozva </string>
+  <!---->
+  <string name="search">Hľadať </string>
+  <!---->
+  <string name="find">Nájsť </string>
+  <!---->
+  <string name="saveToFile">Uložiť do súboru…</string>
+  <!---->
+  <string name="removeAll">Vymazať všetko </string>
+  <!---->
+  <string name="preferences">Nastavenia…</string>
+  <!---->
+  <string name="edit">Upraviť…</string>
+  <!---->
+  <string name="error">Chyba </string>
+  <!---->
+  <string name="favourites">Obľúbené </string>
+  <!---->
+  <string name="appendToFavourites">Pridať k obľúbeným </string>
+  <!---->
+  <string name="removeFromFavourites">Vymazať z obľúbených </string>
+  <!---->
+  <string name="newLangAvailable">Nový jazyk: %1s</string>
+  <!---->
+  <string name="langId">5</string>
+  <!---->
+  <string name="accordInfoTitle">Info o akordoch</string>
+  <!---->
+  <string name="readingFileProgress">Načítavanie súboru %d</string>
+  <!---->
+  <string name="readingServerDataProgress">Spracovávanie zmien %d%%</string>
+  <!---->
+  <string name="duration">Dĺžka</string>
+  <!---->
+  <string name="syncWithServer">Synchronizovať</string>
+  <!---->
+  <string name="transpose">Transponovať</string>
+  <!---->
+  <string name="clearDB">Vymazať databázu</string>
+  <!---->
+  <string name="songInfo">Informácie</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%1s\" pridané do obľúbených</string>
+  <!---->
+  <string name="remove">Vymazať</string>
+  <!---->
+  <string name="areYouSure">Ste si istý?</string>
+  <!---->
+  <string name="areYouSureToExit">Ukončiť aplikáciu?</string>
+  <!---->
+  <string name="areYouSureToDelete">Označené položky budú vymazané. Pokračovať?</string>
+  <!---->
+  <string name="fileSaved">Súbor úspešne uložený</string>
+  <!---->
+  <string name="fileSaveError">Tento súbor nie je možné uložiť</string>
+  <!---->
+  <string name="badVersionError">Aktualizovali sme kódovacie dáta na náš server! Prosím aktualizujte aplikáciu.</string>
+  <!---->
+  <string name="authorName">Autor</string>
+  <!---->
+  <string name="songText">Text</string>
+  <!---->
+  <string name="songDuration">Dĺžka</string>
+  <!---->
+  <string name="songDelay">Pauza na začiatku</string>
+  <!---->
+  <string name="songComments">Komentár k akordom</string>
+  <!---->
+  <string name="userComments">Komentár používateľa</string>
+  <!---->
+  <string name="scrollSpeed">Rýchlosť posúvania</string>
+  <!---->
+  <string name="sender">Zdieľať</string>
+  <!---->
+  <string name="speedUp">Rýchlejšie</string>
+  <!---->
+  <string name="speedDown">Pomaľšie</string>
+  <!---->
+  <string name="na">Žiadne dáta</string>
+  <!---->
+  <string name="unknown">Neznámy</string>
+  <!---->
+  <string name="language">Jazyk</string>
+  <!---->
+  <string name="appearance">Vzhľad</string>
+  <!---->
+  <string name="songTextScreen">Obrazovka s textom piesne</string>
+  <!---->
+  <string name="other">Rôzne</string>
+  <!---->
+  <string name="attention">Pozor!</string>
+  <!---->
+  <string name="anonymous">Anonymný</string>
+  <!---->
+  <string name="googlePlayNotFound">Nie je možné otvoriť Google Play</string>
+  <!---->
+  <string name="functionNotAllowed">Táto funkcia nie je dostupná vo free verzii</string>
+  <!---->
+  <string name="empty">Prázdny</string>
+  <!---->
+  <string name="showSongPaused">Začiatočná pauza</string>
+  <!---->
+  <string name="showSongPausedSummary">Nezapínať automaticky odpočítavanie</string>
+  <!---->
+  <string name="hideActionBar">Skryť ovládacie prvky</string>
+  <!---->
+  <string name="hideActionBarSummary">Odporúčané pre zariadenia s malou obrazovkou</string>
+  <!---->
+  <string name="design">Téma vzhľadu</string>
+  <!---->
+  <string name="designSummary">Po zmene témy, prosím, reštartujte aplikáciu</string>
+  <!---->
+  <string name="instrument">Nástroj</string>
+  <!---->
+  <string name="songTextSize">Veľkosť písma</string>
+  <!---->
+  <string name="zoomIn">Zväčšiť písmo</string>
+  <!---->
+  <string name="zoomOut">Zmenšiť písmo</string>
+  <!---->
+  <string name="fixedSongTextSize">Stála veľkosť písma</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Každá pieseň používa rovnakú veľkosť písma</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Aplikácia teraz neobsahuje reklamy!</string>
+  <!---->
+  <string name="selectFile">Vyberte súbor</string>
+  <!---->
+  <string name="select">Vyberte</string>
+  <!---->
+  <string name="haventAccessPrivileges">Nemáte prístupové povolenie úložiska</string>
+  <!---->
+  <string name="yesterday">Včera</string>
+  <!---->
+  <string name="chooseFolder">Vyberte priečinok</string>
+  <!---->
+  <string name="songsAddedToFolder_">Piesne presunuté do priečinku \"%s\"</string>
+  <!---->
+  <string name="inputFolderName">Zadajte názov</string>
+  <!---->
+  <string name="allowAbusive">Neslušné piesne</string>
+  <!---->
+  <string name="allowAbusiveSummary">Ukázať neslušné piesne</string>
+  <!---->
+  <string name="helpToTranslate">Pomôžte preložiť do iných jazykov</string>
+  <!---->
+  <string name="helpToTranslateSummary">Môžete preložiť aplikáciu do vášho rodného jazyka</string>
+  <!---->
+  <string name="share">Zdieľať</string>
+  <!---->
+  <string name="rateDialogTitle">Ohodnotiť aplikáciu</string>
+  <!---->
+  <string name="rateDialogMessage">Ak sa Vám aplikácia páči, prosím ohodnoťte ju. Ďakujeme za Vašu podporu!</string>
+  <!---->
+  <string name="rateNow">Ohodnotiť teraz</string>
+  <!---->
+  <string name="faqTextQuestion10">Chcem pomôcť s prekladom aplikácie do môjho rodného jazyka. Ako to môžem urobiť?</string>
+  <!---->
+  <string name="faqTextAnswer10">Môžete to urobiť priamo cez aplikáciu: Nastavenia-&gt;Pomôcť preložiť</string>
+  <!---->
+  <string name="faqTextQuestion9">Ako môžem pridať novú pieseň do databázy?</string>
+  <!---->
+  <string name="faqTextAnswer9">Navštívte webovú stránku en.guitarsongs.club, prihláste sa použitím Vášho účtu Google, a potom môžete pridávať piesne v bežnej databáze. Nové piesne budú okamžite dostupné všetkým používateľom. Stačí kliknúť \"Synchonizovať\".</string>
+  <!---->
+  <string name="faqTextQuestion8">Môžem si pozrieť ďaľšiu pieseň počas hrania inej piesne bez toho, aby som musel ísť späť na zoznam?</string>
+  <!---->
+  <string name="faqTextAnswer8">Áno, môžete použiť gestá: potiahnúť doľava alebo doprava (funguje len v tom istom priečinku)</string>
+  <!---->
+  <string name="faqTextQuestion7">Čo znamenajú čísla vedľa názvov niektorých piesní?</string>
+  <!---->
+  <string name="loadedSongs">Extrahované piesne: %d</string>
+  <!---->
+  <string name="averageRating">Priemerné hodnotenie akordov</string>
+  <!---->
+  <string name="rateSongText">Ohodnoťte kvalitu akordov. Vaše hodnotenie bude pridané po ďaľšej synchronizácii so servrom.</string>
+  <!---->
+  <string name="loadFromFile">Importovať…</string>
+  <!---->
+  <string name="disableAds">Deaktivovať reklamy</string>
+  <!---->
+  <string name="songName">Názov</string>
+  <!---->
+  <string name="faqTextAnswer7">Tieto čísla znamenajú priemerné hodnotenie akordov piesne. Môžete hlasovať za piesne v menu možnosťi \"Ohodnotiť\" na zozname textov. Túto možnosť sme pridali ako prevenciu pred nekvalitnými piesňami. Piesne s nízkymi hodnoteniami sa budeme snažiť zlepšiť.</string>
+  <!---->
+  <string name="faqTextQuestion5">Nepočujem piesne, nemám žiaden zvuk!</string>
+  <!---->
+  <string name="faqTextAnswer5">Toto je spevník, tu môžete nájsť len texty piesní.</string>
+  <!---->
+  <string name="faqTextQuestion4">Po aktualizácii mi aplikácia nefunguje správne. Čo môžem urobiť?</string>
+  <!---->
+  <string name="faqTextAnswer4">Prosím kontaktujte nás a opíšte nám chyby, Váš model a verziu systému Android.</string>
+  <!---->
+  <string name="faqTextQuestion3">Ako si môžem pozrieť detaily akordu?</string>
+  <!---->
+  <string name="faqTextAnswer3">Kliknite na príslušný akord.</string>
+  <!---->
+  <string name="faqTextQuestion1">Ako môžem pridať svoju pieseň do databázy?</string>
+  <!---->
+  <string name="faqTextAnswer1">Najlepšie je použiť webovú stránku en.guitarsongs.club, kde budú všetky pridané piesne dostupné pre všetkých používateľov. Ale ak chcete pridať pieseň len pre seba, potom urobte nasledovné: v zozname \"Moje piesne\" vyberte v menu možnosť \"Importovať\". Potom vyberte priečinok alebo textový súbor.</string>
+  <!---->
+  <string name="faqTextQuestion0">Ako môžem upozorniť vývojára na chybu, alebo položiť otázku?</string>
+  <!---->
+  <string name="faqTextAnswer0">Prosím napíšte nám správu na našu oficiálnu stránku - https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="rootMenuSongs">Zoznam piesní</string>
+  <!---->
+  <string name="rootMenuFolders">Priečinky</string>
+  <!---->
+  <string name="rootMenuInfo">Informácie</string>
+  <!---->
+  <string name="designWood">Drevo</string>
+  <!---->
+  <string name="designBlack">Čierna</string>
+  <!---->
+  <string name="designWhite">Biela</string>
+  <!---->
+  <string name="instrumentGuitar">Gitara</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulele</string>
+  <!---->
+  <string name="goToAuthor">Zobraziť všetky umelcove piesne.</string>
+  <!---->
+  <string name="moveToFolder">Presunúť do priečinku…</string>
+  <!---->
+  <string name="chooseAuthor">Vyberte umelca</string>
+  <!---->
+  <string name="copyToFolder">Kopírovať do priečinku…</string>
+  <!---->
+  <string name="systemSettingsTitle">Systém</string>
+  <!---->
+  <string name="backupSettingTitle">Záloha</string>
+  <!---->
+  <string name="backupSummary">Vytvoriť zálohu celej databázy</string>
+  <!---->
+  <string name="backupCreated">Záloha vytvorená \"%s\"</string>
+  <!---->
+  <string name="creatingBackup">Vytváranie zálohy</string>
+  <!---->
+  <string name="restoreSettingTitle">Obnoviť</string>
+  <!---->
+  <string name="restoreSummary">Obnoviť databázu zo zálohy</string>
+  <!---->
+  <string name="restoreCompleted">Obnovenie ukončené</string>
+  <!---->
+  <string name="restoring">Obnovovanie…</string>
+  <!---->
+  <string name="serverUnderConstructionError">Server je dočastne nedostupný. Prosím skúste neskôr.</string>
+  <!---->
+  <string name="syncDialogMessage">Vaša databáza piesní je stará. Môžete ju stnchronizovať. Chcete to urobiť teraz?</string>
+  <!---->
+  <string name="syncNow">Synchronizovať teraz</string>
+  <!---->
+  <string name="remindLater">Pripomenúť neskôr</string>
+  <!---->
+  <string name="neverRemind">Nikdy</string>
+  <!---->
+  <string name="newsDialogLater">Pripomenúť neskôr</string>
+  <!---->
+  <string name="newsDialogShow">Zobraziť</string>
+  <!---->
+  <string name="newsDialogClose">Zavrieť</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Synchronizovať obľúbené…</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Účet na synchronizovanie obľúbených piesní</string>
+  <!---->
+  <string name="notation">Názvy akordov</string>
+  <!---->
+  <string name="notationUnknown">Nedefinované</string>
+  <!---->
+  <string name="notationB">Štandardné</string>
+  <!---->
+  <string name="notationH">Nemecké (B-&gt;H)</string>
+  <!---->
+  <string name="appLanguage">Jazyk aplikácie</string>
+  <!---->
+  <string name="autoSyncWithServer">Automatická synchronizácia</string>
+  <!---->
+  <string name="executingInProgress">Prosím čakajte…</string>
+  <!---->
+  <string name="appendFolder">Pridať priečinok</string>
+  <!---->
+  <string name="appendVirtualFolder">Pridať virtuálny priečinok</string>
+  <!---->
+  <string name="databasePath">Umiestnenie databázy</string>
+  <!---->
+  <string name="searchOnYoutube">Hľadať na Youtube</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">Nedostatok ukladacieho priestoru</string>
+  <!---->
+  <string name="incorrectField">Nesprávne pole</string>
+  <!---->
+  <string name="saveChanges">Uložiť zmeny?</string>
+  <!---->
+  <string name="syncData">Synchronizovať dáta</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Špeciálna ponuka</string>
+  <!---->
+  <string name="specialPriceDialogText">Ďakujeme za použitie aplikácie Gitarové piesne! Teraz môžete deaktivovať reklamy so zľavou až 60%. Chcete využiť túto možnosť a zabudnúť na reklamy v tejto aplikácii?</string>
+  <!---->
+  <string name="viewSettingsTitle">vzhľad</string>
+  <!---->
+  <string name="viewArtists">Zoznam umelcov</string>
+  <!---->
+  <string name="viewHideMySongs">Skryť moje piesne</string>
+  <!---->
+  <string name="sortMode">Triediť</string>
+  <!---->
+  <string name="copyToMySongs">Kopírovať do \"Moje piesne\"</string>
+  <!---->
+  <string name="audioFile">Zvukový súbor</string>
+  <!---->
+  <string name="playAudio">Prehrať zvuk</string>
+  <!---->
+  <string name="stopAudio">Zastaviť zvuk</string>
+  <!---->
+  <string name="metronom">Metronom</string>
+  <!---->
+  <string name="mySongs">Moje piesne</string>
+  <!---->
+  <string name="inputArtistName">Zadajte názov</string>
+  <!---->
+  <string name="syncedDataWillPublicWarning">Pozor! Vybratím dát užívateľa (*) na synchronizáciu súhlasíte, že tieto dáta neobsahujú dôverné informácie.</string>
+  <!---->
+  <string name="synchronizationSettingsTitle">Synchronizácia</string>
+  <!---->
+  <string name="contentPrefCategory">Obsah</string>
+  <!---->
+  <string name="default_">Štandardný</string>
+  <!---->
+  <string name="value">Hodnota</string>
+  <!---->
+  <string name="watchOnYoutube">Prehrať na Youtube</string>
+  <!---->
+  <string name="hide">Skryť</string>
+  <!---->
+  <string name="hidden">Skrytý</string>
+  <!---->
+  <string name="showHidden">Zobraziť skryté</string>
+  <!---->
+  <string name="areYouSureToHide">Vybraté položky budú skryté. Pokračovať?</string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">Prosím pozrite si krátke video pred tým, ako začnete s prekladom</string>
+  <!---->
+  <string name="help">Pomoc</string>
+  <!---->
+  <string name="faqTextQuestion17">Ako môžem zmeniť rýchlosť posúvania?</string>
+  <!---->
+  <string name="faqTextQuestion16">Ako môžem zobraziť piesne v istom jazyku?</string>
+  <!---->
+  <string name="choosePlaylist">Vyberte setlist</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">Piesne pridané do setlistu \"%s\"</string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">Synchronizácia setlistov…</string>
+  <!---->
+  <string name="appendPlaylist">Pridať setlist</string>
+  <!---->
+  <string name="addToPlaylist">Pridať do setlistu…</string>
+  <!---->
+  <string name="faqTextQuestion15">Ako môžem pridať pieseň do setlistu?</string>
+  <!---->
+  <string name="faqTextQuestion14">Ako môžem okopírovať piesne do sekcie \"Moje piesne\"?</string>
+  <!---->
+  <string name="faqTextQuestion13">Ako skryť niektorých umelcov v zozname?</string>
+  <!---->
+  <string name="faqTextQuestion12">Ako transponovať pieseň?</string>
+  <!---->
+  <string name="faqTextQuestion11">Ako zmeniť veľkosť písma?</string>
+  <!---->
+  <string name="faqTextAnswer11">Môžete použiť gesto na priblíženie alebo tlačidlá hlasitosti.</string>
+  <!---->
+  <string name="viewHideNicknames">Skryť prezývky</string>
+  <!---->
+  <string name="signUp">Prihlásiť sa</string>
+  <!---->
+  <string name="signIn">Prihlásiť sa</string>
+  <!---->
+  <string name="signInWithGoogle">Prihlásiť sa cez Google</string>
+  <!---->
+  <string name="signInWithFacebook">Prihlásiť sa cez Facebook</string>
+  <!---->
+  <string name="signInWithTwitter">Prihlásiť sa cez Twitter</string>
+  <!---->
+  <string name="signInWithEmail">Prihlásiť sa cez email</string>
+  <!---->
+  <string name="password">Heslo</string>
+  <!---->
+  <string name="signUpSuccess">Boli ste úspešne registrovaný! Prosím skontrolujte si Váš email.</string>
+  <!---->
+  <string name="signUpInstructions">Prosím skontrolujte si Váš email, po kliknutí tlačidla \'Prihlásiť sa\'. Pošleme Vám informácie o Vašom hesle.</string>
+  <!---->
+  <string name="alreadyHaveAccount">Už mám účet.</string>
+  <!---->
+  <string name="selectFolder">Vyberte priečinok</string>
+  <!---->
+  <string name="guitarSongs">Gitarové piesne</string>
+  <!---->
+  <string name="langsManage">Spravovať</string>
+  <!---->
+  <string name="sortByArtistName">Zoradiť podľa mena umelca</string>
+  <!---->
+  <string name="sortBySongName">Zoradiť podľa názvu piesne</string>
+  <!---->
+  <string name="sortByRandom">Zoradiť náhodne</string>
+  <!---->
+  <string name="exportDialogMessage">Prosím vyberte formát súboru</string>
+  <!---->
+  <string name="areYouSureToRemoveLang">Všetky piesne v tomto jazyku budú vymazané. Pokračovať?</string>
+  <!---->
+  <string name="notationSi">Španielske (B-&gt;SI)</string>
+  <!---->
+  <string name="enabled">Povolený</string>
+  <!---->
+  <string name="sound">Zvuk</string>
+  <!---->
+  <string name="proFeatureOnly">Prístupný len v Guitar Songs Pro</string>
+  <!---->
+  <string name="disableAdsPaid">Navždy</string>
+  <!---->
+  <string name="disableAdsFree">Na 1 týždeň (zdarma)</string>
+  <!---->
+  <string name="disableAdsFreeInstruction">Pre odstránenie reklám na jeden týždeň si pozrite video</string>
+  <!---->
+  <string name="tooShortSearchQuery">Na vyhľadávanie podľa textu zadajte najmenej 3 znaky</string>
+  <!---->
+  <string name="rootMenuHistory">História / Top</string>
+  <!---->
+  <string name="downloadAndRemoveLangDialogMessage">Tu si môžete nahrať alebo vymazať texty piesní v rozličných jazykoch</string>
+  <!---->
+  <string name="newPlaylist">Nové</string>
+  <!---->
+  <string name="buy">Kúpiť</string>
+  <!---->
+  <string name="rateSongUnauthorized">Na hodnotenie piesní musíte byť prihlásený</string>
+  <!---->
+  <string name="appending">Pridávanie %s</string>
+  <!---->
+  <string name="billingPurchasingFeatureSuccess">Táto funkcia bola aktivovaná!</string>
+  <!---->
+  <string name="historyPageTitle">História</string>
+  <!---->
+  <string name="dbInfo">Dôležitosť databázy</string>
+  <!---->
+  <string name="chooseFileManager">Vyberte správcu súborov</string>
+  <!---->
+  <string name="rootMenuTopUsers">Naj užívateľa</string>
+  <!---->
+  <string name="remindDbSyncDate">Pripomenúť nové piesne</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Pripomenúť neaktuálnu databázu a potrebu synchronizácie</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Synchronizovať na pozadí</string>
+  <!---->
+  <string name="copiedSongs">%d piesní okopírovaných</string>
+  <!---->
+  <string name="download">Stiahnuť</string>
+  <!---->
+  <string name="downloadAvailableLangMessage">Texty piesní v \"%s\" sú dostupné na servri! Chcete ich stiahnuť?</string>
+  <!---->
+  <string name="errorHappened">Error!  (kód: %d) </string>
+</resources>

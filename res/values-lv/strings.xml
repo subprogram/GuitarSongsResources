@@ -1,0 +1,198 @@
+<resources>
+  <!---->
+  <string name="songLanguage">Valodas</string>
+  <!---->
+  <string name="chooseLang">Izvēlēties valodu</string>
+  <!---->
+  <string name="accordInfoTitle">Akordu informācija</string>
+  <!---->
+  <string name="accordNotFound">Nezināms akords</string>
+  <!---->
+  <string name="removingInProgress">Dzēš.\nLūdzu gaidiet…</string>
+  <!---->
+  <string name="dbLastSyncDate">Pēdējās sinhronizācijas datums</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Pēdējā laikā pievienotās dziesmas</string>
+  <!---->
+  <string name="inetReceiveMessage">Sūta datus.\nLūdzu gaidiet…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Atjauno akordu sarakstu…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Atjaunina komentārus…</string>
+  <!---->
+  <string name="inetReceiveError">Kļūda (%d) serveris nedarbojas!\nLūdzu, pārbaudiet savu interneta savienojumu un mēğiniet vēlreiz</string>
+  <!---->
+  <string name="chooseKey">Izvēlieties tonalitāti</string>
+  <!---->
+  <string name="transpose">Transponēt</string>
+  <!---->
+  <string name="append">Pievienot</string>
+  <!---->
+  <string name="appending">Pievieno %s</string>
+  <!---->
+  <string name="pause">Pauze</string>
+  <!---->
+  <string name="save">Saglabāt</string>
+  <!---->
+  <string name="yes">Jā</string>
+  <!---->
+  <string name="no">Nē</string>
+  <!---->
+  <string name="more">Iespējas</string>
+  <!---->
+  <string name="cancel">Atcelt</string>
+  <!---->
+  <string name="exit">Iziet</string>
+  <!---->
+  <string name="accords">Akordi</string>
+  <!---->
+  <string name="search">Meklēt</string>
+  <!---->
+  <string name="find">Atrast</string>
+  <!---->
+  <string name="saveToFile">Saglabāt failā…</string>
+  <!---->
+  <string name="removeAll">Dzēst visu</string>
+  <!---->
+  <string name="preferences">Uzstādījumi</string>
+  <!---->
+  <string name="songInfo">Informācija</string>
+  <!---->
+  <string name="edit">Labot…</string>
+  <!---->
+  <string name="error">Kļūda</string>
+  <!---->
+  <string name="favourites">Mīļākās</string>
+  <!---->
+  <string name="remove">Izņemt</string>
+  <!---->
+  <string name="areYouSure">Vai esi pārliecināts? </string>
+  <!---->
+  <string name="areYouSureToExit">Iziet no aplikācijas?</string>
+  <!---->
+  <string name="areYouSureToDelete">Izvēlētie objekti tiks dzēsti. Turpināt?</string>
+  <!---->
+  <string name="fileSaved">Fails veiksmīgi saglabāts</string>
+  <!---->
+  <string name="fileSaveError">Nevarēja saglabāt failu</string>
+  <!---->
+  <string name="authorName">Izpildītāja vārds</string>
+  <!---->
+  <string name="songName">Vārds</string>
+  <!---->
+  <string name="songText">Vārdi</string>
+  <!---->
+  <string name="songComments">Komentāri akordiem</string>
+  <!---->
+  <string name="userComments">Lietotāja komentāri</string>
+  <!---->
+  <string name="sender">Aizsūtīts</string>
+  <!---->
+  <string name="speedUp">Ātrāk</string>
+  <!---->
+  <string name="speedDown">Lēnāk</string>
+  <!---->
+  <string name="unknown">Nezināms</string>
+  <!---->
+  <string name="language">Valoda</string>
+  <!---->
+  <string name="attention">Uzmanību!</string>
+  <!---->
+  <string name="anonymous">Anonīms</string>
+  <!---->
+  <string name="googlePlayNotFound">Nevar atvērt Google Play</string>
+  <!---->
+  <string name="functionNotAllowed">Šī funkcija nav pieejama bezmaksas versijā</string>
+  <!---->
+  <string name="empty">Tukšs</string>
+  <!---->
+  <string name="showSongPausedSummary">Nesākt automātisku laika atskaiti</string>
+  <!---->
+  <string name="hideActionBar">Paslēpt kontroles pogas</string>
+  <!---->
+  <string name="hideActionBarSummary">Rekomendēts ierīcēm ar mazu ekrānu</string>
+  <!---->
+  <string name="instrument">Instruments</string>
+  <!---->
+  <string name="songTextSize">Fonta izmērs</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Visas dziesmas izmanto vienādu fonta lielumu</string>
+  <!---->
+  <string name="selectFile">Izvēlieties failu</string>
+  <!---->
+  <string name="select">Izvēlēties</string>
+  <!---->
+  <string name="yesterday">vakardiena</string>
+  <!---->
+  <string name="chooseFolder">Izvēlēties mapi</string>
+  <!---->
+  <string name="inputFolderName">Ievadiet vārdu</string>
+  <!---->
+  <string name="langId">47</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Konta sinhronizācijas mīļākajām dziesmām</string>
+  <!---->
+  <string name="allowAbusive">Aizskarošas dziesmas</string>
+  <!---->
+  <string name="allowAbusiveSummary">Parādīt aizskarošas dziesmas</string>
+  <!---->
+  <string name="appLanguage">Aplikācijas valoda</string>
+  <!---->
+  <string name="areYouSureToHide">Izvēlētie elementi tiks paslēpti. Turpināt?</string>
+  <!---->
+  <string name="audioFile">Audio fails</string>
+  <!---->
+  <string name="badVersionError">Mēs uzlabojām kodēšanas datus mūsu serverī! Lūdzu atjaunojiet aplikāciju.</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Tagad aplikācija ir bez reklāmām!</string>
+  <!---->
+  <string name="averageRating">Vidējais vērtējums</string>
+  <!---->
+  <string name="chooseFileManager">Izvēlieties jūsu failu pārvaldnieku</string>
+  <!---->
+  <string name="clearDB">Notīrīt datu bāzi</string>
+  <!---->
+  <string name="copiedSongs">%d dziesmas nokopētas</string>
+  <!---->
+  <string name="copyToMySongs">Kopēt uz \"Manas dziesmas\"</string>
+  <!---->
+  <string name="areYouSureToRemoveLang">Visas dziesmas šajā valodā tiks izdzēstas. Brīdinājums! Šīs darbības nevarēs atgriezt. Turpināt?</string>
+  <!---->
+  <string name="alreadyHaveAccount">Man jau ir konts</string>
+  <!---->
+  <string name="appendFolder">Pievienot mapi</string>
+  <!---->
+  <string name="appendToFavourites">Pievienot mīļākajām</string>
+  <!---->
+  <string name="buy">Pirkt</string>
+  <!---->
+  <string name="chooseAuthor">Izvēlēties mākslinieku</string>
+  <!---->
+  <string name="dbAccordsCount">Zināmie akordi: %d</string>
+  <!---->
+  <string name="dbServerSongsCount">Pieejamās dziesmas: %d</string>
+  <!---->
+  <string name="designBlack">Melns</string>
+  <!---->
+  <string name="designWhite">Balts</string>
+  <!---->
+  <string name="designWood">Koks</string>
+  <!---->
+  <string name="download">Lejuplādēt</string>
+  <!---->
+  <string name="downloadAndRemoveLangDialogMessage">Šeit jūs varat ielādēt vai noņemt dziesmu tekstus dažādās valodās</string>
+  <!---->
+  <string name="downloadAvailableLangMessage">Dziesmu teksti \"%s\" ir pieejami serverī! Vai jūs vēlaties tos lejuplādēt tagad?</string>
+  <!---->
+  <string name="rateSong">Balsot</string>
+  <!---->
+  <string name="executingInProgress">Lūdzu uzgaidiet…</string>
+  <!---->
+  <string name="faqTextQuestion10">Es vēlos palīdzēt ar šīs aplikācijas tulkojumu savā dzimtajā valodā. Kā es to varu izdarīt?</string>
+  <!---->
+  <string name="faqTextQuestion11">Kā izmainīt burtu lielumu?</string>
+  <!---->
+  <string name="faqTextQuestion12">Kā izmainīt dziesmas tonalitāti (transponēt)?</string>
+  <!---->
+  <string name="addToPlaylist">Pievienot dziesmu sarakstam…</string>
+</resources>

@@ -1,0 +1,278 @@
+<resources>
+  <!---->
+  <string name="guitarSongs">שירים לגיטרה</string>
+  <!---->
+  <string name="newLangAvailable">%s :שפה חדשה</string>
+  <!---->
+  <string name="songLanguage">שפות</string>
+  <!---->
+  <string name="chooseLang">בחר שפה</string>
+  <!---->
+  <string name="accordInfoTitle">מידע על אקורדים</string>
+  <!---->
+  <string name="accordNotFound">אקורד לא ידוע</string>
+  <!---->
+  <string name="removingInProgress">מוחק. \nהמתן בבקשה…</string>
+  <!---->
+  <string name="dbServerSongsCount">שירים זמינים: %d</string>
+  <!---->
+  <string name="dbAccordsCount">אקורדים ידועים: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">תאריך הסנכרון האחרון</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">שירים שנוספו לאחרונה</string>
+  <!---->
+  <string name="dbInitError">שגיאה באתחול מאגר המידע</string>
+  <!---->
+  <string name="inetReceiveMessage">שולח נתונים. \nהמתן בבקשה…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">מעדכן את רשימת האקורדים…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">מעדכן את התגובות…</string>
+  <!---->
+  <string name="inetReceiveError">שגיאה (%d) השרץ לא מגיב! \nבבקשה, בדוק את חיבור האינטרנט שלך ונסה שוב</string>
+  <!---->
+  <string name="readingFileProgress">קורא את הקובץ (שורה #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">מעבד רשימה של שינויים %d%%</string>
+  <!---->
+  <string name="loadedSongs">חילוץ שירים: %d</string>
+  <!---->
+  <string name="loadingInProgress">מחלץ. \nהמתן בבקשה…</string>
+  <!---->
+  <string name="duration">משך</string>
+  <!---->
+  <string name="rateSong">ציון</string>
+  <!---->
+  <string name="averageRating">ציון ממוצע של הטאב</string>
+  <!---->
+  <string name="rateSongText">ציון איכות של הרכב. \nהדירוג שלך יתווסף לאחר הסנכרון עם הסרבר</string>
+  <!---->
+  <string name="syncWithServer">סנכרון</string>
+  <!---->
+  <string name="chooseKey">בחר מפתח</string>
+  <!---->
+  <string name="transpose">שרבוב</string>
+  <!---->
+  <string name="append">הוסף</string>
+  <!---->
+  <string name="appending">מוסיף %s</string>
+  <!---->
+  <string name="restart">הפעל מחדש</string>
+  <!---->
+  <string name="pause">עצור</string>
+  <!---->
+  <string name="save">שמור</string>
+  <!---->
+  <string name="yes">כן</string>
+  <!---->
+  <string name="no">לא</string>
+  <!---->
+  <string name="more">אופציות</string>
+  <!---->
+  <string name="cancel">בטל</string>
+  <!---->
+  <string name="exit">צא</string>
+  <!---->
+  <string name="accords">אקורדים</string>
+  <!---->
+  <string name="dbInfo">רלוונטיות מאגר הנתונים</string>
+  <!---->
+  <string name="versionInfo">גרסת האפליקציה </string>
+  <!---->
+  <string name="feedback">משוב</string>
+  <!---->
+  <string name="search">חיפוש</string>
+  <!---->
+  <string name="find">מצא</string>
+  <!---->
+  <string name="saveToFile">שמור לקובץ…</string>
+  <!---->
+  <string name="loadFromFile">יבוא…</string>
+  <!---->
+  <string name="removeAll">מחק הכל</string>
+  <!---->
+  <string name="preferences">הגדרות…</string>
+  <!---->
+  <string name="disableAds">אל תאפשר פרסומות</string>
+  <!---->
+  <string name="clearDB">נקה את מאגר הנתונים</string>
+  <!---->
+  <string name="songInfo">מידע</string>
+  <!---->
+  <string name="edit">ערוך…</string>
+  <!---->
+  <string name="error">שגיאה</string>
+  <!---->
+  <string name="errorHappened">קרתה שגיאה (קוד %d)</string>
+  <!---->
+  <string name="favourites">מועדפים</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%1s\" נוסף למועדפים</string>
+  <!---->
+  <string name="appendToFavourites">הוסף למועדפים</string>
+  <!---->
+  <string name="removeFromFavourites">הסר ממועדפים</string>
+  <!---->
+  <string name="remove">הסר</string>
+  <!---->
+  <string name="areYouSure">האם אתה בטוח? </string>
+  <!---->
+  <string name="areYouSureToExit">לצאת מהאפליקציה? </string>
+  <!---->
+  <string name="areYouSureToDelete">הפריטים שנבחרו ימחקו. להמשיך? </string>
+  <!---->
+  <string name="fileSaved">הקובץ נשמר בהצלחה</string>
+  <!---->
+  <string name="fileSaveError">שגיאה בשמירת הקובץ</string>
+  <!---->
+  <string name="badVersionError">עדכנו את הנתונים בסרבר שלנו! בבקשה עדכן את האפליקציה</string>
+  <!---->
+  <string name="authorName">שם האמן</string>
+  <!---->
+  <string name="songName">שם</string>
+  <!---->
+  <string name="songText">מילים</string>
+  <!---->
+  <string name="songDuration">משך</string>
+  <!---->
+  <string name="songDelay">עצירה ראשונית</string>
+  <!---->
+  <string name="songComments">תגובות לאקורדים</string>
+  <!---->
+  <string name="userComments">תגובת משתמש</string>
+  <!---->
+  <string name="scrollSpeed">להתגלגל במהירות</string>
+  <!---->
+  <string name="sender">שלח</string>
+  <!---->
+  <string name="speedUp">מהר יותר</string>
+  <!---->
+  <string name="speedDown">לאט יותר</string>
+  <!---->
+  <string name="na">אין תאריך</string>
+  <!---->
+  <string name="unknown">לא ידוע</string>
+  <!---->
+  <string name="language">שפה</string>
+  <!---->
+  <string name="langId">23</string>
+  <!---->
+  <string name="appearance">מראה</string>
+  <!---->
+  <string name="songTextScreen">מסך עם המילים של השיר</string>
+  <!---->
+  <string name="other">שונות</string>
+  <!---->
+  <string name="attention">שים לב!</string>
+  <!---->
+  <string name="anonymous">אנונימי</string>
+  <!---->
+  <string name="googlePlayNotFound">לא יכול לפתוח את גוגל פליי</string>
+  <!---->
+  <string name="functionNotAllowed">הפונקציה הזאת לא זמינה בגרסה החינמית</string>
+  <!---->
+  <string name="chooseFileManager">תבחר את מנהל הקבצים</string>
+  <!---->
+  <string name="empty">ריק</string>
+  <!---->
+  <string name="showSongPausedSummary">אל תתחיל אוטומטית ספירה לאחור</string>
+  <!---->
+  <string name="hideActionBar">הסתר כפתורי שליטה</string>
+  <!---->
+  <string name="hideActionBarSummary">מומלץ למכשירים עם מסך קטן</string>
+  <!---->
+  <string name="songTextSize">גודל גופן</string>
+  <!---->
+  <string name="executingInProgress">בבקשה חכה</string>
+  <!---->
+  <string name="appendFolder">הוסף תיקייה</string>
+  <!---->
+  <string name="searchOnYoutube">חיפוש ביוטיוב</string>
+  <!---->
+  <string name="saveChanges">לשמור שינויים?</string>
+  <!---->
+  <string name="viewArtists">רשימת אמנים</string>
+  <!---->
+  <string name="viewHideMySongs">תחביא את השירים שלי</string>
+  <!---->
+  <string name="designSummary">לאחר שינוי יש לאתחל את האפליקציה</string>
+  <!---->
+  <string name="instrument">כלי</string>
+  <!---->
+  <string name="zoomIn">להגדיל גופן</string>
+  <!---->
+  <string name="zoomOut">להקטין גופן</string>
+  <!---->
+  <string name="fixedSongTextSize">גודל גופן קבוע</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">להשתמש באותו גודל גופן בכל השירים</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">פרסומות מבוטלות!</string>
+  <!---->
+  <string name="selectFile">בחר קובץ</string>
+  <!---->
+  <string name="select">בחר</string>
+  <!---->
+  <string name="haventAccessPrivileges">אין הרשאות גישה לספריה</string>
+  <!---->
+  <string name="yesterday">אתמול</string>
+  <!---->
+  <string name="share">שלח</string>
+  <!---->
+  <string name="chooseFolder">בחר ספריה</string>
+  <!---->
+  <string name="songsAddedToFolder_">שירים נוספו לתיקיה \"%s\"</string>
+  <!---->
+  <string name="inputFolderName">הכנס שם</string>
+  <!---->
+  <string name="allowAbusive">שירים מגונים</string>
+  <!---->
+  <string name="allowAbusiveSummary">להציג שירים מגונים</string>
+  <!---->
+  <string name="helpToTranslate">לעזור עם תרגום</string>
+  <!---->
+  <string name="helpToTranslateSummary">אתה יכול לעזור לתרגם את האפליקציה לשפת אם שלך</string>
+  <!---->
+  <string name="rateDialogTitle">דרג אפליקציה</string>
+  <!---->
+  <string name="rateDialogMessage">אם אהבת את האפליקציה, אנא מצא זמן, כדי לדרג אותה. זאת לא יקח יותר מדקה. תודה על תמיכתך!</string>
+  <!---->
+  <string name="rateNow">דרג</string>
+  <!---->
+  <string name="faqTextQuestion9">איך להוסיף שיר חדש למאגר?</string>
+  <!---->
+  <string name="alreadyHaveAccount">יש לי חשבון</string>
+  <!---->
+  <string name="appLanguage">שפת אפליקציה</string>
+  <!---->
+  <string name="autoSyncWithServer">סינכרון אוטומטי</string>
+  <!---->
+  <string name="backupSettingTitle">גיבוי</string>
+  <!---->
+  <string name="copyToFolder">להעתיק לתיקיה…</string>
+  <!---->
+  <string name="default_">ברירת מחדל</string>
+  <!---->
+  <string name="faqTextQuestion11">איך לשנות גודל גופן</string>
+  <!---->
+  <string name="designBlack">שחורה</string>
+  <!---->
+  <string name="help">עזרה</string>
+  <!---->
+  <string name="designWhite">לבנה</string>
+  <!---->
+  <string name="hidden">מוסתרים</string>
+  <!---->
+  <string name="hide">להסתיר</string>
+  <!---->
+  <string name="instrumentGuitar">גיטרה</string>
+  <!---->
+  <string name="mySongs">שירים שלי</string>
+  <!---->
+  <string name="newsDialogLater">לא עכשיו</string>
+  <!---->
+  <string name="disableAdsFree">לשבוע אחד (חינם)</string>
+  <!---->
+  <string name="password">סיסמא</string>
+</resources>

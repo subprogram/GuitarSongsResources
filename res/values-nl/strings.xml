@@ -1,0 +1,474 @@
+<resources>
+  <!---->
+  <string name="songLanguage">Talen</string>
+  <!---->
+  <string name="chooseLang">Kies taal</string>
+  <!---->
+  <string name="accordInfoTitle">Informatie over akkoorden</string>
+  <!---->
+  <string name="accordNotFound">Onbekend akkoord</string>
+  <!---->
+  <string name="removingInProgress">Verwijderen. Wacht…</string>
+  <!---->
+  <string name="dbServerSongsCount">Beschikbare songs: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Bekende akkoorden: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Datum laatste synchronisatie </string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Onlangs toegevoegde songs</string>
+  <!---->
+  <string name="dbInitError">Fout tijdens initialisatie van de database</string>
+  <!---->
+  <string name="inetReceiveMessage">Data versturen. Even geduld…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Bijwerken akkoorden lijst…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Commentaren bijwerken…</string>
+  <!---->
+  <string name="inetReceiveError">Fout (%d) server reageert niet</string>
+  <!---->
+  <string name="readingFileProgress">Bestand inlezen (regel #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">Verwerken lijst van wijzigingen %d%%</string>
+  <!---->
+  <string name="loadedSongs">Uitgepakte songs: %d</string>
+  <!---->
+  <string name="loadingInProgress">Uitpakken. Even geduld…</string>
+  <!---->
+  <string name="duration">Tijdsduur</string>
+  <!---->
+  <string name="rateSong">Beoordeling</string>
+  <!---->
+  <string name="averageRating">Gemiddelde Tab beoordeling</string>
+  <!---->
+  <string name="rateSongText">Beoordeelde kwaliteit van de Tab. Uw beoordeling wordt na de volgende synchronisatie met de server toegevoegd. </string>
+  <!---->
+  <string name="syncWithServer">Synchroniseren </string>
+  <!---->
+  <string name="chooseKey">Kies toonsleutel</string>
+  <!---->
+  <string name="transpose">Transponeren</string>
+  <!---->
+  <string name="append">Toevoegen</string>
+  <!---->
+  <string name="appending">Toevoegen %s</string>
+  <!---->
+  <string name="restart">Opnieuw starten</string>
+  <!---->
+  <string name="pause">Pause</string>
+  <!---->
+  <string name="save">Opslaan </string>
+  <!---->
+  <string name="yes">Ja</string>
+  <!---->
+  <string name="no">Nee</string>
+  <!---->
+  <string name="more">Opties</string>
+  <!---->
+  <string name="cancel">Afbreken</string>
+  <!---->
+  <string name="exit">Stop</string>
+  <!---->
+  <string name="accords">Akkoorden</string>
+  <!---->
+  <string name="dbInfo">Database relevantie</string>
+  <!---->
+  <string name="versionInfo">Applicatie versie</string>
+  <!---->
+  <string name="feedback">Terugkoppeling </string>
+  <!---->
+  <string name="search">Zoek </string>
+  <!---->
+  <string name="find">Vind</string>
+  <!---->
+  <string name="saveToFile">Opslaan als bestand…</string>
+  <!---->
+  <string name="loadFromFile">Importeren…</string>
+  <!---->
+  <string name="removeAll">Verwijder alles</string>
+  <!---->
+  <string name="preferences">Instellingen…</string>
+  <!---->
+  <string name="disableAds">Verwijder reclames</string>
+  <!---->
+  <string name="clearDB">Database leegmaken</string>
+  <!---->
+  <string name="songInfo">Informatie </string>
+  <!---->
+  <string name="edit">Wijzig…</string>
+  <!---->
+  <string name="error">Fout</string>
+  <!---->
+  <string name="errorHappened">Er trad een fout op (code: %d)</string>
+  <!---->
+  <string name="favourites">Favorieten</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%1s\" toegevoegd aan favorieten</string>
+  <!---->
+  <string name="appendToFavourites">Toevoegen aan favorieten </string>
+  <!---->
+  <string name="removeFromFavourites">Verwijderen uit favorieten </string>
+  <!---->
+  <string name="remove">Verwijderen</string>
+  <!---->
+  <string name="areYouSure">Weet u het zeker? </string>
+  <!---->
+  <string name="areYouSureToExit">Applicatie stoppen? </string>
+  <!---->
+  <string name="areYouSureToDelete">Geselecteerde items worden verwijderd.  Doorgaan?</string>
+  <!---->
+  <string name="fileSaved">Bestand succesvol opgeslagen</string>
+  <!---->
+  <string name="fileSaveError">Bestand opslaan niet mogelijk</string>
+  <!---->
+  <string name="badVersionError">We hebben data op onze server bijgewerkt! Update de applicatie. </string>
+  <!---->
+  <string name="authorName">Artiest naam</string>
+  <!---->
+  <string name="songName">Naam</string>
+  <!---->
+  <string name="songText">Songteksten </string>
+  <!---->
+  <string name="songDuration">Tijdsduur</string>
+  <!---->
+  <string name="songDelay">Initiële pauze</string>
+  <!---->
+  <string name="songComments">Commentaren bij akkoorden</string>
+  <!---->
+  <string name="userComments">Commentaren gebruikers</string>
+  <!---->
+  <string name="scrollSpeed">Scroll snelheid </string>
+  <!---->
+  <string name="sender">Verstuur</string>
+  <!---->
+  <string name="speedUp">Sneller</string>
+  <!---->
+  <string name="speedDown">Langzamer</string>
+  <!---->
+  <string name="na">Geen data</string>
+  <!---->
+  <string name="unknown">Onbekend</string>
+  <!---->
+  <string name="language">Taal</string>
+  <!---->
+  <string name="appearance">Uiterlijk</string>
+  <!---->
+  <string name="songTextScreen">Scherm met de songtekst</string>
+  <!---->
+  <string name="other">Diversen</string>
+  <!---->
+  <string name="attention">Let op!</string>
+  <!---->
+  <string name="anonymous">Anoniem</string>
+  <!---->
+  <string name="googlePlayNotFound">Google Play kon niet worden geopend</string>
+  <!---->
+  <string name="functionNotAllowed">Deze funktie is niet beschikbaar</string>
+  <!---->
+  <string name="chooseFileManager">Kies uw bestandsbeheerder</string>
+  <!---->
+  <string name="empty">Leeg</string>
+  <!---->
+  <string name="showSongPaused">Begin pauze</string>
+  <!---->
+  <string name="showSongPausedSummary">Niet automatisch starten</string>
+  <!---->
+  <string name="hideActionBar">Verberg de bedieningstoetsen</string>
+  <!---->
+  <string name="hideActionBarSummary">Aanbevolen voor toestellen met een klein scherm</string>
+  <!---->
+  <string name="design">Vormgevingsthema</string>
+  <!---->
+  <string name="designSummary">Na het veranderen van thema opnieuw opstarten</string>
+  <!---->
+  <string name="instrument">Instrument</string>
+  <!---->
+  <string name="songTextSize">Letter grootte</string>
+  <!---->
+  <string name="zoomIn">Lettertype vergroten</string>
+  <!---->
+  <string name="zoomOut">Lettertype verkleinen</string>
+  <!---->
+  <string name="fixedSongTextSize">Vaste letter grootte</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Elke song gebruikt dezelfde letter grootte</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Het programma is nu reclamevrij</string>
+  <!---->
+  <string name="selectFile">Kies bestand</string>
+  <!---->
+  <string name="select">Kies</string>
+  <!---->
+  <string name="haventAccessPrivileges">U hebt geen toegang tot deze map</string>
+  <!---->
+  <string name="yesterday">gisteren</string>
+  <!---->
+  <string name="chooseFolder">Kies map</string>
+  <!---->
+  <string name="songsAddedToFolder_">Liederen zijn toegevoegd aan de map \"%s\"</string>
+  <!---->
+  <string name="inputFolderName">Voer je naam in</string>
+  <!---->
+  <string name="helpToTranslate">Help om te vertalen</string>
+  <!---->
+  <string name="helpToTranslateSummary">Je kan helpen met het vertalen van de applicatie in je moedertaal</string>
+  <!---->
+  <string name="share">Versturen</string>
+  <!---->
+  <string name="rateDialogTitle">Beoordeel deze app</string>
+  <!---->
+  <string name="rateDialogMessage">Als je plezier hebt van deze app, neem dan alsjeblieft een moment om deze app te beoordelen. Het zal niet meer dan een minuut duren. Dankjewel voor je help!</string>
+  <!---->
+  <string name="rateNow">Beoordeel het nu</string>
+  <!---->
+  <string name="faqTextQuestion9">Hoe kan ik liedjes aan de database toevoegen?</string>
+  <!---->
+  <string name="faqTextQuestion10">ik wil helpen met de vertaling van deze app in mijn moedertaal. Hoe kan ik dat doen?</string>
+  <!---->
+  <string name="faqTextAnswer10">Je kan het direct bij de instellingen van de app: ga naar instellingen en kies \"Help Vertalen\". </string>
+  <!---->
+  <string name="faqTextAnswer9"> Bezoek de website en.guitarsongs.club, meld je aan met je google-account zodat je je favoriete liedjes in de database kan opslaan. Nieuwe liedjes zijn direct beschikbaar voor alle gebruikers. Met een eenvoudige klik op de \"synchroniseer\" knop in deze app. </string>
+  <!---->
+  <string name="faqTextQuestion8">Kan ik het volgende liedje al zien tijdens het spelen van een liedje, zonder terug te keren naar de lijst?</string>
+  <!---->
+  <string name="faqTextQuestion7">Waarvoor dienen de nummers naast de namen van sommige liedjes?</string>
+  <!---->
+  <string name="faqTextQuestion5">Ik kan de muziek niet horen, Ik heb geen geluid!</string>
+  <!---->
+  <string name="faqTextAnswer5">Dit is tekstboek, hier kan je enkel teksten van liedjes vinden.</string>
+  <!---->
+  <string name="faqTextQuestion4">Na mijn laatste update heb ik enorm veel spam in de app. wat kan ik hieraan doen? </string>
+  <!---->
+  <string name="faqTextAnswer4">Alsjeblief, hou u niet in ons te contacteren om uw spam te beschrijven, je toestel en welke Android versie u heeft. </string>
+  <!---->
+  <string name="faqTextQuestion3">Hoe moet ik de layout van de akkoorden bekijken?</string>
+  <!---->
+  <string name="faqTextAnswer3">Gewoon op het akkoord duwen waar u interesse in heeft.</string>
+  <!---->
+  <string name="faqTextQuestion1">Hoe kan ik mijn liedje aan de database toevoegen? </string>
+  <!---->
+  <string name="faqTextQuestion0">Hoe kan ik de ontwikkelaar contacteren om spam te melden, een vraag te stellen, info te geven aan de ontwikkelaar van deze app.?</string>
+  <!---->
+  <string name="faqTextAnswer0">Gelieve uw bericht op onze officiële pagina te verzenden - https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="rootMenuSongs">Muzieklijst</string>
+  <!---->
+  <string name="rootMenuFolders">Mappen</string>
+  <!---->
+  <string name="rootMenuInfo">informatie</string>
+  <!---->
+  <string name="rootMenuTopUsers">Gebruikers Top</string>
+  <!---->
+  <string name="designWood">Hout</string>
+  <!---->
+  <string name="designBlack">Zwart</string>
+  <!---->
+  <string name="designWhite">Wit</string>
+  <!---->
+  <string name="instrumentGuitar">Gitaar</string>
+  <!---->
+  <string name="instrumentUkulele">Ukelele</string>
+  <!---->
+  <string name="goToAuthor">Toon muziek van alle artiesten</string>
+  <!---->
+  <string name="moveToFolder">Verplaats naar map</string>
+  <!---->
+  <string name="langId">26</string>
+  <!---->
+  <string name="chooseAuthor">Kies Artiest</string>
+  <!---->
+  <string name="copyToFolder">Kopiëren naar map…</string>
+  <!---->
+  <string name="systemSettingsTitle">Systeem</string>
+  <!--opslaan van gegevens voor eventueel herstel  van vorige updates-->
+  <string name="backupSettingTitle">Backup </string>
+  <!---->
+  <string name="backupSummary">Maak een backup (reservekopie) van de volledige database</string>
+  <!---->
+  <string name="backupCreated">Backup bestand %s gemaakt</string>
+  <!---->
+  <string name="creatingBackup">Maken van een backup bestand</string>
+  <!---->
+  <string name="restoreSettingTitle">Herstel</string>
+  <!---->
+  <string name="restoreSummary">Herstel database met backup</string>
+  <!---->
+  <string name="restoreCompleted">Herstel volledig beëindigd</string>
+  <!---->
+  <string name="restoring">Herstellen</string>
+  <!---->
+  <string name="serverUnderConstructionError">De server is tijdelijk onbeschikbaar. Probeer het later eens opnieuw.</string>
+  <!---->
+  <string name="remindDbSyncDate">Herinner mij over nieuwe liedjes</string>
+  <!---->
+  <string name="neverRemind">Nooit opslaan</string>
+  <!---->
+  <string name="newsDialogShow">Toon</string>
+  <!---->
+  <string name="newsDialogLater">Herinner mij later</string>
+  <!---->
+  <string name="newsDialogClose">Sluiten</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Favorieten synchroniseren</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Herinner me voor de out-of-date database en de noodzaak om te symchronizeren met de server</string>
+  <!---->
+  <string name="syncDialogMessage">Je database is verouderd. Gelieve te symchronizeren met de server. Wil je dat nu doen? </string>
+  <!---->
+  <string name="syncNow">Synchronizeer nu</string>
+  <!---->
+  <string name="remindLater">Herinner me later</string>
+  <!---->
+  <string name="notation">Akkoorden</string>
+  <!---->
+  <string name="notationUnknown">Niet bepaald</string>
+  <!---->
+  <string name="notationB">Standaard</string>
+  <!---->
+  <string name="notationH">Duits (B-&gt;H) </string>
+  <!---->
+  <string name="appLanguage">Taal</string>
+  <!---->
+  <string name="autoSyncWithServer">Auto-sync</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Synchronizeer met server in achtergrond</string>
+  <!---->
+  <string name="executingInProgress">Even geduld…</string>
+  <!---->
+  <string name="appendFolder">Voeg map toe</string>
+  <!---->
+  <string name="appendVirtualFolder">Voeg virtuele map toe</string>
+  <!---->
+  <string name="databasePath">Database pad</string>
+  <!---->
+  <string name="searchOnYoutube">Zoeken op YouTube </string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">Onvoldoende opslagruimte</string>
+  <!---->
+  <string name="saveChanges">Wilt u deze wijzigingen opslaan? </string>
+  <!---->
+  <string name="syncData">Synchronizeer data</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Speciaal aanbod</string>
+  <!---->
+  <string name="specialPriceDialogText">Bedankt om gebruik te maken van Guitar Songs! Je kunt nu advertenties verwijderen met 60% korting. Dit is een uniek aanbod! Wilt u dit aanbod aannemen en van die advertenties afgeraken? </string>
+  <!---->
+  <string name="viewSettingsTitle">Beeld</string>
+  <!---->
+  <string name="viewArtists">Artisten lijst</string>
+  <!---->
+  <string name="viewHideMySongs">Verberg mijn nummers</string>
+  <!---->
+  <string name="choosePlaylist">Kies setlijst</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">Lied toegevoegd aan \"%s\" </string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">Synchronizeer setlijsten</string>
+  <!---->
+  <string name="copiedSongs">%d liederen gecopieerd </string>
+  <!---->
+  <string name="appendPlaylist">Voeg setlijst toe </string>
+  <!---->
+  <string name="sortMode">Sorterings mode</string>
+  <!---->
+  <string name="copyToMySongs">Kopieer naar \"mijn nummers\" </string>
+  <!---->
+  <string name="audioFile">Audio bestand</string>
+  <!---->
+  <string name="playAudio">Speel audio af</string>
+  <!---->
+  <string name="stopAudio">Stop audio</string>
+  <!---->
+  <string name="metronom">Metronoom</string>
+  <!---->
+  <string name="properties">Eigenschappen</string>
+  <!---->
+  <string name="mySongs">Mijn nummers </string>
+  <!---->
+  <string name="addToPlaylist">Voeg toe aan setlijst</string>
+  <!---->
+  <string name="inputArtistName">Voer naam in </string>
+  <!---->
+  <string name="synchronizationSettingsTitle">Synchronizatie</string>
+  <!---->
+  <string name="contentPrefCategory">Inhoud</string>
+  <!---->
+  <string name="default_">Standaard</string>
+  <!---->
+  <string name="value">Waarde</string>
+  <!---->
+  <string name="rootMenuPlaylists">Setlijsten</string>
+  <!---->
+  <string name="watchOnYoutube">Bekijk op YouTube </string>
+  <!---->
+  <string name="hide">Verberg</string>
+  <!---->
+  <string name="hidden">Verborgen</string>
+  <!---->
+  <string name="showHidden">Toon verborgen</string>
+  <!---->
+  <string name="areYouSureToHide">Je gaat nu de geselecteerde bestanden verbergen. </string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">Gelieve een kort filmlje te kijken voor je begint met de vertaling</string>
+  <!---->
+  <string name="help">Hulp</string>
+  <!---->
+  <string name="faqTextQuestion17">Hoe verander je scroll-snelheid? </string>
+  <!---->
+  <string name="faqTextQuestion16">Hoe geef je liedjes weer in een bepaalde taal? </string>
+  <!---->
+  <string name="faqTextQuestion15">Hoe voeg je nummers toe aan setlijst? </string>
+  <!---->
+  <string name="faqTextQuestion14">Hoe kopieer ik nummers naar \"mijn nummers\" afdeling? </string>
+  <!---->
+  <string name="faqTextQuestion13">Hoe verberg ik artisten van de lijst</string>
+  <!---->
+  <string name="faqTextQuestion12">Hoe kan ik de tonaliteit veranderen? (transponeren) </string>
+  <!---->
+  <string name="faqTextQuestion11">Hoe verander ik de lettergrootte</string>
+  <!---->
+  <string name="viewHideNicknames">Verstop nicknames</string>
+  <!---->
+  <string name="signUp">Schrijf je in</string>
+  <!---->
+  <string name="signIn">Meld je aan</string>
+  <!---->
+  <string name="signInWithGoogle">Aanmelden met Google </string>
+  <!---->
+  <string name="signInWithFacebook">Aanmelden met Facebook </string>
+  <!---->
+  <string name="signInWithTwitter">Aanmelden met Twitter </string>
+  <!---->
+  <string name="signInWithEmail">Aanmelden met je email </string>
+  <!---->
+  <string name="password">Wachtwoord</string>
+  <!---->
+  <string name="signUpSuccess">Je bent succesvol geregistreerd! </string>
+  <!---->
+  <string name="signUpInstructions">Gelieve je email na te kijken nadat je op \'inschrijven\' gedrukt hebt. We zullen je informatie sturen met betrekking tot je wachtwoord</string>
+  <!---->
+  <string name="alreadyHaveAccount">Ik heb al een account</string>
+  <!---->
+  <string name="selectFolder">Selecteer map</string>
+  <!---->
+  <string name="guitarSongs">Gitaar nummers</string>
+  <!---->
+  <string name="langsManage">Beheer</string>
+  <!---->
+  <string name="sortByArtistName">Sorteer op artisten naam</string>
+  <!---->
+  <string name="sortBySongName">Sorteer op lied naam</string>
+  <!---->
+  <string name="sortByRandom">Sorteer willekeurig</string>
+  <!---->
+  <string name="exportDialogMessage">Kies bestandformaat</string>
+  <!---->
+  <string name="areYouSureToRemoveLang">Alle nummers in deze taal zullen verwijderd worden. Doorgaan? </string>
+  <!---->
+  <string name="notationSi">Spaans (B-&gt;Sl) </string>
+  <!---->
+  <string name="enabled">Ingeschakeld</string>
+  <!---->
+  <string name="sound">Geluid</string>
+</resources>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guitarSongs">Guitar Songs</string>
+
+    <string name="langId">2</string>
+    <string name="newLangAvailable">New language: %s</string>
+    <string name="songLanguage">Languages</string>
+    <string name="appLanguage">App language</string>
+    <string name="chooseLang">Choose language</string>
+    <string name="songsLangMenuItem">Songs\' language</string>
+    <string name="viewSettingsTitle">View</string>
+    <string name="viewArtists">Artists list</string>
+    <string name="viewShowLettersScreen">Show letters screen</string>
+    <string name="viewHideMySongs">Hide my songs</string>
+    <string name="viewHideNicknames">Hide nicknames</string>
+    <string name="chooseFolder">Choose folder</string>
+    <string name="choosePlaylist">Choose setlist</string>
+    <string name="songsAddedToFolder_">Songs added to folder \"%s\"</string>
+    <string name="songsAddedToPlaylist_">Songs added to setlist \"%s\"</string>
+
+    <string name="dataCollectionConsent">Data collection consent</string>
+    <string name="analyticsPrivacyPolicyCaption">Privacy policy (Analytics)</string>
+    <string name="analyticsPrivacyPolicyText">Thank you for using \"%s\". In order to make the app better, we need to collect anonymous usage statistics and error reports. Please let us collect these data.</string>
+    <string name="showPolicyButton">Read the policy</string>
+    <string name="collectedData">Collected data:</string>
+    <string name="agreeButton">I agree</string>
+    <string name="disagreeButton">I disagree</string>
+
+    <string name="adsPrivacyPolicyCaption">Privacy policy (ads)</string>
+    <string name="adsPrivacyPolicyText1">We care about your privacy and data security. We keep this app free by using third party services.</string>
+    <string name="adsPrivacyPolicyText2">Can we use your mobile identifier to tailor ads for you?</string>
+    <string name="adsPrivacyPolicyText2Continue">Can we continue to use your mobile identifier to tailor ads for you?</string>
+    <string name="adsPrivacyPolicyText3">Our partners will collect data and use a mobile identifier on your device to show you ads.</string>
+    <string name="adsPrivacyPolicyUpdateToV2Rus">We\'ve updated the privacy policy (Apperate Online ads provider was added).</string>
+    <string name="adsPrivacyPolicyUpdateToV4Vint">We\'ve updated the privacy policy (Yandex Advertising Network ads provider was added).</string>
+
+    <string name="optOutInfo">You can change your choice at any time in the app settings.</string>
+
+    <string name="firebaseAuthPrivacyPolicyCaption">Privacy policy (Firebase)</string>
+    <string name="googleAuthPrivacyPolicyCaption">Privacy policy (Google)</string>
+
+    <string name="otherPrivacyPolicyText">Please read and accept the privacy policy to continue.</string>
+    <string name="optOut">Opt-out</string>
+    <string name="restartRequired">You must restart the app before the new setting will take effect</string>
+
+    <string name="acceptAdsButton">Yes, show me relevant ads</string>
+    <string name="rejectAdsButton">No, show me irrelevant ads</string>
+    <string name="payForAdFreeVersionButton">Pay for the ad-free version</string>
+
+    <string name="acceptPolicyButton">Accept</string>
+    <string name="legal">Legal</string>
+
+    <string name="accordInfoTitle">Chords information</string>
+    <string name="accordNotFound">Unknown chord</string>
+    <string name="executingInProgress">Please wait…</string>
+    <string name="removingInProgress">Deleting.\nPlease wait…</string>
+    <string name="dbServerSongsCount">Available songs: %d</string>
+    <string name="dbAccordsCount">Known chords: %d</string>
+    <string name="dbLastSyncDate">Date of the last synchronization</string>
+    <string name="dbLastUpdatedSongs">Recently added songs</string>
+    <string name="dbInitError">Error during initialization of the database!</string>
+    <string name="inetReceiveMessage">Sending data.\nPlease wait…</string>
+    <string name="inetReceiveAccordsMessage">Updating chord list…</string>
+    <string name="inetReceiveFavouritesMessage">Sync favourites…</string>
+    <string name="inetReceivePlaylistsMessage">Sync setlists…</string>
+    <string name="inetReceiveCommentsMessage">Updating comments…</string>
+    <string name="inetReceiveError">Error (%d) server not responding!\nPlease, check your internet settings and try again</string>
+    <string name="readingFileProgress">Reading file (line #%d)</string>
+    <string name="readingServerDataProgress">Processing list of changes %d%%</string>
+    <string name="dbErrorMessage">Please, try to restart the application. If it doesn\'t help, report about this bug.</string>
+    <string name="loadedSongs">Extracted songs: %d</string>
+    <string name="loadingInProgress">Extracting.\nPlease wait…</string>
+    <string name="uploadingInProgress">Uploading.\nPlease wait…</string>
+    <string name="copiedSongs">%d songs copied</string>
+    <string name="duration">Duration</string>
+    <string name="rateSong">Rate</string>
+    <string name="averageRating">Average Tab rating</string>
+    <string name="rateSongText">Rate quality of Tab.\nYour rating will be added after the next \nsynchronization with server.</string>
+    <string name="syncWithServer">Synchronize</string>
+    <string name="databaseIsEmpty">There no any songs in the database. You can restore them from backup file or continue with empty database.</string>
+    <string name="continueWithEmptyDb">Continue with empty database</string>
+    <string name="restoreFromDropbox">Restore from Dropbox</string>
+    <string name="chooseAuthor">Choose artist</string>
+    <string name="chooseKey">Choose key</string>
+    <string name="transpose">Transpose</string>
+    <string name="append">Add</string>
+    <string name="appendFolder">Add folder</string>
+    <string name="appendVirtualFolder">Add virtual folder</string>
+    <string name="appendPlaylist">Add setlist</string>
+    <string name="appending">Adding %s</string>
+    <string name="newPlaylist">New</string>
+    <string name="newFolder">New folder</string>
+    <string name="goToSdCard">Go to SD-card</string>
+    <string name="restart">Restart</string>
+    <string name="pause">Pause</string>
+    <string name="langsManage">Manage</string>
+
+    <string name="or">or</string>
+    <string name="save">Save</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="more">Options</string>
+    <string name="confirm">Confirm</string>
+    <string name="signUp">Sign up</string>
+    <string name="signIn">Sign in</string>
+    <string name="signOut">Sign out</string>
+    <string name="buy">Buy</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="accords">Chords</string>
+    <string name="enabled">Enabled</string>
+    <string name="sound">Sound</string>
+    <string name="proFeatureOnly">Available only in <a href="market://details?id=ru.subprogram.guitarsongs.donate">Guitar Songs Pro</a></string>
+    <string name="dbInfo">Database relevance</string>
+    <string name="databasePath">Database path</string>
+    <string name="versionInfo">Application version</string>
+    <string name="feedback">Feedback</string>
+    <string name="search">Search</string>
+    <string name="find">Find</string>
+    <string name="sortByArtistName">Sort by artist name</string>
+    <string name="sortBySongName">Sort by song name</string>
+    <string name="sortByRandom">Sort randomly</string>
+
+    <string name="overwriteFileMessage">The \"%s\" file already exists. Do you want to overwrite it?</string>
+
+    <string name="exportDialogMessage">Please choose file format</string>
+
+    <string name="signInWithGoogle">Sign in with Google</string>
+    <string name="signInWithFacebook">Sign in with Facebook</string>
+    <string name="signInWithTwitter">Sign in with Twitter</string>
+    <string name="signInWithEmail">Sign in with email</string>
+
+    <string name="password">Password</string>
+    <string name="currentLoginInfo">You have been signed in as</string>
+    <string name="signUpSuccess">You are registered successfully! Please check your email</string>
+    <string name="signUpInstructions">Please check your email after clicking on the \'Sign up\' button. We will send you information about your password.</string>
+    <string name="alreadyHaveAccount">I already have an account</string>
+
+    <string name="sortMode">Sorting mode</string>
+    <string name="saveToFile">Save to file…</string>
+    <string name="copyToMySongs">Copy to \"My songs\"</string>
+    <string name="loadFromFile">Import…</string>
+    <string name="removeAll">Delete all</string>
+    <string name="preferences">Settings</string>
+    <string name="disableAds">Disable ads</string>
+    <string name="disableAdsPaid">Forever</string>
+    <string name="disableAdsFree">For 1 week (free)</string>
+    <string name="disableAdsFreeInstruction">To disable advertising for one week you should watch the entire video</string>
+    <string name="activatePremiumFeatureTitle">Do you want to activate this feature in the current app?</string>
+    <string name="activatePremiumFeaturePaid">Activate forever</string>
+    <string name="activatePremiumFeatureFree">Activate just once (free)</string>
+    <string name="activatePremiumFeatureFreeInstruction">To activate premium feature you should watch the entire video</string>
+    <string name="tooShortSearchQuery">For full-text search, enter at least 3 letters</string>
+    <string name="clearDB">Clear database</string>
+    <string name="songInfo">Information</string>
+    <string name="edit">Edit…</string>
+    <string name="print_">Print…</string>
+    <string name="print_feature">Printing</string>
+    <string name="audioFile">Audio file</string>
+    <string name="playAudio">Play audio</string>
+    <string name="stopAudio">Stop audio</string>
+    <string name="goToAuthor">Show all artist\'s songs</string>
+    <string name="error">Error</string>
+    <string name="errorHappened">An error occurred (code: %d)</string>
+    <string name="searchOnYoutube">Search on Youtube</string>
+    <string name="watchOnYoutube">Watch on Youtube</string>
+    <string name="incorrectField">Incorrect field</string>
+    <string name="metronom">Metronome</string>
+    <string name="properties">Properties…</string>
+    <string name="editOwnSongWarning">Attention! You are going to edit a system song. After synchronization it will be updated on the server and all changes will be visible for other users.</string>
+
+    <string name="favourites">Favorites</string>
+    <string name="mySongs">My songs</string>
+    <string name="hide">Hide</string>
+    <string name="hidden">Hidden</string>
+    <string name="showHidden">Show hidden</string>
+    <string name="removedAuthors">Removed artists</string>
+    <string name="showRemoved">Show removed</string>
+    <string name="addToPlaylist">Add to setlist…</string>
+	<string name="moveToFolder">Move to folder…</string>
+    <string name="copyToFolder">Copy to folder…</string>
+    <string name="inputFolderName">Enter name</string>
+    <string name="inputArtistName">Enter name</string>
+    <string name="inputPosition">Enter position</string>
+    <string name="outOfRangeError">Out of range</string>
+    <string name="fileName_">File name:</string>
+    <string name="songAppendedToFavourites">\"%s\" added to favorites</string>
+    <string name="appendToFavourites">Add to favorites</string>
+    <string name="removeFromFavourites">Remove from favorites</string>
+    <string name="remove">Remove</string>
+    <string name="download">Download</string>
+    <string name="downloadAvailableLangMessage">Song texts in \"%s\" are available on the server! Do you want to download them now?</string>
+    <string name="downloadAndRemoveLangDialogMessage">Here you can load or remove song texts in different languages</string>
+    <string name="noLangsDialogMessage">Please download at least one language</string>
+    <string name="areYouSure">Are you sure?</string>
+    <string name="areYouSureToExit">Quit from application?</string>
+    <string name="areYouSureToDelete">Selected items will be deleted. Continue?</string>
+    <string name="areYouSureToHide">Selected items will be hidden. Continue?</string>
+    <string name="areYouSureToRemoveLang">All songs in this language will be deleted. Continue?</string>
+    <string name="saveChanges">Save changes?</string>
+    <string name="fileSaved">File successfully saved</string>
+    <string name="fileSaveError">Could not save the file</string>
+    <string name="badVersionError">We updated encoding data on our server! Please update the application.</string>
+    <string name="serverUnderConstructionError">Server is temporarily unavailable. Please try again later.</string>
+    <string name="notEnoughFreeSpaceError">Not enough free space</string>
+    <string name="syncedDataWillPublicWarning">Attention! Choosing custom data (*) to be synchronized, you agree that these data do not contain confidential information</string>
+    <string name="helpToTranslateTutorialDialog">Please watch a short video before you begin the translation</string>
+
+    <string name="authorName">Artist name</string>
+    <string name="songName">Name</string>
+    <string name="songText">Lyrics</string>
+    <string name="songDuration">Duration</string>
+    <string name="songDelay">Initial pause</string>
+    <string name="songComments">Comments to chords</string>
+    <string name="privateNotes">Private notes</string>
+    <string name="userComments">User\'s comments</string>
+    <string name="scrollSpeed">Scrolling speed</string>
+
+    <string name="sender">Sent</string>
+    <string name="speedUp">Faster</string>
+    <string name="speedDown">Slower</string>
+    <string name="na">No data</string>
+    <string name="unknown">Unknown</string>
+    <string name="language">Language</string>
+    <string name="appearance">Appearance</string>
+    <string name="songTextScreen">Screen with the lyrics of the song</string>
+    <string name="systemSettingsTitle">System</string>
+    <string name="keyActionsCategory">D-Pad Keys</string>
+    <string name="miscCategory">Miscellaneous</string>
+    <string name="synchronizationSettingsTitle">Synchronization</string>
+    <string name="contentPrefCategory">Content</string>
+    <string name="syncData">Sync Data</string>
+    <string name="autoSearchAudioFiles">Auto search audio files</string>
+    <string name="autoSearchAudioFilesSummary">Auto link audio files in internal storage to songs in the database</string>
+    <string name="audioFolderPath">Audio folder path</string>
+    <string name="drawAccordsLayouts">Chords\' layouts</string>
+    <string name="drawAccordsLayoutsAboveText">Above song\'s text</string>
+    <string name="drawAccordsLayoutsBelowText">Below song\'s text</string>
+    <string name="drawAccordsLayoutsHide">Don\'t show</string>
+    <string name="rateSongUnauthorized">You should be signed in for estimating songs</string>
+    <string name="accountForSyncFavsSummary">Account for sync favorite songs</string>
+    <string name="chooseBackupMethod">Choose backup method</string>
+    <string name="chooseRestoreMethod">Choose restore method</string>
+    <string name="backupRestoreFromFile">SD Сard</string>
+    <string name="backupRestoreFromDropbox">Dropbox</string>
+    <string name="backupRestoreFromGoogleDrive">Google Drive</string>
+    <string name="backupSettingTitle">Backup</string>
+    <string name="backupSummary">Create full database backup</string>
+    <string name="backupCreated">Backup file %s created</string>
+    <string name="creatingBackup">Creating backup file…</string>
+    <string name="restoreSettingTitle">Restore</string>
+    <string name="restoreSummary">Restore database from a backup</string>
+    <string name="restoreCompleted">Restore completed successfully</string>
+    <string name="restoring">Restoring…</string>
+    <string name="other">Miscellaneous</string>
+    <string name="attention">Attention!</string>
+    <string name="anonymous">Anonymous</string>
+
+    <string name="googlePlayNotFound">Could not open Google Play</string>
+    <string name="functionNotAllowed">This function is not available in the free version</string>
+    <string name="chooseFileManager">Choose your file manager</string>
+    <string name="empty">Empty</string>
+    <string name="showSongPaused">Initial pause</string>
+    <string name="showSongPausedSummary">Do not auto start a countdown</string>
+    <string name="hideActionBar">Hide control buttons</string>
+    <string name="hideActionBarSummary">Recommended for devices with small screen</string>
+    <string name="design">Appearance theme</string>
+    <string name="designSummary">After changing the theme, please restart application</string>
+    <string name="instrument">Instrument</string>
+
+    <string name="keyVolUp">Volume+</string>
+    <string name="keyVolDown">Volume-</string>
+    <string name="keyAirTurnLeft">Left</string>
+    <string name="keyAirTurnRight">Right</string>
+    <string name="keyAirTurnUp">Up</string>
+    <string name="keyAirTurnDown">Down</string>
+    <string name="keyVolUpDouble">Volume+ (double)</string>
+    <string name="keyVolDownDouble">Volume- (double)</string>
+    <string name="keyAirTurnLeftDouble">Left (double)</string>
+    <string name="keyAirTurnRightDouble">Right (double)</string>
+    <string name="keyAirTurnUpDouble">Up (double)</string>
+    <string name="keyAirTurnDownDouble">Down (double)</string>
+    <string name="keyActionNone">None</string>
+    <string name="keyActionScrollScreenUp">Scroll Screen Up</string>
+    <string name="keyActionScrollScreenDown">Scroll Screen Down</string>
+    <string name="keyActionScrollUp">Scroll Up</string>
+    <string name="keyActionScrollDown">Scroll Down</string>
+    <string name="keyActionScrollSpeedUp">Scroll Speed Up</string>
+    <string name="keyActionScrollSpeedDown">Scroll Speed Down</string>
+    <string name="keyActionPrevPage">Previous Page</string>
+    <string name="keyActionNextPage">Next Page</string>
+    <string name="keyActionPause">Pause / Continue Scrolling</string>
+    <string name="keyActionRestart">Restart</string>
+    <string name="keyActionZoomIn">Zoom In</string>
+    <string name="keyActionZoomOut">Zoom Out</string>
+
+    <string name="notation">Chord names</string>
+    <string name="songTextSize">Font size</string>
+    <string name="zoomIn">Increase font size</string>
+    <string name="zoomOut">Decrease font size</string>
+    <string name="allowAbusive">Abusive songs</string>
+    <string name="allowAbusiveSummary">Show abusive songs</string>
+    <string name="searchResultAbusive">Show settings</string>
+    <string name="searchResultAbusiveSummary">Search result contains abusive songs</string>
+    <string name="dontShowChords">Hide chords</string>
+    <string name="dontShowChordsSummary">Don\'t show chords in the song text</string>
+    <string name="fixedSongTextSize">Fixed font size</string>
+    <string name="fixedSongTextSizeSummary">Each song use the same font size</string>
+    <string name="billingPurchasingDisableAdsSuccess">The application is now ad-free!</string>
+    <string name="billingPurchasingFeatureSuccess">The feature has been activated!</string>
+    <string name="helpToTranslate">Help to translate</string>
+    <string name="helpToTranslateSummary">You can help translating application into your native language</string>
+    <string name="help">Help</string>
+    <string name="inviteFriend">Invite a friend</string>
+    <string name="inviteFriendText">Hey,\n\nI recommend you a guitar songbook with a large offline database of songs, lyrics and chords.\n\nDownload for free: %1$s\nPro-version: %2$s</string>
+
+    <string name="default_">Default</string>
+    <string name="value">Value</string>
+
+    <string name="selectFile">Select file</string>
+    <string name="selectFolder">Select folder</string>
+    <string name="select">Select</string>
+    <string name="haventAccessPrivileges">You don\'t have access privileges to the directory</string>
+    <string name="yesterday">yesterday</string>
+    <string name="share">Send</string>
+
+    <string name="remindDbSyncDate">Remind about new songs</string>
+    <string name="remindDbSyncDateSummary">Remind about out-of-date songs database and necessity of synchronization with server</string>
+    <string name="autoSyncWithServer">Auto-sync</string>
+    <string name="autoSyncWithServerSummary">Synchronize with server in background mode</string>
+    <string name="syncDialogMessage">Your songs database is out-of-date. You should synchronize with server to update it. Do you want to sync now?</string>
+    <string name="syncNow">Sync now</string>
+    <string name="remindLater">Remind later</string>
+    <string name="neverRemind">Never remind</string>
+
+    <string name="rateDialogTitle">Rate this app</string>
+    <string name="rateDialogMessage">If you enjoy this app, please take a moment to rate this app. It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="rateNow">Rate now</string>
+
+    <string name="newsDialogShow">Show</string>
+    <string name="newsDialogLater">Remind later</string>
+    <string name="newsDialogClose">Close</string>
+
+    <string name="specialPriceDialogTitle">Special offer</string>
+    <string name="specialPriceDialogText">Thanks for using Guitar Songs! Just now you can disable ads with 60% discount. It is a unique chance! Do you want to use this offer and forget about advertising in the application?</string>
+
+    <string name="restoreAuthorDialogTitle">Removed artist</string>
+    <string name="restoreAuthorDialogMessage">Do you want to restore all songs of this artist?</string>
+
+    <string name="faqTextQuestion17">How to change scroll speed?</string>
+    <string name="faqTextQuestion16">How to display songs in a certain language?</string>
+    <string name="faqTextQuestion15">How to add songs to setlist?</string>
+    <string name="faqTextQuestion14">How to copy songs to \"My songs\" section?</string>
+    <string name="faqTextQuestion13">How to hide some artists from the list?</string>
+    <string name="faqTextQuestion12">How to change key of the songs (transpose)?</string>
+
+    <string name="faqTextQuestion11">How to change font size?</string>
+    <string name="faqTextAnswer11">You can use \"zoom\" gesture or hardware volume buttons of the phone.</string>
+
+    <string name="faqTextQuestion10">I want to help with the translation of the application into my native language. How can I do it?</string>
+    <string name="faqTextAnswer10">You can do it directly from the application: go to settings and select \"Help to translate\".</string>
+
+    <string name="faqTextQuestion9">How can I add a new song to the database?</string>
+    <string name="faqTextAnswer9">Visit the website en.guitarsongs.club, log in using your google-account and you can add your favorite songs in a common database. New songs are immediately available for all users. Just click \"Synchronize\" button in the application.</string>
+
+    <string name="faqTextQuestion8">Can I view next song while I am playing current song, without getting back to list?</string>
+    <string name="faqTextAnswer8">Yes, you can use gestures, swipe to the \"left\" or \"right\" (gestures works only in the current folder)</string>
+
+    <string name="faqTextQuestion7">What the numbers do next to the names of some songs?</string>
+    <string name="faqTextAnswer7">This numbers are the average rating of tabs and chords for this song. You can vote for songs from the menu option \"Rate\" on the lyrics view list. We added this feature to prevent our database from low quality songs. We will moderate songs with low rating more carefuly and we will try to make them better if that possible.</string>
+
+    <string name="faqTextQuestion5">I can\'t listen the songs, I do not have any sound!</string>
+    <string name="faqTextAnswer5">This is songbook, here you can find only lyrics of songs.</string>
+
+    <string name="faqTextQuestion4">After last update I have tons of bugs in the application, what should I do?</string>
+    <string name="faqTextAnswer4">Please, feel free to contact us with describing of each bug, your device model and Android version.</string>
+
+    <string name="faqTextQuestion3">How to look on the chord layout?</string>
+    <string name="faqTextAnswer3">Just press on the interested chord.</string>
+
+    <string name="faqTextQuestion1">How could I add my song to the database?</string>
+    <string name="faqTextAnswer1">Best of all - use the site en.guitarsongs.club, then you\'ve added songs will be immediately available to other users. If you want to add a song just for yourself, then do the following: while you on the \"My songs\" list go to the menu and choose \"Import…\" option. After choose the folder or txt-file.</string>
+
+    <string name="faqTextQuestion0">How to tell about bug, ask a question, or notify developer?</string>
+    <string name="faqTextAnswer0">Please write your message on our official page - https://www.facebook.com/groups/guitarsongs.club/</string>
+
+    <string name="rootMenuSongs">Songs list</string>
+    <string name="rootMenuFolders">Folders</string>
+    <string name="rootMenuPlaylists">Setlists</string>
+    <string name="rootMenuHistory">History / Top</string>
+
+    <string name="rootMenuInfo">Information</string>
+    <string name="rootMenuTopUsers">Users Top</string>
+    <string name="rootMenuTopSongs">Top songs</string>
+    <string name="rootMenuFaq">F.A.Q.</string>
+
+    <string name="historyPageTitle">History</string>
+
+    <string name="designWood">Wood</string>
+    <string name="designBlack">Black</string>
+    <string name="designWhite">White</string>
+
+    <string name="instrumentGuitar">Guitar</string>
+    <string name="instrumentUkulele">Ukulele</string>
+    <string name="instrumentBalalaikaEea">Balalaika (EEA)</string>
+    <string name="instrumentBalalaikaCeg">Balalaika (CEG)</string>
+    <string name="instrumentBalalaikaDFdA">Balalaika (DF#A)</string>
+
+    <string name="notationUnknown">Not defined</string>
+    <string name="notationB">Default</string>
+    <string name="notationH">German (B->H)</string>
+    <string name="notationSi">Spanish (B->SI)</string>
+    <string name="notationP">Polish (Am->a)</string>
+    <string name="notationPro">Pro (Chord progression)</string>
+
+</resources>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guitarSongs">Песни под гитару</string>
+
+    <string name="langId">1</string>
+    <string name="newLangAvailable">Доступен новый язык: %s</string>
+    <string name="songLanguage">Язык песен</string>
+    <string name="appLanguage">Язык приложения</string>
+    <string name="chooseLang">Выберите язык песен</string>
+    <string name="songsLangMenuItem">Язык песен</string>
+    <string name="viewSettingsTitle">Вид</string>
+    <string name="viewArtists">Список исполнителей</string>
+    <string name="viewShowLettersScreen">Экран с алфавитом</string>
+    <string name="viewHideMySongs">Скрыть мои песни</string>
+    <string name="viewHideNicknames">Скрыть псевдонимы</string>
+    <string name="chooseFolder">Выберите папку</string>
+    <string name="choosePlaylist">Выберите плэйлист</string>
+    <string name="songsAddedToFolder_">Песни добавлены в папку \"%s\"</string>
+    <string name="songsAddedToPlaylist_">Песни добавлены в плэйлист \"%s\"</string>
+
+    <string name="dataCollectionConsent">Согласие на использование данных</string>
+    <string name="analyticsPrivacyPolicyCaption">Политика конфиденциальности (аналитика)</string>
+    <string name="analyticsPrivacyPolicyText">Благодарим за использование приложения \"%1$s\". Мы постоянно работаем над улучшением качества приложения. Для этого нам нужны Ваши анонимные статистические данные по использованию приложения и отчеты об ошибках. Пожалуйста, разрешите нам собирать эти данные.</string>
+    <string name="showPolicyButton">Ознакомиться с политикой</string>
+    <string name="collectedData">Собираемые данные:</string>
+    <string name="agreeButton">Я согласен</string>
+    <string name="disagreeButton">Я отказываюсь</string>
+
+    <string name="adsPrivacyPolicyCaption">Политика конфиденциальности (реклама)</string>
+    <string name="adsPrivacyPolicyText1">Мы заботимся о приватности и безопасности Ваших данных. Приложение является для Вас бесплатным благодаря сторонним сервисам.</string>
+    <string name="adsPrivacyPolicyText2">Можем ли мы использовать Ваш мобильный идентификатор для показа персонализированной рекламы?</string>
+    <string name="adsPrivacyPolicyText2Continue">Можем ли мы продолжать использовать Ваш мобильный идентификатор для показа персонализированной рекламы?</string>
+    <string name="adsPrivacyPolicyText3">Наши партнеры будут собирать данные и использовать мобильный идентификатор Вашего устройства для показа релевантной рекламы.</string>
+    <string name="adsPrivacyPolicyUpdateToV2Rus">Мы обновили политику кофиденциальности (добавлен рекламный провайдер Apperate Online).</string>
+
+    <string name="optOutInfo">Вы можете отозвать свое согласие в любой момент в настройках приложения.</string>
+
+    <string name="firebaseAuthPrivacyPolicyCaption">Политика конфиденциальности (Firebase)</string>
+    <string name="googleAuthPrivacyPolicyCaption">Политика конфиденциальности (Google)</string>
+
+    <string name="otherPrivacyPolicyText">Для активации данного функционала прочтите и примите политику конфиденциальности.</string>
+    <string name="optOut">Отказаться</string>
+    <string name="restartRequired">Новые настройки вступят в силу после перезапуска приложения</string>
+
+    <string name="acceptAdsButton">Да, я согласен</string>
+    <string name="rejectAdsButton">Нет</string>
+    <string name="payForAdFreeVersionButton">Купить отключение рекламы</string>
+
+    <string name="acceptPolicyButton">Я согласен</string>
+    <string name="legal">Правила</string>
+
+    <string name="accordInfoTitle">Информация об аккорде</string>
+    <string name="accordNotFound">Неизвестный аккорд</string>
+    <string name="removingInProgress">Выполняется удаление.\nПожалуйста, подождите…</string>
+    <string name="executingInProgress">Пожалуйста, подождите…</string>
+    <string name="dbServerSongsCount">Доступно песен: %d</string>
+    <string name="dbAccordsCount">Известных аккордов: %d</string>
+    <string name="dbLastSyncDate">Дата последней синхронизации</string>
+    <string name="dbLastUpdatedSongs">Последние обновленные песни</string>
+    <string name="dbInitError">Ошибка в процессе инициализации базы данных!</string>
+    <string name="inetReceiveMessage">Передача данных.\nПожалуйста, подождите…</string>
+    <string name="inetReceiveAccordsMessage">Обновление списка аккордов…</string>
+    <string name="inetReceiveFavouritesMessage">Синхронизация избранного…</string>
+    <string name="inetReceivePlaylistsMessage">Синхронизация плэйлистов…</string>
+    <string name="inetReceiveCommentsMessage">Обновление комментариев…</string>
+    <string name="inetReceiveError">Ошибка (%d) в процессе обращения к серверу!\nПроверьте подключение к интернету</string>
+    <string name="readingFileProgress">Чтение файла (строка №%d)</string>
+    <string name="readingServerDataProgress">Обработка списка изменений %d%%</string>
+    <string name="loadedSongs">Загружено песен: %d</string>
+    <string name="loadingInProgress">Идет загрузка.\nПожалуйста, подождите…</string>
+    <string name="uploadingInProgress">Идет загрузка.\nПожалуйста, подождите…</string>
+    <string name="dbErrorMessage">Попробуйте перезапустить приложение. Если это не поможет, сообщите, пожалуйста, о проблеме.</string>
+    <string name="copiedSongs">Скопировано %d песен</string>
+    <string name="duration">Длительность</string>
+    <string name="rateSong">Оценить</string>
+    <string name="averageRating">Средняя оценка подбора</string>
+    <string name="rateSongText">Оцените качество подбора.\nВаша оценка будет учтена при следующей\nсинхронизации с сервером.</string>
+    <string name="syncWithServer">Синхронизировать</string>
+    <string name="databaseIsEmpty">В базе данных нет песен. Вы можете восстановить их из бэкап-файла или продолжить с пустой базой данных.</string>
+    <string name="continueWithEmptyDb">Продолжить с пустой БД</string>
+    <string name="restoreFromDropbox">Восстановить из Dropbox</string>
+    <string name="chooseAuthor">Выберите исполнителя</string>
+    <string name="chooseKey">Выберите тональность</string>
+    <string name="transpose">Транспонировать</string>
+    <string name="append">Добавить</string>
+    <string name="appendFolder">Добавить папку</string>
+    <string name="appendVirtualFolder">Добавить виртуальную папку</string>
+    <string name="appendPlaylist">Добавить плэйлист</string>
+    <string name="newPlaylist">Новый</string>
+    <string name="newFolder">Новая папка</string>
+    <string name="goToSdCard">Перейти в SD карту</string>
+    <string name="appending">Обновление %s</string>
+    <string name="restart">Рестарт</string>
+    <string name="pause">Пауза</string>
+    <string name="langsManage">Изменить</string>
+
+    <string name="or">или</string>
+    <string name="save">Сохранить</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="more">Опции</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="signUp">Зарегистрироваться</string>
+    <string name="signIn">Войти</string>
+    <string name="signOut">Выйти</string>
+    <string name="buy">Купить</string>
+    <string name="cancel">Отмена</string>
+    <string name="exit">Выход</string>
+    <string name="accords">Аккорды</string>
+    <string name="enabled">Включить</string>
+    <string name="sound">Звук</string>
+    <string name="proFeatureOnly">Доступно только в <a href="market://details?id=ru.subprogram.guitarsongs.donate">Песни под гитару Pro</a></string>
+    <string name="dbInfo">Актуальность базы данных</string>
+    <string name="databasePath">Расположение базы данных</string>
+    <string name="versionInfo">Версия программы</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="search">Поиск</string>
+    <string name="find">Найти</string>
+    <string name="sortByArtistName">По исполнителю</string>
+    <string name="sortBySongName">По названию</string>
+    <string name="sortByRandom">Перемешать</string>
+
+    <string name="overwriteFileMessage">Файл \"%s\" уже существует. Перезаписать?</string>
+
+    <string name="exportDialogMessage">Выберите формат файла</string>
+
+    <string name="signInWithGoogle">Войти через Google</string>
+    <string name="signInWithFacebook">Войти через Facebook</string>
+    <string name="signInWithTwitter">Войти через Twitter</string>
+    <string name="signInWithEmail">Войти через email</string>
+
+    <string name="password">Пароль</string>
+    <string name="currentLoginInfo">Вы авторизованы как</string>
+    <string name="signUpSuccess">Регистрация завершена, проверьте почтовый ящик</string>
+    <string name="signUpInstructions">После нажатия на кнопку \"Зарегистрироваться\", на указанный почтовый ящик придет письмо с информацией о пароле.</string>
+    <string name="alreadyHaveAccount">У меня уже есть аккаунт</string>
+
+    <string name="sortMode">Режим сортировки</string>
+    <string name="saveToFile">Сохранить в файл…</string>
+    <string name="copyToMySongs">Копировать в \"Мои песни\"…</string>
+    <string name="loadFromFile">Импортировать…</string>
+    <string name="removeAll">Удалить все</string>
+    <string name="preferences">Настройки</string>
+    <string name="disableAds">Отключить рекламу</string>
+    <string name="disableAdsPaid">Навсегда</string>
+    <string name="disableAdsFree">На 1 неделю (бесплатно)</string>
+    <string name="disableAdsFreeInstruction">Для отключения рекламы на 1 неделю дождитесь окончания видеоролика</string>
+    <string name="activatePremiumFeatureTitle">Хотите активироать эту опцию в текущем приложении?</string>
+    <string name="activatePremiumFeaturePaid">Активировать навсегда</string>
+    <string name="activatePremiumFeatureFree">Активировать на 1 раз (бесплатно)</string>
+    <string name="activatePremiumFeatureFreeInstruction">Для активации премиум опции дождитесь окончания видеоролика</string>
+    <string name="tooShortSearchQuery">Для поиска по тексту нужно ввести хотя бы 3 буквы</string>
+    <string name="clearDB">Очистить БД</string>
+    <string name="songInfo">Информация</string>
+    <string name="edit">Редактировать…</string>
+    <string name="print_">Печать…</string>
+    <string name="print_feature">Печать</string>
+    <string name="audioFile">Звуковой файл</string>
+    <string name="playAudio">Послушать</string>
+    <string name="stopAudio">Остановить</string>
+    <string name="goToAuthor">Показать все песни исполнителя</string>
+    <string name="error">Ошибка</string>
+    <string name="errorHappened">Произошла ошибка (код: %d)</string>
+    <string name="searchOnYoutube">Искать на Youtube</string>
+    <string name="watchOnYoutube">Посмотреть на Youtube</string>
+    <string name="incorrectField">Некорректное поле</string>
+    <string name="metronom">Метроном</string>
+    <string name="properties">Свойства…</string>
+    <string name="editOwnSongWarning">Внимание! Вы собираетесь редактировать системную песню. После синхронизации все изменения попадут на сервер и станут доступны остальным пользователям.</string>
+
+    <string name="favourites">Избранное</string>
+    <string name="mySongs">Мои песни</string>
+    <string name="hide">Скрыть</string>
+    <string name="hidden">Скрытые</string>
+    <string name="showHidden">Показать скрытые</string>
+    <string name="removedAuthors">Удаленные исполнители</string>
+    <string name="showRemoved">Показать удаленные</string>
+    <string name="addToPlaylist">Добавить в плэйлист…</string>
+	<string name="moveToFolder">Поместить в папку…</string>
+    <string name="copyToFolder">Копировать в папку…</string>
+    <string name="inputFolderName">Введите название</string>
+    <string name="inputArtistName">Введите имя</string>
+    <string name="inputPosition">Введите позицию</string>
+    <string name="outOfRangeError">Значение вне диапазона</string>
+    <string name="fileName_">Файл:</string>
+    <string name="songAppendedToFavourites">\"%s\" добавлена в избранное</string>
+    <string name="appendToFavourites">Добавить в избранное</string>
+    <string name="removeFromFavourites">Удалить из избранного</string>
+    <string name="remove">Удалить</string>
+    <string name="download">Загрузить</string>
+    <string name="downloadAvailableLangMessage">На сервере доступны песни на языке \"%s\"! Хотите загрузить их сейчас?</string>
+    <string name="downloadAndRemoveLangDialogMessage">Здесь Вы можете загрузить или удалить песни на определенных языках</string>
+    <string name="noLangsDialogMessage">Для отображения списка песен необходимо загрузить хотя бы один язык</string>
+    <string name="areYouSure">Вы уверены?</string>
+    <string name="areYouSureToExit">Выйти из программы?</string>
+    <string name="areYouSureToDelete">Удалить указанные элементы?</string>
+    <string name="areYouSureToHide">Скрыть указанные элементы?</string>
+    <string name="areYouSureToRemoveLang">Все песни на данном языке будут удалены. Продолжить?</string>
+    <string name="saveChanges">Сохранить изменения?</string>
+    <string name="fileSaved">Файл успешно сохранен</string>
+    <string name="fileSaveError">Не удалось сохранить файл</string>
+    <string name="badVersionError">На сервере изменился формат данных! Обновите программу.</string>
+    <string name="serverUnderConstructionError">На сервере ведутся плановые технические работы. Повторите попытку позднее.</string>
+    <string name="notEnoughFreeSpaceError">Недостаточно свободного места</string>
+    <string name="syncedDataWillPublicWarning">Внимание! Выбирая пользовательские данные (*) для синхронизации, вы соглашаетесь с тем, что эти данные не содержат конфиденциальной информации</string>
+    <string name="helpToTranslateTutorialDialog">Прежде чем начать перевод, посмотрите, пожалуйста, короткое видео с инструкцией</string>
+
+    <string name="authorName">Имя исполнителя</string>
+    <string name="songName">Название</string>
+    <string name="songText">Текст песни</string>
+    <string name="songDuration">Длительность</string>
+    <string name="songDelay">Начальная пауза</string>
+    <string name="songComments">Комментарии к подбору</string>
+    <string name="privateNotes">Приватные заметки</string>
+    <string name="userComments">Комментарии пользователей</string>
+    <string name="scrollSpeed">Скорость прокрутки</string>
+
+    <string name="sender">Прислал</string>
+    <string name="speedUp">Быстрее</string>
+    <string name="speedDown">Медленнее</string>
+    <string name="na">Нет данных</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="language">Язык</string>
+    <string name="appearance">Внешний вид</string>
+    <string name="songTextScreen">Экран с текстом песни</string>
+    <string name="systemSettingsTitle">Системные настройки</string>
+    <string name="keyActionsCategory">D-Pad кнопки</string>
+    <string name="miscCategory">Разное</string>
+    <string name="synchronizationSettingsTitle">Синхронизация</string>
+    <string name="contentPrefCategory">Контент</string>
+    <string name="syncData">Данные для синхронизации</string>
+    <string name="autoSearchAudioFiles">Автопоиск аудио-файлов</string>
+    <string name="autoSearchAudioFilesSummary">Автоматическое связывание аудиофайлов во внутренней памяти устройства с песнями в базе данных</string>
+    <string name="audioFolderPath">Папка с аудио-файлами</string>
+    <string name="drawAccordsLayouts">Схемы аккордов</string>
+    <string name="drawAccordsLayoutsAboveText">Перед текстом песни</string>
+    <string name="drawAccordsLayoutsBelowText">После текста песни</string>
+    <string name="drawAccordsLayoutsHide">Не показывать</string>
+    <string name="rateSongUnauthorized">Чтобы иметь возможность оценивать песни необходимо авторизоваться</string>
+    <string name="accountForSyncFavsSummary">Учетная запись, используемая для синхронизации списка избранных песен</string>
+    <string name="chooseBackupMethod">Куда следует сохранить файл бэкапа?</string>
+    <string name="chooseRestoreMethod">Где находится файл бэкапа?</string>
+    <string name="backupRestoreFromFile">SD карта</string>
+
+    <string name="backupSettingTitle">Бэкап</string>
+    <string name="backupSummary">Создать резервную копию базы данных</string>
+    <string name="backupCreated">Бэкап-файл %s создан</string>
+    <string name="creatingBackup">Создание бэкап-файла…</string>
+    <string name="restoreSettingTitle">Восстановление</string>
+    <string name="restoreSummary">Восстановить базу данных из резервной копии</string>
+    <string name="restoreCompleted">Восстановление базы данных прошло успешно</string>
+    <string name="restoring">Восстановление…</string>
+    <string name="other">Разное</string>
+    <string name="attention">Внимание!</string>
+    <string name="anonymous">Аноним</string>
+
+    <string name="googlePlayNotFound">Не удалось открыть Google Play</string>
+    <string name="functionNotAllowed">Данная функция не доступна в бесплатной версии программы</string>
+    <string name="chooseFileManager">Выберите файловый менеджер</string>
+    <string name="empty">Пусто</string>
+    <string name="showSongPaused">Начальная пауза</string>
+    <string name="showSongPausedSummary">Не начинать автоматический обратный отсчет</string>
+    <string name="hideActionBar">Прятать кнопки управления</string>
+    <string name="hideActionBarSummary">Рекомендуется для устройств с маленьким экраном</string>
+    <string name="design">Тема оформления</string>
+    <string name="designSummary">После изменения перезапустите приложение</string>
+    <string name="instrument">Инструмент</string>
+
+    <string name="keyVolUp">Громкость+</string>
+    <string name="keyVolDown">Громкость-</string>
+    <string name="keyAirTurnLeft">Влево</string>
+    <string name="keyAirTurnRight">Вправо</string>
+    <string name="keyAirTurnUp">Вверх</string>
+    <string name="keyAirTurnDown">Вниз</string>
+    <string name="keyVolUpDouble">Громкость+ (x2)</string>
+    <string name="keyVolDownDouble">Громкость- (x2)</string>
+    <string name="keyAirTurnLeftDouble">Влево (x2)</string>
+    <string name="keyAirTurnRightDouble">Вправо (x2)</string>
+    <string name="keyAirTurnUpDouble">Вверх (x2)</string>
+    <string name="keyAirTurnDownDouble">Вниз (x2)</string>
+    <string name="keyActionNone">Нет</string>
+    <string name="keyActionScrollScreenUp">Прокрутить экран вверх</string>
+    <string name="keyActionScrollScreenDown">Прокрутить экран вниз</string>
+    <string name="keyActionScrollUp">Прокрутить вверх</string>
+    <string name="keyActionScrollDown">Прокрутить вниз</string>
+    <string name="keyActionScrollSpeedUp">Ускорить прокрутку</string>
+    <string name="keyActionScrollSpeedDown">Замедлить прокрутку</string>
+    <string name="keyActionPrevPage">Предыдущая песня</string>
+    <string name="keyActionNextPage">Следующая песня</string>
+    <string name="keyActionPause">Остановить / Запустить прокрутку</string>
+    <string name="keyActionRestart">Рестарт</string>
+    <string name="keyActionZoomIn">Увеличить шрифт</string>
+    <string name="keyActionZoomOut">Уменьшить шрифт</string>
+
+    <string name="notation">Названия аккордов</string>
+    <string name="songTextSize">Размер шрифта</string>
+    <string name="zoomIn">Увеличить шрифт</string>
+    <string name="zoomOut">Уменьшить шрифт</string>
+    <string name="allowAbusive">Матерные песни</string>
+    <string name="allowAbusiveSummary">Отображать матерные песни</string>
+    <string name="searchResultAbusive">Окрыть настройки</string>
+    <string name="searchResultAbusiveSummary">Результат поиска содержит матерные песни</string>
+    <string name="dontShowChords">Скрыть аккорды</string>
+    <string name="dontShowChordsSummary">Не показывать аккорды в тексте песни</string>
+    <string name="fixedSongTextSize">Фиксированный размер шрифта</string>
+    <string name="fixedSongTextSizeSummary">Использовать один и тот же размер шрифта во всех песнях</string>
+    <string name="billingPurchasingDisableAdsSuccess">Реклама отключена!</string>
+    <string name="billingPurchasingFeatureSuccess">Опция активирована!</string>
+    <string name="helpToTranslate">Помочь с переводом</string>
+    <string name="helpToTranslateSummary">Вы можете помочь с переводом приложения на ваш родной язык</string>
+    <string name="help">Помощь</string>
+    <string name="inviteFriend">Пригласить друга</string>
+    <string name="inviteFriendText">Привет!\n\nРекомендую скачать офлайн песенник с большой базой аккордов для гитары, балалайки и укулеле.\n\nСкачать бесплатно: %1$s\nPro-версия: %2$s\n</string>
+
+    <string name="default_">По-умолчанию</string>
+    <string name="value">Значение</string>
+
+    <string name="selectFile">Выберите файл</string>
+    <string name="selectFolder">Выберите папку</string>
+    <string name="select">Выбрать</string>
+    <string name="haventAccessPrivileges">У Вас нет прав доступа к данной директории</string>
+    <string name="yesterday">вчера</string>
+    <string name="share">Отправить</string>
+
+    <string name="remindDbSyncDate">Напоминать о новых песнях</string>
+    <string name="remindDbSyncDateSummary">Напоминать об устаревшей базе песен и необходимости синхронизации с сервером</string>
+    <string name="autoSyncWithServer">Автосинхронизация</string>
+    <string name="autoSyncWithServerSummary">Производить синхронизацию с сервером в фоновом режиме</string>
+    <string name="syncDialogMessage">База песен устарела. Для обновления базы сделайте синхронизацию с сервером. Сделать синхронизацию сейчас?</string>
+    <string name="syncNow">Синхронизировать</string>
+    <string name="remindLater">Позже</string>
+    <string name="neverRemind">Не напоминать</string>
+
+    <string name="rateDialogTitle">Оцените приложение</string>
+    <string name="rateDialogMessage">Если вам понравилось это приложение, пожалуйста, найдите время, чтобы оценить его. Это не займет больше минуты. Спасибо за вашу поддержку!</string>
+    <string name="rateNow">Оценить</string>
+
+    <string name="newsDialogShow">Показать</string>
+    <string name="newsDialogLater">Не сейчас</string>
+    <string name="newsDialogClose">Закрыть</string>
+
+    <string name="specialPriceDialogTitle">Специальное предложение</string>
+    <string name="specialPriceDialogText">Спасибо, что выбрали \"Песни под гитару\"! Только сейчас Вы можете отключить рекламу с 60% скидкой. Это уникальный шанс! Хотите воспользоваться предложением и забыть о рекламе в приложении?</string>
+
+    <string name="restoreAuthorDialogTitle">Исполнитель был удален</string>
+    <string name="restoreAuthorDialogMessage">Восстановить все песни данного исполнителя?</string>
+
+    <string name="faqTextQuestion17">Как изменить скорость прокрутки текста?</string>
+    <string name="faqTextQuestion16">Как поменять язык отображаемых песен?</string>
+    <string name="faqTextQuestion15">Как добавить песни в плэйлист?</string>
+    <string name="faqTextQuestion14">Как скопировать песни в раздел \"Мои песни\"?</string>
+    <string name="faqTextQuestion13">Как убрать некоторых исполнителей из списка?</string>
+    <string name="faqTextQuestion12">Как сменить тональность у песни (транспонировать аккорды)?</string>
+
+    <string name="faqTextQuestion11">Как изменить размер шрифта?</string>
+    <string name="faqTextAnswer11">Вы можете сделать это при помощи стандартного масштабирующего жеста или восспользоваться аппаратными кнопками регулировки громкости телефона.</string>
+
+    <string name="faqTextQuestion10">Я хочу помочь с переводом приложения на другие языки. Как это проще всего сделать?</string>
+    <string name="faqTextAnswer10">Вы можете это сделать прямо из программы: зайдите в настройки и выберите пункт \"Помочь с переводом\".</string>
+
+    <string name="faqTextQuestion9">Как мне добавить новую песню в базу?</string>
+    <string name="faqTextAnswer9">Заходите на сайт ru.guitarsongs.club, авторизуйтесь с помощью вашего google-аккаунта и можете добавлять свои любимые песни в общую базу.\nЧтобы добавленные через сайт песни появились в приложении, нужно нажать на кнопку \"Синхронизировать\".\n</string>
+
+    <string name="faqTextQuestion8">Можно ли в режиме просмотра песни перейти к следующей, не возвращаясь при этом в список?</string>
+    <string name="faqTextAnswer8">Да, это можно сделать воспользовавшись жестами \"вправо\" или \"влево\" (переходы работают только в пределах текущей папки)</string>
+
+    <string name="faqTextQuestion7">Что за цифры рядом с названием у некоторых песен?</string>
+    <string name="faqTextAnswer7">Это средняя оценка качества подбора аккордов к песне. Отдать свой голос за ту или иную песню можно с помощью пункта меню \"Оценить\" на экране просмотра текста. Эта фича введена для борьбы с некачественными подборами - песни, получившие низкую оценку, будут тщательнее проверяться на наличе опечаток и других недочетов.</string>
+
+    <string name="faqTextQuestion5">Не могу прослушать песни, нет звука!</string>
+    <string name="faqTextAnswer5">Это песенник, тут только тексты песен.</string>
+
+    <string name="faqTextQuestion4">После очередного обновления программа стала глючить, что делать?</string>
+    <string name="faqTextAnswer4">Напишите письмо автору программы с указанием сути проблемы, названия вашего устройства и версии Android.</string>
+
+    <string name="faqTextQuestion3">Как посмотреть раскладку аккорда?</string>
+    <string name="faqTextAnswer3">Просто нажмите на интересуемый аккорд.</string>
+
+    <string name="faqTextQuestion1">Как добавить свою песню?</string>
+    <string name="faqTextAnswer1">Лучше всего - воспользоваться сайтом ru.guitarsongs.club, тогда добавленные Вами песни будут сразу доступны другим пользователям. Если же Вы хотите добавить песню только для себя, то находясь в режиме просмотра списка песен, вызовите меню и выберите пункт \"Импортировать…\". В открывшемся диалоге выберите нужную папку или txt-файл.</string>
+
+    <string name="faqTextQuestion0">Как сообщить о найденных неточностях, выявленных недостатках или просто задать вопрос автору?</string>
+    <string name="faqTextAnswer0">Напишите сообщение в специальной группе ВКонтакте - http://vk.com/guitarsongs.club</string>
+
+    <string name="rootMenuSongs">Список песен</string>
+    <string name="rootMenuFolders">Папки</string>
+    <string name="rootMenuPlaylists">Плэйлисты</string>
+    <string name="rootMenuHistory">История / Топ</string>
+
+    <string name="rootMenuInfo">Инфо</string>
+    <string name="rootMenuTopUsers">Топ пользователей</string>
+    <string name="rootMenuTopSongs">Топ песен</string>
+    <string name="rootMenuFaq">ЧаВо</string>
+
+    <string name="historyPageTitle">История</string>
+
+    <string name="designWood">Дерево</string>
+    <string name="designBlack">Черная</string>
+    <string name="designWhite">Белая</string>
+
+    <string name="instrumentGuitar">Гитара</string>
+    <string name="instrumentUkulele">Укулеле</string>
+    <string name="instrumentBalalaikaEea">Балалайка (EEA)</string>
+    <string name="instrumentBalalaikaCeg">Балалайка (CEG)</string>
+    <string name="instrumentBalalaikaDFdA">Балалайка (DF#A)</string>
+
+    <string name="notationUnknown">Не установлено</string>
+    <string name="notationB">По-умолчанию</string>
+    <string name="notationH">Германское написание (B->H)</string>
+    <string name="notationSi">Испанское (B->SI)</string>
+    <string name="notationP">Польское (Am->a)</string>
+
+
+</resources>

@@ -1,0 +1,554 @@
+<resources>
+  <!---->
+  <string name="chooseLang">Pumili ng linguahe</string>
+  <!---->
+  <string name="accordInfoTitle">Impormasyon ng Chords</string>
+  <!---->
+  <string name="accordNotFound">Hindi alam na chord</string>
+  <!---->
+  <string name="removingInProgress">Pagtatangal\nMangyaring maghintay…</string>
+  <!---->
+  <string name="dbServerSongsCount">Magagamit na mga kanta: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Alam na mga chords: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Date ng huling pag synchronise</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Mga bagong dagdag na kanta</string>
+  <!---->
+  <string name="inetReceiveMessage">Pagpapadala ng data.\nMangyaring maghintay…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Pagupdate ng listahan ng chords…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Pag-update ng mga komento…</string>
+  <!---->
+  <string name="duration">Tagal</string>
+  <!---->
+  <string name="syncWithServer">I-synchronise</string>
+  <!---->
+  <string name="chooseKey">Pumili ng tono</string>
+  <!---->
+  <string name="append">Magdagdag</string>
+  <!---->
+  <string name="appending">Magdagdag %s</string>
+  <!---->
+  <string name="restart">Ulitin</string>
+  <!---->
+  <string name="pause">Hinto</string>
+  <!---->
+  <string name="songLanguage">Linguahe</string>
+  <!---->
+  <string name="yes">Oo</string>
+  <!---->
+  <string name="no">Hindi</string>
+  <!---->
+  <string name="more">Pagpipilian</string>
+  <!---->
+  <string name="cancel">Kansela</string>
+  <!---->
+  <string name="exit">Lumabas</string>
+  <!---->
+  <string name="accords">Chords</string>
+  <!---->
+  <string name="search">Hanapin</string>
+  <!---->
+  <string name="find">Maghanap</string>
+  <!---->
+  <string name="saveToFile">I-save sa file</string>
+  <!---->
+  <string name="loadFromFile">Angkat</string>
+  <!---->
+  <string name="removeAll">Tanggalin lahat</string>
+  <!---->
+  <string name="disableAds">Alisin ang ads</string>
+  <!---->
+  <string name="songInfo">Impormasyon</string>
+  <!---->
+  <string name="edit">Edit</string>
+  <!---->
+  <string name="error">Pagkakamali</string>
+  <!---->
+  <string name="removeFromFavourites">Alisin sa mga paborito</string>
+  <!---->
+  <string name="remove">Alisin</string>
+  <!---->
+  <string name="areYouSure">Sigurado ka ba?</string>
+  <!---->
+  <string name="areYouSureToExit">Umalis sa application?</string>
+  <!---->
+  <string name="authorName">Pangalan ng artista</string>
+  <!---->
+  <string name="songName">Pangalan</string>
+  <!---->
+  <string name="songDuration">Tagal</string>
+  <!---->
+  <string name="speedUp">Bilisan</string>
+  <!---->
+  <string name="speedDown">Bagalan</string>
+  <!---->
+  <string name="na">Walang data</string>
+  <!---->
+  <string name="unknown">Hindi Alam</string>
+  <!---->
+  <string name="langId">19</string>
+  <!---->
+  <string name="readingFileProgress">Ang iyong file ay binabasa (%d)</string>
+  <!---->
+  <string name="inetReceiveError">May Mali (%d) sa iyong server Kay hindi gumagana!\nPaki tingnan ang internet setting at subukan muli.</string>
+  <!---->
+  <string name="loadedSongs">Kumukuha ng kanta: %d</string>
+  <!---->
+  <string name="loadingInProgress">Pakihintay</string>
+  <!---->
+  <string name="feedback">Suhestiyon </string>
+  <!---->
+  <string name="clearDB">Linisan ang database</string>
+  <!---->
+  <string name="favourites">Ang iyong gusto</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" dinagdag sa iyong paborito</string>
+  <!---->
+  <string name="songText">Mga kanta</string>
+  <!---->
+  <string name="sender">Nahatid</string>
+  <!---->
+  <string name="language">Linguahe</string>
+  <!---->
+  <string name="attention">Babala</string>
+  <!---->
+  <string name="empty">Walang laman</string>
+  <!---->
+  <string name="instrument">Instrumento</string>
+  <!---->
+  <string name="zoomIn">Palakihan ang titik</string>
+  <!---->
+  <string name="zoomOut">Paliitin ang titik</string>
+  <!---->
+  <string name="select">Piliin</string>
+  <!---->
+  <string name="yesterday">Kahapon</string>
+  <!---->
+  <string name="inputFolderName">Llagay ang pangalan</string>
+  <!---->
+  <string name="faqTextQuestion8">Pwede ko bang tingnan ang susunod n awit habang?</string>
+  <!---->
+  <string name="save">I-save</string>
+  <!---->
+  <string name="selectFile">pumili ng dyckyomentaryo</string>
+  <!---->
+  <string name="chooseFolder">Pumili ng folder</string>
+  <!---->
+  <string name="fileSaveError">Hindi maisasave ang file</string>
+  <!---->
+  <string name="badVersionError">Inupdate na namin ang inencode na data sa aming server! Paki-update ng application.</string>
+  <!---->
+  <string name="songComments">Kumento sa mga chord</string>
+  <!--what someone/something looks like-->
+  <string name="appearance">Hitsura</string>
+  <!---->
+  <string name="songTextScreen">Screen na may lyriko ng kanta</string>
+  <!---->
+  <string name="googlePlayNotFound">Hindi mabuksan ang Google Play</string>
+  <!---->
+  <string name="chooseFileManager">Piliin ang iyong file manager</string>
+  <!---->
+  <string name="showSongPausedSummary">\'Wag i-auto start ang countdown</string>
+  <!---->
+  <string name="hideActionBar">Itago ang mga control button</string>
+  <!---->
+  <string name="designSummary">Pagkatapos palitan ang tema, paki-restart ng application</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Bawat kanta ay gagamit ng parehong font size</string>
+  <!--pwede rin namang "Wala nang ads ang app na 'to!"-->
+  <string name="billingPurchasingDisableAdsSuccess">Wala na ngayong ads ang application na ito!</string>
+  <!---->
+  <string name="songsAddedToFolder_">Ang mga kanta ay idinagdag na sa folder \"%s\"</string>
+  <!---->
+  <string name="allowAbusive">Abusadong mga kanta</string>
+  <!---->
+  <string name="allowAbusiveSummary">Ipakita ang mga mapang-abusong kanta</string>
+  <!---->
+  <string name="helpToTranslate">Tulungang isalin</string>
+  <!---->
+  <string name="helpToTranslateSummary">Pwede kang tumulong na isalin ang application sa iyong lenggwahe</string>
+  <!---->
+  <string name="rateDialogTitle">I-rate ang app na ito</string>
+  <!---->
+  <string name="rateNow">I-rate na ngayon</string>
+  <!---->
+  <string name="faqTextQuestion10">Gusto kong tumulong sa pagsasalin nitong aplikasyon sa katutubong wika ko. Paano ko gagawin iyon ?</string>
+  <!---->
+  <string name="readingServerDataProgress">Pinoproseso pa ang listahan ng pagbabago %d%%</string>
+  <!---->
+  <string name="rateSong">I-rate</string>
+  <!---->
+  <string name="appendToFavourites">Idagdag sa mga paborito</string>
+  <!---->
+  <string name="rootMenuInfo">Impormasyon</string>
+  <!---->
+  <string name="designWhite">Puti</string>
+  <!---->
+  <string name="instrumentGuitar">Gitara</string>
+  <!---->
+  <string name="chooseAuthor">Pumili ng artista</string>
+  <!---->
+  <string name="systemSettingsTitle">Sistema</string>
+  <!---->
+  <string name="newsDialogShow">Ipakita</string>
+  <!---->
+  <string name="newsDialogLater">Ipaalala mamaya</string>
+  <!---->
+  <string name="newsDialogClose">Sarado</string>
+  <!---->
+  <string name="haventAccessPrivileges">Wala kang access sa privileges ng directory</string>
+  <!---->
+  <string name="rateDialogMessage">Kung ikaw ay nasisiyahan sa app, mangyaring maglaan ng sandaling oras upang i-rate ito. Maraming salamat sa suporta!</string>
+  <!---->
+  <string name="faqTextQuestion9">Paano ako magdadagdag ng kanta sa database?</string>
+  <!---->
+  <string name="faqTextAnswer9">Bisitahin ang website en.guitarsongs.club, mag log in gamit ang iyong google account at idagdag ang iyong paboritong kanta sa parehong database. Ang mga bagong kanta ay makikita agad ng lahat ng gumagamit ng app. Pindutin lang ang \"Synchronize\" button sa app</string>
+  <!---->
+  <string name="hideActionBarSummary">Rekumendado para sa mga devices na may maliit na screen</string>
+  <!---->
+  <string name="faqTextQuestion7">Ano ang ginagawa ng mga numero na nasa tabi ng pangalan ng ilang mga kanta?</string>
+  <!--titignan ko yung mga ipormasyon-->
+  <string name="dbInfo">Impormasyon</string>
+  <!--nman isa itong Miscell-->
+  <string name="other">Miscellaneou</string>
+  <!---->
+  <string name="functionNotAllowed">Itong pinindot mo ay hindi pwede sa libreng bersyon.</string>
+  <!---->
+  <string name="faqTextQuestion5">Hindi ko marinig ang kanta, wala akong marinig na kahit anong kanta</string>
+  <!---->
+  <string name="faqTextAnswer5">Ito ay libro ng kanta, dito ay makakahanap ka ng mga lyrics ng mga kantang gusto mo</string>
+  <!---->
+  <string name="rootMenuSongs">Listahan ng mga kanta</string>
+  <!---->
+  <string name="designWood">Kahoy</string>
+  <!---->
+  <string name="fixedSongTextSize">Ayusin ang gustong laki</string>
+  <!---->
+  <string name="restoreCompleted">Natapos mo ng ibalik</string>
+  <!---->
+  <string name="remindDbSyncDate">Balitaan mo ako tungkol sa mga bagong kanta</string>
+  <!---->
+  <string name="remindLater">Ipaalala mamaya</string>
+  <!---->
+  <string name="neverRemind">Huwag nalang</string>
+  <!---->
+  <string name="appLanguage">Wika ng app</string>
+  <!---->
+  <string name="executingInProgress">Maghintay sandali</string>
+  <!---->
+  <string name="searchOnYoutube">Hanapin sa youtube</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">Wala ng espasyo</string>
+  <!---->
+  <string name="viewSettingsTitle">Tingnan</string>
+  <!---->
+  <string name="viewHideMySongs">Itago ang kanta ko</string>
+  <!---->
+  <string name="inputArtistName">Ilagay ang pangalan</string>
+  <!---->
+  <string name="watchOnYoutube">Tingnan sa youtube</string>
+  <!---->
+  <string name="hide">Itago</string>
+  <!---->
+  <string name="hidden">Nakatago</string>
+  <!---->
+  <string name="showHidden">Ipakita ang nakatago</string>
+  <!---->
+  <string name="transpose">Pagpalitin ng lugar</string>
+  <!---->
+  <string name="versionInfo">Bersyon ng aplikasyon</string>
+  <!---->
+  <string name="showSongPaused">Pasimulang magpose</string>
+  <!---->
+  <string name="faqTextAnswer8">Oo, pwede kang gumamit ng muwestra, humampas sa kaliwa o sa kanan (mwestra gagana lang sa kasalukuyang polder)</string>
+  <!---->
+  <string name="guitarSongs">Guitare Songs</string>
+  <!---->
+  <string name="goToAuthor">Pakita ang lahat ng artistang gumawa</string>
+  <!---->
+  <string name="moveToFolder">Ilagay sa folder</string>
+  <!---->
+  <string name="copyToFolder">Gayahin sa folder</string>
+  <!---->
+  <string name="backupSettingTitle">Pangtibay</string>
+  <!---->
+  <string name="backupSummary">Gumawa ng buong database na pangtibay</string>
+  <!---->
+  <string name="creatingBackup">Ginagawa na and backup dile</string>
+  <!---->
+  <string name="rateSongText">Punan ang kalidad ng tab.\nAng iyong pagpuna ay maidadagdag sa susunod na sinkrona ng server</string>
+  <!---->
+  <string name="faqTextAnswer7">Itong mga numero ay ang mga katamtamang puntos ng tab at iskala ng kanta.pwede kang bumoto ng mga awitin sa menu option na \"rate\" sa listahan ng mga lirika. Papagaanin namin ng mas mababa ang rating dahandahan habang mas pinapaganda ito.</string>
+  <!---->
+  <string name="faqTextQuestion4">Sa huling pag update nagkaroon ako ng napakaraming bugs sa applikasyon. Ano ang gagawin ko?</string>
+  <!---->
+  <string name="appendFolder">Dagdagan ng pahina</string>
+  <!---->
+  <string name="faqTextQuestion15">Paano mag dagdag ng kanta sa setliat</string>
+  <!---->
+  <string name="faqTextQuestion14">Paano i kopya ang  kanta sa aking listahan ng kanta</string>
+  <!---->
+  <string name="signUp">Mag sign up</string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">Manood muna ng maikling video bago ka mag translate</string>
+  <!---->
+  <string name="faqTextQuestion17">Pano baguhin ang bilis ng scroll?</string>
+  <!---->
+  <string name="faqTextQuestion13">Pano magtago ng ilang artista sa listahan?</string>
+  <!---->
+  <string name="faqTextQuestion11">Pano baguhin ang size ng font?</string>
+  <!---->
+  <string name="choosePlaylist">Pumili ng setlist</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">Ang kanta ay nadagdag sa setlist \"%s\"</string>
+  <!---->
+  <string name="syncNow">i-konekta ngayon</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulee</string>
+  <!---->
+  <string name="restoring">Inire-restore</string>
+  <!---->
+  <string name="serverUnderConstructionError">Ang server ay pansamantalang hindi maabot. Subukan muli.</string>
+  <!---->
+  <string name="syncDialogMessage">Luma na ang iyong database. Kailangan mo nang maisabay ito sa server para mag-update. Gusto mo na bang isabay ngayon?</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Isinasabay ang mga paborito…</string>
+  <!---->
+  <string name="notation">Pangalan ng chords</string>
+  <!---->
+  <string name="notationUnknown">Hindi alam</string>
+  <!---->
+  <string name="notationB">Default</string>
+  <!---->
+  <string name="incorrectField">Maling espasyo</string>
+  <!---->
+  <string name="saveChanges">I-save ang pagbabago?</string>
+  <!---->
+  <string name="syncData">Isabay ang data</string>
+  <!---->
+  <string name="buy">Bumili</string>
+  <!---->
+  <string name="faqTextQuestion1">Anong dapat kong gawin para ang kanta ko malagay sa database</string>
+  <!---->
+  <string name="viewArtists">Listahan ng mga artista</string>
+  <!---->
+  <string name="areYouSureToDelete">Ang mga napili ay mabubura. Magpatuloy?</string>
+  <!---->
+  <string name="fileSaved">Matagumpay na nai-save</string>
+  <!---->
+  <string name="userComments">Komento ng mga gumagamit</string>
+  <!---->
+  <string name="scrollSpeed">Bilis ng Pag-scroll</string>
+  <!---->
+  <string name="design">Kabuuang itsura</string>
+  <!---->
+  <string name="faqTextAnswer10">Pwede mong direktang gawin ito sa aplikasyon: pumunta sa setting at piliin \"tumulong mag salin\".</string>
+  <!---->
+  <string name="faqTextQuestion3">Paano tignan ang chord layout?</string>
+  <!---->
+  <string name="help">Tulong</string>
+  <!---->
+  <string name="sound">Tunog</string>
+  <!---->
+  <string name="newLangAvailable">Bagong linguahe: %s</string>
+  <!---->
+  <string name="specialPriceDialogText">Maraming salamat sa pag-gamit ng Guitar Songs! Ngayon, maaari mo nang alisin ang mga ads na may diskwento na 60%. Ito ay isang kakaibang pagkakataon! Gusto mo ba na gamitin ito at kalimutan ang ads sa aplikasyon?</string>
+  <!---->
+  <string name="copyToMySongs">Kopyahin sa \"Aking mga kanta\"</string>
+  <!---->
+  <string name="mySongs">Mga kanta</string>
+  <!---->
+  <string name="syncedDataWillPublicWarning">Atensyon! Kapag pinili mo ang Custom Data (*) na i-synkrona, ikaw ay pumapayag na ang mga nilalaman nito ay walang mga kumpidensyal na impormasyon</string>
+  <!---->
+  <string name="synchronizationSettingsTitle">Synkronisasyon</string>
+  <!---->
+  <string name="contentPrefCategory">Nilalaman</string>
+  <!---->
+  <string name="value">Halaga</string>
+  <!---->
+  <string name="areYouSureToHide">Ang mga pinili ay itatago. Magpatuloy?</string>
+  <!---->
+  <string name="faqTextQuestion16">Paano ba ipakita ang mga kanta sa linguaheng ito?</string>
+  <!---->
+  <string name="faqTextQuestion12">Paano ba palitan ang tono ng mga kanta (transpose)?</string>
+  <!---->
+  <string name="faqTextAnswer11">Maaari mong gamitin ang \"zoom\" gesture o kaya ang mga volume button ng telepono.</string>
+  <!---->
+  <string name="viewHideNicknames">Itago ang palayaw</string>
+  <!---->
+  <string name="signUpSuccess">Ikaw ay tagumpay sa pagrehistro! Paki-bukas ng e-mail mo.</string>
+  <!---->
+  <string name="signUpInstructions">Paki-tignan ng iyong email matapos pindutin ang \"Sign up\" button. Magpapadala kami ng impormasyon ukol sa iyong password.</string>
+  <!---->
+  <string name="alreadyHaveAccount">Meron na akong account</string>
+  <!---->
+  <string name="areYouSureToRemoveLang">Lahat ng kanta sa linguaheng ito ay aalisin. Magpatuloy?</string>
+  <!---->
+  <string name="proFeatureOnly">Pwede lamang sa Guitar Song Pro</string>
+  <!---->
+  <string name="disableAdsPaid">Permanente</string>
+  <!---->
+  <string name="disableAdsFree">Sa 1 Linggo (Libre)</string>
+  <!---->
+  <string name="disableAdsFreeInstruction">Para itigil ang mga adbertismo sa loob ng isang linggo, dapat ay panoorin mo ang buong bidyo.</string>
+  <!---->
+  <string name="downloadAndRemoveLangDialogMessage">Dito, maari kang magdagdag o magalis ng mga texto ng kanta sa iba\'t ibang linguahe</string>
+  <!---->
+  <string name="newPlaylist">Bago</string>
+  <!---->
+  <string name="restoreSettingTitle">Ibalik</string>
+  <!---->
+  <string name="restoreSummary">Ibalik ang database mula sa backup</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Pakialaala tungkol sa napapanahong database ng mga awitin at ang pangangailangan ng pakikipag-ugnayan sa server</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Account para ma-sync ang mga paboritong awit</string>
+  <!---->
+  <string name="notationH">Aleman (B-&gt;H)</string>
+  <!---->
+  <string name="autoSyncWithServer">Automatikong Pagsi-sync</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Pakikipag-sync sa server sa paraang background</string>
+  <!---->
+  <string name="appendVirtualFolder">Magdagdag ng birtuwal na folder</string>
+  <!---->
+  <string name="databasePath">Daanan ng database</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Espesyal na handog</string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">Nagsi-sync ng mga setlist…</string>
+  <!---->
+  <string name="copiedSongs">%d na mga awiting nakopya</string>
+  <!---->
+  <string name="appendPlaylist">Magdagdag ng setlist</string>
+  <!---->
+  <string name="sortMode">Paraang pagbubukod-bukod</string>
+  <!---->
+  <string name="audioFile">Audio na file</string>
+  <!---->
+  <string name="playAudio">Patugtugin ang audio</string>
+  <!---->
+  <string name="stopAudio">Itigil ang audio</string>
+  <!---->
+  <string name="metronom">Metronoma</string>
+  <!---->
+  <string name="properties">Mga Tungkol Dito…</string>
+  <!---->
+  <string name="addToPlaylist">Idagdag sa setlist</string>
+  <!---->
+  <string name="rootMenuPlaylists">Mga Setlist</string>
+  <!---->
+  <string name="signIn">Pumasok</string>
+  <!---->
+  <string name="signInWithGoogle">Pumasok sa pamamagitan ng Google</string>
+  <!---->
+  <string name="signInWithFacebook">Pumasok sa pamamagitan ng Facebook</string>
+  <!---->
+  <string name="signInWithTwitter">Pumasok sa pamamagitan ng Twitter</string>
+  <!---->
+  <string name="signInWithEmail">Pumasok sa pamamagitan ng e-mensahe</string>
+  <!---->
+  <string name="password">Kodigo o Password</string>
+  <!---->
+  <string name="selectFolder">Pumili ng folder</string>
+  <!---->
+  <string name="langsManage">Pangangasiwaan</string>
+  <!---->
+  <string name="sortByArtistName">Ibukod sa pangalan ng mang-aawit</string>
+  <!---->
+  <string name="sortBySongName">Ibukod sa pangalan ng awit</string>
+  <!---->
+  <string name="sortByRandom">Ibukod ng pasumala</string>
+  <!---->
+  <string name="exportDialogMessage">Pakipili ng ayos ng file</string>
+  <!---->
+  <string name="notationSi">Espanyol (B-&gt;SI)</string>
+  <!---->
+  <string name="enabled">Paganahin</string>
+  <!--Nangyari/naganap noon-->
+  <string name="rootMenuHistory">Nakaraan</string>
+  <!---->
+  <string name="faqTextQuestion0">Paano mag sabi tungkol sa bug, mag tanong, o i-paalam ang developer?</string>
+  <!---->
+  <string name="faqTextAnswer0">Isulat ang iyong mensahe sa aming opisyal na pahina - https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="historyPageTitle">Historya</string>
+  <!---->
+  <string name="keyActionsCategory">D-Pad Keys</string>
+  <!---->
+  <string name="overwriteFileMessage">Mayroon ng file na nagngangalang \"%s\". Gusto mo ba itong palitan?</string>
+  <!---->
+  <string name="activatePremiumFeatureTitle">Gusto mo bang aktibahin ang feature na ito sa app mo ngayon?</string>
+  <!---->
+  <string name="activatePremiumFeaturePaid">Iaktiba magpakailanman</string>
+  <!---->
+  <string name="activatePremiumFeatureFreeInstruction">Para maaktiba ang premium feature na ito, kailangan mong panooring ang buong video</string>
+  <!---->
+  <string name="print_">Iprinta…</string>
+  <!---->
+  <string name="removedAuthors">Tinanggal na mga artista</string>
+  <!---->
+  <string name="showRemoved">Ipakita ang tinanggal</string>
+  <!---->
+  <string name="fileName_">Pangalan ng file:</string>
+  <!---->
+  <string name="noLangsDialogMessage">Kailangang mag-download ng hindi bababa sa isang wika</string>
+  <!---->
+  <string name="privateNotes">Pribadong talaan</string>
+  <!---->
+  <string name="keyVolUp">Volume +</string>
+  <!---->
+  <string name="keyVolDown">Volume -</string>
+  <!---->
+  <string name="keyAirTurnLeft">Kaliwa</string>
+  <!---->
+  <string name="keyAirTurnRight">Kanan</string>
+  <!---->
+  <string name="keyAirTurnUp">Itaas</string>
+  <!---->
+  <string name="keyAirTurnDown">Ibaba</string>
+  <!---->
+  <string name="keyVolUpDouble">Palakasan (doble)</string>
+  <!---->
+  <string name="keyAirTurnLeftDouble">Kaliwa (doble)</string>
+  <!---->
+  <string name="keyAirTurnRightDouble">Kanan (doble)</string>
+  <!---->
+  <string name="keyAirTurnUpDouble">Itaas (doble)</string>
+  <!---->
+  <string name="keyAirTurnDownDouble">Ibaba (doble)</string>
+  <!---->
+  <string name="keyActionNone">Wala</string>
+  <!---->
+  <string name="keyActionScrollUp">I-scroll pataas</string>
+  <!---->
+  <string name="keyActionScrollDown">I-scroll pababa</string>
+  <!---->
+  <string name="keyActionScrollSpeedUp">Pabilisan ang Pag-Scroll</string>
+  <!---->
+  <string name="keyActionScrollSpeedDown">Pahinaan ang Pag-Scroll</string>
+  <!---->
+  <string name="keyActionPrevPage">Nakaraang Pahina</string>
+  <!---->
+  <string name="keyActionNextPage">Susunod na Pahina</string>
+  <!---->
+  <string name="keyActionPause">Itigil / Ipatuloy ang Pag-Scroll</string>
+  <!---->
+  <string name="keyActionRestart">Ulitin</string>
+  <!---->
+  <string name="keyActionZoomIn">Palakihin</string>
+  <!---->
+  <string name="keyActionZoomOut">Paliitin</string>
+  <!---->
+  <string name="dontShowChords">Itago ang Chords</string>
+  <!---->
+  <string name="dontShowChordsSummary">Huwag ipakita ang chords sa kantang ito</string>
+  <!---->
+  <string name="instrumentBalalaikaCeg">Balalaika (CEG)</string>
+  <!---->
+  <string name="instrumentBalalaikaDFdA">Balalaika (DF#A)</string>
+</resources>

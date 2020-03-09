@@ -1,0 +1,446 @@
+<resources>
+  <!---->
+  <string name="accords">Аккордтар</string>
+  <!---->
+  <string name="accordNotFound">Билдәһеҙ аккорд</string>
+  <!---->
+  <string name="anonymous">Аноним</string>
+  <!---->
+  <string name="attention">Иғтибар!</string>
+  <!---->
+  <string name="append">Өҫтәргә</string>
+  <!---->
+  <string name="yesterday">Кисә</string>
+  <!---->
+  <string name="yes">Эйе</string>
+  <!---->
+  <string name="unknown">Билдәһеҙ</string>
+  <!---->
+  <string name="syncNow">Эйе</string>
+  <!---->
+  <string name="remindLater">Һуңыраҡ</string>
+  <!---->
+  <string name="speedUp">Тиҙерәк</string>
+  <!---->
+  <string name="speedDown">Яйыраҡ</string>
+  <!---->
+  <string name="songInfo">Мәғлүмәт</string>
+  <!---->
+  <string name="share">Ебәрергә</string>
+  <!---->
+  <string name="accordInfoTitle">Аккорд тураһында мәғлүмәт</string>
+  <!---->
+  <string name="no">Юҡ</string>
+  <!---->
+  <string name="fileSaveError">Файлды һаҡлап булманы</string>
+  <!---->
+  <string name="feedback">Кире бәйләнеш</string>
+  <!---->
+  <string name="empty">Буш</string>
+  <!---->
+  <string name="error">Хата</string>
+  <!---->
+  <string name="designWood">Ағас</string>
+  <!---->
+  <string name="designWhite">Аҡ</string>
+  <!---->
+  <string name="designBlack">Ҡара</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Һайланған йырҙар исемлеген синхронлаштырыу өсөн ҡулланыла торған иҫәп яҙмаһы</string>
+  <!---->
+  <string name="allowAbusive">Әҙәпһеҙ йырҙар </string>
+  <!---->
+  <string name="allowAbusiveSummary">Әҙәпһеҙ йырҙарҙы күрһәтергә </string>
+  <!---->
+  <string name="guitarSongs">Песни под гитару</string>
+  <!---->
+  <string name="appearance">Тышҡы күренеше </string>
+  <!---->
+  <string name="appending">%s-лы яңырыу</string>
+  <!---->
+  <string name="appendToFavourites">Һайланғандарға өҫтәргә</string>
+  <!---->
+  <string name="areYouSure">Кире уйламаҫһығыҙмы?</string>
+  <!---->
+  <string name="areYouSureToDelete">Был элементтарҙы юйҙырырғамы?</string>
+  <!---->
+  <string name="areYouSureToExit">Программанан сығырғамы?</string>
+  <!---->
+  <string name="authorName">Башҡарыусының исеме </string>
+  <!---->
+  <string name="averageRating">Һайланғанға уртаса баһа </string>
+  <!---->
+  <string name="backupSettingTitle">Бэкап</string>
+  <!---->
+  <string name="backupCreated">%1s бэкап-файлы булдырылды</string>
+  <!---->
+  <string name="backupSummary">Бирелмәләр базаһының резерв күсермәһен эшләргә </string>
+  <!---->
+  <string name="badVersionError">Серверҙа бирелмәләр форматы үҙгәрҙе! Программаны яңыртығыҙ. </string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Реклама һүндерелде!</string>
+  <!---->
+  <string name="cancel">Туҡтатыу </string>
+  <!---->
+  <string name="chooseAuthor">Башҡарыусыны һайлағыҙ </string>
+  <!---->
+  <string name="chooseFileManager">Файлдар менеджерын һайлағыҙ </string>
+  <!---->
+  <string name="chooseKey">Тоналлекте һайлағыҙ </string>
+  <!---->
+  <string name="chooseFolder">Папка һайлағыҙ </string>
+  <!---->
+  <string name="chooseLang">Йырҙар башҡарылған телде һайлағыҙ </string>
+  <!---->
+  <string name="clearDB">БД-ны таҙартырға </string>
+  <!---->
+  <string name="copyToFolder">Папкаға күсерергә…</string>
+  <!---->
+  <string name="creatingBackup">Бэкап-файл булдырырға…</string>
+  <!---->
+  <string name="dbAccordsCount">Билдәле аккордтар: %d</string>
+  <!---->
+  <string name="dbInfo">Бирелмәләр базаһының дөрөҫлөгө </string>
+  <!---->
+  <string name="dbInitError">Бирелмәләр базаһын дөрөҫләү барышындағы хата!</string>
+  <!---->
+  <string name="dbLastSyncDate">Һуңғы синхронлаштырыу датаһы </string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Яңыртылған йырҙарҙың һуңғылары </string>
+  <!---->
+  <string name="dbServerSongsCount">Рөхсәт булған йырҙар: %d</string>
+  <!---->
+  <string name="design">Биҙәү темаһы </string>
+  <!---->
+  <string name="designSummary">Үҙгәрткәндән һуң ҡушымтаны ҡабат ебәрегеҙ </string>
+  <!---->
+  <string name="disableAds">Рекламаны һүндерергә </string>
+  <!---->
+  <string name="duration">Оҙайлылығы </string>
+  <!---->
+  <string name="edit">Мөхәррирләргә…</string>
+  <!---->
+  <string name="errorHappened">Хата китте (коды: %d)</string>
+  <!---->
+  <string name="rateSong">Баһаларға</string>
+  <!---->
+  <string name="rateSongText">Һайлауға баһа бирегеҙ.\nСервер менән киләһе синхронлаштырғанда һеҙҙең баһа иҫәпкә алынасаҡ.</string>
+  <!---->
+  <string name="exit">Сығыу</string>
+  <!---->
+  <string name="faqTextAnswer0">Программаға арналған рәсми блогта хәбәр яҙығыҙ\n ( http://vk.com/guitarsongs.club )</string>
+  <!---->
+  <string name="faqTextAnswer1">Иң яҡшыһы - ru.guitarsongs.club сайтын файҙаланыу, ул сағында Һеҙ өҫтәгән йырҙарҙы шунда уҡ башҡа файҙаланыусылар ҙа ҡуллана аласаҡ. Йырҙы үҙегеҙ өсөн генә өҫтәгегеҙ килһә, йырҙар исемлеген ҡарау режимында көйө менюҙы саҡырығыҙ һәм \"Импортларға…\" тигән пунктҡа баҫығыҙ. Асылған диалогта кәрәкле папканы йәки txt-файлды һайлағыҙ. \n\nИғтибар! Ошо рәүешле mp3 йәки башҡа төрлө музыкаль файлдар тейәргә тырышмағыҙ, бының йүне булмаҫ. </string>
+  <!---->
+  <string name="faqTextAnswer10">Быны тура программанан эшләргә була: көйләүҙәргә инегеҙ һәм \"Тәржемә итеүҙә ярҙам\" тигән пунктты һайлағыҙ. </string>
+  <!---->
+  <string name="faqTextAnswer3">Ҡыҙыҡһындырған аккордҡа баҫыу ҙа етә. </string>
+  <!---->
+  <string name="faqTextAnswer4">Проблеманың асылын аңлатып, ҡоролмағыҙҙың исемен һәм Android версияһын күрһәтеп, программа авторына хат яҙығыҙ. </string>
+  <!---->
+  <string name="faqTextAnswer5">Был йыр тупланмаһы, бында тик йыр текстары ғына.</string>
+  <!---->
+  <string name="faqTextAnswer7">Был йырға аккорд һайлау сифатына уртаса баһа. Теге йәки был йырға менюҙағы \"Баһаларға\" тигән пункт ярҙамында тексты ҡарау экранында тауыш бирергә була. Был фича сифатһыҙ һайлауҙар менән көрәш өсөн индерелгән - түбән баһа алған йырҙар һәр төрлө кәмселектәрен бөтөрөү өсөн ентеклерәк тикшереләсәк. </string>
+  <!---->
+  <string name="faqTextAnswer8">Эйе, быны \"уңға\" йәки \"һулға\" тигән ымдар ярҙамында эшләргә була (күсеүҙәр тик ағымдағы папка сиктәрендә генә эш итә). </string>
+  <!---->
+  <string name="instrumentGuitar">Гитара</string>
+  <!---->
+  <string name="faqTextQuestion0">Яңылыш урындар, етешһеҙлектәр табылһа, нисек хәбәр итергә йәки авторға нисек һорау бирергә була?</string>
+  <!---->
+  <string name="faqTextQuestion1">Үҙ йырыңды нисек өҫтәргә?</string>
+  <!---->
+  <string name="faqTextQuestion10">Ҡушымтаны башҡа телдәргә тәржемәләүҙә ярҙам иткем килә. Быны нисек эшләргә?</string>
+  <!---->
+  <string name="faqTextQuestion3">Аккорд һалыныуын нисек ҡарарға?</string>
+  <!---->
+  <string name="faqTextQuestion4">Сираттағы яңыртыуҙан һуң программа яңылыша башланы, ни эшләргә?</string>
+  <!---->
+  <string name="faqTextQuestion5">Йыр тыңлай алмайым, тауыш юҡ!</string>
+  <!---->
+  <string name="faqTextQuestion7">Ҡайһы бер йырҙарҙың исеме эргәһендә ниндәй һандар ул?</string>
+  <!---->
+  <string name="faqTextQuestion8">Йыр ҡарағанда исемлеккә кире инмәй генә икенсеһенә күсеп буламы?</string>
+  <!---->
+  <string name="faqTextQuestion9">Яңы йырҙы базаға нисек өҫтәргә?</string>
+  <!---->
+  <string name="favourites">Һайланғандар</string>
+  <!---->
+  <string name="fileSaved">Файл уңышлы һаҡланды</string>
+  <!---->
+  <string name="find">Табырға</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Бөтә йырҙарҙа ла бер ҙурлыҡтағы шрифт ҡулланырға</string>
+  <!---->
+  <string name="fixedSongTextSize">Шрифтың билдәләнгән ҙурлығы</string>
+  <!---->
+  <string name="functionNotAllowed">\nПрограмманың түләүһеҙ версияһында был функцияны ҡулланып булмай</string>
+  <!---->
+  <string name="goToAuthor">Башҡарыусының бөтә йырҙарын күрһәтергә</string>
+  <!---->
+  <string name="googlePlayNotFound">Google Play\'ҙы асып булманы</string>
+  <!---->
+  <string name="haventAccessPrivileges">Һеҙҙең был директорияға инеү хоҡуғығыҙ юҡ</string>
+  <!---->
+  <string name="helpToTranslate">Тәржемә менән ярҙам итергә</string>
+  <!---->
+  <string name="helpToTranslateSummary">Һеҙ ҡушымтаны туған телегеҙгә тәржемә итеүҙә ярҙамлаша алаһығыҙ</string>
+  <!---->
+  <string name="hideActionBar">Идара итеү төймәләрен йәшерергә</string>
+  <!---->
+  <string name="hideActionBarSummary">Бәләкәй экранлы ҡоролмалар өсөн тәҡдим ителә</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Аккордтар исемлеген яңыртыу…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Комментарийҙарҙы яңыртыу…</string>
+  <!---->
+  <string name="inetReceiveError">Серверға мөрәжәғәт иткәндә (%d) хатаһы!\nИнтернетҡа тоташыуҙы тикшерегеҙ</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Һайланғанды синхронлаштырыу…</string>
+  <!---->
+  <string name="inetReceiveMessage">Бирелмәләрҙе тапшырыу.\nЗинһар, көтөгөҙ…</string>
+  <!---->
+  <string name="inputFolderName">Исемен яҙығыҙ</string>
+  <!---->
+  <string name="instrument">Инструмент</string>
+  <!---->
+  <string name="instrumentUkulele">Укулеле</string>
+  <!---->
+  <string name="langId">22</string>
+  <!---->
+  <string name="language">Тел</string>
+  <!---->
+  <string name="loadedSongs">Йырҙар тейәлгән: %d</string>
+  <!---->
+  <string name="loadFromFile">Импортларға…</string>
+  <!---->
+  <string name="loadingInProgress">Тейәү бара.\nЗинһар, көтөгөҙ…</string>
+  <!---->
+  <string name="more">Опциялар</string>
+  <!---->
+  <string name="moveToFolder">…папкаһына урынлаштырырға</string>
+  <!---->
+  <string name="newLangAvailable">Яңы тел файҙаланыу мөмкинлеге бар: %1s </string>
+  <!---->
+  <string name="newsDialogClose">Ябырға</string>
+  <!---->
+  <string name="newsDialogLater">Хәҙер түгел</string>
+  <!---->
+  <string name="newsDialogShow">Күрһәтергә</string>
+  <!---->
+  <string name="other">Төрлөһө</string>
+  <!---->
+  <string name="pause">Пауза</string>
+  <!---->
+  <string name="preferences">Көйләүҙәр…</string>
+  <!---->
+  <string name="rateDialogMessage">Һеҙгә был ҡушымта оҡшаһа, зинһар, уны баһаларға ваҡыт табығыҙ. Күп тигәндә бер минут ваҡытығыҙ китер. Ыңғай ҡарашығыҙ өсөн рәхмәт!</string>
+  <!---->
+  <string name="rateNow">Баһаларға</string>
+  <!---->
+  <string name="rateDialogTitle">Ҡушымтаны баһалағыҙ</string>
+  <!---->
+  <string name="readingFileProgress">Файлды уҡыу (юл №%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">Үҙгәртеүҙәр исемлеген эшкәртеү  %d%%</string>
+  <!---->
+  <string name="remindDbSyncDate">Яңы йырҙар тураһында иҫкәртергә</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Иҫкергән йырҙар базаһы һәм сервер менән синхронлаштырыу тураһында иҫкәртеп торорға</string>
+  <!---->
+  <string name="remove">Юйҙырырға</string>
+  <!---->
+  <string name="removeAll">Бөтәһен дә юйҙырырға</string>
+  <!---->
+  <string name="removeFromFavourites">Һайланғандарҙан юйҙырырға</string>
+  <!---->
+  <string name="removingInProgress">Юйҙырыу бара.\nЗинһар, көтөгөҙ…</string>
+  <!---->
+  <string name="restart">Стартты ҡабатлау</string>
+  <!---->
+  <string name="restoreSettingTitle">Тергеҙеү</string>
+  <!---->
+  <string name="restoreCompleted">Бирелмәләр базаһы уңышлы тергеҙелде</string>
+  <!---->
+  <string name="restoreSummary">Бирелмәләр базаһын резерв күсермәнән алып тергеҙергә</string>
+  <!---->
+  <string name="restoring">Тергеҙеү…</string>
+  <!---->
+  <string name="rootMenuFolders">Папкалар</string>
+  <!---->
+  <string name="rootMenuInfo">Инфо</string>
+  <!---->
+  <string name="rootMenuSongs">Йырҙар исемлеге</string>
+  <!---->
+  <string name="rootMenuTopUsers">Топ-файҙаланыусылар</string>
+  <!---->
+  <string name="save">Һаҡларға</string>
+  <!---->
+  <string name="saveToFile">Ошо файлда һаҡларға…</string>
+  <!---->
+  <string name="scrollSpeed">Әйләндереү тиҙлеге</string>
+  <!---->
+  <string name="search">Эҙләү</string>
+  <!---->
+  <string name="select">Һайларға</string>
+  <!---->
+  <string name="selectFile">Файл һайларға</string>
+  <!---->
+  <string name="sender">Ебәрҙе</string>
+  <!---->
+  <string name="serverUnderConstructionError">Серверҙа планлы техник эштәр бара. Һуңғараҡ инеп ҡарағыҙ.</string>
+  <!---->
+  <string name="showSongPaused">Башланғыс пауза</string>
+  <!---->
+  <string name="showSongPausedSummary">Автоматик рәүештә ҡабат һанауҙы башламаҫҡа</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%1s\" һайланғандарға өҫтәлде</string>
+  <!---->
+  <string name="songComments">Аккордтарға комментарийҙар</string>
+  <!---->
+  <string name="songDelay">Башланғыс пауза</string>
+  <!---->
+  <string name="songDuration">Оҙайлығы</string>
+  <!---->
+  <string name="songLanguage">Йырҙар башҡарылған тел</string>
+  <!---->
+  <string name="songName">Исеме</string>
+  <!---->
+  <string name="songsAddedToFolder_">Йырҙар \"%1s\" папкаһына өҫтәлде </string>
+  <!---->
+  <string name="songText">Йыр тексы</string>
+  <!---->
+  <string name="songTextScreen">Йыр тексы ҡуйылған экран</string>
+  <!---->
+  <string name="songTextSize">Шрифтың ҙурлығы</string>
+  <!---->
+  <string name="syncDialogMessage">Йырҙар базаһы иҫкергән. Базаны яңыртыу өсөн сервер менән синхронлаштырыуҙы башҡарығыҙ. Хәҙер үк синхронлаштырырғамы?</string>
+  <!---->
+  <string name="neverRemind">Иҫкәртеп тормаҫҡа</string>
+  <!---->
+  <string name="syncWithServer">Синхронлаштырырға</string>
+  <!---->
+  <string name="systemSettingsTitle">Система көйләүҙәре</string>
+  <!---->
+  <string name="transpose">Транспонировкаларға</string>
+  <!---->
+  <string name="userComments">Файҙаланыусыларҙың комментарийҙары</string>
+  <!---->
+  <string name="versionInfo">Программаның версияһы</string>
+  <!---->
+  <string name="zoomIn">Шрифты ҙурайтырға</string>
+  <!---->
+  <string name="zoomOut">Шрифты бәләкәйләтергә</string>
+  <!---->
+  <string name="na">Бирелмәләр юҡ</string>
+  <!---->
+  <string name="faqTextAnswer9">ru.guitarsongs.club сайтына инегеҙ, google-аккаунтығыҙ аша танылығыҙ, шунан яратҡан йырҙарығыҙҙы дөйөм базаға өҫтәй алырһығыҙ. \nСайт аша өҫтәлгән йырҙар ҡушымтала күренһен өсөн \"Синхронлаштырырға\" тигән төймәгә баҫырға. </string>
+  <!---->
+  <string name="notation">Аккордтар исеме</string>
+  <!---->
+  <string name="notationB">Алдан көйләнгәнсә</string>
+  <!---->
+  <string name="notationH">Герман яҙыуы (B-&gt;H)</string>
+  <!---->
+  <string name="notationUnknown">Ҡуйылмаған</string>
+  <!---->
+  <string name="searchOnYoutube">Youtube та эзлау</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">Буш урын етмай</string>
+  <!---->
+  <string name="appLanguage">Телде һайлау</string>
+  <!---->
+  <string name="autoSyncWithServer">Автосинхронизация</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Сервер менән фон режимында синхронизациялау</string>
+  <!---->
+  <string name="appendFolder">Папка өҫләү</string>
+  <!---->
+  <string name="appendVirtualFolder">Виртуаль папка өҫләү</string>
+  <!---->
+  <string name="databasePath">Мәғлүмәт базаһының урынлашыуы</string>
+  <!---->
+  <string name="saveChanges">Үҙгәрештәрҙе һаҡларға?</string>
+  <!---->
+  <string name="syncData">Синхронизациялауға мәғлүмәт</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Махсус тәҡдим</string>
+  <!---->
+  <string name="specialPriceDialogText">\"Гитараға йырҙар\" приложениеһын һайлауығыҙға рәхмәт! Әлеге ваҡытта һеҙ рекламаны 60% скидка менән һүндерә алаһығыҙ. Тәҡдим менән ҡулланырға һәм рекламаны оноторға?</string>
+  <!---->
+  <string name="viewSettingsTitle">Тышҡы күренеш</string>
+  <!---->
+  <string name="viewArtists">Башҡарыусылар исемлеге</string>
+  <!---->
+  <string name="viewHideMySongs">Минең йырҙары йәшерергә</string>
+  <!---->
+  <string name="choosePlaylist">Плэйлистты һайлағыҙ</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">Йырҙар плэйлистҡа өҫтәлде  \"%s\"</string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">Плэйлистты синхронизациялау</string>
+  <!---->
+  <string name="copiedSongs">%d йыр күсермәлләнде</string>
+  <!---->
+  <string name="appendPlaylist">Плэйлист өҫләргә</string>
+  <!---->
+  <string name="sortMode">Сортировка режимы</string>
+  <!---->
+  <string name="copyToMySongs">\"Минең йырҙарым\"а күсерергә</string>
+  <!---->
+  <string name="audioFile">Тауышлы файл</string>
+  <!---->
+  <string name="playAudio">Тыңларға</string>
+  <!---->
+  <string name="stopAudio">Туҡлатырға</string>
+  <!---->
+  <string name="metronom">Метроном</string>
+  <!---->
+  <string name="properties">Үҙенсәллеге…</string>
+  <!---->
+  <string name="mySongs">Минең йырҙар</string>
+  <!---->
+  <string name="addToPlaylist">Плэйлистҡа оҫләргә</string>
+  <!---->
+  <string name="inputArtistName">Исемде яҙығыҙ</string>
+  <!---->
+  <string name="syncedDataWillPublicWarning">Иғтибар! Синхронизациялауға ҡулланыусы мәғлүмәттәрен һайлау менән һеҙ конфиденциал мәғлүмәт тотмау менән килешәһегеҙ</string>
+  <!---->
+  <string name="synchronizationSettingsTitle">Синхронизациялау</string>
+  <!---->
+  <string name="contentPrefCategory">Контент</string>
+  <!---->
+  <string name="default_">Баштағыса</string>
+  <!---->
+  <string name="value">Мәғәнәһе</string>
+  <!---->
+  <string name="rootMenuPlaylists">Плэйлисттар</string>
+  <!---->
+  <string name="watchOnYoutube">YouTubeта ҡарарға</string>
+  <!---->
+  <string name="hide">Йәшерергә</string>
+  <!---->
+  <string name="hidden">Йәшерелгәндәр</string>
+  <!---->
+  <string name="showHidden">Йәшерелгәндәрҙе күрһәтергә</string>
+  <!---->
+  <string name="areYouSureToHide">Һайланған элементтарҙы йәшерергә?</string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">Тәржемәне башлар алдынан видеоны ҡарауығыҙ һорала</string>
+  <!---->
+  <string name="help">Ярҙам</string>
+  <!---->
+  <string name="faqTextQuestion17">Тексттың йөрөү тиҙлеген нисек үҙшәртергә?</string>
+  <!---->
+  <string name="faqTextQuestion16">Күрһәтелгән йырҙарҙың телен нисек үҙгәртергә?</string>
+  <!---->
+  <string name="faqTextQuestion15">Плэйлистҡа нисек йырҙа өҫләргә?</string>
+  <!---->
+  <string name="faqTextQuestion14">Нисек йырҙарҙы \"Минең йырҙар\"ыма күсерергә?</string>
+  <!---->
+  <string name="faqTextQuestion13">Нисек ҡайһы бер башҡарыусыларҙы исемлектән алыпэташларға?</string>
+  <!---->
+  <string name="faqTextQuestion12">Нисек тональностты алмаштырырға?</string>
+  <!---->
+  <string name="faqTextQuestion11">Шрифттың размерын нисек үҙгәртергә?</string>
+</resources>

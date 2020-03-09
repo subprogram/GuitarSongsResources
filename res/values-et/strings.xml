@@ -1,0 +1,350 @@
+<resources>
+  <!---->
+  <string name="accordInfoTitle">Duuri info</string>
+  <!---->
+  <string name="accordNotFound">Tundmatu duur</string>
+  <!---->
+  <string name="accords">Duurid</string>
+  <!---->
+  <string name="allowAbusiveSummary">Näidata lorilaule</string>
+  <!---->
+  <string name="anonymous">Anonüümne</string>
+  <!---->
+  <string name="guitarSongs">Laulud kitarrile</string>
+  <!---->
+  <string name="appearance">Välimus</string>
+  <!---->
+  <string name="append">Lisada</string>
+  <!---->
+  <string name="allowAbusive">Lorilaulud</string>
+  <!---->
+  <string name="appendToFavourites">Lisada lemmikutesse</string>
+  <!---->
+  <string name="appLanguage">Rakenduse keel</string>
+  <!---->
+  <string name="areYouSure">Olete kindel?</string>
+  <!---->
+  <string name="areYouSureToDelete">Eemaldada märgitud osad?</string>
+  <!---->
+  <string name="areYouSureToExit">Väljuda rakendusest?</string>
+  <!---->
+  <string name="attention">Tähelepanu!</string>
+  <!---->
+  <string name="authorName">Esitaja nimi</string>
+  <!---->
+  <string name="autoSyncWithServer">Automaatne sünkroniseerimine</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Sünkroniseerida serveriga taustarežiimis </string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Lemmiklugude sünkroniseerimise konto</string>
+  <!---->
+  <string name="averageRating">Keskmine Tab-i hinnang</string>
+  <!---->
+  <string name="backupSettingTitle">Varukoopia</string>
+  <!---->
+  <string name="backupCreated">Varukoopia fail loodud %1s</string>
+  <!---->
+  <string name="backupSummary">Loo kogu andmebaasi varukoopia</string>
+  <!---->
+  <string name="badVersionError">Uuendasime serveri kodeeringut! Palun uuendage oma rakendust.</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Rakendus on nüüd reklaamivaba!</string>
+  <!---->
+  <string name="cancel">Tühista</string>
+  <!---->
+  <string name="chooseAuthor">Vali esitaja</string>
+  <!---->
+  <string name="chooseFileManager">Vali failihalduse rakendus</string>
+  <!---->
+  <string name="chooseKey">Vali võti</string>
+  <!---->
+  <string name="chooseFolder">Vali kataloog</string>
+  <!---->
+  <string name="chooseLang">Vali keel</string>
+  <!---->
+  <string name="clearDB">Kustuta andmebaas</string>
+  <!---->
+  <string name="copyToFolder">Kopeeri kataloogi…</string>
+  <!---->
+  <string name="creatingBackup">Loon varukoopia faili…</string>
+  <!---->
+  <string name="dbAccordsCount">Teadaolevad duurid: %d</string>
+  <!---->
+  <string name="dbInfo">Andmebaasi asjakohasus</string>
+  <!---->
+  <string name="dbInitError">Viga andmebaasi initsialiseerimisel! </string>
+  <!---->
+  <string name="dbLastSyncDate">Viimase sünkroniseerimise kuupäev </string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Viimati lisatud laulud</string>
+  <!---->
+  <string name="dbServerSongsCount">Olemasolevad laulud: %d</string>
+  <!---->
+  <string name="design">Välimuse teema</string>
+  <!---->
+  <string name="designBlack">Must</string>
+  <!---->
+  <string name="designSummary">Peale välimuse muutmist palun taaskäivitage rakendus</string>
+  <!---->
+  <string name="designWhite">Valge</string>
+  <!---->
+  <string name="designWood">Puit</string>
+  <!---->
+  <string name="disableAds">Sulge reklaamid</string>
+  <!---->
+  <string name="duration">Kestvus</string>
+  <!---->
+  <string name="edit">Muuda…</string>
+  <!---->
+  <string name="empty">Tühjenda</string>
+  <!---->
+  <string name="error">Viga</string>
+  <!---->
+  <string name="errorHappened">Tekkis viga (kood: %d)</string>
+  <!---->
+  <string name="rateSong">Hinda</string>
+  <!---->
+  <string name="rateSongText">Hinda Tab-i kvaliteeti.\nTeie hinnang lisatakse peale järgmist\nserveriga sünkroniseerimist.</string>
+  <!---->
+  <string name="exit">Välju</string>
+  <!---->
+  <string name="faqTextAnswer0">Palun kirjutage oma teade meie ametlikul blogi lehel - https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="faqTextAnswer3">Lihtsalt vajutage huvipakkuval duuril.</string>
+  <!---->
+  <string name="faqTextAnswer5">See on lauluraamat, siit leiate ainult laulude sõnu.</string>
+  <!---->
+  <string name="favourites">Lemmikud</string>
+  <!---->
+  <string name="feedback">Tagasiside</string>
+  <!---->
+  <string name="fileSaved">Fail salvestatud</string>
+  <!---->
+  <string name="fileSaveError">Ei saa faili salvestatud</string>
+  <!---->
+  <string name="find">Otsi</string>
+  <!---->
+  <string name="fixedSongTextSize">Fikseeritud tähe suurus</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Iga laul kasutab sama tähe suurust</string>
+  <!---->
+  <string name="functionNotAllowed">See funktsioon pole tasuta versioonis kasutatav</string>
+  <!---->
+  <string name="goToAuthor">Näita kõiki selle esitaja laule</string>
+  <!---->
+  <string name="googlePlayNotFound">Ei saa avada Google Play-d</string>
+  <!---->
+  <string name="helpToTranslate">Aita tõlkida</string>
+  <!---->
+  <string name="helpToTranslateSummary">Võite aidata tõlkida rakendust oma emakeelde </string>
+  <!---->
+  <string name="hideActionBar">Peita juhtimisnupud </string>
+  <!---->
+  <string name="hideActionBarSummary">Soovitatav väikese ekraani puhul</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Uuendan duuride nimistut…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Uuendan kommentaare</string>
+  <!---->
+  <string name="inetReceiveError">Viga (%d) server ei vasta!\nPalun kontrollige oma interneti seadeid ja proovige uuesti</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Sünkroniseeri lemmikud…</string>
+  <!---->
+  <string name="inetReceiveMessage">Saadan andmeid.\nPalun oodake…</string>
+  <!---->
+  <string name="inputFolderName">Lisage nimi</string>
+  <!---->
+  <string name="instrument">Pill</string>
+  <!---->
+  <string name="instrumentGuitar">Kitarr</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulele</string>
+  <!---->
+  <string name="language">Keel</string>
+  <!---->
+  <string name="loadedSongs">Saadud laulud: %d</string>
+  <!---->
+  <string name="loadFromFile">Import…</string>
+  <!---->
+  <string name="loadingInProgress">Võtan vastu.\nPalun oodake…</string>
+  <!---->
+  <string name="more">Valikud</string>
+  <!---->
+  <string name="moveToFolder">Pane kataloogi…</string>
+  <!---->
+  <string name="na">Puuduvad andmed</string>
+  <!---->
+  <string name="newLangAvailable">Uus keel: %1s</string>
+  <!---->
+  <string name="appending">Uuendan %s</string>
+  <!---->
+  <string name="haventAccessPrivileges">Puuduvad kataloogile juurdepääsu õigused</string>
+  <!---->
+  <string name="newsDialogClose">Sulge</string>
+  <!---->
+  <string name="newsDialogLater">Tuleta hiljem meelde</string>
+  <!---->
+  <string name="newsDialogShow">Näita</string>
+  <!---->
+  <string name="no">Ei</string>
+  <!---->
+  <string name="notation">Duuri nimed</string>
+  <!---->
+  <string name="notationB">Vaikimisi </string>
+  <!---->
+  <string name="notationH">Saksa (B-&gt;H)</string>
+  <!---->
+  <string name="notationUnknown">Määratlemata</string>
+  <!---->
+  <string name="other">Mitmesugust</string>
+  <!---->
+  <string name="pause">Paus</string>
+  <!---->
+  <string name="preferences">Seaded…</string>
+  <!---->
+  <string name="rateNow">Hinda kohe</string>
+  <!---->
+  <string name="rateDialogTitle">Hinda seda rakendust</string>
+  <!---->
+  <string name="readingFileProgress">Loen faili (rida #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">Töötlen muudatusi %d%%</string>
+  <!---->
+  <string name="remindDbSyncDate">Teavita uutest lauludest</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Teavita vananenud lauludest andmebaasis ja vajadusest serveriga sünkroniseerimisest </string>
+  <!---->
+  <string name="remove">Eemalda</string>
+  <!---->
+  <string name="removeAll">Kustuta kõik</string>
+  <!---->
+  <string name="removeFromFavourites">Eemalda lemmikutest</string>
+  <!---->
+  <string name="removingInProgress">Kustutan.\nPalun oodake…</string>
+  <!---->
+  <string name="restart">Restart</string>
+  <!---->
+  <string name="restoreSettingTitle">Taasta</string>
+  <!---->
+  <string name="restoreCompleted">Taastamine teostatud</string>
+  <!---->
+  <string name="restoreSummary">Taasta andmebaas varukoopiast </string>
+  <!---->
+  <string name="restoring">Taastan…</string>
+  <!---->
+  <string name="rootMenuFolders">Kataloogid</string>
+  <!---->
+  <string name="rootMenuInfo">Informatsioon </string>
+  <!---->
+  <string name="rootMenuSongs">Laulude nimekiri</string>
+  <!---->
+  <string name="rootMenuTopUsers">Top kasutajad</string>
+  <!---->
+  <string name="save">Salvesta</string>
+  <!---->
+  <string name="saveToFile">Salvesta faili…</string>
+  <!---->
+  <string name="scrollSpeed">Kerimise kiirus</string>
+  <!---->
+  <string name="search">Otsi</string>
+  <!---->
+  <string name="select">Vali</string>
+  <!---->
+  <string name="selectFile">Vali fail</string>
+  <!---->
+  <string name="sender">Saadetud</string>
+  <!---->
+  <string name="serverUnderConstructionError">Server pole ajutiselt saadaval. Palun proovige hiljem.</string>
+  <!---->
+  <string name="share">Saada</string>
+  <!---->
+  <string name="showSongPaused">Esialgne paus</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%1s\" lisatud lemmikutesse</string>
+  <!---->
+  <string name="songComments">Kommentaarid duuridele </string>
+  <!---->
+  <string name="showSongPausedSummary">Ära alusta automaatselt stardiloendust </string>
+  <!---->
+  <string name="songDelay">Esialgne paus</string>
+  <!---->
+  <string name="songDuration">Kestvus</string>
+  <!---->
+  <string name="songInfo">Informatsioon</string>
+  <!---->
+  <string name="songLanguage">Keeled</string>
+  <!---->
+  <string name="songName">Nimi</string>
+  <!---->
+  <string name="songsAddedToFolder_">Kataloogi lisatud laulud \"%1s\"</string>
+  <!---->
+  <string name="songText">Sõnad</string>
+  <!---->
+  <string name="songTextScreen">Laulu sõnadega ekraan</string>
+  <!---->
+  <string name="songTextSize">Tähemärgi suurus</string>
+  <!---->
+  <string name="speedDown">Aeglasemalt</string>
+  <!---->
+  <string name="speedUp">Kiiremini</string>
+  <!---->
+  <string name="remindLater">Tuleta hiljem meelde</string>
+  <!---->
+  <string name="neverRemind">Pole tähtis</string>
+  <!---->
+  <string name="syncNow">Sünkroniseeri kohe</string>
+  <!---->
+  <string name="syncWithServer">Sünkroniseeri</string>
+  <!---->
+  <string name="systemSettingsTitle">Süsteem</string>
+  <!---->
+  <string name="transpose">Asuta ümber</string>
+  <!---->
+  <string name="unknown">Tundmatu</string>
+  <!---->
+  <string name="userComments">Kasutajate kommentaarid</string>
+  <!---->
+  <string name="versionInfo">Rakenduse versioon</string>
+  <!---->
+  <string name="yes">Jah</string>
+  <!---->
+  <string name="yesterday">Eile</string>
+  <!---->
+  <string name="zoomIn">Suurenda tähemärgi suurust</string>
+  <!---->
+  <string name="zoomOut">Vähenda tähemärgi suurust</string>
+  <!---->
+  <string name="faqTextAnswer1">Parim lahendus - kasutage kodulehte en.guitarsongs.club. Siis saavad Teie poolt lisatud lugudele kohese juurdepääsu ka teised kasutajad. Kui aga soovite lisada lugu ainult enda jaoks, siis toimige järgnevalt: olles laulude nimekirja lehel valige menüüst \"Import…\". Peale seda valige vastav kataloog või teksti (.txt) fail.\n\nHoiatus! Ärge proovige üles laadida mp3 või muud taolist laulu faili formaati, mis ei hakka meie serveris tööle.</string>
+  <!---->
+  <string name="faqTextAnswer10">Võite seda teha rakenduse siseselt: valige \"seaded\" ning sealt \"Aita tõlkida\".</string>
+  <!---->
+  <string name="faqTextAnswer4">Palun võtke meiega ühendust, kirjeldades iga viga (bug), oma seadet ja Androidi versiooni.</string>
+  <!---->
+  <string name="faqTextAnswer7">Need numbrid näitavad keskmist hinnangut selle loo Tab-idele ja duuridele. Te saate samuti anda oma hinde valides menüüst sõnade nimekirjas \"Hinda\". Lisasime selle võimaluse, et vähendada meie andmebaasis \"halva kvaliteediga\" lugusid. Kontrollime hoolikalt halva hinde saanud lugusid, võimalusel parandame neid või siis eemaldame.</string>
+  <!---->
+  <string name="faqTextAnswer8">Jah, žestide kasutamine on võimalik. Võite sõrmega lehitseda \"vasakule\" või \"paremale\" (žesatid töötavad vaid kataloogi siseselt)</string>
+  <!---->
+  <string name="faqTextAnswer9">Minge kodulehele en.guitarsongs.club, logige sisse oma Google kontoga ning saate lisada oma lemmiklugu ühisesse andmebaasi. Uued lood on koheselt saadaval kõikidele kasutajatele. Rakenduses vajutage \"Sünkroniseerimise\" nuppu, et alla laadida värskem sisu.</string>
+  <!---->
+  <string name="faqTextQuestion0">Kuidas teavitada veast (bug), esitada küsimusi või teavitada tarkvara arendajat?</string>
+  <!---->
+  <string name="faqTextQuestion1">Kuidas saan lisada oma laulu andmebaasi?</string>
+  <!---->
+  <string name="faqTextQuestion10">Tahan aidata rakendust tõlkida oma emakeelde. Kuidas ma seda teha saan?</string>
+  <!---->
+  <string name="faqTextQuestion3">Kuidas vaadata duuri asetust?</string>
+  <!---->
+  <string name="faqTextQuestion4">Peale viimast uuendust on mul suur hulk vigu (bug) rakenduse töös. Mida ma pean tegema?</string>
+  <!---->
+  <string name="faqTextQuestion5">Ma ei saa lugusid kuulata, mul ei ole mikski heli!</string>
+  <!---->
+  <string name="faqTextQuestion7">Mida tähendavad numbrid mõnede lugude nimede taga?</string>
+  <!---->
+  <string name="faqTextQuestion8">Kas ma saan vaadata järgmist lugu, kuni mängib veel käesolev laul, ilma, et ma peaksin minema algnimekirja juurde?</string>
+  <!---->
+  <string name="faqTextQuestion9">Kuidas ma saan lisada uut laulu andmebaasi?</string>
+  <!---->
+  <string name="rateDialogMessage">Kui teile see rakendus meeldib, siis palun leidke aega selle hindamiseks. See ei võta aega enam, kui minut. Täname Teid toetuse eest!</string>
+  <!---->
+  <string name="syncDialogMessage">Teie laulude andmebaas on vananenud. Sünkroniseerige serveriga, et uuendada andmebaasi. Kas sünkroniseerime kohe?</string>
+</resources>

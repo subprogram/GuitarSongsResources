@@ -1,0 +1,78 @@
+<resources>
+  <!---->
+  <string name="chooseLang">เลือกภาษา</string>
+  <!---->
+  <string name="transpose">เปลี่ยนคีย์</string>
+  <!---->
+  <string name="accordNotFound">ไม่มีข้อมูลคอร์ดนี้</string>
+  <!---->
+  <string name="removingInProgress">กำลังลบข้อมูล\nกรุณารอ…</string>
+  <!---->
+  <string name="dbServerSongsCount">จำนวนเพลงที่มี: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">วันที่ล่าสุดที่มีการซิงค์ข้อมูล</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">เพลงที่มีการเพิ่มเติมเมื่อเร็วๆ นี้</string>
+  <!---->
+  <string name="dbInitError">เกิดความผิดพลาดขณะที่มีการเชื่อมต่อฐานข้อมูล!</string>
+  <!---->
+  <string name="inetReceiveMessage">กำลังส่งข้อมูล\nกรุณารอ…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">กำลังปรับปรุงรายการคอร์ดเพลง</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">กำลังปรับปรุงข้อคิดเห็น</string>
+  <!---->
+  <string name="inetReceiveError">เกิดความผิดพลาด (%d) ไม่มีสัญญาณจากเซิร์ฟเวอร์\nกรุณาตรวจการเชื่อมต่ออินเตอร์เน็ต แล้วลองใหม่</string>
+  <!---->
+  <string name="readingFileProgress">กำลังอ่านไฟล์ (บรรทัดที่ #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">กำลังปรับปรุงรายการที่มีการเปลี่ยนแปลง %d%%</string>
+  <!---->
+  <string name="loadedSongs">จำนวนเพลงที่แยกเสร็จแล้ว : %d</string>
+  <!---->
+  <string name="loadingInProgress">กำลังแยกเพลง\nกรุณารอ…</string>
+  <!---->
+  <string name="duration">ระยะเวลา</string>
+  <!---->
+  <string name="rateSong">อัตราเร็วของจังหวะเพลง</string>
+  <!---->
+  <string name="averageRating">อัตราเร็วเฉลี่ยของ แท็บ</string>
+  <!---->
+  <string name="restart">เริ่มใหม่</string>
+  <!---->
+  <string name="save">บันทึก</string>
+  <!---->
+  <string name="more">ตัวเลือก</string>
+  <!---->
+  <string name="dbInfo">ความเกี่ยวพันกับฐานข้อมูล</string>
+  <!---->
+  <string name="loadFromFile">นำเข้าเพลง</string>
+  <!---->
+  <string name="removeAll">ลบทิ้งทั้งหมด</string>
+  <!---->
+  <string name="errorHappened">มีความผิดพลาด (code: %d)</string>
+  <!---->
+  <string name="favourites">เพลงโปรด</string>
+  <!---->
+  <string name="appendToFavourites">เพิ่มเพลงเข้าสู่รายการเพลงโปรด</string>
+  <!---->
+  <string name="removeFromFavourites">ลบเพลงนี้ออกจากรายการเพลงโปรด</string>
+  <!---->
+  <string name="badVersionError">เราปรับปรุงระบบบนเซิร์ฟเวอร์ กรุณา update โปรแกรม</string>
+  <!---->
+  <string name="authorName">ชื่อศิลปิน</string>
+  <!---->
+  <string name="songName">ชื่อ</string>
+  <!---->
+  <string name="songText">เนื้อร้อง</string>
+  <!---->
+  <string name="songDuration">ระยะเวลา</string>
+  <!---->
+  <string name="scrollSpeed">อัตราการเลื่อนหน้าจอ</string>
+  <!---->
+  <string name="language">ภาษา</string>
+  <!---->
+  <string name="songLanguage">ภาษา</string>
+  <!---->
+  <string name="chooseKey">เลือกคีย์เพลง</string>
+</resources>

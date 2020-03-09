@@ -1,0 +1,264 @@
+<resources>
+  <!---->
+  <string name="guitarSongs">Pjesme za gitaru</string>
+  <!---->
+  <string name="newLangAvailable">Novi jezik: %1s</string>
+  <!---->
+  <string name="songLanguage">Jezici</string>
+  <!---->
+  <string name="chooseLang">Odaberi jezik</string>
+  <!---->
+  <string name="accordInfoTitle">Informacije o akordima</string>
+  <!---->
+  <string name="accordNotFound">Nepoznati akord</string>
+  <!---->
+  <string name="dbServerSongsCount">Dostupno pjesama: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Poznati akordi: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Datum zadnje sinkronizacije</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Nedavno dodane pjesme</string>
+  <!---->
+  <string name="inetReceiveMessage">Slanje podataka. Molimo strpljenje…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Ažuriranje liste akorda…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Ažuriranje komentara…</string>
+  <!---->
+  <string name="inetReceiveError">Greška (%d) server ne reagira! Molimo da provjerite Internet postavke i da pokušate ponovno</string>
+  <!---->
+  <string name="readingFileProgress">Čitanje datoteke (linija #%d)</string>
+  <!---->
+  <string name="duration">Trajanje</string>
+  <!---->
+  <string name="syncWithServer">Usklađivanje</string>
+  <!---->
+  <string name="append">Dodaj</string>
+  <!---->
+  <string name="appending">Dodavanje %s</string>
+  <!---->
+  <string name="restart">Ponovno pokreni</string>
+  <!---->
+  <string name="pause">Pauziraj</string>
+  <!---->
+  <string name="save">Spremi</string>
+  <!---->
+  <string name="yes">Da</string>
+  <!---->
+  <string name="no">Ne</string>
+  <!---->
+  <string name="more">Opcije</string>
+  <!---->
+  <string name="exit">Izađi</string>
+  <!---->
+  <string name="accords">Akordi</string>
+  <!---->
+  <string name="dbInfo">Važnost baze podataka</string>
+  <!---->
+  <string name="versionInfo">Verzija aplikacije</string>
+  <!---->
+  <string name="search">Pretraga</string>
+  <!---->
+  <string name="find">Pronađi</string>
+  <!---->
+  <string name="removeAll">Izbriši sve</string>
+  <!---->
+  <string name="preferences">Postavke…</string>
+  <!---->
+  <string name="disableAds">Isključi oglase</string>
+  <!---->
+  <string name="clearDB">Očisti bazu podataka</string>
+  <!---->
+  <string name="songInfo">Informacije</string>
+  <!---->
+  <string name="edit">Uredi…</string>
+  <!---->
+  <string name="error">Greška</string>
+  <!---->
+  <string name="errorHappened">Došlo je do greške (kod: %d)</string>
+  <!---->
+  <string name="favourites">Omiljeno</string>
+  <!---->
+  <string name="appendToFavourites">Dodaj u omiljeno</string>
+  <!---->
+  <string name="removeFromFavourites">Ukloni iz omiljenog</string>
+  <!---->
+  <string name="remove">Ukloni</string>
+  <!---->
+  <string name="areYouSure">Sigurno?</string>
+  <!---->
+  <string name="areYouSureToExit">Izlaz iz aplikacije?</string>
+  <!---->
+  <string name="areYouSureToDelete">Odabran će biti obrisano. Nastaviti?</string>
+  <!---->
+  <string name="fileSaved">Datoteka uspješno spremljena</string>
+  <!---->
+  <string name="fileSaveError">Nije bilo moguće spremiti datoteku</string>
+  <!---->
+  <string name="authorName">Ime umjetnika</string>
+  <!---->
+  <string name="songName">Ime</string>
+  <!---->
+  <string name="songText">Stihovi</string>
+  <!---->
+  <string name="songDuration">Trajanje</string>
+  <!---->
+  <string name="songComments">Komentari akorda</string>
+  <!---->
+  <string name="userComments">Komentari korisnika</string>
+  <!---->
+  <string name="sender">Poslano</string>
+  <!---->
+  <string name="speedUp">Brže</string>
+  <!---->
+  <string name="speedDown">Sporije</string>
+  <!---->
+  <string name="unknown">Nepoznato</string>
+  <!---->
+  <string name="language">Jezik</string>
+  <!---->
+  <string name="appearance">Izgled</string>
+  <!---->
+  <string name="songTextScreen">Ekran sa stihovima pjesme</string>
+  <!---->
+  <string name="other">Razno</string>
+  <!---->
+  <string name="attention">Pozor!</string>
+  <!---->
+  <string name="anonymous">Anonimno</string>
+  <!---->
+  <string name="functionNotAllowed">Ova opcija nije dostupna u besplatnoj verziji</string>
+  <!---->
+  <string name="showSongPausedSummary">Nemoj automatski započeti odbrojavanje</string>
+  <!---->
+  <string name="hideActionBarSummary">Preporuči za uređaje s malim ekranom</string>
+  <!---->
+  <string name="design">Tema izgleda</string>
+  <!---->
+  <string name="designSummary">Nakon promjene teme, molimo ponovno pokrenite aplikaciju</string>
+  <!---->
+  <string name="instrument">Instrument</string>
+  <!---->
+  <string name="songTextSize">Veličina slova</string>
+  <!---->
+  <string name="zoomIn">Povećaj veličinu slova</string>
+  <!---->
+  <string name="zoomOut">Smanji veličinu slova</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Svaka pjesma koristi istu veličinu slova</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Više nema oglasa u aplikaciji!</string>
+  <!---->
+  <string name="selectFile">Odaberi datoteku</string>
+  <!---->
+  <string name="select">Odaberi</string>
+  <!---->
+  <string name="yesterday">jučer</string>
+  <!---->
+  <string name="chooseFolder">Odaberi mapu</string>
+  <!---->
+  <string name="inputFolderName">Unesi ime</string>
+  <!---->
+  <string name="helpToTranslateSummary">Možete pomoći prevesti aplikaciju na Vaš materinji jezik</string>
+  <!---->
+  <string name="share">Pošalji</string>
+  <!---->
+  <string name="rateDialogTitle">Ocijeni ovu aplikaciju</string>
+  <!---->
+  <string name="rateDialogMessage">Ako Vam se sviđa aplikacija, odvojite trenutak i ocijenite je. Neće trajati dulje od minute. Hvala na potpori!</string>
+  <!---->
+  <string name="rateNow">Ocijeni sada</string>
+  <!---->
+  <string name="faqTextQuestion10">Želim pomoći u prevođenju ove aplikacije na svoj materinji jezik. Kako to mogu učiniti?</string>
+  <!---->
+  <string name="faqTextAnswer10">Možete direktno iz aplikacije: otiđite u postavke i odaberite \"Pomoć pri prevođenju\"</string>
+  <!---->
+  <string name="faqTextQuestion9">Kako mogu dodati novu pjesmu u bazu podataka?</string>
+  <!---->
+  <string name="faqTextQuestion8">Mogu li vidjeti iduću pjesmu dok mi je uključena druga, bez vraćanja na listu?</string>
+  <!---->
+  <string name="faqTextQuestion7">Što znače brojevi pokraj imena nekih pjesama?</string>
+  <!---->
+  <string name="faqTextAnswer7">Taj broj označava ocjene tablatura i akorda za tu pjesmu. Možete glasovati za pjesme odaberete li opciju \"Ocijeni\" na listi pokraj stihova. Dodali smo tu opciju kako bismo oslobodili bazu podataka od pjesama loše kvalitete. Pažljivije ćemo modelirati pjesme s malim ocjenama i pokušati ih unaprijediti ako je to moguće.</string>
+  <!---->
+  <string name="faqTextQuestion5">Ne mogu slušati pjesme jer nema zvuka!</string>
+  <!---->
+  <string name="faqTextAnswer5">Ovo je pjesmarica. Ovdje možete naći samo stihove pjesama.</string>
+  <!---->
+  <string name="faqTextQuestion4">Nakon zadnjega ažuriranja u aplikaciji se pojavljuje mnogo grešaka. Što trebam napraviti?</string>
+  <!---->
+  <string name="faqTextAnswer4">Molimo da nas slobodno kontaktirate opisujući svaku grešku, model uređaja i verziju Androida.</string>
+  <!---->
+  <string name="rootMenuFolders">Mape</string>
+  <!---->
+  <string name="rootMenuSongs">Lista pjesama</string>
+  <!---->
+  <string name="rootMenuInfo">Informacije</string>
+  <!---->
+  <string name="designWood">Drvo</string>
+  <!---->
+  <string name="designBlack">Crno</string>
+  <!---->
+  <string name="designWhite">Bijelo</string>
+  <!---->
+  <string name="instrumentGuitar">Gitara</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulele</string>
+  <!---->
+  <string name="faqTextAnswer0">Molimo da poruku napišite na našem službenom blogu - https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="faqTextQuestion0">Kako prijaviti grešku, postaviti pitanje ili obavijestiti developera?</string>
+  <!---->
+  <string name="faqTextQuestion1">Kako mogu dodati svoju pjesmu u bazu podataka?</string>
+  <!---->
+  <string name="faqTextAnswer3">Samo stisnite na akord koji vas zanima</string>
+  <!---->
+  <string name="helpToTranslate">Pomozi pri prevođenju</string>
+  <!---->
+  <string name="fixedSongTextSize">Fiksna veličina slova</string>
+  <!---->
+  <string name="googlePlayNotFound">Greška pri otvaranju Google Playa</string>
+  <!---->
+  <string name="removingInProgress">Brisanje. Molimo pričekajte…</string>
+  <!---->
+  <string name="rateSong">Ocijeni </string>
+  <!---->
+  <string name="chooseKey">Odaberite ključ</string>
+  <!---->
+  <string name="cancel">Odustani</string>
+  <!---->
+  <string name="songsAddedToFolder_">Pjesme dodane u mapu \"%1s\"</string>
+  <!---->
+  <string name="goToAuthor">Pokaži sve pjesme izvođača </string>
+  <!---->
+  <string name="moveToFolder">Premjesti u mapu…</string>
+  <!---->
+  <string name="readingServerDataProgress">Obrađivanje liste promjena %d%%</string>
+  <!---->
+  <string name="rateSongText">Ocijenite kvalitetu tablature. \nOcjena će biti dodana nakon iduće sinkronizacije sa serverom. </string>
+  <!---->
+  <string name="songDelay">Početna stanka</string>
+  <!---->
+  <string name="na">Nema podataka</string>
+  <!---->
+  <string name="faqTextAnswer1">Najbolje od svega - koristite stranicu en.guitarsongs.club i tada će pjesme koje dodate biti odmah dostupne i drugim korisnicima. Ako želite pjesmu dodati samo za sebe, onda učinite sljedeće: Dok ste na listi pjesama otiđite u izbornik i izaberite opciju \"Uvezi…\". Nakon toga odaberite mapu ili tekstualnu (.txt) datoteku. \n\nUpozorenje! Ne pokušavajte dodati mp3 ili bilo koji drugi audijski format jer to neće raditi.</string>
+  <!---->
+  <string name="rootMenuTopUsers">Najbolji korisnici</string>
+  <!---->
+  <string name="averageRating">Prosječna ocjena tablature</string>
+  <!---->
+  <string name="loadFromFile">Uvezi…</string>
+  <!---->
+  <string name="showSongPaused">Početna stanka</string>
+  <!---->
+  <string name="langId">8</string>
+  <!---->
+  <string name="loadedSongs">Učitanih pjesama: %d</string>
+  <!---->
+  <string name="saveToFile">Spremi u…</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%1s\" dodano u omiljene</string>
+  <!---->
+  <string name="empty">Prazno</string>
+</resources>

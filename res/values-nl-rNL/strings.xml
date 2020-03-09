@@ -1,0 +1,256 @@
+<resources>
+  <!---->
+  <string name="guitarSongs">Guitaar Liederen</string>
+  <!---->
+  <string name="newLangAvailable">Nieuwe taal: %1s</string>
+  <!---->
+  <string name="songLanguage">Vertalingen</string>
+  <!---->
+  <string name="chooseLang">Kies taal</string>
+  <!---->
+  <string name="accordInfoTitle">Akkoorden info</string>
+  <!---->
+  <string name="accordNotFound">Onbekende akkoord</string>
+  <!---->
+  <string name="removingInProgress">verwijderen. Even geduld</string>
+  <!---->
+  <string name="dbServerSongsCount">Beschikbare liederen: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Bekende akoorden: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Datum laatste synchronisati</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Laatste liederen erbij</string>
+  <!---->
+  <string name="dbInitError">Fout tijdens initiatie van de database!\nSelecteer de juiste pad in de settings</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Update akkoorden lijst</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Update kommentaar</string>
+  <!---->
+  <string name="inetReceiveError">Fout(%d) server reageerd niet!\nKontroleer uw internet verbinding en probeer opnieuw</string>
+  <!---->
+  <string name="readingFileProgress">Lees bestand (lijn #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">proces lijst van de veranderingen %d%%</string>
+  <!---->
+  <string name="loadedSongs">gecomprimeerde liederen: %d</string>
+  <!---->
+  <string name="loadingInProgress">Comprimeren. geduld</string>
+  <!---->
+  <string name="duration">Tijdsduur</string>
+  <!---->
+  <string name="rateSong">Verhouding</string>
+  <!---->
+  <string name="averageRating">Gemiddelde Tab waardering</string>
+  <!---->
+  <string name="rateSongText">Uw waardering wordt verwerkt bij de volgende synchronisatie op de server</string>
+  <!---->
+  <string name="syncWithServer">Synchroniseer</string>
+  <!---->
+  <string name="chooseKey">Kies de toonsoort</string>
+  <!---->
+  <string name="transpose">Transponeer</string>
+  <!---->
+  <string name="append">Voeg toe</string>
+  <!---->
+  <string name="appending">%s wordt toegevoegd</string>
+  <!---->
+  <string name="restart">Start opnieuw</string>
+  <!---->
+  <string name="pause">Pauze</string>
+  <!---->
+  <string name="save">Opslaan</string>
+  <!---->
+  <string name="yes">Ja</string>
+  <!---->
+  <string name="no">Nee</string>
+  <!---->
+  <string name="more">Keuzemenu</string>
+  <!---->
+  <string name="cancel">Annuleer</string>
+  <!---->
+  <string name="exit">Einde</string>
+  <!---->
+  <string name="accords">Accoorden</string>
+  <!---->
+  <string name="dbInfo">Database relevantie</string>
+  <!---->
+  <string name="versionInfo">App versie</string>
+  <!---->
+  <string name="feedback">Feedback</string>
+  <!---->
+  <string name="search">Zoeken</string>
+  <!---->
+  <string name="find">Vinden</string>
+  <!---->
+  <string name="saveToFile">Opslaan in bestand..</string>
+  <!---->
+  <string name="loadFromFile">Importeren..</string>
+  <!---->
+  <string name="removeAll">Wis alles</string>
+  <!---->
+  <string name="preferences">Instellingen…</string>
+  <!---->
+  <string name="disableAds">Advertenties uitschakelen</string>
+  <!---->
+  <string name="clearDB">Database leegmaken</string>
+  <!---->
+  <string name="songInfo">Informatie</string>
+  <!---->
+  <string name="edit">Bewerken…</string>
+  <!---->
+  <string name="error">Fout</string>
+  <!---->
+  <string name="errorHappened">Er was een fout (code: %d)</string>
+  <!---->
+  <string name="favourites">Favorieten</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%1s\" toegevoegd aan favorieten</string>
+  <!---->
+  <string name="appendToFavourites">Voeg toe aan favorieten</string>
+  <!---->
+  <string name="removeFromFavourites">Verwijder uit favorieten</string>
+  <!---->
+  <string name="remove">Verwijder</string>
+  <!---->
+  <string name="areYouSure">Weet u dit zeker?</string>
+  <!---->
+  <string name="areYouSureToExit">App verlaten?</string>
+  <!---->
+  <string name="areYouSureToDelete">Geselecteerde zaken zullen worden verwijderd. Doorgaan?</string>
+  <!---->
+  <string name="fileSaved">Bestand succesvol opgeslagen</string>
+  <!---->
+  <string name="fileSaveError">Bestand niet opgeslagen</string>
+  <!---->
+  <string name="badVersionError">Wij hebben de gegevens op de server bijgewerkt. Vernieuw deze app</string>
+  <!---->
+  <string name="authorName">Naam van de artiest</string>
+  <!---->
+  <string name="songName">Naam</string>
+  <!---->
+  <string name="songText">Songtekst</string>
+  <!---->
+  <string name="songDuration">Tijdsduur</string>
+  <!---->
+  <string name="songDelay">Begin pauze</string>
+  <!---->
+  <string name="songComments">Commentaar op de accoorden</string>
+  <!---->
+  <string name="userComments">Gebruikers commentaar</string>
+  <!---->
+  <string name="scrollSpeed">Schuif snelheid</string>
+  <!---->
+  <string name="sender">Verzonden</string>
+  <!---->
+  <string name="speedUp">Sneller</string>
+  <!---->
+  <string name="speedDown">Langzamer</string>
+  <!---->
+  <string name="na">Geen gegevens</string>
+  <!---->
+  <string name="unknown">Onbekend</string>
+  <!---->
+  <string name="language">Taal</string>
+  <!---->
+  <string name="appearance">Uiterlijk</string>
+  <!---->
+  <string name="songTextScreen">Scherm met de songtekst</string>
+  <!---->
+  <string name="other">Gemengd</string>
+  <!---->
+  <string name="attention">Let op!</string>
+  <!---->
+  <string name="anonymous">Anoniem</string>
+  <!---->
+  <string name="googlePlayNotFound">Kan Google Play niet openen</string>
+  <!---->
+  <string name="functionNotAllowed">Deze functie is niet beschikbaar in de gratis versie</string>
+  <!---->
+  <string name="chooseFileManager">Kies je bestanden map</string>
+  <!---->
+  <string name="empty">Leeg</string>
+  <!---->
+  <string name="showSongPaused">Pauze aan begin</string>
+  <!---->
+  <string name="showSongPausedSummary">Aftellen niet automatisch starten</string>
+  <!---->
+  <string name="hideActionBar">Verberg bedieningsknoppen</string>
+  <!---->
+  <string name="hideActionBarSummary">Aanbevolen voor toestellen met een klein beeldscherm</string>
+  <!---->
+  <string name="design">Beeldscherm aanpassen</string>
+  <!---->
+  <string name="designSummary">Start, na het veranderen van het uiterlijk, de applicatie opnieuw a.u.b.</string>
+  <!---->
+  <string name="instrument">Instrument</string>
+  <!---->
+  <string name="songTextSize">Letter grootte</string>
+  <!---->
+  <string name="zoomIn">Vergroot lettergrootte</string>
+  <!---->
+  <string name="zoomOut">Verklein lettergrootte</string>
+  <!---->
+  <string name="fixedSongTextSize">Vaste lettergrootte</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Elk lied gebruikt dezelfde lettergroote</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">De applicatie is nu vrij van advertenties!</string>
+  <!---->
+  <string name="selectFile">Selecteer bestand</string>
+  <!---->
+  <string name="select">Selecteer</string>
+  <!---->
+  <string name="haventAccessPrivileges">Je hebt geen toegangsrechten naar de bestandsmap</string>
+  <!---->
+  <string name="yesterday">Gisteren</string>
+  <!---->
+  <string name="chooseFolder">Kies bestandsmap</string>
+  <!---->
+  <string name="songsAddedToFolder_">Liedjes zijn geplaatst in de bestandsmap \"%1s\"</string>
+  <!---->
+  <string name="inputFolderName">Vul naam in</string>
+  <!---->
+  <string name="allowAbusive">Beledigende liederen</string>
+  <!---->
+  <string name="allowAbusiveSummary">Laat beledigende liederen zien</string>
+  <!---->
+  <string name="helpToTranslate">Help te vertalen</string>
+  <!---->
+  <string name="helpToTranslateSummary">Je kunt helpen om deze applicatie in je eigen moedertaal te vertalen</string>
+  <!---->
+  <string name="share">Verzenden</string>
+  <!---->
+  <string name="rateDialogTitle">Beoordeel deze app</string>
+  <!---->
+  <string name="rateDialogMessage">Als deze app je bevalt, neem dan a.u.b. even een moment de tijd om deze app te beoordelen. Het duurt maar een klein minuutje. Dank je wel voor je ondersteuning!</string>
+  <!---->
+  <string name="rateNow">Beoordeel nu</string>
+  <!---->
+  <string name="faqTextQuestion10">Ik wil wel helpen om deze applicatie te vertalen in mijn moedertaal. Hoe kan ik dit doen?</string>
+  <!---->
+  <string name="faqTextAnswer10">Je kunt dit direct vanuit de applicatie doen: Ga naar Instellingen en selecteer \" Help te vertalen\"</string>
+  <!---->
+  <string name="faqTextQuestion9">Hoe kan ik nieuwe liederen in de database toevoegen?</string>
+  <!---->
+  <string name="faqTextAnswer9">Bezoek de webpagina en.guitarsongs.club, log in met je google-account en plaats je favoriete liederen in een gemeenschappelijke databank. Nieuwe liederen zijn direct beschikbaar voor alle gebruikers. Druk op de \"Synchronize\" knop in de applicatie.</string>
+  <!---->
+  <string name="faqTextQuestion8">Kan ik het volgende liedje al bekijken terwijl ik een liedje aan het afspelen ben, zonder dat ik eerst naar de lijst terug hoef te gaan?</string>
+  <!---->
+  <string name="faqTextAnswer8">Ja, je kunt gestures, vegen naar \"links\" of \" rechts\", gebruiken (gestures werkt alleen in de huidige bestandsmap).</string>
+  <!---->
+  <string name="faqTextQuestion7">Wat doen de nummers die naast de namen van sommige liedjes staan?</string>
+  <!---->
+  <string name="faqTextAnswer7">Deze nummers betekenen de gemiddelde score van tabs en akkoorden voor dit lied. Je kunt je stem uitbrengen voor bepaalde liederen in het menu Opties \"Stem\" op de tekstenlijst. We hebben deze uitbreiding toegevoegd om de database te beschermen tegen liederen met een laag kwaliteitgehalte.\nWe zullen de liederen met weinig stemmen zorgvuldiger controleren en daar waar mogelijk is ze proberen nog te verbeteren.</string>
+  <!---->
+  <string name="faqTextQuestion5">Ik kan het lied niet beluisteren, ik heb helemaal geen geluid!</string>
+  <!---->
+  <string name="faqTextAnswer5">Dit is een liedboek, je vindt hier alleen de teksten van liederen.</string>
+  <!---->
+  <string name="faqTextQuestion4">Na de laatste update heb ik heel veel fouten in de applicatie, wat moet ik doen?</string>
+  <!---->
+  <string name="faqTextAnswer4">Doe ons een plezier en neem gerust contact met ons op en maak een beschrijving van elke fout, en vermeldt het model van het apparaat en Android versie.</string>
+  <!---->
+  <string name="faqTextAnswer3">Druk op het akkoord die je wilt weten.</string>
+</resources>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guitarSongs">Gitarkantoj</string>
+
+    <string name="langId">65</string>
+    <string name="newLangAvailable">Nova lingvo: %s</string>
+    <string name="songLanguage">Lingvo (kantoj)</string>
+    <string name="appLanguage">Lingvo (apo)</string>
+    <string name="chooseLang">Elekti lingvon de kantoj</string>
+    <string name="songsLangMenuItem">Lingvo de kantoj</string>
+    <string name="viewSettingsTitle">Aspekto</string>
+    <string name="viewArtists">Artistoj</string>
+    <string name="viewShowLettersScreen">Ekrano kun aboco</string>
+    <string name="viewHideMySongs">Kaŝi miajn kantojn</string>
+    <string name="viewHideNicknames">Kaŝi kromnomon</string>
+    <string name="chooseFolder">Elekti dosierujon</string>
+    <string name="choosePlaylist">Elekti ludliston</string>
+    <string name="songsAddedToFolder_">La kantoj aldonitaj al dosierujo \"%s\"</string>
+    <string name="songsAddedToPlaylist_">La kantoj aldonitaj al ludlisto \"%s\"</string>
+
+    <string name="dataCollectionConsent">Konsento pri datouzado</string>
+    <string name="analyticsPrivacyPolicyCaption">Privateca politiko (analitiko)</string>
+    <string name="analyticsPrivacyPolicyText">Dankon pro la uzo de la apo, \"%1$s\"! Ni konstante plibonigas kvaliton de la apo. Por tiu ĉi celo ni bezonas viajn anonimajn statistikajn datumojn pri uzado de la apo kaj erarraportojn. Bonvolu permesi al ni kolekti tiujn ĉi datumojn.</string>
+    <string name="showPolicyButton">Legi la politikon</string>
+    <string name="collectedData">Kolektataj datumoj:</string>
+    <string name="agreeButton">Mi konsentas</string>
+    <string name="disagreeButton">Mi rezignas</string>
+
+    <string name="adsPrivacyPolicyCaption">Privateca politiko (reklamo)</string>
+    <string name="adsPrivacyPolicyText1">Ni zorgas vian privatecon kaj sekurecon de viaj datumoj. La apo estas senpaga por vi dank\'al flankaj servoj.</string>
+    <string name="adsPrivacyPolicyText2">Ĉu ni povas uzi vian porteblan identigilon por montrado de personigita reklamo?</string>
+    <string name="adsPrivacyPolicyText2Continue">Ĉu ni povas daŭrigi uzadon de via portebla identigilo por montrado de personigita reklamo?</string>
+    <string name="adsPrivacyPolicyText3">Niaj partneroj kolektos datumojn kaj uzos porteblan identigilon de via aparato por montrado de oportuna reklamo.</string>
+    <string name="adsPrivacyPolicyUpdateToV2Rus">Ni renovigis privatecan politikon (aldonita reklama provizanto Apperate Online).</string>
+    <string name="adsPrivacyPolicyUpdateToV4Vint">Ni renovigis privatecan politikon (aldonita reklama provizanto Yandex Advertising Network).</string>
+
+    <string name="optOutInfo">Vi povas en ajna momento revoki vian konsenton en apa agordilo.</string>
+
+    <string name="firebaseAuthPrivacyPolicyCaption">Privateca politiko (Firebase)</string>
+    <string name="googleAuthPrivacyPolicyCaption">Privateca politiko (Google)</string>
+
+    <string name="otherPrivacyPolicyText">Por aktivigi tiun ĉi funkcionalon legu kaj akceptu privatecan politikon.</string>
+    <string name="optOut">Rezigni</string>
+    <string name="restartRequired">Novaj agordoj realiĝos post restarto de la apo</string>
+
+    <string name="acceptAdsButton">Jes, mi konsentas</string>
+    <string name="rejectAdsButton">Ne</string>
+    <string name="payForAdFreeVersionButton">Aĉeti la apon sen raklamo</string>
+
+    <string name="acceptPolicyButton">Mi konsentas</string>
+    <string name="legal">Reguloj</string>
+
+    <string name="accordInfoTitle">Informo pri la akordo</string>
+    <string name="accordNotFound">Nekonata akordo</string>
+    <string name="removingInProgress">Nuligado.\nBonvolu, atendi…</string>
+    <string name="executingInProgress">Bonvolu, atendi…</string>
+    <string name="dbServerSongsCount">Kantoj: %d</string>
+    <string name="dbAccordsCount">Konataj akordoj: %d</string>
+    <string name="dbLastSyncDate">Dato de lasta sinkronigo</string>
+    <string name="dbLastUpdatedSongs">Laste ĝisdatigitaj kantoj</string>
+    <string name="dbInitError">Eraro dum pravalorizo de la datumbazo!</string>
+    <string name="inetReceiveMessage">Transendado de datumoj.\nBonvolu, atendi…</string>
+    <string name="inetReceiveAccordsMessage">Renovigo de akordolisto…</string>
+    <string name="inetReceiveFavouritesMessage">Sinkronigo de elektitaj…</string>
+    <string name="inetReceivePlaylistsMessage">Sinkronigo de ludlistoj…</string>
+    <string name="inetReceiveCommentsMessage">Renovigo de komentoj…</string>
+    <string name="inetReceiveError">Eraro (%d) la servilo ne respondas!\nKontrolu retaliron</string>
+    <string name="readingFileProgress">Legado de dosiero (linio №%d)</string>
+    <string name="readingServerDataProgress">Prilaboras liston de ŝanĝoj %d%%</string>
+    <string name="loadedSongs">Elŝutitaj kantoj: %d</string>
+    <string name="loadingInProgress">Elŝutado.\nBonvolu, atendi…</string>
+    <string name="uploadingInProgress">Alŝutado.\nBonvolu, atendi…</string>
+    <string name="dbErrorMessage">Provu relanĉi la apon. Se tio ne helpos, bonvolu informi pri la cimo.</string>
+    <string name="copiedSongs">Kopiitaj %d kantoj</string>
+    <string name="duration">Daŭrigo</string>
+    <string name="rateSong">Taksi</string>
+    <string name="averageRating">Averaĝа poento por tabulaturo</string>
+    <string name="rateSongText">Taksi kvaliton de tabulaturo.\nVian poenton oni konsideros dum sekva\nsinkronigo kun la servilo.</string>
+    <string name="syncWithServer">Sinkronigi</string>
+    <string name="databaseIsEmpty">En la datumbazo mankas kantoj. Vi povas restarigi ilin el savkopia dosiero aŭ daŭrigi kun maplena datumbazo.</string>
+    <string name="continueWithEmptyDb">Daŭrigi kun malplena datumbazo</string>
+    <string name="restoreFromDropbox">Restarigi el Dropbox</string>
+    <string name="chooseAuthor">Elekti artiston</string>
+    <string name="chooseKey">Elekti tonalon</string>
+    <string name="transpose">Transponi</string>
+    <string name="append">Aldoni</string>
+    <string name="appendFolder">Aldoni dosierujon</string>
+    <string name="appendVirtualFolder">Aldoni virtualan dosierujon</string>
+    <string name="appendPlaylist">Aldoni ludliston</string>
+    <string name="newPlaylist">Nova</string>
+    <string name="newFolder">Nova dosierujo</string>
+    <string name="goToSdCard">Transiri al SD-karto</string>
+    <string name="appending">Renovigo %s</string>
+    <string name="restart">Restarto</string>
+    <string name="pause">Paŭzo</string>
+    <string name="langsManage">Ŝanĝi</string>
+
+    <string name="or">aŭ</string>
+    <string name="save">Konservi</string>
+    <string name="yes">Jes</string>
+    <string name="no">Ne</string>
+    <string name="more">Opcioj</string>
+    <string name="confirm">Konfirmi</string>
+    <string name="signUp">Registriĝi</string>
+    <string name="signIn">Ensaluti</string>
+    <string name="signOut">Eliri</string>
+    <string name="buy">Aĉeti</string>
+    <string name="cancel">Rezigni</string>
+    <string name="exit">Eliri</string>
+    <string name="accords">Akordoj</string>
+    <string name="enabled">Ŝalti</string>
+    <string name="sound">Sono</string>
+    <string name="proFeatureOnly">Ebla nur en <a href="market://details?id=ru.subprogram.guitarsongs.donate">Gitarkantoj Pro</a></string>
+    <string name="dbInfo">Aktualeco de la datumbazo</string>
+    <string name="databasePath">Situo de la datumbazo</string>
+    <string name="versionInfo">Versio de la apo</string>
+    <string name="feedback">Retrokuplo</string>
+    <string name="search">Serĉi</string>
+    <string name="find">Trovi</string>
+    <string name="sortByArtistName">Laŭ artisto</string>
+    <string name="sortBySongName">Laŭ nomo</string>
+    <string name="sortByRandom">Miksi</string>
+
+    <string name="overwriteFileMessage">Dosiero \"%s\" jam ekzistas. Superskribi?</string>
+
+    <string name="exportDialogMessage">Elekti dosierformaton</string>
+
+    <string name="signInWithGoogle">Ensaluti per  Google</string>
+    <string name="signInWithFacebook">Ensaluti per Facebook</string>
+    <string name="signInWithTwitter">Ensaluti per Twitter</string>
+    <string name="signInWithEmail">Ensaluti per retpoŝto</string>
+
+    <string name="password">Pasvorto</string>
+    <string name="currentLoginInfo">Vi ensalutis kiel</string>
+    <string name="signUpSuccess">Registriĝo finita, kontrolu vian retpoŝton</string>
+    <string name="signUpInstructions">Post premo al \"Registriĝi\", al menciita retpoŝto alvenos letero kun pasvorto.</string>
+    <string name="alreadyHaveAccount">Mi jam havas konton</string>
+
+    <string name="sortMode">Ordiga reĝimo</string>
+    <string name="saveToFile">Konservi al dosiero…</string>
+    <string name="copyToMySongs">Kopii al \"Miaj kantoj\"…</string>
+    <string name="loadFromFile">Importi…</string>
+    <string name="removeAll">Nuligi ĉiujn</string>
+    <string name="preferences">Agordoj</string>
+    <string name="disableAds">Malŝalti reklamon</string>
+    <string name="disableAdsPaid">Por ĉiam</string>
+    <string name="disableAdsFree">Por 1 semajno (senpage)</string>
+    <string name="disableAdsFreeInstruction">Por malŝalti reklamon por 1 semajno atendu finiĝon de la video</string>
+    <string name="activatePremiumFeatureTitle">ĉu vi volas aktivigi ĉi opcion en kuranta apo?</string>
+    <string name="activatePremiumFeaturePaid">Aktivigi por ĉiam</string>
+    <string name="activatePremiumFeatureFree">Aktivigi 1-foje (senpage)</string>
+    <string name="activatePremiumFeatureFreeInstruction">Por aktivigi premian opcion atendu finiĝon de la video</string>
+    <string name="tooShortSearchQuery">Por serĉi tra la teksto indas minimume 3 litetoj</string>
+    <string name="clearDB">Viŝi la datumbazon</string>
+    <string name="songInfo">Pri la kanto</string>
+    <string name="edit">Redakti…</string>
+    <string name="print_">Presi…</string>
+    <string name="print_feature">Presanta</string>
+    <string name="audioFile">Sondosiero</string>
+    <string name="playAudio">Aŭdi</string>
+    <string name="stopAudio">Halti</string>
+    <string name="goToAuthor">Montri ĉiujn kantojn de artisto</string>
+    <string name="error">Eraro</string>
+    <string name="errorHappened">Okazis eraro (kodo: %d)</string>
+    <string name="searchOnYoutube">Serĉi en Youtube</string>
+    <string name="watchOnYoutube">Spekti ĉe Youtube</string>
+    <string name="incorrectField">Nekorekta kampo</string>
+    <string name="metronom">Metronomo</string>
+    <string name="properties">Persone…</string>
+    <string name="editOwnSongWarning">Atenton! Vi ekredaktas "sisteman" kanton. Post sinkronigo ĝi renoviĝos en la servilo kaj ĉiuj ŝanĝoj aperos ĉe aliaj uzantoj.</string>
+
+    <string name="favourites">Elektitaj</string>
+    <string name="mySongs">Miaj kantoj</string>
+    <string name="hide">Kaŝi</string>
+    <string name="hidden">Kaŝitaj</string>
+    <string name="showHidden">Montri kaŝitajn</string>
+    <string name="removedAuthors">Forigitaj artistoj</string>
+    <string name="showRemoved">Montri forigitajn</string>
+    <string name="addToPlaylist">Aldoni al ludlisto…</string>
+    <string name="moveToFolder">Movas al dosierujo…</string>
+    <string name="copyToFolder">Kopias al dosierujo…</string>
+    <string name="inputFolderName">Entajpi nomon</string>
+    <string name="inputArtistName">Entajpi nomon</string>
+    <string name="inputPosition">Entajpi pozicion</string>
+    <string name="outOfRangeError">Valoro ekstervarieja</string>
+    <string name="fileName_">Dosiero:</string>
+    <string name="songAppendedToFavourites">\"%s\" aldonita al elektitaj</string>
+    <string name="appendToFavourites">Aldoni al elektitaj</string>
+    <string name="removeFromFavourites">Forigi el elektitaj</string>
+    <string name="remove">Forigi</string>
+    <string name="download">Elŝuti</string>
+    <string name="downloadAvailableLangMessage">Servilo havas kantojn en la lingvo: \"%s\"! ĉu vi volas alŝuti ilin nun?</string>
+    <string name="downloadAndRemoveLangDialogMessage">Ĉi tie vi povas elŝuti aŭ nuligi kantojn en konkreta lingvo</string>
+    <string name="noLangsDialogMessage">Por vidi kantoliston indas elŝuti almenaŭ unu lingvon</string>
+    <string name="areYouSure">Ĉu vi certas?</string>
+    <string name="areYouSureToExit">Ĉu vi volas eliri?</string>
+    <string name="areYouSureToDelete">Nuligi elektitajn elementojn?</string>
+    <string name="areYouSureToHide">Kaŝi elektitajn elementojn?</string>
+    <string name="areYouSureToRemoveLang">Ĉiuj kantoj en tiu ĉi lingvo estos nuligitaj. Daŭrigi?</string>
+    <string name="saveChanges">Konservi ŝanĝojn, ĉu?</string>
+    <string name="fileSaved">La dosiero sukcese konservita</string>
+    <string name="fileSaveError">Malsukceso dum konservado de la dosiero</string>
+    <string name="badVersionError">En la servilo ŝanĝiĝis dato-formato! Ĝisdatigu la apon.</string>
+    <string name="serverUnderConstructionError">Servilo estas portempe neatingebla. Provu ripeti iom poste.</string>
+    <string name="notEnoughFreeSpaceError">Mankas libera loko</string>
+    <string name="syncedDataWillPublicWarning">Atenton! Se vi elektas uzanto-datumojn (*) por sinkronigo, vi certigas, ke ili ne estas konfidencaj</string>
+    <string name="helpToTranslateTutorialDialog">Antaŭ ol fari tradukon, bonvolu spekti kurtan video-instrukcion</string>
+
+    <string name="authorName">Nomo de artisto</string>
+    <string name="songName">Nomo</string>
+    <string name="songText">Teksto de kanto</string>
+    <string name="songDuration">Daŭrigo</string>
+    <string name="songDelay">Komenca paŭzo</string>
+    <string name="songComments">Komentoj al tabulaturo</string>
+    <string name="privateNotes">Personaj notoj</string>
+    <string name="userComments">Komentarioj de uzantoj</string>
+    <string name="scrollSpeed">Rapideco de rulumo</string>
+
+    <string name="sender">Sendis</string>
+    <string name="speedUp">Pli rapide</string>
+    <string name="speedDown">Pli malrapide</string>
+    <string name="na">Mankas datumoj</string>
+    <string name="unknown">Nekonata</string>
+    <string name="language">Lingvo</string>
+    <string name="appearance">Fasado</string>
+    <string name="songTextScreen">Ekrano kun kantoteksto</string>
+    <string name="systemSettingsTitle">Sistemaj agordoj</string>
+    <string name="keyActionsCategory">D-Pad butonoj</string>
+    <string name="miscCategory">Diversaĵoj</string>
+    <string name="synchronizationSettingsTitle">Sinkronigo</string>
+    <string name="contentPrefCategory">Enhavo</string>
+    <string name="syncData">Datumoj por sinkronigo</string>
+    <string name="autoSearchAudioFiles">Aŭtoserĉo de aŭdiodosieroj</string>
+    <string name="autoSearchAudioFilesSummary">Aŭtomata ligado de aŭdiodosieroj en interna memoro de la aparato kun kantoj en la datumbazo</string>
+    <string name="audioFolderPath">Aŭdiodosierujo</string>
+    <string name="drawAccordsLayouts">Enpaĝigo de akordoj</string>
+    <string name="drawAccordsLayoutsAboveText">Super de kantoteksto</string>
+    <string name="drawAccordsLayoutsBelowText">Sube de kantoteksto</string>
+    <string name="drawAccordsLayoutsHide">Ne montri</string>
+    <string name="rateSongUnauthorized">Por havi eblecon taksi kantojn indas ensaluti</string>
+    <string name="accountForSyncFavsSummary">Konto por sinkronigo de elektitaj kantoj</string>
+    <string name="chooseBackupMethod">Kien konservi savkopian dosieron?</string>
+    <string name="chooseRestoreMethod">Kie troviĝas savkopia dosiero?</string>
+    <string name="backupRestoreFromFile">SD karto</string>
+    <string name="backupRestoreFromDropbox">Dropbox</string>
+    <string name="backupRestoreFromGoogleDrive">Google Drive</string>
+    <string name="backupSettingTitle">Savkopio</string>
+    <string name="backupSummary">Krei savkopion de la datumbazo</string>
+    <string name="backupCreated">Savkopia dosiero %s kreita</string>
+    <string name="creatingBackup">Kreado de savkopia dosiero…</string>
+    <string name="restoreSettingTitle">Restarigo</string>
+    <string name="restoreCompleted">Restarigo de la datumbazo sukcesis</string>
+    <string name="restoring">Restariĝas…</string>
+    <string name="restoreSummary">Restarigi la datumbazon el savkopio</string>
+    <string name="other">Diversaĵoj</string>
+    <string name="attention">Atenton!</string>
+    <string name="anonymous">Sennoma uzanto</string>
+
+    <string name="googlePlayNotFound">Malsukcesis lanĉi Google Play</string>
+    <string name="functionNotAllowed">Tiu ĉi ago malebligita en senpaga versio de la apo</string>
+    <string name="chooseFileManager">Elekti dosierilon</string>
+    <string name="empty">Nenio</string>
+    <string name="showSongPaused">Komenca paŭzo</string>
+    <string name="showSongPausedSummary">Ne starti aŭtomatan retrokalkulon</string>
+    <string name="hideActionBar">Kaŝi kontrolbutonojn</string>
+    <string name="hideActionBarSummary">Rekomendata por aparatoj kun malgranda ekrano</string>
+    <string name="design">Fasada temo</string>
+    <string name="designSummary">Post la ŝanĝoj relanĉu la apon</string>
+    <string name="instrument">Muzikilo</string>
+
+    <string name="keyVolUp">Laŭteco+</string>
+    <string name="keyVolDown">Laŭteco-</string>
+    <string name="keyAirTurnLeft">Liven</string>
+    <string name="keyAirTurnRight">Dekstren</string>
+    <string name="keyAirTurnUp">Supren</string>
+    <string name="keyAirTurnDown">Suben</string>
+    <string name="keyVolUpDouble">Laŭteco+ (x2)</string>
+    <string name="keyVolDownDouble">Laŭteco- (x2)</string>
+    <string name="keyAirTurnLeftDouble">Liven (x2)</string>
+    <string name="keyAirTurnRightDouble">Dekstren (x2)</string>
+    <string name="keyAirTurnUpDouble">Supren (x2)</string>
+    <string name="keyAirTurnDownDouble">Suben (x2)</string>
+    <string name="keyActionNone">Nenio</string>
+    <string name="keyActionScrollScreenUp">Rulumi ekranon supren</string>
+    <string name="keyActionScrollScreenDown">Rulumi ekranon suben</string>
+    <string name="keyActionScrollUp">Rulumi supren</string>
+    <string name="keyActionScrollDown">Rulumi suben</string>
+    <string name="keyActionScrollSpeedUp">Rapidigi rulumon</string>
+    <string name="keyActionScrollSpeedDown">Malrapidigi rulumon</string>
+    <string name="keyActionPrevPage">Antaŭa kanto</string>
+    <string name="keyActionNextPage">Sekva kanto</string>
+    <string name="keyActionPause">Halti / Ekrulumi</string>
+    <string name="keyActionRestart">Restarti</string>
+    <string name="keyActionZoomIn">Grandigi tiparon</string>
+    <string name="keyActionZoomOut">Malgrandigi tiparon</string>
+
+    <string name="notation">Tononoma sistemo</string>
+    <string name="songTextSize">Grando de tiparo</string>
+    <string name="zoomIn">Grandigi tiparon</string>
+    <string name="zoomOut">Malgrandigi tiparon</string>
+    <string name="allowAbusive">Sakraj kantoj</string>
+    <string name="allowAbusiveSummary">Montri sakrajn kantojn</string>
+    <string name="searchResultAbusive">Ordigoj</string>
+    <string name="searchResultAbusiveSummary">Resulto de serĉo havas sakrajn kantojn</string>
+    <string name="dontShowChords">Kaŝi akordojn</string>
+    <string name="dontShowChordsSummary">Kaŝi akordojn en kantoteksto</string>
+    <string name="fixedSongTextSize">Fiksita grando de tiparo</string>
+    <string name="fixedSongTextSizeSummary">Uzi la saman grandon de tiparo en ĉiuj kantoj</string>
+    <string name="billingPurchasingDisableAdsSuccess">Reklamo malŝaltita!</string>
+    <string name="billingPurchasingFeatureSuccess">La opcio aktivigita!</string>
+    <string name="helpToTranslate">Helpi kun tradukado</string>
+    <string name="helpToTranslateSummary">Vi povas helpi kun tradukado de la apo al via gepatra lingvo</string>
+    <string name="help">Helpo</string>
+    <string name="inviteFriend">Inviti amikon</string>
+    <string name="inviteFriendText">Saluton!\n\nMi rekomendas elŝuti eksterretan kantaron kun granda bazo de akordoj por gitaro, balalajko kaj ukulelo.\n\nElŝuti senpage: %1$s\nPro-versio: %2$s\n</string>
+
+    <string name="default_">Bazvaloro</string>
+    <string name="value">Valoro</string>
+
+    <string name="selectFile">Elekti dosieron</string>
+    <string name="selectFolder">Elekti dosierujon</string>
+    <string name="select">Elekti</string>
+    <string name="haventAccessPrivileges">Vi ne havas alir-rajton por tiu ĉi dosierujo</string>
+    <string name="yesterday">hieraŭ</string>
+    <string name="share">Sendi</string>
+
+    <string name="remindDbSyncDate">Memorigi pri novaj kantoj</string>
+    <string name="remindDbSyncDateSummary">Memorigi pri malnoviĝinta bazo de kantoj kaj pri neceso sinkronigi ĝin kun la servilo</string>
+    <string name="autoSyncWithServer">Aŭtosinkronigo</string>
+    <string name="autoSyncWithServerSummary">Sinkronigi en fona reĝimo</string>
+    <string name="syncDialogMessage">La bazo de kantoj malnoviĝis. Por renovigi, sinkronigu ĝin kun la servilo. Sinkronigi ĝin nun?</string>
+    <string name="syncNow">Sinkronigi</string>
+    <string name="remindLater">Poste</string>
+    <string name="neverRemind">Ne memorigi</string>
+
+    <string name="rateDialogTitle">Taksi la apon</string>
+    <string name="rateDialogMessage">Se vi ŝatas tiun ĉi apon, bonvolu trovi tempon por taksi ĝin. Tio ne okupos multan tempon de vi. Dankon pro via subteno!</string>
+    <string name="rateNow">Taksi</string>
+
+    <string name="newsDialogShow">Montri</string>
+    <string name="newsDialogLater">Ne nun</string>
+    <string name="newsDialogClose">Fermi</string>
+
+    <string name="specialPriceDialogTitle">Speciala propono</string>
+    <string name="specialPriceDialogText">Dankon, ke vi elektis \"Gitarkantoj\"! Nur nun vi povas malŝalti reklamon kun 60% rabato. Tio estas unika ŝanco! Ĉu vi volas uzi la proponon kaj forgesi pri reklamo en la apo?</string>
+
+    <string name="restoreAuthorDialogTitle">Artisto forigita</string>
+    <string name="restoreAuthorDialogMessage">Ĉu vi volas restarigi ĉiujn kantojn de tiu ĉi artisto?</string>
+
+    <string name="faqTextQuestion17">Kiel ŝanĝi rapidecon de rulumo por teksto?</string>
+    <string name="faqTextQuestion16">Kiel ŝanĝi lingvon de montrataj kantoj?</string>
+    <string name="faqTextQuestion15">Kiel aldoni kantojn en ludliston?</string>
+    <string name="faqTextQuestion14">Kiel kopii kantojn en sekcion \"Miaj kantoj\"?</string>
+    <string name="faqTextQuestion13">Kiel forigi kelkajn artistojn el la listo?</string>
+    <string name="faqTextQuestion12">Kiel ŝanĝi tonalon de kanto (transponi akordojn)?</string>
+
+    <string name="faqTextQuestion11">Kiel ŝanĝi grandon de tiparo?</string>
+    <string name="faqTextAnswer11">Vi povas fari tion per kutima skaliga gesto aŭ uzi laŭtecajn butonojn de via aparato.</string>
+
+    <string name="faqTextQuestion10">Mi volas helpi kun traduko de la apo al aliaj lingvoj. Kiel fari tion plej simple?</string>
+    <string name="faqTextAnswer10">Vi povas fari tion rekte en la apo: eniru Agordojn kaj elektu punkton \"Helpi kun tradukado\".</string>
+
+    <string name="faqTextQuestion9">Kiel mi povas aldoni novan kanton en la bazon?</string>
+    <string name="faqTextAnswer9">Vizitu ru.guitarsongs.club, ensalutiĝu per via google-konto kaj aldonadu viajn ŝatatajn kantojn en komunan bazon.\nPor vidi aldonitajn tra la retejo kantojn en la apo presu butonon  \"Sinkronigi\".\n</string>
+
+    <string name="faqTextQuestion8">Ĉu eblas dum spektado de kanto transiri al la sekva, nerevenante al la listo?</string>
+    <string name="faqTextAnswer8">Jes, eblas fari tion per gestoj \"dekstren\" aŭ \"liven\" (transiroj funkcias nur ene de la kuranta dosierujo)</string>
+
+    <string name="faqTextQuestion7">Kion signifas ciferoj apud nomo de kelkaj kantoj?</string>
+    <string name="faqTextAnswer7">Tio estas averaĝa poento de tabulatura kvalito. Taksi tiun aŭ alian kanton per propra voĉo eblas per punkto de la menuo \"Taksi\" dum spektado de kantoteksto. Tiun funckion oni uzas por eviti nekvalitajn tabulaturojn - kantoj kun malalta poento estos kontrolataj pri tajperaroj kaj aliaj mankoj.</string>
+
+    <string name="faqTextQuestion5">Mi ne sukcesas aŭskulti kantojn, mankas sono!</string>
+    <string name="faqTextAnswer5">Tio estas kantaro, ĉi tie estas nur kantotekstoj.</string>
+
+    <string name="faqTextQuestion4">Post vica ĝisdatigo la apo ekcimiĝis, kion fari?</string>
+    <string name="faqTextAnswer4">Skribu leteron al aŭtoro de la apo kun indiko de la eraro, nomo de via aparato kaj Android-versio.</string>
+
+    <string name="faqTextQuestion3">Kiel vidi klavarfasonon de akordo?</string>
+    <string name="faqTextAnswer3">Simple presu al interesiĝanta akordo.</string>
+
+    <string name="faqTextQuestion1">Kiel aldoni propran kanton?</string>
+    <string name="faqTextAnswer1">Plej bone - uzi retejon ru.guitarsongs.club, tiam aldonitaj de vi kantoj estos akireblaj de aliaj uzantoj. Se vi volas aldoni kanton nur por vi mem, tiam vidante liston de kantoj iru al menuo kaj elektu \"Importi…\". En nova fenestro elektu nepran dosierujon aŭ txt-dosieron.</string>
+
+    <string name="faqTextQuestion0">Kiel informi pri trovitaj malĝustecoj, malkaŝitaj mankoj aŭ simple demandi aŭtoron?</string>
+    <string name="faqTextAnswer0">Skribu mesaĝon en speciala grupo de "ВКонтакте" - http://vk.com/guitarsongs.club</string>
+
+    <string name="rootMenuSongs">Listo de kantoj</string>
+    <string name="rootMenuFolders">Dosierujoj</string>
+    <string name="rootMenuPlaylists">Ludlistoj</string>
+    <string name="rootMenuHistory">Historio / Topo</string>
+
+    <string name="rootMenuInfo">Info</string>
+    <string name="rootMenuTopUsers">Topo de uzantoj</string>
+    <string name="rootMenuTopSongs">Topo de kantoj</string>
+    <string name="rootMenuFaq">Оftaj demandoj</string>
+
+    <string name="historyPageTitle">Historio</string>
+
+    <string name="designWood">Arba</string>
+    <string name="designBlack">Nigra</string>
+    <string name="designWhite">Blanka</string>
+
+    <string name="instrumentGuitar">Gitaro</string>
+    <string name="instrumentUkulele">Ukulelo</string>
+    <string name="instrumentBalalaikaEea">Balalajko (EEA)</string>
+    <string name="instrumentBalalaikaCeg">Balalajko (CEG)</string>
+    <string name="instrumentBalalaikaDFdA">Balalajko (DF#A)</string>
+
+    <string name="notationUnknown">Ne difinita</string>
+    <string name="notationB">Bazvalorа</string>
+    <string name="notationH">La Germana (B->H)</string>
+    <string name="notationSi">La Hispana (B->SI)</string>
+    <string name="notationP">La Pollanda (Am->a)</string>
+    <string name="notationPro">Pro (Progresio)</string>
+
+</resources>

@@ -1,0 +1,188 @@
+<resources>
+  <!---->
+  <string name="guitarSongs">Canzoni per chitarra</string>
+  <!---->
+  <string name="newLangAvailable">Nuova lingua: %s</string>
+  <!---->
+  <string name="songLanguage">Lingua</string>
+  <!---->
+  <string name="chooseLang">Scegli la lingua</string>
+  <!---->
+  <string name="accordInfoTitle">Informazioni sugli accordi</string>
+  <!---->
+  <string name="accordNotFound">Accordo sconosciuto</string>
+  <!---->
+  <string name="removingInProgress">Cancellazione in corso. Per favore attendi…</string>
+  <!---->
+  <string name="dbServerSongsCount">Canzoni disponibili: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Accordi conosciuti: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Data dell\'ultima sincronizzazione</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Ultime canzoni aggiunte</string>
+  <!---->
+  <string name="dbInitError">Errore durante l\'inizializzazione del database!\nPer favore scegli il percorso corretto nelle impostazioni</string>
+  <!---->
+  <string name="inetReceiveMessage">Invio dati\nPer favore attendi…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Aggiornamento elenco accordi…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Aggiornamento commenti…</string>
+  <!---->
+  <string name="inetReceiveError">Errore (%d) il server non risponde!\nPer favore, verifica le impostazioni di internet e riprova</string>
+  <!---->
+  <string name="readingServerDataProgress">Elaborazione lista dei cambiamenti %d%%</string>
+  <!---->
+  <string name="loadedSongs">Canzoni estratte: %d</string>
+  <!---->
+  <string name="loadingInProgress">Estrazione,\nPer favore attendi…</string>
+  <!---->
+  <string name="duration">Durata</string>
+  <!---->
+  <string name="rateSong">Voto</string>
+  <!---->
+  <string name="rateSongText">Valuta la qualità della tablatura\nLa tua valutazione sarà aggiunta dopo la prossima sincronizzazione con il server</string>
+  <!---->
+  <string name="syncWithServer">Sincronizza</string>
+  <!---->
+  <string name="chooseKey">Scegli la tonalità</string>
+  <!---->
+  <string name="transpose">Cambia tonalità</string>
+  <!---->
+  <string name="append">Aggiungi</string>
+  <!---->
+  <string name="appending">Sto aggiungendo %s</string>
+  <!---->
+  <string name="restart">Riavvio</string>
+  <!---->
+  <string name="pause">Pausa</string>
+  <!---->
+  <string name="save">Salvataggio</string>
+  <!---->
+  <string name="yes">Si</string>
+  <!---->
+  <string name="no">No</string>
+  <!---->
+  <string name="more">Opzioni</string>
+  <!---->
+  <string name="cancel">Annulla</string>
+  <!---->
+  <string name="exit">Esci</string>
+  <!---->
+  <string name="accords">Accordi</string>
+  <!---->
+  <string name="dbInfo">Rilevanza nel Database</string>
+  <!---->
+  <string name="versionInfo">Versione dell\'applicazione</string>
+  <!---->
+  <string name="feedback">Opinioni</string>
+  <!---->
+  <string name="search">Cerca</string>
+  <!---->
+  <string name="find">Trova</string>
+  <!---->
+  <string name="saveToFile">Salva come file</string>
+  <!---->
+  <string name="loadFromFile">Importa</string>
+  <!---->
+  <string name="removeAll">Cancella tutto</string>
+  <!---->
+  <string name="preferences">Impostazioni…</string>
+  <!---->
+  <string name="disableAds">Elimina la pubblicità</string>
+  <!---->
+  <string name="clearDB">Pulisci il database</string>
+  <!---->
+  <string name="songInfo">Informazioni</string>
+  <!---->
+  <string name="edit">Modifica…</string>
+  <!---->
+  <string name="error">Errore</string>
+  <!---->
+  <string name="langId">6</string>
+  <!---->
+  <string name="readingFileProgress">Lettura del file (riga N°%d)</string>
+  <!---->
+  <string name="errorHappened">Si è verificato un errore (cod.: %d)</string>
+  <!---->
+  <string name="favourites">Preferiti</string>
+  <!---->
+  <string name="appendToFavourites">Aggiungi ai preferiti</string>
+  <!---->
+  <string name="removeFromFavourites">Elimina da preferiti</string>
+  <!---->
+  <string name="remove">Togliere </string>
+  <!---->
+  <string name="areYouSure">Sei sicuro?</string>
+  <!---->
+  <string name="areYouSureToExit">Uscire dall\'applicazione? </string>
+  <!---->
+  <string name="fileSaved">File salvato con successo</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" aggiungi a preferiti</string>
+  <!---->
+  <string name="areYouSureToDelete">Le voci selezionate verranno eliminate. sei sicuro di voler continuare?</string>
+  <!---->
+  <string name="fileSaveError">Il file potrebbe non salvarsi</string>
+  <!---->
+  <string name="authorName">Nome dell\' artista</string>
+  <!---->
+  <string name="songName">Nome</string>
+  <!---->
+  <string name="songText">Testo</string>
+  <!---->
+  <string name="songDuration">Durata</string>
+  <!---->
+  <string name="songDelay">Pausa iniziale</string>
+  <!---->
+  <string name="songComments">Commenti agli accordi</string>
+  <!---->
+  <string name="userComments">Commenti dell\'user</string>
+  <!---->
+  <string name="scrollSpeed">Velocità di scorrimento</string>
+  <!---->
+  <string name="sender">Inviato</string>
+  <!---->
+  <string name="speedUp">Più  veloce</string>
+  <!---->
+  <string name="speedDown">Più  lento</string>
+  <!---->
+  <string name="na">No data</string>
+  <!---->
+  <string name="unknown">Sconosciuto</string>
+  <!---->
+  <string name="language">Lingua</string>
+  <!---->
+  <string name="songTextScreen">Screen con il testo della canzone</string>
+  <!---->
+  <string name="other">Vario</string>
+  <!---->
+  <string name="attention">Attenzione!</string>
+  <!---->
+  <string name="anonymous">anonimo</string>
+  <!---->
+  <string name="googlePlayNotFound">Non può essere aperto con Google Play</string>
+  <!---->
+  <string name="functionNotAllowed">Questa funzione non è disponibile nella versione gratuita </string>
+  <!---->
+  <string name="empty">Vuoto</string>
+  <!---->
+  <string name="showSongPaused">Pausa iniziale</string>
+  <!---->
+  <string name="showSongPausedSummary">Non iniziare il conto alla rovescia automaticamente </string>
+  <!---->
+  <string name="hideActionBarSummary">Raccomandato per dispositivi con schermo piccolo</string>
+  <!---->
+  <string name="designSummary">Dopo aver cambiato il tema, si prega di riavviare l\'applicazione </string>
+  <!---->
+  <string name="instrument">Strumento</string>
+  <!---->
+  <string name="songTextSize">Dimensione del font</string>
+  <!---->
+  <string name="zoomIn">Aumenta la dimensione del font</string>
+  <!---->
+  <string name="zoomOut">Diminuisci la dimensione del font</string>
+  <!---->
+  <string name="fixedSongTextSize">Fissa la dimensione del font</string>
+</resources>

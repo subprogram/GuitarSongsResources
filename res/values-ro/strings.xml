@@ -1,0 +1,228 @@
+<resources>
+  <!---->
+  <string name="guitarSongs">Cântece la Chitară</string>
+  <!---->
+  <string name="newLangAvailable">Limbă nouă: %1s</string>
+  <!---->
+  <string name="songLanguage">Limbi</string>
+  <!---->
+  <string name="chooseLang">Alege limba</string>
+  <!---->
+  <string name="accordInfoTitle">Informație despre acorduri</string>
+  <!---->
+  <string name="accordNotFound">Acord necunoscut</string>
+  <!---->
+  <string name="removingInProgress">Se şterge.\nVă rugam să aşteptați…</string>
+  <!---->
+  <string name="dbServerSongsCount">Cântece disponibile: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Acorduri cunoscute: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Data ultimei sincronizări</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Cântece adăugate recent</string>
+  <!---->
+  <string name="dbInitError">Eroare in timpul inițializării bazei de date!</string>
+  <!---->
+  <string name="inetReceiveMessage">Se trimit datele.\nVă rugăm să așteptați…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Se actualizează lista de acorduri…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Se actualizează comentariile…</string>
+  <!---->
+  <string name="inetReceiveError">Eroare (%d) serverul nu răspunde!\nVă rugăm să verificați setările de internet și încercați din nou.</string>
+  <!---->
+  <string name="readingFileProgress">Se citește fila (rândul #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">Se procesează lista de schimbări %d%%</string>
+  <!---->
+  <string name="loadedSongs">Cântece extrase: %d</string>
+  <!---->
+  <string name="loadingInProgress">Se extrage.\nVă rugăm să așteptați…</string>
+  <!---->
+  <string name="duration">Durată</string>
+  <!---->
+  <string name="rateSong">Evaluează</string>
+  <!---->
+  <string name="averageRating">Evaluarea medie a tabulaturii</string>
+  <!---->
+  <string name="rateSongText">Evaluează calitatea tabulaturii.\nEvaluarea ta va fi adăugată după următoarea sincronizare cu serverul.\n</string>
+  <!---->
+  <string name="syncWithServer">Sincronizează</string>
+  <!---->
+  <string name="transpose">Transpune</string>
+  <!---->
+  <string name="append">Adăugă</string>
+  <!---->
+  <string name="appending">Se adaugă %s</string>
+  <!---->
+  <string name="restart">Reporneşte</string>
+  <!---->
+  <string name="pause">Pauză</string>
+  <!---->
+  <string name="save">Salvează</string>
+  <!---->
+  <string name="yes">Da</string>
+  <!---->
+  <string name="no">Nu</string>
+  <!---->
+  <string name="more">Opțiuni</string>
+  <!---->
+  <string name="cancel">Anulează</string>
+  <!---->
+  <string name="exit">Ieşire</string>
+  <!---->
+  <string name="accords">Acorduri</string>
+  <!---->
+  <string name="dbInfo">Relevanță a bazei de date</string>
+  <!---->
+  <string name="versionInfo">Versiunea aplicației</string>
+  <!---->
+  <string name="chooseKey">Alege gama</string>
+  <!---->
+  <string name="search">Cauta</string>
+  <!---->
+  <string name="find">Gaseste</string>
+  <!---->
+  <string name="saveToFile">Salveaza in…</string>
+  <!---->
+  <string name="loadFromFile">Importa…</string>
+  <!---->
+  <string name="removeAll">Şterge tot</string>
+  <!---->
+  <string name="preferences">Setări…</string>
+  <!---->
+  <string name="disableAds">Dezactivează reclame</string>
+  <!---->
+  <string name="clearDB">Şterge datele de bază</string>
+  <!---->
+  <string name="songInfo">Informație </string>
+  <!---->
+  <string name="edit">Editează…</string>
+  <!---->
+  <string name="error">Eroare</string>
+  <!---->
+  <string name="errorHappened">A avut loc o eroare (cod: %d)</string>
+  <!---->
+  <string name="favourites">Favorite</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" adăugat la favorite</string>
+  <!---->
+  <string name="appendToFavourites">Adaugă la favorite</string>
+  <!---->
+  <string name="removeFromFavourites">Elimină din favorite</string>
+  <!---->
+  <string name="remove">Elimina</string>
+  <!---->
+  <string name="areYouSure">Ești sigur?</string>
+  <!---->
+  <string name="areYouSureToExit">Dorești să ieși din aplicație? </string>
+  <!---->
+  <string name="areYouSureToDelete">Obiectele selectate vor fii şterse.  Continuați?</string>
+  <!---->
+  <string name="fileSaved">Fila s-a salvat</string>
+  <!---->
+  <string name="fileSaveError">Nu s-a putut salva fila</string>
+  <!---->
+  <string name="badVersionError">Am actualizat enconding data pe serverele noastre! Vă rog să actualizați aplicația</string>
+  <!---->
+  <string name="authorName">Numele artistului</string>
+  <!---->
+  <string name="songName">Nume</string>
+  <!---->
+  <string name="songText">Versuri</string>
+  <!---->
+  <string name="songDuration">Durata</string>
+  <!---->
+  <string name="songDelay">Pauza inițială </string>
+  <!---->
+  <string name="songComments">Comentarii pentru acorduri</string>
+  <!---->
+  <string name="userComments">Comentariile utilizatorilor</string>
+  <!---->
+  <string name="langId">43</string>
+  <!--viteza cu care dai in jos pagina-->
+  <string name="scrollSpeed">Viteza de dat in jos</string>
+  <!---->
+  <string name="sender">A trimis</string>
+  <!---->
+  <string name="speedUp">Mai repede</string>
+  <!---->
+  <string name="speedDown">Mai incet</string>
+  <!---->
+  <string name="na">Nu sunt date</string>
+  <!---->
+  <string name="unknown">Necunoscut</string>
+  <!---->
+  <string name="language">Limba</string>
+  <!---->
+  <string name="appearance">Look-ul exterior</string>
+  <!---->
+  <string name="songTextScreen">Ecranul cu textul cântecului</string>
+  <!---->
+  <string name="other">Diferite</string>
+  <!---->
+  <string name="attention">Atenție!</string>
+  <!---->
+  <string name="anonymous">Anonim</string>
+  <!---->
+  <string name="googlePlayNotFound">Nu am reuşit sa deschidem  Google Play</string>
+  <!---->
+  <string name="functionNotAllowed">Aceasta functie nu este disponibila în versiunea gratuita</string>
+  <!---->
+  <string name="chooseFileManager">Alegeti File Manager</string>
+  <!---->
+  <string name="empty">Gol</string>
+  <!---->
+  <string name="showSongPaused">Pauza de inceput</string>
+  <!---->
+  <string name="showSongPausedSummary">Nu incepe numaratoarea inversa automat</string>
+  <!---->
+  <string name="hideActionBar">Ascunde tastele de control</string>
+  <!---->
+  <string name="hideActionBarSummary">Recomandat pentru aparate cu ecranul mic</string>
+  <!---->
+  <string name="design">Tema </string>
+  <!---->
+  <string name="designSummary">Dupa schimbare restartati aplicatia</string>
+  <!---->
+  <string name="instrument">Instrument</string>
+  <!---->
+  <string name="songTextSize">Marimea scrisului</string>
+  <!---->
+  <string name="zoomIn">Marire scris</string>
+  <!---->
+  <string name="zoomOut">Micsorare scris</string>
+  <!---->
+  <string name="fixedSongTextSize">Marimea scrisului fixat</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Aplica aceiasi marime scris in toate cintecele</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Reclama dezactivata</string>
+  <!---->
+  <string name="selectFile">Alege fisier</string>
+  <!---->
+  <string name="select">Alege</string>
+  <!---->
+  <string name="haventAccessPrivileges">Nu aveti drepturi in aceasta directorie</string>
+  <!---->
+  <string name="yesterday">Ieri</string>
+  <!---->
+  <string name="share">Trimite</string>
+  <!---->
+  <string name="chooseFolder">Alege mapa</string>
+  <!---->
+  <string name="songsAddedToFolder_">Cintecele au fost adaugate in mapa \"%s\"</string>
+  <!---->
+  <string name="inputFolderName">Introduceti denumirea</string>
+  <!---->
+  <string name="allowAbusive">Cintece cu prostii</string>
+  <!---->
+  <string name="allowAbusiveSummary">Arata cintece cu prostii</string>
+  <!---->
+  <string name="helpToTranslate">Ajutor cu traducerea</string>
+  <!---->
+  <string name="helpToTranslateSummary">Ne puteti ajuta cu traducerea aplicatiei in limba Dvs.</string>
+  <!---->
+  <string name="rateDialogTitle">Apreciati aplicatia</string>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+  <!---->
+  <string name="songLanguage">언어</string>
+  <!---->
+  <string name="chooseLang">언어 선택하기</string>
+  <!---->
+  <string name="accordInfoTitle">코드 정보</string>
+  <!---->
+  <string name="accordNotFound">알 수 없는 코드</string>
+  <!---->
+  <string name="removingInProgress">삭제중. 기다리세요</string>
+  <!---->
+  <string name="dbServerSongsCount">허용된 노래: %d</string>
+  <!---->
+  <string name="dbAccordsCount">알 수 있는 코드: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">마지막 동기화 날짜</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">최근 추가한 곡</string>
+  <!---->
+  <string name="dbInitError">데이터 베이스 초기화중 오류</string>
+  <!---->
+  <string name="inetReceiveMessage">데이터를 보내는 중. 기다리세요</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">코드 리스트 업데이트중</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">코멘트 업데이트 중</string>
+  <!---->
+  <string name="langId">34</string>
+</resources>

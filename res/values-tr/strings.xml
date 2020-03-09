@@ -1,0 +1,524 @@
+﻿<resources>
+  <!---->
+  <string name="newLangAvailable">Yeni dil: %s</string>
+  <!---->
+  <string name="chooseLang">Dil seçenekleri</string>
+  <!---->
+  <string name="dbServerSongsCount">Mevcut şarkılar: %d</string>
+  <!---->
+  <string name="chooseKey">İlk akoru seç</string>
+  <!---->
+  <string name="songLanguage">Şarkı dili</string>
+  <!---->
+  <string name="accordInfoTitle">Akorlar hakkında</string>
+  <!---->
+  <string name="accordNotFound">Akor bulunamadı</string>
+  <!---->
+  <string name="removingInProgress">Siliniyor.\nLütfen Bekleyin…</string>
+  <!---->
+  <string name="dbAccordsCount">Bilinen akorlar: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Son senkronizasyon tarihi</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Son eklenen şarkılar</string>
+  <!---->
+  <string name="historyPageTitle">Geçmiş</string>
+  <!---->
+  <string name="billingPurchasingFeatureSuccess">Özellik etkinleştirildi!</string>
+  <!---->
+  <string name="dbInitError">Veritabanının başlatılması sırasında hata oluştu. </string>
+  <!---->
+  <string name="inetReceiveMessage">Veri yükleniyor.\nLütfen bekleyin…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Akor listesi güncelleniyor…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Yorumlar yükleniyor…</string>
+  <!---->
+  <string name="inetReceiveError">Hata (%d) sunucu yanıt vermiyor!\nLütfen, internet ayarlarını kontrol et ve yeniden dene</string>
+  <!---->
+  <string name="readingFileProgress">Dosya okunuyor (line #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">Değişiklik listesi işleniyor %d%%</string>
+  <!---->
+  <string name="loadedSongs">Çıkarılan şarkılar: %d</string>
+  <!---->
+  <string name="loadingInProgress">Açılıyor.\nLütfen bekleyin…</string>
+  <!---->
+  <string name="duration">Süre</string>
+  <!---->
+  <string name="rateSong">Değerlendirme</string>
+  <!---->
+  <string name="averageRating">Değerlenirme</string>
+  <!---->
+  <string name="syncWithServer">Senkronize</string>
+  <!---->
+  <string name="transpose">Transpoze</string>
+  <!---->
+  <string name="append">Ekle</string>
+  <!---->
+  <string name="appending">Ekleniyor %s</string>
+  <!---->
+  <string name="restart">Tekrar başlat</string>
+  <!---->
+  <string name="pause">Dur</string>
+  <!---->
+  <string name="save">Kaydet </string>
+  <!---->
+  <string name="yes">Evet</string>
+  <!---->
+  <string name="no">Hayır</string>
+  <!---->
+  <string name="more">Seçenekler</string>
+  <!---->
+  <string name="cancel">İptal et</string>
+  <!---->
+  <string name="exit">Çıkış</string>
+  <!---->
+  <string name="accords">Akorlar</string>
+  <!---->
+  <string name="dbInfo">Veritabanı</string>
+  <!---->
+  <string name="versionInfo">Uygulama versiyonu</string>
+  <!---->
+  <string name="feedback">Geribildirim</string>
+  <!---->
+  <string name="search">Ara</string>
+  <!---->
+  <string name="find">Bul</string>
+  <!---->
+  <string name="saveToFile">Dosyaya kaydet…</string>
+  <!---->
+  <string name="removeAll">Tümünü sil</string>
+  <!---->
+  <string name="preferences">Ayarlar</string>
+  <!---->
+  <string name="disableAds">Reklamları devre dışı bırak</string>
+  <!---->
+  <string name="clearDB">Veritabanını temizle</string>
+  <!---->
+  <string name="edit">Düzenle…</string>
+  <!---->
+  <string name="error">Hata</string>
+  <!---->
+  <string name="errorHappened">Bir hata meydana geldi (code: %d)</string>
+  <!---->
+  <string name="favourites">Favoriler </string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" favorilere eklendi</string>
+  <!---->
+  <string name="appendToFavourites">Favorilere ekle</string>
+  <!---->
+  <string name="removeFromFavourites">Favorilerden çıkar</string>
+  <!---->
+  <string name="remove">Kaldır</string>
+  <!---->
+  <string name="areYouSure">Emin misiniz?</string>
+  <!---->
+  <string name="areYouSureToExit">Uygulama kapanacak, emin misiniz?</string>
+  <!---->
+  <string name="areYouSureToDelete">Seçtikleriniz silinecek. Emin misiniz?</string>
+  <!---->
+  <string name="fileSaved">Dosya başarıyla kaydedildi</string>
+  <!---->
+  <string name="fileSaveError">Dosya kaydedilemedi</string>
+  <!---->
+  <string name="songInfo">Bilgi</string>
+  <!---->
+  <string name="badVersionError">Sunucumuzdaki veriler güncellendi. Lütfen uygulamayı güncelleyin. </string>
+  <!---->
+  <string name="authorName">Sanatçı ismi</string>
+  <!---->
+  <string name="songName">Şarkı ismi</string>
+  <!---->
+  <string name="songText">Sözler</string>
+  <!---->
+  <string name="songDuration">Süre</string>
+  <!---->
+  <string name="songDelay">İlk bekleme</string>
+  <!---->
+  <string name="songComments">Akorların yorumları</string>
+  <!---->
+  <string name="userComments">Kulanıcı yorumları</string>
+  <!---->
+  <string name="scrollSpeed">Kaydırma hızı</string>
+  <!---->
+  <string name="sender">Gönder</string>
+  <!---->
+  <string name="speedUp">Daha hızlı</string>
+  <!---->
+  <string name="speedDown">Daha yavaş</string>
+  <!---->
+  <string name="na">Veri yok</string>
+  <!---->
+  <string name="unknown">Bilinmiyor</string>
+  <!---->
+  <string name="language">Dil</string>
+  <!---->
+  <string name="appearance">Görünüm</string>
+  <!---->
+  <string name="songTextScreen">Ekran şarkı sözleri</string>
+  <!---->
+  <string name="other">Karışık</string>
+  <!---->
+  <string name="attention">Dikkat!</string>
+  <!---->
+  <string name="anonymous">Anonim</string>
+  <!---->
+  <string name="googlePlayNotFound">Google Play\'de açılamadı</string>
+  <!---->
+  <string name="functionNotAllowed">Bu fonksiyon ücretsiz sürümde mevcut değil</string>
+  <!---->
+  <string name="chooseFileManager">Dosya yöneticinizi seçiniz</string>
+  <!---->
+  <string name="empty">Boş</string>
+  <!---->
+  <string name="showSongPaused">İlk bekleme</string>
+  <!---->
+  <string name="showSongPausedSummary">Otomatik geri sayımı başlat</string>
+  <!---->
+  <string name="hideActionBar">Kontrol butonlarını gizle</string>
+  <!---->
+  <string name="hideActionBarSummary">Küçük ekranlı cihazlara önerilir</string>
+  <!---->
+  <string name="design">Tema</string>
+  <!---->
+  <string name="designSummary">Temayı değiştirdikten sonra lütfen uygulamayı yeniden başlatın</string>
+  <!---->
+  <string name="instrument">Enstürman</string>
+  <!---->
+  <string name="songTextSize">Yazı boyutu</string>
+  <!---->
+  <string name="zoomIn">Yazıyı büyüt</string>
+  <!---->
+  <string name="zoomOut">Yazı küçült</string>
+  <!---->
+  <string name="fixedSongTextSize">Sabit yazı boyutu</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Her şarkıda aynı yazı boyutunu kullan</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Uygulama şimdi reklamsız!</string>
+  <!---->
+  <string name="selectFile">Dosya seç</string>
+  <!---->
+  <string name="select">Seç</string>
+  <!---->
+  <string name="haventAccessPrivileges">Dizine erişim ayrıcalıklarınız yok</string>
+  <!---->
+  <string name="yesterday">dün</string>
+  <!---->
+  <string name="chooseFolder">Klasörü seçin</string>
+  <!---->
+  <string name="songsAddedToFolder_">Şarkılar dosyaya eklendi \"%s\"</string>
+  <!---->
+  <string name="inputFolderName">İsim giriniz</string>
+  <!---->
+  <string name="allowAbusive">Küfürlü şarkılar</string>
+  <!---->
+  <string name="allowAbusiveSummary">Küfürlü şarkıları göster</string>
+  <!---->
+  <string name="helpToTranslate">Çeviriye yardım et</string>
+  <!---->
+  <string name="helpToTranslateSummary">Uygulamayı kendi anadilinize çevirebilirsiniz</string>
+  <!---->
+  <string name="share">Gönder</string>
+  <!---->
+  <string name="rateDialogTitle">Uygulamayı değerlendir</string>
+  <!---->
+  <string name="rateDialogMessage">Uygulamayı beğendiyseniz, lütfen şimdi değerlendirin. Bir dakikadan fazla sürmez. Desteğiniz için teşekkürler!</string>
+  <!---->
+  <string name="rateNow">Şimdi değerlendir</string>
+  <!---->
+  <string name="faqTextQuestion10">Uygulamayı kendi dilime çevirmek istiyorum. Ne yapmalıyım?</string>
+  <!---->
+  <string name="faqTextAnswer10">Bunu direkt uygulamadayken yapabilirsin: ayarlara git ve \"Çeviriye Yardım\"ı seç.</string>
+  <!---->
+  <string name="faqTextQuestion9">Yeni bir şarkıyı veritabanına nasıl eklerim?</string>
+  <!---->
+  <string name="faqTextAnswer9">http://guitarsongs.club sitesini ziyaret edin. Google hesabınızla favori şarkılarınızı veritabanına ekleyebilirsiniz. Ardından uygulamayı senkronize etmeyi unutmayın. </string>
+  <!---->
+  <string name="faqTextAnswer0">Lütfen mesajlarınızı kurumsal facebook hesabımıza yollayın - https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="rootMenuSongs">Şarkı listesi</string>
+  <!---->
+  <string name="rootMenuFolders">Klasörler</string>
+  <!---->
+  <string name="rootMenuInfo">Bilgi</string>
+  <!---->
+  <string name="rootMenuTopUsers">En iyiler kullanıcılar</string>
+  <!---->
+  <string name="designWood">Ahşap</string>
+  <!---->
+  <string name="designBlack">Siyah</string>
+  <!---->
+  <string name="designWhite">Beyaz</string>
+  <!---->
+  <string name="instrumentGuitar">Gitar</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulele</string>
+  <!---->
+  <string name="goToAuthor">Sanatçının bütün eserlerini göster</string>
+  <!---->
+  <string name="moveToFolder">Klasöre taşı…</string>
+  <!---->
+  <string name="langId">20</string>
+  <!---->
+  <string name="chooseAuthor">Sanatçı seç</string>
+  <!---->
+  <string name="copyToFolder">Klasöre kopyala…</string>
+  <!---->
+  <string name="systemSettingsTitle">Sistem</string>
+  <!---->
+  <string name="backupSettingTitle">Yedek</string>
+  <!---->
+  <string name="backupSummary">Tüm verilerin yedeğini oluştur</string>
+  <!---->
+  <string name="backupCreated">Yedek dosya %s oluşturuldu</string>
+  <!---->
+  <string name="creatingBackup">Yedek dosya oluşturuluyor…</string>
+  <!---->
+  <string name="restoreSummary">Veritabanını bir yedekten geri yükle</string>
+  <!---->
+  <string name="restoreSettingTitle">Onarım</string>
+  <!---->
+  <string name="restoreCompleted">Onarım başarıyla tamamlandı</string>
+  <!---->
+  <string name="restoring">Onarılıyor…</string>
+  <!---->
+  <string name="serverUnderConstructionError">Sunucu geçici olarak kullanılamıyor. Lütfen sonra tekrar deneyin. </string>
+  <!---->
+  <string name="remindDbSyncDate">Yeni şarkıları hatırlat</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Güncel olmayan bir şarkı senkronizasyonla hatırlatılır</string>
+  <!---->
+  <string name="syncDialogMessage">Şarkılarınız güncel değil. Onları senkronize ederek güncelleyebilirsiniz. Şimdi senkronize etmek ister misiniz?</string>
+  <!---->
+  <string name="syncNow">Şimdi senkronize et</string>
+  <!---->
+  <string name="remindLater">Sonra hatırlat</string>
+  <!---->
+  <string name="neverRemind">Asla hatırlatma</string>
+  <!---->
+  <string name="newsDialogShow">Göster</string>
+  <!---->
+  <string name="newsDialogLater">Sonra hatırlat</string>
+  <!---->
+  <string name="newsDialogClose">Kapat</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Favorileri senkronize et…</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Favori şarkılarınız için hesabınızı açın</string>
+  <!---->
+  <string name="notation">Akor isimleri</string>
+  <!---->
+  <string name="notationUnknown">Tanımlanmamış</string>
+  <!---->
+  <string name="notationB">Varsayılan</string>
+  <!---->
+  <string name="notationH">Alman (B-&gt;H)</string>
+  <!---->
+  <string name="appLanguage">Uygulama dili</string>
+  <!---->
+  <string name="autoSyncWithServer">Otomatik senkronizasyon</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Arkaplanda senkronize etme </string>
+  <!---->
+  <string name="executingInProgress">Lütfen bekleyin…</string>
+  <!---->
+  <string name="appendFolder">Klasör ekle</string>
+  <!---->
+  <string name="appendVirtualFolder">Sanal klasör ekle</string>
+  <!---->
+  <string name="databasePath">Veritabanı yolu</string>
+  <!---->
+  <string name="searchOnYoutube">Youtube\'da ara</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">Yeterince boş alan yok</string>
+  <!---->
+  <string name="incorrectField">Yanlış dosyalama</string>
+  <!---->
+  <string name="saveChanges">Değişiklikler kaydolsun mu?</string>
+  <!---->
+  <string name="syncData">Senkronizasyon verileri</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Özel teklif</string>
+  <!---->
+  <string name="rateSongText">Tab değerlendirme puanı. \nDeğerlendirmeniz sonraki senkronizasyonda sunucuya eklenecek. </string>
+  <!---->
+  <string name="loadFromFile">İçe aktar</string>
+  <!---->
+  <string name="faqTextQuestion8">Bir şarkıyı çalarken listeye geri dönmeden başka bir şarkıya geçebilir miyim?</string>
+  <!---->
+  <string name="faqTextAnswer8">Evet, parmaklarınızı kullanarak hızlıca sağa ve sola gidebilirsiniz (bu yalnızca o anki klasörde çalışır)</string>
+  <!---->
+  <string name="faqTextQuestion7">Şarkıların yanındaki sayılar ne anlama geliyor?</string>
+  <!---->
+  <string name="faqTextQuestion5">Şarkı dinleyemiyorum, hiçbir müziğim yok!</string>
+  <!---->
+  <string name="faqTextAnswer5">Bu bir müzik kitabi, sen burada yalnızca sözleri görebilirsin. </string>
+  <!---->
+  <string name="faqTextQuestion4">Son güncellemeden sonra uygulamadaki tonlar bozuldu, ne yapmalıyım?</string>
+  <!---->
+  <string name="viewSettingsTitle">Görünüm</string>
+  <!---->
+  <string name="viewArtists">Sanatçı listesi</string>
+  <!---->
+  <string name="viewHideMySongs">Gizli şarkıları göster</string>
+  <!---->
+  <string name="faqTextAnswer7">Bu sayılar kullanıcıların değerlendirmeleri. Kullanıcılar uygulamaya eklediğiniz şarkıların akorlarını değerlendirirler. Sayılar akor tonunun doğruluğu hakkında bilgi verir. </string>
+  <!---->
+  <string name="choosePlaylist">Repertuvar seç</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">Şarkılar repertuvara ekleniyor \"%s\"</string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">Repertuvar senkronize ediliyor…</string>
+  <!---->
+  <string name="copiedSongs">%d şarkılar kopyalandı</string>
+  <!---->
+  <string name="appendPlaylist">Repertuvar ekle</string>
+  <!---->
+  <string name="sortMode">Sıralama modu</string>
+  <!---->
+  <string name="copyToMySongs">\"Şarkılarım\"a kopyala</string>
+  <!---->
+  <string name="audioFile">Ses dosyası</string>
+  <!---->
+  <string name="playAudio">Ses oynat</string>
+  <!---->
+  <string name="stopAudio">Sesi durdur </string>
+  <!---->
+  <string name="metronom">Metronom</string>
+  <!---->
+  <string name="properties">Özellikler…</string>
+  <!---->
+  <string name="mySongs">Şarkılarım</string>
+  <!---->
+  <string name="addToPlaylist">Repertuvara ekle…</string>
+  <!---->
+  <string name="inputArtistName">Sanatçı ismi giriniz</string>
+  <!---->
+  <string name="syncedDataWillPublicWarning">Dikkat! Senkronize edilecek özel verileri seçerken, bu verilerin gizli bilgiler içermediğini kabul etmiş olursunuz</string>
+  <!---->
+  <string name="synchronizationSettingsTitle">Senkronizasyon</string>
+  <!---->
+  <string name="contentPrefCategory">İçerik</string>
+  <!---->
+  <string name="default_">Varsayılan</string>
+  <!---->
+  <string name="value">Değer</string>
+  <!---->
+  <string name="rootMenuPlaylists">Repertuvar</string>
+  <!---->
+  <string name="watchOnYoutube">Youtube\'da izle </string>
+  <!---->
+  <string name="hide">Gizle</string>
+  <!---->
+  <string name="hidden">Gizli</string>
+  <!---->
+  <string name="showHidden">Gizli sanatçıarı göster</string>
+  <!---->
+  <string name="areYouSureToHide">Seçtiğiniz sanatçılar gizlenecek. Devam edilsin mi?</string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">Lütfen çeviri yapmadan bu kısa videoyu izleyin</string>
+  <!---->
+  <string name="help">Yardım</string>
+  <!---->
+  <string name="viewHideNicknames">Kullanıcı adını gizle</string>
+  <!---->
+  <string name="signUp">Kaydol</string>
+  <!---->
+  <string name="signIn">Oturum aç</string>
+  <!---->
+  <string name="signInWithGoogle">Google ile giriş yap</string>
+  <!---->
+  <string name="signInWithFacebook">Facebook ile giriş yap</string>
+  <!---->
+  <string name="signInWithTwitter">Twitter ile giriş yap</string>
+  <!---->
+  <string name="signInWithEmail">Email ile giriş yap</string>
+  <!---->
+  <string name="password">Şifre</string>
+  <!---->
+  <string name="signUpSuccess">Başarıyla kaydoldunuz! Lütfen e-posta\'nızı kontrol ediniz</string>
+  <!---->
+  <string name="signUpInstructions">\"kaydol\" butonuna bastıktan sonra e-posta\'nızı kontrol ediniz. Şifrenizle ilgili bir bilgi göndereceğiz. </string>
+  <!---->
+  <string name="alreadyHaveAccount">Benim zaten bir hesabım var</string>
+  <!---->
+  <string name="selectFolder">Dosya seç</string>
+  <!---->
+  <string name="guitarSongs">Gitar Şarkıları</string>
+  <!---->
+  <string name="langsManage">Yönetme</string>
+  <!---->
+  <string name="sortByArtistName">Sanatçı ismine göre sırala</string>
+  <!---->
+  <string name="sortBySongName">Şarkı ismine göre sırala</string>
+  <!---->
+  <string name="sortByRandom">Rastgele sırala</string>
+  <!---->
+  <string name="exportDialogMessage">Lütfen biçim dosyasını seçin</string>
+  <!---->
+  <string name="areYouSureToRemoveLang">Bu dildeki tüm şarkılar silinecek. Emin misiniz?</string>
+  <!---->
+  <string name="notationSi">İspanyol (B-&gt;Sl)</string>
+  <!---->
+  <string name="enabled">Etkin</string>
+  <!---->
+  <string name="sound">Ses</string>
+  <!---->
+  <string name="proFeatureOnly">Sadece Gitar Şarkıları-Pro\'da mevcut</string>
+  <!---->
+  <string name="disableAdsPaid">Her zaman</string>
+  <!---->
+  <string name="disableAdsFree">1 haftalık (ücretsiz)</string>
+  <!---->
+  <string name="disableAdsFreeInstruction">Bir hafta boyunca reklam yayınını devre dışı bırakmak için tüm videoyu izlemelisiniz</string>
+  <!---->
+  <string name="tooShortSearchQuery">Tam metin araması için en az 3 harf girin</string>
+  <!---->
+  <string name="rootMenuHistory">Geçmiş / En iyiler</string>
+  <!---->
+  <string name="download">İndir</string>
+  <!---->
+  <string name="downloadAvailableLangMessage">Şarkı metinleri \"%s\" şuanda sunucuda! bunları indirmek ister misiniz? </string>
+  <!---->
+  <string name="downloadAndRemoveLangDialogMessage">Burada farklı dillerde şarkı metinleri ekleyebilir veya çıkarabilirsiniz</string>
+  <!---->
+  <string name="viewShowLettersScreen">Ekran harflerini göster</string>
+  <!---->
+  <string name="newPlaylist">Yeni</string>
+  <!---->
+  <string name="buy">Satın Al</string>
+  <!---->
+  <string name="rateSongUnauthorized">Tahmin şarkıları için kaydolmalısınız</string>
+  <!---->
+  <string name="faqTextAnswer11">telefonun fiziksel ses tuşlarıyla \"yakınlaştırma\" hareketini kullanabilirsiniz. </string>
+  <!---->
+  <string name="faqTextAnswer3">Yalnızca ilgili akorun üzerine basın. </string>
+  <!---->
+  <string name="faqTextQuestion1">Şarkı veritabanımı nasıl eklemeliyim?</string>
+  <!---->
+  <string name="faqTextAnswer4">Kendi android versiyonunuz ve cihaz sürümünüz ile ilgili hataları bizimle paylaşmaktan çekinmeyiniz. </string>
+  <!---->
+  <string name="faqTextQuestion3">Akor düzenine nasıl bakılır?</string>
+  <!---->
+  <string name="faqTextQuestion11">Yazı boyutunu nasıl değiştiririm?</string>
+  <!---->
+  <string name="faqTextQuestion12">Transpoze nasıl yapılır?</string>
+  <!---->
+  <string name="faqTextQuestion13">Listedeki bazı sanatçıları nasıl gizlerim?</string>
+  <!---->
+  <string name="faqTextQuestion14">Şarkıları \"Benim şarkılarım\" sekmesine nasıl kopyalarım?</string>
+  <!---->
+  <string name="faqTextQuestion15">Repertuvara şarkı nasıl eklenir?</string>
+  <!---->
+  <string name="faqTextAnswer1">En iyi site - en.guitarsongs.club\'ı kullan, eklediğiniz şarkılar hemen diğer kullanıcılara sunulsun. Eğer yalnızca kendiniz için şarkı eklemek istiyorsanız, bunu takip edin: \"Şarkılarım\" listesindeyken menüye gidin ve \"İçe aktar…\" seçeneğini seçin. Sonra klasörü veya txt dosyasını seçin.</string>
+  <!---->
+  <string name="faqTextQuestion0">Hata hakkında nasıl bilgi vereceğiz, bir soru sormamız veya geliştiriciyi bilgilendirmemiz mi gerekiyor?</string>
+  <!---->
+  <string name="specialPriceDialogText">Gitar Şarkıları\'nı kullandığınız için teşekkürler. Şimdi 60% indirimle reklamları devredışı bırakabilirsiniz. Bu benzersiz bir şans! Bu teklifi değerlendirmek ve reklamlardan kurtulmak ister misiniz?</string>
+  <!---->
+  <string name="faqTextQuestion17">Kaydırma hızını nasıl değiştirebilirim?</string>
+  <!---->
+  <string name="faqTextQuestion16">Şarkıları belirli bir dilde nasıl görüntüleyebilirim?</string>
+</resources>

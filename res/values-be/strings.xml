@@ -1,0 +1,164 @@
+<resources>
+  <!---->
+  <string name="songLanguage">Мова песен</string>
+  <!---->
+  <string name="chooseLang">Выберыце мову песен</string>
+  <!---->
+  <string name="accordInfoTitle">Iнфармацыя аб акордзе</string>
+  <!---->
+  <string name="accordNotFound">Невядомы акорд</string>
+  <!---->
+  <string name="removingInProgress">Выконваецца выдаленне. \nКалi Ласка, пачакайце трошкi</string>
+  <!---->
+  <string name="dbServerSongsCount">Даступна песен: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Вядомых акордау: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Дата апошняй сiнхранiзацыi</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Апошнiя адноуленыя песнi</string>
+  <!---->
+  <string name="dbInitError">Памылка у працэсу iнiцыялiзацыi базы дадзеных! \nПакажыце правiльны шлях у наладах. </string>
+  <!---->
+  <string name="newLangAvailable">Даступна новая мова: %s</string>
+  <!---->
+  <string name="inetReceiveMessage">Перадача дадзеных.\nПачакайце, калі-ласка…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Абнаўленне спісу акордаў…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Абнаўленне каментароў…</string>
+  <!---->
+  <string name="signInWithEmail">Увайсці праз e-mail</string>
+  <!---->
+  <string name="password">Пароль</string>
+  <!---->
+  <string name="signUpSuccess">Рэгістрацыя скончана, праверце паштовую скрыню</string>
+  <!---->
+  <string name="alreadyHaveAccount">У мяне ўжо ёсць акаўнт</string>
+  <!---->
+  <string name="loadingInProgress">Ідзе загрузка.\nКалі ласка, пачакайце</string>
+  <!---->
+  <string name="duration">даўжыня</string>
+  <!---->
+  <string name="rateSongText">адзначце якасць падбору\nваша адзнака будзе залічана пры наступнай сінхранізацыі з серверам</string>
+  <!---->
+  <string name="syncWithServer">сінхранізаваць</string>
+  <!---->
+  <string name="chooseKey">зрабіце выбар танальнасці</string>
+  <!---->
+  <string name="transpose">транспаніраваць</string>
+  <!---->
+  <string name="append">дадаць</string>
+  <!---->
+  <string name="appending">Аднаўленне: %s</string>
+  <!---->
+  <string name="restart">перазапуск</string>
+  <!---->
+  <string name="pause">спыніць</string>
+  <!---->
+  <string name="save">захаваць</string>
+  <!---->
+  <string name="yes">так</string>
+  <!---->
+  <string name="no">не</string>
+  <!---->
+  <string name="more">Вопцыі</string>
+  <!---->
+  <string name="cancel">адмена</string>
+  <!---->
+  <string name="exit">выхад</string>
+  <!---->
+  <string name="accords">акорды</string>
+  <!---->
+  <string name="versionInfo">версія прылады</string>
+  <!---->
+  <string name="feedback">адваротная сувязь</string>
+  <!---->
+  <string name="search">пошук</string>
+  <!---->
+  <string name="find">знайсці</string>
+  <!---->
+  <string name="saveToFile">захаваць як</string>
+  <!---->
+  <string name="loadFromFile">імпартаваць</string>
+  <!---->
+  <string name="preferences">налады</string>
+  <!---->
+  <string name="disableAds">адключыць рэкламу</string>
+  <!---->
+  <string name="clearDB">ачысціць БД</string>
+  <!---->
+  <string name="songInfo">Інфармацыя</string>
+  <!---->
+  <string name="edit">Рэгадаваць</string>
+  <!---->
+  <string name="error">памылка</string>
+  <!---->
+  <string name="errorHappened">Здарылася памылка (код: %d)</string>
+  <!---->
+  <string name="favourites">выбранае</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" дададзена ў выбранае</string>
+  <!---->
+  <string name="appendToFavourites">дадаць у выбранае</string>
+  <!---->
+  <string name="removeFromFavourites">выдаліць з выбранага</string>
+  <!---->
+  <string name="remove">выдаліць</string>
+  <!---->
+  <string name="areYouSure">вы ўпэўнены?</string>
+  <!---->
+  <string name="areYouSureToExit">выйсці з прылады?</string>
+  <!---->
+  <string name="langId">12</string>
+  <!---->
+  <string name="averageRating">сярэдняя адзнака падбору</string>
+  <!---->
+  <string name="areYouSureToDelete">выдаліць адзначаныя элементы?</string>
+  <!---->
+  <string name="fileSaved">файл паспяхова захаваны</string>
+  <!---->
+  <string name="fileSaveError">не атрымалася захаваць файл</string>
+  <!---->
+  <string name="songName">назва</string>
+  <!---->
+  <string name="songText">тэкст песні</string>
+  <!---->
+  <string name="songDuration">даўжыня</string>
+  <!---->
+  <string name="songDelay">пачатковая паўза</string>
+  <!---->
+  <string name="userComments">каментарыі карыстальнікаў</string>
+  <!---->
+  <string name="scrollSpeed">хуткасць пракруткі</string>
+  <!---->
+  <string name="sender">прыслаў</string>
+  <!---->
+  <string name="speedUp">хутчэй</string>
+  <!---->
+  <string name="na">няма дадзеных</string>
+  <!---->
+  <string name="unknown">невядома</string>
+  <!---->
+  <string name="language">мова</string>
+  <!---->
+  <string name="appearance">знешні выгляд</string>
+  <!---->
+  <string name="songTextScreen">экран з тэкстам песні</string>
+  <!---->
+  <string name="other">рознае</string>
+  <!---->
+  <string name="attention">увага</string>
+  <!---->
+  <string name="anonymous">ананім</string>
+  <!---->
+  <string name="googlePlayNotFound">не атрымалася адчыніць google play</string>
+  <!---->
+  <string name="functionNotAllowed">гэтая функцыя не даступна ў безкаштоўнай версіі прылады</string>
+  <!---->
+  <string name="empty">пуста</string>
+  <!---->
+  <string name="showSongPaused">пачатковая паўза</string>
+  <!---->
+  <string name="hideActionBar">схаваць кнопкі кіравання</string>
+</resources>

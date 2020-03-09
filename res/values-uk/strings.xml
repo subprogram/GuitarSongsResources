@@ -1,0 +1,548 @@
+<resources>
+  <!---->
+  <string name="newLangAvailable">Доступна нова мова: %s</string>
+  <!---->
+  <string name="songLanguage">Мова пісень</string>
+  <!---->
+  <string name="chooseLang">Оберіть мову пісень</string>
+  <!---->
+  <string name="accordInfoTitle">Інформація про акорд</string>
+  <!---->
+  <string name="accordNotFound">Невідомий акорд</string>
+  <!---->
+  <string name="removingInProgress">Виконується видалення.\nЗачекайте, будь-ласка…</string>
+  <!---->
+  <string name="dbServerSongsCount">Доступні пісні: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Відомі акорди: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Час останньої синхронізації</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Нещодавно додані пісні</string>
+  <!---->
+  <string name="inetReceiveMessage">Надсилання даних\nБудь ласка зачекайте…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Оновлення списку акордів…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Оновлення коментарів…</string>
+  <!---->
+  <string name="dbInitError">Помилка в процесі ініціалізації бази даних.</string>
+  <!---->
+  <string name="inetReceiveError">Помилка (%d) в процесі звернення до серверу!\nПеревірте підключення до інтернету</string>
+  <!---->
+  <string name="readingServerDataProgress">Обробка списку змін %d%%</string>
+  <!---->
+  <string name="loadedSongs">Завантажено пісень: %d</string>
+  <!---->
+  <string name="loadingInProgress">Триває завантаження.\nЗачекайте, будь ласка…</string>
+  <!---->
+  <string name="duration">Тривалість</string>
+  <!---->
+  <string name="rateSong">Оцінити</string>
+  <!---->
+  <string name="averageRating">Середня оцінка підбору</string>
+  <!---->
+  <string name="rateSongText">Оцініть якість підбору.\nВаша оцінка буде врахована при наступній синхронізації з сервером.</string>
+  <!---->
+  <string name="syncWithServer">Синхронізувати</string>
+  <!---->
+  <string name="chooseKey">Оберіть тональність</string>
+  <!---->
+  <string name="transpose">Транспонувати</string>
+  <!---->
+  <string name="append">Додати</string>
+  <!---->
+  <string name="appending">Оновлення %s</string>
+  <!---->
+  <string name="restart">Рестарт</string>
+  <!---->
+  <string name="pause">Пауза</string>
+  <!---->
+  <string name="save">Зберегти</string>
+  <!---->
+  <string name="yes">Так</string>
+  <!---->
+  <string name="no">Ні</string>
+  <!---->
+  <string name="more">Опції</string>
+  <!---->
+  <string name="cancel">Скасувати</string>
+  <!---->
+  <string name="exit">Вихід</string>
+  <!---->
+  <string name="accords">Акорди</string>
+  <!---->
+  <string name="dbInfo">Актуальність бази даних</string>
+  <!---->
+  <string name="versionInfo">Версія програми</string>
+  <!---->
+  <string name="feedback">Зворотній зв\'язок</string>
+  <!---->
+  <string name="search">Пошук</string>
+  <!---->
+  <string name="find">Знайти</string>
+  <!---->
+  <string name="saveToFile">Зберегти у файл…</string>
+  <!---->
+  <string name="loadFromFile">Імпортувати</string>
+  <!---->
+  <string name="removeAll">Видалити все</string>
+  <!---->
+  <string name="preferences">Налаштування</string>
+  <!---->
+  <string name="disableAds">Вимкнути рекламу</string>
+  <!---->
+  <string name="clearDB">Очистити базу даних</string>
+  <!---->
+  <string name="songInfo">Інформація</string>
+  <!---->
+  <string name="edit">Редагувати…</string>
+  <!---->
+  <string name="error">Помилка</string>
+  <!---->
+  <string name="errorHappened">Відбулася помилка (код: %d)</string>
+  <!---->
+  <string name="favourites">Обране</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" додана в обране</string>
+  <!---->
+  <string name="appendToFavourites">Додати до \"Обраного\"</string>
+  <!---->
+  <string name="removeFromFavourites">Видалити з обраного</string>
+  <!---->
+  <string name="remove">Видалити</string>
+  <!---->
+  <string name="areYouSure">Ви впевнені?</string>
+  <!---->
+  <string name="areYouSureToExit">Вийти з програми?</string>
+  <!---->
+  <string name="areYouSureToDelete">Видалити вказані елементи?</string>
+  <!---->
+  <string name="fileSaved">Файл успішно збережений</string>
+  <!---->
+  <string name="fileSaveError">Не вдалося зберегти файл</string>
+  <!---->
+  <string name="badVersionError">На сервері змінився формат даних! Оновіть програму.</string>
+  <!---->
+  <string name="authorName">Ім\'я виконавця</string>
+  <!---->
+  <string name="songName">Назва</string>
+  <!---->
+  <string name="songText">Текст пісні</string>
+  <!---->
+  <string name="songDuration">Тривалість</string>
+  <!---->
+  <string name="songDelay">Початкова пауза</string>
+  <!---->
+  <string name="songComments">Коментарі до підбору</string>
+  <!---->
+  <string name="userComments">Коментарі користувачів</string>
+  <!---->
+  <string name="scrollSpeed">Швидкість гортання</string>
+  <!---->
+  <string name="sender">Прислав</string>
+  <!---->
+  <string name="speedUp">Швидше</string>
+  <!---->
+  <string name="speedDown">Повільніше</string>
+  <!---->
+  <string name="na">Немає даних</string>
+  <!---->
+  <string name="unknown">Невідомо</string>
+  <!---->
+  <string name="language">Мова</string>
+  <!---->
+  <string name="appearance">Зовнішній вигляд</string>
+  <!---->
+  <string name="songTextScreen">Екран з текстом пісні</string>
+  <!---->
+  <string name="other">Різне</string>
+  <!---->
+  <string name="attention">Увага!</string>
+  <!---->
+  <string name="anonymous">Анонім</string>
+  <!---->
+  <string name="googlePlayNotFound">Не вдалося відкрити Google Play</string>
+  <!---->
+  <string name="functionNotAllowed">Дана функція не доступна в безкоштовній версії програми</string>
+  <!---->
+  <string name="chooseFileManager">Оберіть файловий менеджер</string>
+  <!---->
+  <string name="empty">Порожньо</string>
+  <!---->
+  <string name="showSongPaused">Початкова пауза</string>
+  <!---->
+  <string name="showSongPausedSummary">Не починати автоматичний зворотній відлік</string>
+  <!---->
+  <string name="hideActionBar">Ховати кнопки керування</string>
+  <!---->
+  <string name="hideActionBarSummary">Рекомендовано для пристроїв з маленьким екраном</string>
+  <!---->
+  <string name="design">Тема оформлення</string>
+  <!---->
+  <string name="designSummary">Після зміни перезапустіть програму</string>
+  <!---->
+  <string name="instrument">Інструмент</string>
+  <!---->
+  <string name="songTextSize">Розмір шрифту</string>
+  <!---->
+  <string name="zoomIn">Збільшити шрифт</string>
+  <!---->
+  <string name="zoomOut">Зменшити шрифт</string>
+  <!---->
+  <string name="fixedSongTextSize">Фіксований розмір шрифту</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Використовувати однаковий розмір шрифту в усіх піснях</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Рекламу вимкнено!</string>
+  <!---->
+  <string name="selectFile">Обрати файл</string>
+  <!---->
+  <string name="select">Обрати</string>
+  <!---->
+  <string name="haventAccessPrivileges">У Вас немає прав доступу до цієї директорії</string>
+  <!---->
+  <string name="yesterday">вчора</string>
+  <!---->
+  <string name="share">Надіслати</string>
+  <!---->
+  <string name="chooseFolder">Обрати папку</string>
+  <!---->
+  <string name="songsAddedToFolder_">Пісні додані до папки \"%1s\"</string>
+  <!---->
+  <string name="inputFolderName">Введіть назву</string>
+  <!---->
+  <string name="helpToTranslate">Допомогти з перекладом</string>
+  <!---->
+  <string name="helpToTranslateSummary">Ви можете допомогти з перекладом на Вашу рідну мову</string>
+  <!---->
+  <string name="rateDialogTitle">Оцініть додаток</string>
+  <!---->
+  <string name="langId">4</string>
+  <!---->
+  <string name="readingFileProgress">Читаючий файл (лінія #%d)</string>
+  <!---->
+  <string name="rateDialogMessage">Якщо вам сподобався додаток, будь ласка знайдіть час для оцінки його. Це не забере більше хвилини. Дякую за підтримку</string>
+  <!---->
+  <string name="rateNow">Проголосуй зараз.</string>
+  <!---->
+  <string name="faqTextQuestion10">Я бажаю допомогти з перекладом додатка на мою рідню мову. Як я можу це зробити?</string>
+  <!---->
+  <string name="faqTextAnswer10">Ви можете це зробити прямо з програми: зайдіть до налаштувань і оберіть пункт \"Допомогти з перекладом\"</string>
+  <!---->
+  <string name="allowAbusive">Матерні пісні</string>
+  <!---->
+  <string name="allowAbusiveSummary">Відображати матерні пісні</string>
+  <!---->
+  <string name="faqTextQuestion9">Як мені додати нову пісню до бази?</string>
+  <!---->
+  <string name="faqTextAnswer9">Заходите на сайт ru.guitarsongs.club, авторизуетесь за допомогою вашого google-аккаунта та можете добавляти свої улюблені пісні у базу. Щоб додані пісні з\'явились у додатку, необхідно натиснути кнопку \"Синхронізація\".</string>
+  <!---->
+  <string name="faqTextQuestion8">Чи можливо у режимі перегляду пісні перейти до наступної, не повертатися при цьому до списку?</string>
+  <!---->
+  <string name="faqTextAnswer8">Так, це можна зробити скориставшись жестами \"вліво\" чи \"вправо\" (переходи працюють лише в межах поточної папки)</string>
+  <!---->
+  <string name="faqTextQuestion7">Що за цифри поруч з назвою деяких пісень?</string>
+  <!---->
+  <string name="faqTextAnswer7">Це середня оцінка якості підбору акордів до пісні. Проголосувати за ту чи іншу пісню можна за допомогою пункта меню \"Оцінити\" на екрані перегляду тексту. Цю можливість ввели для боротьби з неякісними підборами - пісні, що отримали низьку оцінку, будуть ретельніше перевірятися на опечатки та інші недоліки.</string>
+  <!---->
+  <string name="faqTextQuestion5">Я не можу послухати пісні, я не маю жодної пісні!</string>
+  <!---->
+  <string name="faqTextAnswer5">Це  пісенник, тут ти можеш знайти тільки слова пісень.</string>
+  <!---->
+  <string name="faqTextQuestion4">Після останнього оновлення в мене появилось безліч помилок в програмі, що я повинна зробити?</string>
+  <!---->
+  <string name="faqTextAnswer4">Будь ласка, не соромтеся написати нам опис кожної помилки, модель вашого телефону і версію Андроїда.</string>
+  <!---->
+  <string name="faqTextQuestion3">Як знайти макет акордів ?</string>
+  <!---->
+  <string name="faqTextAnswer3">Просто натисніть на акорд який вас цікавить.</string>
+  <!---->
+  <string name="faqTextAnswer0">Будь ласка напишіть своє повідомлення на наш офіційний сайт - http://vk.com/guitarsongs.club</string>
+  <!---->
+  <string name="rootMenuInfo">Інформація</string>
+  <!---->
+  <string name="designBlack">Чорний</string>
+  <!---->
+  <string name="designWhite">Білий</string>
+  <!---->
+  <string name="instrumentGuitar">Гітара</string>
+  <!---->
+  <string name="goToAuthor">Показати всі пісня виконавця</string>
+  <!---->
+  <string name="chooseAuthor">Вибрати артиста</string>
+  <!---->
+  <string name="systemSettingsTitle">Cистема</string>
+  <!---->
+  <string name="newsDialogShow">Показати</string>
+  <!---->
+  <string name="newsDialogClose">Закрити</string>
+  <!---->
+  <string name="faqTextQuestion1">Як добавити свою пісню? </string>
+  <!---->
+  <string name="faqTextQuestion0">Як сообщити об вишуканих нерiвностях</string>
+  <!---->
+  <string name="rootMenuSongs">Список пiсень</string>
+  <!---->
+  <string name="rootMenuFolders">Папки</string>
+  <!---->
+  <string name="rootMenuTopUsers">Топ користувачів </string>
+  <!---->
+  <string name="designWood">Дерево</string>
+  <!---->
+  <string name="instrumentUkulele">Укулеле</string>
+  <!---->
+  <string name="moveToFolder">Поместити у папку</string>
+  <!---->
+  <string name="copyToFolder">Копiювати у папку</string>
+  <!---->
+  <string name="backupSettingTitle">Бэкап</string>
+  <!---->
+  <string name="faqTextAnswer1">Краще усього - скористуватися сайтом ru.guitarsong.club, тоді додані Ваші пісні будуть одразу доступні коркстувачами. Якщо Ви бажаєте додати пісню тільки для себе, тоді знаходячись у режимі перегляду списку пісень, відкрийте меню та виберіть пункт \"Імпортувати…\". У відкритому вікні оберіть потрібну папку чи txt-файл</string>
+  <!---->
+  <string name="backupSummary">Створити резервну копію бази даних</string>
+  <!---->
+  <string name="restoreSettingTitle">Відновлення</string>
+  <!---->
+  <string name="guitarSongs">Музика під гітару</string>
+  <!---->
+  <string name="creatingBackup">створення бекап файлів</string>
+  <!---->
+  <string name="restoreSummary">Відновити базу даних з резервної копії</string>
+  <!---->
+  <string name="restoreCompleted">Відновлення бази даних пройшло успішно</string>
+  <!---->
+  <string name="restoring">Відновлення…</string>
+  <!---->
+  <string name="serverUnderConstructionError">Сервер не доступний. Будь ласка, спробуйте пізніше</string>
+  <!---->
+  <string name="remindDbSyncDate">Нагадування про нові пісні</string>
+  <!---->
+  <string name="syncNow">Синхронізувати зараз</string>
+  <!---->
+  <string name="remindLater">Нагадати пізніше</string>
+  <!---->
+  <string name="neverRemind">Не нагадувати</string>
+  <!---->
+  <string name="newsDialogLater">Нагадати пізніше</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Синхронізяція обраних…</string>
+  <!---->
+  <string name="notation">Назви акордів</string>
+  <!---->
+  <string name="notationUnknown">Не визначено</string>
+  <!---->
+  <string name="notationB">Стандартний</string>
+  <!---->
+  <string name="appLanguage">Мова додатку</string>
+  <!---->
+  <string name="autoSyncWithServer">Авто синхронізяція</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Синхронізація з сервером у фоновому режимі</string>
+  <!---->
+  <string name="executingInProgress">Будь ласка, зачекайте…</string>
+  <!---->
+  <string name="appendFolder">Додати папку</string>
+  <!---->
+  <string name="appendVirtualFolder">Додати віртуальну папку</string>
+  <!---->
+  <string name="databasePath">Шлях до бази даних</string>
+  <!---->
+  <string name="searchOnYoutube">Шукати на Youtube</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">Не достатньо вільного місця</string>
+  <!---->
+  <string name="saveChanges">Зберегти зміни?</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Спеціальна пропозиція</string>
+  <!---->
+  <string name="viewSettingsTitle">Відображення</string>
+  <!---->
+  <string name="viewArtists">Список виконавців</string>
+  <!---->
+  <string name="viewHideMySongs">Приховати мої пісні</string>
+  <!---->
+  <string name="sortMode">Режим сортування</string>
+  <!---->
+  <string name="audioFile">Аудіо файл</string>
+  <!---->
+  <string name="playAudio">Відтворити аудіо</string>
+  <!---->
+  <string name="stopAudio">Зупинити аудіо</string>
+  <!---->
+  <string name="metronom">Метроном</string>
+  <!---->
+  <string name="properties">Властивості…</string>
+  <!---->
+  <string name="mySongs">Мої пісні</string>
+  <!---->
+  <string name="inputArtistName">Введіть ім\'я</string>
+  <!---->
+  <string name="synchronizationSettingsTitle">Синхронізяція</string>
+  <!---->
+  <string name="contentPrefCategory">Вміст</string>
+  <!---->
+  <string name="default_">Стандартний</string>
+  <!---->
+  <string name="value">Значення</string>
+  <!---->
+  <string name="watchOnYoutube">Дивитися на Youtube</string>
+  <!---->
+  <string name="hide">Приховати</string>
+  <!---->
+  <string name="hidden">Приховані</string>
+  <!---->
+  <string name="showHidden">Показати приховані</string>
+  <!---->
+  <string name="areYouSureToHide">Обрані елементи будуть приховані. Продовжити?</string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">Будь ласка, подивіться коротке відео перед початком перекладу</string>
+  <!---->
+  <string name="help">Допомога</string>
+  <!---->
+  <string name="faqTextQuestion17">Як змінити швидкість гортання?</string>
+  <!---->
+  <string name="faqTextQuestion14">Як копіювати пісні до папки \"Мої пісні\"?</string>
+  <!---->
+  <string name="faqTextQuestion13">Як приховати деяких виконавців зі списку?</string>
+  <!---->
+  <string name="faqTextQuestion11">Як змінити розмір шрифту?</string>
+  <!---->
+  <string name="faqTextAnswer11">Ви можете використовувати жести збільшення або кнопки зміни гучності телефону.</string>
+  <!---->
+  <string name="signUp">Реєстрація</string>
+  <!---->
+  <string name="signIn">Увійти</string>
+  <!---->
+  <string name="signInWithGoogle">Увійти через Google</string>
+  <!---->
+  <string name="signInWithFacebook">Увійти через Facebook</string>
+  <!---->
+  <string name="signInWithTwitter">Увійти через Twitter</string>
+  <!---->
+  <string name="signInWithEmail">Увійти через email</string>
+  <!---->
+  <string name="password">Пароль</string>
+  <!---->
+  <string name="signUpSuccess">Реєстрація пройшла успішно! Перевірте свою пошту</string>
+  <!---->
+  <string name="signUpInstructions">Будь ласка, перевірте вашу пошту після натискання кнопки \'Зареєструватися\'. Ми надішлемо вам інформацію про ваш пароль.</string>
+  <!---->
+  <string name="alreadyHaveAccount">У мене вже є профіль</string>
+  <!---->
+  <string name="selectFolder">Обрати папку</string>
+  <!---->
+  <string name="sortByArtistName">Сортувати за ім\'ям виконавця</string>
+  <!---->
+  <string name="sortBySongName">Сортувати за ім\'ям виконавця</string>
+  <!---->
+  <string name="sortByRandom">Випадкове сортування</string>
+  <!---->
+  <string name="exportDialogMessage">Будь ласка оберіть формат файлу</string>
+  <!---->
+  <string name="areYouSureToRemoveLang">Всі пісні цією мовою будуть видалені. Продовжити?</string>
+  <!---->
+  <string name="backupCreated">Резервна копія створена: %s</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Нагадати про застарілу базу даних пісень та необхідність синхронізяції з сервером</string>
+  <!---->
+  <string name="syncDialogMessage">Ваша база пісень застаріла. Вам варто синхронізуватися із сервером для оновлення. Зробити це зараз?</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Акаунт для синхронізації улюблених пісень</string>
+  <!---->
+  <string name="notationH">Німецька (В-&gt;Н)</string>
+  <!---->
+  <string name="incorrectField">Не вірне поле</string>
+  <!---->
+  <string name="syncData">Синхронізяція даних</string>
+  <!---->
+  <string name="specialPriceDialogText"> Дякую, що обрали \"Песни под гитару\"! Тільки зараз Ви можете відключити рекламу зі 60% скидкою. Це унікальний шанс! Хочете скористатися пропозицією і забути про рекламу у додатку?</string>
+  <!---->
+  <string name="choosePlaylist">Оберіть плейлист</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">Пісні додані до плейлиста \"%s\"</string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">Синхронізація плейлистів…</string>
+  <!---->
+  <string name="copiedSongs">Скопійовано %d пісень</string>
+  <!---->
+  <string name="appendPlaylist">Додати плейлист</string>
+  <!---->
+  <string name="copyToMySongs">Копіювати у \"Мої пісні\"…</string>
+  <!---->
+  <string name="addToPlaylist">Додати в плейлист…</string>
+  <!---->
+  <string name="syncedDataWillPublicWarning">Увага! Обираючи користувацькі дані (*) для синхронізації, ви погоджуєтесь з тим, що ці дані не мають конфіденціальної інформації</string>
+  <!---->
+  <string name="rootMenuPlaylists">Плейлисти</string>
+  <!---->
+  <string name="faqTextQuestion16">Як змінити мову відображених пісень?</string>
+  <!---->
+  <string name="faqTextQuestion15">Як додати пісні у плейлист?</string>
+  <!---->
+  <string name="faqTextQuestion12">Як змінити тональність в пісні (транспонувати акорди)?</string>
+  <!---->
+  <string name="viewHideNicknames">Приховати псевдоніми</string>
+  <!---->
+  <string name="langsManage">Змінити</string>
+  <!---->
+  <string name="notationSi">Іспанське (B-&gt;SI)</string>
+  <!---->
+  <string name="enabled">Увімкнути</string>
+  <!---->
+  <string name="proFeatureOnly">Доступно тільки у Пісні під гітару Pro</string>
+  <!---->
+  <string name="sound">Звук</string>
+  <!---->
+  <string name="disableAdsPaid">Назавжди</string>
+  <!---->
+  <string name="disableAdsFree">На 1 тиждень (безкоштовно)</string>
+  <!---->
+  <string name="disableAdsFreeInstruction">Для відключення реклами на 1 тиждень дочекайтесь закінчення відеоролика</string>
+  <!---->
+  <string name="tooShortSearchQuery">Для пошуку по тексту потрібно ввести хоча б 3 літери</string>
+  <!---->
+  <string name="rootMenuHistory">Історія / Топ</string>
+  <!---->
+  <string name="download">Завантажити</string>
+  <!---->
+  <string name="downloadAvailableLangMessage">На сервері доступні пісні на мові \"%s\"! Бажаєте завантажити їх зараз?</string>
+  <!---->
+  <string name="downloadAndRemoveLangDialogMessage">Тут Ви можете завантажити або видалити пісні на обраних мовах</string>
+  <!---->
+  <string name="viewShowLettersScreen">Єкран з алфавітом</string>
+  <!---->
+  <string name="newPlaylist">Новий</string>
+  <!---->
+  <string name="buy">Придбати</string>
+  <!---->
+  <string name="rateSongUnauthorized">Щоб мати можливість оцінювати пісні необхідно авторизуватися</string>
+  <!---->
+  <string name="billingPurchasingFeatureSuccess">Функція активована</string>
+  <!---->
+  <string name="historyPageTitle">Історія</string>
+  <!---->
+  <string name="dbErrorMessage">Спробуйте перезавантажити додаток. Якщо це не допоможе, повідомте, будь ласка, про проблему.</string>
+  <!---->
+  <string name="overwriteFileMessage">Файл \"%s\" вже існує. Перезаписати? </string>
+  <!---->
+  <string name="activatePremiumFeatureTitle">Хочете активувати цю опцію в поточному додатку? </string>
+  <!---->
+  <string name="activatePremiumFeaturePaid">Активувати назавжди</string>
+  <!---->
+  <string name="activatePremiumFeatureFree">Активувати на 1 раз (безкоштовно)</string>
+  <!---->
+  <string name="activatePremiumFeatureFreeInstruction">Для активації преміум опції дочекайтеся закінчення відеоролику</string>
+  <!---->
+  <string name="print_">Друк…</string>
+  <!---->
+  <string name="removedAuthors">Видалені виконавці</string>
+  <!---->
+  <string name="showRemoved">Показати видалені</string>
+  <!---->
+  <string name="fileName_">Файл:</string>
+  <!---->
+  <string name="noLangsDialogMessage">Для відображення списку пісень необхідно загрузити хоча б одну мову</string>
+  <!---->
+  <string name="privateNotes">Приватні замітки</string>
+</resources>

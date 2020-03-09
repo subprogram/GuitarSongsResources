@@ -1,0 +1,126 @@
+<resources>
+  <!---->
+  <string name="guitarSongs">Pesme za gitaru</string>
+  <!---->
+  <string name="newLangAvailable">Novi jezik: %1s</string>
+  <!---->
+  <string name="songLanguage">Jezici</string>
+  <!---->
+  <string name="chooseLang">Izaberi jezik</string>
+  <!---->
+  <string name="accordInfoTitle">Info o akordima</string>
+  <!---->
+  <string name="accordNotFound">Nepoznat akord</string>
+  <!---->
+  <string name="removingInProgress">Brisanje.\nMolimo sačekajte…</string>
+  <!---->
+  <string name="dbServerSongsCount">Dostupne pesme: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Poznati akordi: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Datum poslednje sinhronizacije</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Nedavno dodate pesme</string>
+  <!---->
+  <string name="dbInitError">Greška prilikom preuzimanja baze podataka</string>
+  <!---->
+  <string name="inetReceiveMessage">Slanje podataka.\nMolimo sačekajte…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Update liste akorda</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Update komentara…</string>
+  <!---->
+  <string name="inetReceiveError">Greška (%d) server ne reaguje!\nMolimo, proverite internet podešavanja i pokušajte ponovo.</string>
+  <!---->
+  <string name="readingFileProgress">Učitavanje fajla (line #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">Obrada liste izmena %d%%</string>
+  <!---->
+  <string name="loadedSongs">Raspakovane pesme: %d</string>
+  <!---->
+  <string name="loadingInProgress">Raspakivanje.\nMolimo sačekajte…</string>
+  <!---->
+  <string name="duration">Dužina</string>
+  <!---->
+  <string name="rateSong">Brzina</string>
+  <!---->
+  <string name="averageRating">Prosečna vrednost TABa</string>
+  <!---->
+  <string name="rateSongText">Ocenite kvalitet Taba\nVaša ocena će biti pridodata nakon sledeće sinhronizacije.</string>
+  <!---->
+  <string name="syncWithServer">Sinhronizujte</string>
+  <!---->
+  <string name="chooseKey">Izaberite taster</string>
+  <!---->
+  <string name="transpose">Izmeniti</string>
+  <!---->
+  <string name="append">Dodati</string>
+  <!---->
+  <string name="appending">Dodavanje %s</string>
+  <!---->
+  <string name="restart">Restart</string>
+  <!---->
+  <string name="pause">Pauza</string>
+  <!---->
+  <string name="save">Sačuvaj</string>
+  <!---->
+  <string name="yes">Da</string>
+  <!---->
+  <string name="no">Ne</string>
+  <!---->
+  <string name="more">Opcije</string>
+  <!---->
+  <string name="cancel">Otkaži</string>
+  <!---->
+  <string name="exit">Izlaz</string>
+  <!---->
+  <string name="accords">Akordi</string>
+  <!---->
+  <string name="versionInfo">Verzija aplikacije</string>
+  <!---->
+  <string name="feedback">Podrška</string>
+  <!---->
+  <string name="search">Pretraga</string>
+  <!---->
+  <string name="find">Nadji</string>
+  <!---->
+  <string name="saveToFile">Sačuvaj sa nazivom…</string>
+  <!---->
+  <string name="loadFromFile">Ubaci…</string>
+  <!---->
+  <string name="removeAll">Obriši sve</string>
+  <!---->
+  <string name="preferences">Podešavanja…</string>
+  <!---->
+  <string name="disableAds">Onemogući reklame</string>
+  <!---->
+  <string name="clearDB">Očisti bazu</string>
+  <!---->
+  <string name="songInfo">Informacije</string>
+  <!---->
+  <string name="edit">Izmeni…</string>
+  <!---->
+  <string name="error">Greška</string>
+  <!---->
+  <string name="errorHappened">Došlo je do greške (code: %d)</string>
+  <!---->
+  <string name="favourites">Omiljeni</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%1s\" dodat u omiljene</string>
+  <!---->
+  <string name="appendToFavourites">Dodaj u omiljene</string>
+  <!---->
+  <string name="removeFromFavourites">Obriši iz omiljenih</string>
+  <!---->
+  <string name="remove">Ukloni</string>
+  <!---->
+  <string name="areYouSure">Jesi li siguran?</string>
+  <!---->
+  <string name="langId">18</string>
+  <!---->
+  <string name="authorName">Ime izvođača</string>
+  <!---->
+  <string name="autoSyncWithServer">Automatska sinhronizacija</string>
+  <!---->
+  <string name="chooseAuthor">Izaberi izvođača</string>
+</resources>

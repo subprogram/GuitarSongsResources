@@ -1,0 +1,494 @@
+<resources>
+  <!---->
+  <string name="newLangAvailable">新语言: %s</string>
+  <!---->
+  <string name="songLanguage">语言</string>
+  <!---->
+  <string name="chooseLang">选择语言</string>
+  <!---->
+  <string name="accordInfoTitle">和弦信息</string>
+  <!---->
+  <string name="accordNotFound">未知和弦</string>
+  <!---->
+  <string name="dbServerSongsCount">已有歌曲:%d</string>
+  <!---->
+  <string name="dbLastSyncDate">上次同步日期</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">最近添加歌曲</string>
+  <!---->
+  <string name="dbInitError">数据库初始化错误</string>
+  <!---->
+  <string name="inetReceiveMessage">数据发送中，请等待…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">和弦列表更新中…</string>
+  <!---->
+  <string name="removingInProgress">删除中，请等待…</string>
+  <!---->
+  <string name="dbAccordsCount">已知和弦: %d</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">更新评论中…</string>
+  <!---->
+  <string name="inetReceiveError">出错(%d) 服务器无响应!\n请检查网络连接后重试</string>
+  <!---->
+  <string name="readingFileProgress">读取文件(行 #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">列表更新进行中 %d%%</string>
+  <!---->
+  <string name="loadedSongs">解压歌曲： %d</string>
+  <!---->
+  <string name="loadingInProgress">解压中\n请等待…</string>
+  <!---->
+  <string name="duration">时长</string>
+  <!---->
+  <string name="rateSong">评分</string>
+  <!---->
+  <string name="averageRating">平均评分</string>
+  <!---->
+  <string name="rateSongText">给谱子的质量评分。\n您的评分会在下次服务器同步更新后显示。</string>
+  <!---->
+  <string name="syncWithServer">同步</string>
+  <!---->
+  <string name="chooseKey">选调</string>
+  <!---->
+  <string name="transpose">变调</string>
+  <!---->
+  <string name="append">增加</string>
+  <!---->
+  <string name="appending">加入中 %s</string>
+  <!---->
+  <string name="restart">重启</string>
+  <!---->
+  <string name="pause">暂停</string>
+  <!---->
+  <string name="save">保存</string>
+  <!---->
+  <string name="yes">是</string>
+  <!---->
+  <string name="no">否</string>
+  <!---->
+  <string name="more">选项</string>
+  <!---->
+  <string name="cancel">取消</string>
+  <!---->
+  <string name="exit">退出</string>
+  <!---->
+  <string name="accords">和弦</string>
+  <!---->
+  <string name="dbInfo">\n数据库关联</string>
+  <!---->
+  <string name="versionInfo">程序版本</string>
+  <!---->
+  <string name="feedback">意见反馈</string>
+  <!---->
+  <string name="search">搜索</string>
+  <!---->
+  <string name="find">寻找</string>
+  <!---->
+  <string name="saveToFile">保存到文件…</string>
+  <!---->
+  <string name="loadFromFile">导入…</string>
+  <!---->
+  <string name="removeAll">删除全部</string>
+  <!---->
+  <string name="preferences">设置</string>
+  <!---->
+  <string name="disableAds">关闭广告</string>
+  <!---->
+  <string name="clearDB">清空数据库</string>
+  <!---->
+  <string name="songInfo">信息</string>
+  <!---->
+  <string name="edit">编辑</string>
+  <!---->
+  <string name="error">错误</string>
+  <!---->
+  <string name="errorHappened">出错了 (代码: %d)</string>
+  <!---->
+  <string name="favourites">收藏</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" 加入收藏</string>
+  <!---->
+  <string name="appendToFavourites">加入收藏</string>
+  <!---->
+  <string name="removeFromFavourites">不再收藏</string>
+  <!---->
+  <string name="remove">删除</string>
+  <!---->
+  <string name="areYouSure">你确定吗？</string>
+  <!---->
+  <string name="areYouSureToExit">退出程序？</string>
+  <!---->
+  <string name="areYouSureToDelete">选择的部分将被删除，继续吗？</string>
+  <!---->
+  <string name="fileSaved">文件成功保存了</string>
+  <!---->
+  <string name="fileSaveError">不能保存文件</string>
+  <!---->
+  <string name="badVersionError">我们更新了服务器上的编码数据! 请更新程序。</string>
+  <!---->
+  <string name="authorName">艺人名字</string>
+  <!---->
+  <string name="songName">名字</string>
+  <!---->
+  <string name="songText">歌词</string>
+  <!---->
+  <string name="songDuration">时长</string>
+  <!---->
+  <string name="songDelay">初始暂停</string>
+  <!---->
+  <string name="songComments">和弦注释</string>
+  <!---->
+  <string name="userComments">用户注释</string>
+  <!---->
+  <string name="scrollSpeed">页面滚动速度</string>
+  <!---->
+  <string name="sender">发送</string>
+  <!---->
+  <string name="speedUp">更快</string>
+  <!---->
+  <string name="speedDown">更慢</string>
+  <!---->
+  <string name="na">没有数据</string>
+  <!---->
+  <string name="unknown">未知</string>
+  <!---->
+  <string name="language">语言</string>
+  <!---->
+  <string name="appearance">界面显示</string>
+  <!---->
+  <string name="songTextScreen">显示歌词</string>
+  <!---->
+  <string name="other">杂项</string>
+  <!---->
+  <string name="attention">注意！</string>
+  <!---->
+  <string name="anonymous">匿名</string>
+  <!---->
+  <string name="googlePlayNotFound">不能打开谷歌市场</string>
+  <!---->
+  <string name="functionNotAllowed">免费版不提供此功能</string>
+  <!---->
+  <string name="chooseFileManager">选择你的文件管理器</string>
+  <!---->
+  <string name="empty">清空</string>
+  <!---->
+  <string name="showSongPaused">初始暂停</string>
+  <!---->
+  <string name="showSongPausedSummary">不要自动开始倒数</string>
+  <!---->
+  <string name="hideActionBar">隐藏控制按钮</string>
+  <!---->
+  <string name="hideActionBarSummary">为小屏幕设备建议</string>
+  <!---->
+  <string name="design">界面显示主题</string>
+  <!---->
+  <string name="designSummary">更改主题后，请重启程序</string>
+  <!---->
+  <string name="instrument">乐器</string>
+  <!---->
+  <string name="songTextSize">字体大小</string>
+  <!---->
+  <string name="zoomIn">增大字体</string>
+  <!---->
+  <string name="zoomOut">减小字体</string>
+  <!---->
+  <string name="fixedSongTextSize">固定字体大小</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">每首歌用同样大小字体</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">程序现在无广告！</string>
+  <!---->
+  <string name="selectFile">选择文件</string>
+  <!---->
+  <string name="select">选择</string>
+  <!---->
+  <string name="haventAccessPrivileges">你没有访问目录的权限</string>
+  <!---->
+  <string name="yesterday">昨天</string>
+  <!---->
+  <string name="chooseFolder">选择文件夹</string>
+  <!---->
+  <string name="songsAddedToFolder_">歌曲加入了文件夹 “%s”</string>
+  <!---->
+  <string name="inputFolderName">输入名字</string>
+  <!---->
+  <string name="allowAbusive">粗俗的歌曲</string>
+  <!---->
+  <string name="allowAbusiveSummary">显示限制性歌曲</string>
+  <!---->
+  <string name="helpToTranslate">帮忙翻译</string>
+  <!---->
+  <string name="helpToTranslateSummary">你可以帮忙以你的母语翻译本软件</string>
+  <!---->
+  <string name="share">发送</string>
+  <!---->
+  <string name="rateDialogTitle">给本软件评分</string>
+  <!---->
+  <string name="rateDialogMessage">如果您喜欢本软件，请花点时间给它评分，不会超过一分钟，谢谢您的支持！</string>
+  <!---->
+  <string name="rateNow">现在评分</string>
+  <!---->
+  <string name="faqTextQuestion10">我想翻译这个软件，怎么做？</string>
+  <!---->
+  <string name="faqTextAnswer10">你可以直接进入本软件：在设置中选择“帮忙翻译”</string>
+  <!---->
+  <string name="faqTextQuestion9">我如何能加入新歌到数据库？</string>
+  <!---->
+  <string name="faqTextAnswer9">访问网站：en.guitarsongs.club 用你的谷歌账号登陆后你可以加入你喜欢的歌曲到数据库，新歌曲会立刻对所有用户生效，只需在程序中点击“同步”即可。</string>
+  <!---->
+  <string name="faqTextQuestion8">当我在播放当前歌曲时，我可以不返回列表去查看下一首歌曲吗？</string>
+  <!---->
+  <string name="faqTextAnswer8">是的，你可以用手势，滑向左边或右边(只对当前文件夹有效)</string>
+  <!---->
+  <string name="faqTextQuestion7">一些歌曲名字旁的数字是什么意思？</string>
+  <!---->
+  <string name="faqTextAnswer7">这个数字是歌谱的平均评分。你可以从歌词列表中的评分按钮为歌曲评分。我们加入此功能是为了防止低质量的歌谱。我们会适度谨慎的处理低评分歌谱，尽可能让其更好。</string>
+  <!---->
+  <string name="faqTextQuestion5">我听不到歌曲的声音！</string>
+  <!---->
+  <string name="faqTextAnswer5">这只是歌谱，你只能看到歌词</string>
+  <!---->
+  <string name="faqTextQuestion4">上次更新后我发现很多问题，我怎么办？</string>
+  <!---->
+  <string name="faqTextAnswer4">请尽管联系我们，描述问题所在，你的设备和安卓系统版本</string>
+  <!---->
+  <string name="faqTextQuestion3">如何看和弦界面？</string>
+  <!---->
+  <string name="faqTextAnswer3">只需按在感兴趣的和弦上</string>
+  <!---->
+  <string name="faqTextQuestion1">我怎么把我的歌曲加到数据库</string>
+  <!---->
+  <string name="faqTextAnswer1">最好，请使用网站：en.guitarsongs.club 你加入的歌曲会让所有用户看到，如果只想自己看请这样：歌曲列表菜单中选择导入选项，然后选择文件夹或txt 文件。</string>
+  <!---->
+  <string name="faqTextQuestion0">如何提交问题，咨询开发者？</string>
+  <!---->
+  <string name="faqTextAnswer0">请在我们官方网页发送消息： https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="rootMenuSongs">歌曲列表</string>
+  <!---->
+  <string name="rootMenuFolders">文件夹</string>
+  <!---->
+  <string name="rootMenuInfo">信息</string>
+  <!---->
+  <string name="rootMenuTopUsers">用户顶部</string>
+  <!---->
+  <string name="designWood">木纹</string>
+  <!---->
+  <string name="designBlack">黑色</string>
+  <!---->
+  <string name="designWhite">白色</string>
+  <!---->
+  <string name="instrumentGuitar">吉他</string>
+  <!---->
+  <string name="instrumentUkulele">尤克里里</string>
+  <!---->
+  <string name="goToAuthor">显示所有艺人歌曲</string>
+  <!---->
+  <string name="moveToFolder">移到文件夹</string>
+  <!---->
+  <string name="langId">49</string>
+  <!---->
+  <string name="chooseAuthor">选择艺人</string>
+  <!---->
+  <string name="copyToFolder">复制到文件夹</string>
+  <!---->
+  <string name="systemSettingsTitle">系统</string>
+  <!---->
+  <string name="backupSettingTitle">备份</string>
+  <!---->
+  <string name="backupSummary">生成全新的数据库备份</string>
+  <!---->
+  <string name="backupCreated">成功备份文件 %s</string>
+  <!---->
+  <string name="creatingBackup">备份文件中…</string>
+  <!---->
+  <string name="restoreSettingTitle">恢复</string>
+  <!---->
+  <string name="restoreSummary">从备份中恢复数据库</string>
+  <!---->
+  <string name="restoreCompleted">恢复成功！</string>
+  <!---->
+  <string name="restoring">恢复中…</string>
+  <!---->
+  <string name="serverUnderConstructionError">服务器暂不可用，请稍候重试。</string>
+  <!---->
+  <string name="remindDbSyncDate">有新歌提醒我</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">提醒我过期的歌曲数据库以及系统必要的同步</string>
+  <!---->
+  <string name="syncDialogMessage">你的歌曲数据库过时了，建议同步服务器更新，想同步吗？</string>
+  <!---->
+  <string name="syncNow">现在同步</string>
+  <!---->
+  <string name="remindLater">以后再提醒</string>
+  <!---->
+  <string name="neverRemind">不要再提醒</string>
+  <!---->
+  <string name="newsDialogShow">显示</string>
+  <!---->
+  <string name="newsDialogLater">以后提醒</string>
+  <!---->
+  <string name="newsDialogClose">关闭</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">同步收藏</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">同步收藏歌曲的账号</string>
+  <!---->
+  <string name="notation">和弦名字</string>
+  <!---->
+  <string name="notationUnknown">未定义</string>
+  <!---->
+  <string name="notationB">默认</string>
+  <!---->
+  <string name="notationH">德语(B-&gt;H)</string>
+  <!---->
+  <string name="appLanguage">程序语言</string>
+  <!---->
+  <string name="autoSyncWithServer">自动同步</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">后台同步服务器</string>
+  <!---->
+  <string name="executingInProgress">请等待…</string>
+  <!---->
+  <string name="appendFolder">加入文件夹</string>
+  <!---->
+  <string name="appendVirtualFolder">加入虚拟文件夹</string>
+  <!---->
+  <string name="databasePath">数据库路径</string>
+  <!---->
+  <string name="searchOnYoutube">在YouTube搜索</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">空间不够</string>
+  <!---->
+  <string name="incorrectField">不正确的字段</string>
+  <!---->
+  <string name="saveChanges">保存更改吗？</string>
+  <!---->
+  <string name="syncData">同步数据</string>
+  <!---->
+  <string name="specialPriceDialogTitle">特别提供</string>
+  <!---->
+  <string name="specialPriceDialogText">谢谢使用本吉他歌谱软件!现在你可以以六折优惠价格去掉广告，这是独特的机会！你想使用本优惠去掉广告吗？</string>
+  <!---->
+  <string name="viewSettingsTitle">查看</string>
+  <!---->
+  <string name="viewArtists">艺人列表</string>
+  <!---->
+  <string name="viewHideMySongs">隐藏我的歌曲</string>
+  <!---->
+  <string name="choosePlaylist">选择演出曲目</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">歌曲加入到歌单“%s”</string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">同步歌单…</string>
+  <!---->
+  <string name="copiedSongs">复制了 %d 歌曲</string>
+  <!---->
+  <string name="appendPlaylist">加入歌单</string>
+  <!---->
+  <string name="sortMode">排序模式</string>
+  <!---->
+  <string name="copyToMySongs">复制到我的歌曲</string>
+  <!---->
+  <string name="audioFile">音频文件</string>
+  <!---->
+  <string name="playAudio">播放音频</string>
+  <!---->
+  <string name="stopAudio">停止音频</string>
+  <!---->
+  <string name="metronom">节拍器</string>
+  <!---->
+  <string name="properties">属性</string>
+  <!---->
+  <string name="mySongs">我的歌曲</string>
+  <!---->
+  <string name="addToPlaylist">加入歌单</string>
+  <!---->
+  <string name="inputArtistName">输入名字</string>
+  <!---->
+  <string name="syncedDataWillPublicWarning">注意！选择的数据将要同步，你同意这些数据没有秘密信息</string>
+  <!---->
+  <string name="synchronizationSettingsTitle">同步</string>
+  <!---->
+  <string name="contentPrefCategory">内容</string>
+  <!---->
+  <string name="default_">默认</string>
+  <!---->
+  <string name="value">参数</string>
+  <!---->
+  <string name="rootMenuPlaylists">歌单</string>
+  <!---->
+  <string name="watchOnYoutube">在YouTube上看</string>
+  <!---->
+  <string name="hide">隐藏</string>
+  <!---->
+  <string name="hidden">隐藏的</string>
+  <!---->
+  <string name="showHidden">显示隐藏的</string>
+  <!---->
+  <string name="areYouSureToHide">选择项目将被隐藏，继续吗？</string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">翻译前请先看视频短片</string>
+  <!---->
+  <string name="help">帮助</string>
+  <!---->
+  <string name="faqTextQuestion17">如何改变滚页速度</string>
+  <!---->
+  <string name="faqTextQuestion16">如何以某种语言显示歌曲？</string>
+  <!---->
+  <string name="faqTextQuestion15">如何加入歌曲到歌单？</string>
+  <!---->
+  <string name="faqTextQuestion14">如何复制歌曲到我的歌曲</string>
+  <!---->
+  <string name="faqTextQuestion13">如何在列表中隐藏一些艺人</string>
+  <!---->
+  <string name="faqTextQuestion12">如何改变歌谱的调子</string>
+  <!---->
+  <string name="faqTextQuestion11">如何改变字体大小？</string>
+  <!---->
+  <string name="faqTextAnswer11">你可以用缩放手势或者音量键调整</string>
+  <!---->
+  <string name="viewHideNicknames">隐藏昵称</string>
+  <!---->
+  <string name="signUp">注册</string>
+  <!---->
+  <string name="signIn">登录</string>
+  <!---->
+  <string name="signInWithGoogle">用谷歌账号登录</string>
+  <!---->
+  <string name="signInWithFacebook">用脸谱账号登录</string>
+  <!---->
+  <string name="signInWithTwitter">用推特账号登录</string>
+  <!---->
+  <string name="signInWithEmail">用电子邮箱登陆</string>
+  <!---->
+  <string name="password">密码</string>
+  <!---->
+  <string name="signUpSuccess">成功注册！请检查你的电子邮箱</string>
+  <!---->
+  <string name="signUpInstructions">注册后请确认你的电子邮件，我们会发送关于你密码的信息</string>
+  <!---->
+  <string name="alreadyHaveAccount">我已有账号</string>
+  <!---->
+  <string name="selectFolder">选择文件夹</string>
+  <!---->
+  <string name="guitarSongs">吉他歌谱</string>
+  <!---->
+  <string name="langsManage">管理</string>
+  <!---->
+  <string name="sortByArtistName">按艺人名字排序</string>
+  <!---->
+  <string name="sortBySongName">按艺人名字分类</string>
+  <!---->
+  <string name="sortByRandom">随机排列</string>
+  <!---->
+  <string name="exportDialogMessage">请选择文件格式</string>
+  <!---->
+  <string name="areYouSureToRemoveLang">警告！所有这个语言的歌曲将被删除，不可恢复，继续吗？</string>
+  <!---->
+  <string name="notationSi">西班牙语(B-&gt;SI)</string>
+  <!---->
+  <string name="proFeatureOnly">只在专业版有效</string>
+  <!---->
+  <string name="tooShortSearchQuery">全文搜索，请至少输入三个字符</string>
+</resources>

@@ -1,0 +1,334 @@
+<resources>
+  <!---->
+  <string name="guitarSongs">Písničky pro kytaru</string>
+  <!---->
+  <string name="songLanguage">Jazyky</string>
+  <!---->
+  <string name="chooseLang">Vyberte jazyk</string>
+  <!---->
+  <string name="accordInfoTitle">Informace k akordům</string>
+  <!---->
+  <string name="accordNotFound">Neznámý akord</string>
+  <!---->
+  <string name="removingInProgress">Mazání.\nProsím, čekejte…</string>
+  <!---->
+  <string name="dbAccordsCount">Známé akordy: %d</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Nedávno přidané písně</string>
+  <!---->
+  <string name="inetReceiveMessage">Odesílání dat.\nProsím, čekejte…</string>
+  <!---->
+  <string name="inetReceiveError">Error (%d) server nereaguje !\nProsím, zkontrolujte své internetové připojení a zkuste to znovu</string>
+  <!---->
+  <string name="readingFileProgress">Čtení složky (line #%d)</string>
+  <!---->
+  <string name="duration">Trvání</string>
+  <!---->
+  <string name="syncWithServer">Synchronizovat</string>
+  <!---->
+  <string name="append">Přidat</string>
+  <!---->
+  <string name="restart">Restartovat</string>
+  <!---->
+  <string name="pause">Pozastavit</string>
+  <!---->
+  <string name="save">Uložit</string>
+  <!---->
+  <string name="yes">Ano</string>
+  <!---->
+  <string name="no">Ne</string>
+  <!---->
+  <string name="more">Možnosti</string>
+  <!---->
+  <string name="cancel">Zrušit</string>
+  <!---->
+  <string name="exit">Odejít</string>
+  <!---->
+  <string name="accords">Akordy</string>
+  <!---->
+  <string name="search">Hledat</string>
+  <!---->
+  <string name="find">Najít</string>
+  <!---->
+  <string name="saveToFile">Uložit do složky</string>
+  <!---->
+  <string name="loadFromFile">Importovat…</string>
+  <!---->
+  <string name="removeAll">Smazat vše</string>
+  <!---->
+  <string name="preferences">Nastavení…</string>
+  <!---->
+  <string name="songInfo">Informace</string>
+  <!---->
+  <string name="edit">Upravit…</string>
+  <!---->
+  <string name="error">Error</string>
+  <!---->
+  <string name="errorHappened">Nastal error (code: %d)</string>
+  <!---->
+  <string name="favourites">Oblíbené</string>
+  <!---->
+  <string name="appendToFavourites">Přidat do oblíbených</string>
+  <!---->
+  <string name="removeFromFavourites">Odebrat z oblíbených</string>
+  <!---->
+  <string name="remove">Odebrat</string>
+  <!---->
+  <string name="areYouSure">Jste si jisti?</string>
+  <!---->
+  <string name="areYouSureToExit">Ukončit aplikaci?</string>
+  <!---->
+  <string name="areYouSureToDelete">Vybrané položky budou vymazány. Pokračovat?</string>
+  <!---->
+  <string name="fileSaved">Složka byla uložena</string>
+  <!---->
+  <string name="authorName">Jméno umělce</string>
+  <!---->
+  <string name="songName">Jméno</string>
+  <!---->
+  <string name="songText">Text</string>
+  <!---->
+  <string name="songDuration">Trvání</string>
+  <!---->
+  <string name="newLangAvailable">Nový jazyk: %s</string>
+  <!---->
+  <string name="dbServerSongsCount">Písničky k dispozici: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Datum poslední synchronizace</string>
+  <!---->
+  <string name="dbInitError">Chyba při instalaci databáze</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Aktualizace akordů</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Aktualizace komentářů</string>
+  <!---->
+  <string name="loadedSongs">Extrahované písničky: %d</string>
+  <!---->
+  <string name="loadingInProgress">Extrahujte se\nProsím čekej…</string>
+  <!---->
+  <string name="rateSong">Hodnocení</string>
+  <!---->
+  <string name="averageRating">Průměrné hodnocení tabu</string>
+  <!---->
+  <string name="rateSongText">Ohodnoť kvalitu tabulatury tvoje hodnocení bude přidáno při příští sinchronizaci se serverem</string>
+  <!---->
+  <string name="transpose">Transpozice</string>
+  <!---->
+  <string name="appending">Přidávání %s</string>
+  <!---->
+  <string name="versionInfo">Verze aplikace</string>
+  <!---->
+  <string name="disableAds">Odstranit reklamu</string>
+  <!-- -->
+  <string name="songAppendedToFavourites">\"%s\" přidáno do oblíbených</string>
+  <!---->
+  <string name="fileSaveError">Nelze uložit soubor</string>
+  <!---->
+  <string name="userComments">Uživatelské komentáře</string>
+  <!---->
+  <string name="sender">Odeslat</string>
+  <!---->
+  <string name="speedUp">Rychleji</string>
+  <!---->
+  <string name="speedDown">Pomaleji</string>
+  <!---->
+  <string name="na">Žádná data</string>
+  <!---->
+  <string name="unknown">Neznámý</string>
+  <!---->
+  <string name="language">Jazyk</string>
+  <!---->
+  <string name="attention">Pozor</string>
+  <!---->
+  <string name="anonymous">Anonymní</string>
+  <!---->
+  <string name="functionNotAllowed">Tato funkce není k dispozici v neplacené verzi</string>
+  <!---->
+  <string name="empty">Prázdný</string>
+  <!---->
+  <string name="hideActionBar">Skrýt kontrolní tlačítka</string>
+  <!---->
+  <string name="hideActionBarSummary">Doporučeno pro zařízení s malým displejem</string>
+  <!---->
+  <string name="instrument">Nástroj</string>
+  <!---->
+  <string name="songTextSize">Velikost písma</string>
+  <!---->
+  <string name="zoomOut">Zmenšit písmo</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Použít stejnou velikost písma pro všechny písničky</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Aplikace je nyní bez reklam</string>
+  <!---->
+  <string name="selectFile">Zvolte soubor</string>
+  <!---->
+  <string name="select">Zvolte</string>
+  <!---->
+  <string name="chooseFolder">Zvolte složku</string>
+  <!---->
+  <string name="songsAddedToFolder_">Do složky přidány písničky \"%s\"</string>
+  <!---->
+  <string name="inputFolderName">Vložte jméno</string>
+  <!---->
+  <string name="helpToTranslate">Pomoct s překladem</string>
+  <!---->
+  <string name="share">Odeslat</string>
+  <!---->
+  <string name="rateDialogTitle">Ohodnotit tuto aplikaci</string>
+  <!---->
+  <string name="rateNow">Ohodnotit nyní</string>
+  <!---->
+  <string name="faqTextQuestion10">Chci pomoct přeložit tuto aplikaci do mého rodného jazyka. Jak to udělat</string>
+  <!---->
+  <string name="faqTextAnswer10">Můžete to udělat přímo z aplikace: jděte do nastavení a zvolte \"Pomoct s překladem\"</string>
+  <!---->
+  <string name="faqTextQuestion9">Jak můžu přidat novou písničku do databáze ?</string>
+  <!---->
+  <string name="chooseKey">Zvolte klíč </string>
+  <!---->
+  <string name="feedback">Zpětná vazba</string>
+  <!---->
+  <string name="clearDB">Vymazat databázi</string>
+  <!---->
+  <string name="songTextScreen">Stránka s textem písničky</string>
+  <!---->
+  <string name="googlePlayNotFound">Nelze otevřít Google Play</string>
+  <!---->
+  <string name="chooseFileManager">Vyberte svůj průzkumník souborů</string>
+  <!---->
+  <string name="designSummary">Po změně tématu prosím restartujte aplikaci</string>
+  <!---->
+  <string name="fixedSongTextSize">Fixovat velikost textu</string>
+  <!---->
+  <string name="yesterday">Včera</string>
+  <!---->
+  <string name="helpToTranslateSummary">Můžete pomoct přeložit aplikaci do vašeho jazyka</string>
+  <!---->
+  <string name="rateDialogMessage">Pokud se vám aplikace líbí, prosím ohodnoťte ji. Nezabere vám to víc než minutu. Děkujeme za vaši podporu. </string>
+  <!---->
+  <string name="faqTextAnswer9">Navštivte webovou stránku en.guitarsongs.club, přihlaste se přes svůj google účet a můžete přidat svou oblíbenou písničku do databáze. nová písnička bude k dispozici pro všechny uživatele. Prostě stiskněte tlačítko synchronizace v aplikaci. </string>
+  <!---->
+  <string name="faqTextQuestion8">Můžu si prohlédnout další píseň pokud hraju aktuální, aniž bych se vrátil zpět na list? </string>
+  <!---->
+  <string name="faqTextAnswer8">Ano, můžete použít gesta, posunout doleva nebo doprava. (gesta fungují pouze v aktuální složce) </string>
+  <!---->
+  <string name="faqTextQuestion5">Nemůžu poslouchat písničky, nemám zvuk!</string>
+  <!---->
+  <string name="faqTextAnswer5">Tohle je kniha písniček, tady najdete pouze text. </string>
+  <!---->
+  <string name="faqTextQuestion4">Po posledním updatu mám nějaké bugy v aplikaci, co mám dělat? </string>
+  <!---->
+  <string name="faqTextAnswer4">Prosím, napište nám zdarma s popisem bugů, typem svého zařízení, a verzí android. </string>
+  <!---->
+  <string name="faqTextQuestion1">Jak můžu přidat písničku do databáze? </string>
+  <!---->
+  <string name="faqTextQuestion0">Jak oznámit bug, zeptat se na otázku, nebo upozornit vývojáře? </string>
+  <!---->
+  <string name="faqTextAnswer0">Prosím, napište nám na naši stránku - https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="rootMenuSongs">List písniček</string>
+  <!---->
+  <string name="rootMenuFolders">Složky</string>
+  <!---->
+  <string name="rootMenuInfo">Informace</string>
+  <!---->
+  <string name="designWood">Dřevo</string>
+  <!---->
+  <string name="designBlack">Černá</string>
+  <!---->
+  <string name="designWhite">Bílá</string>
+  <!---->
+  <string name="instrumentGuitar">Kytara</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulele</string>
+  <!---->
+  <string name="goToAuthor">Zobrazit všechny písničky autora</string>
+  <!---->
+  <string name="moveToFolder">Přesunout do složky…</string>
+  <!---->
+  <string name="langId">3</string>
+  <!---->
+  <string name="chooseAuthor">Vybrat skladatele</string>
+  <!---->
+  <string name="copyToFolder">Kopírovat do složky…</string>
+  <!---->
+  <string name="systemSettingsTitle">Systém</string>
+  <!---->
+  <string name="backupSettingTitle">Záloha</string>
+  <!---->
+  <string name="backupSummary">Vytvořit zálohu celé databáze</string>
+  <!---->
+  <string name="backupCreated">Záloha souboru %s vytvořena</string>
+  <!---->
+  <string name="creatingBackup">Vytvářím zálohu souboru…</string>
+  <!---->
+  <string name="restoreSettingTitle">Obnovit</string>
+  <!---->
+  <string name="restoreSummary">Obnovit databázi ze zálohy </string>
+  <!---->
+  <string name="restoreCompleted">Obnova byla úspěšná</string>
+  <!---->
+  <string name="restoring">Obnovuji… </string>
+  <!---->
+  <string name="remindDbSyncDate">Upozornění o nových písních </string>
+  <!---->
+  <string name="syncNow">Synchronizace </string>
+  <!---->
+  <string name="remindLater">Připomenout později</string>
+  <!---->
+  <string name="neverRemind">Nepřipomínat</string>
+  <!---->
+  <string name="newsDialogShow">Ukázat </string>
+  <!---->
+  <string name="newsDialogLater">Připomenout později </string>
+  <!---->
+  <string name="newsDialogClose">Zavřít</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Synchronizuji oblíbené..</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Účet pro synchronizaci oblíbených písní</string>
+  <!---->
+  <string name="notation">Jména akordů</string>
+  <!---->
+  <string name="notationUnknown">Nedefinován</string>
+  <!---->
+  <string name="notationB">Základní</string>
+  <!---->
+  <string name="notationH">Německé (B-&gt;H)</string>
+  <!---->
+  <string name="appLanguage">Jazyk aplikace</string>
+  <!---->
+  <string name="autoSyncWithServer">Auto-synchronizace</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Synchronizovat se serverem v módu pozadí</string>
+  <!---->
+  <string name="executingInProgress">Prosím čekejte…</string>
+  <!---->
+  <string name="appendFolder">Přidat složku</string>
+  <!---->
+  <string name="appendVirtualFolder">Přidat virtuální složku</string>
+  <!---->
+  <string name="searchOnYoutube">Vyhledat na Youtube</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">Není volné místo</string>
+  <!---->
+  <string name="saveChanges">Uložit změny? </string>
+  <!---->
+  <string name="syncData">Synchronizovat data</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Speciální nabídka</string>
+  <!---->
+  <string name="design">Barevné téma </string>
+  <!---->
+  <string name="songDelay">Počáteční pauza</string>
+  <!---->
+  <string name="scrollSpeed">Rychlost rolování </string>
+  <!---->
+  <string name="appearance">Vzhled</string>
+  <!---->
+  <string name="showSongPaused">Počáteční pauza</string>
+  <!---->
+  <string name="zoomIn">Zvětšit velikost písma</string>
+  <!---->
+  <string name="viewHideMySongs">Skrýt mé písničky </string>
+</resources>

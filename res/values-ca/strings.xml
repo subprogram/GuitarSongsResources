@@ -1,0 +1,450 @@
+<resources>
+  <!---->
+  <string name="guitarSongs">Cançons de guitarra</string>
+  <!---->
+  <string name="newLangAvailable">Llengua nova: %s</string>
+  <!---->
+  <string name="songLanguage">Llengües</string>
+  <!---->
+  <string name="chooseLang">Escolliu la llengua</string>
+  <!---->
+  <string name="accordInfoTitle">Informació dels acords</string>
+  <!---->
+  <string name="accordNotFound">Acord desconegut</string>
+  <!---->
+  <string name="removingInProgress">S\'està esborrant.\nSi us plau espereu…</string>
+  <!---->
+  <string name="dbServerSongsCount">Cançons disponibles: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Acords coneguts: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Data de l\'última sincronització</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Cançons afegides recentment</string>
+  <!---->
+  <string name="dbInitError">S\'ha produiït un error en carregar la base de dades!</string>
+  <!---->
+  <string name="inetReceiveMessage">S\'estan enviant les dades.\nSi us plau espereu…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">S\'està actuaitzant la llista d\'acords…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">S\'estan actualitzant els comentaris…</string>
+  <!---->
+  <string name="inetReceiveError">Error (%d) el servidor no respon!\nSi us plau, verifiqueu la vostra confiiguració d\'Internet i proveu un altre cop</string>
+  <!---->
+  <string name="readingFileProgress">S\'està llegint el fitxer (línia #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">S\'està processant la llista de canvis %d%%</string>
+  <!---->
+  <string name="loadedSongs">Cançons extraigudes: %d</string>
+  <!---->
+  <string name="loadingInProgress">S\'esta extraient.\nSi us plau espereu…</string>
+  <!---->
+  <string name="duration">Duració</string>
+  <!---->
+  <string name="rateSong">Valora</string>
+  <!---->
+  <string name="averageRating">Valoració mitjana de la tabulació</string>
+  <!---->
+  <string name="rateSongText">Valoreu la qualitat de la tabulació.\nLa vostra valoració s\'afegirà després de la\nsegüent sincronització amb el servidor.</string>
+  <!---->
+  <string name="syncWithServer">Sincronitza</string>
+  <!---->
+  <string name="chooseKey">Escolliu la clau</string>
+  <!---->
+  <string name="transpose">Transposa</string>
+  <!---->
+  <string name="append">Afegeix</string>
+  <!---->
+  <string name="appending">S\'està afegint %s</string>
+  <!---->
+  <string name="restart">Reinicia</string>
+  <!---->
+  <string name="pause">Pausa</string>
+  <!---->
+  <string name="save">Desa</string>
+  <!---->
+  <string name="yes">Sí</string>
+  <!---->
+  <string name="no">No</string>
+  <!---->
+  <string name="more">Opcions</string>
+  <!---->
+  <string name="cancel">Cancel·la</string>
+  <!---->
+  <string name="exit">Surt</string>
+  <!---->
+  <string name="accords">Acords</string>
+  <!---->
+  <string name="dbInfo">Rellevància de la base de dades</string>
+  <!---->
+  <string name="versionInfo">Versió de l\'aplicació</string>
+  <!---->
+  <string name="feedback">Doneu els vostres comentaris</string>
+  <!---->
+  <string name="search">Cerca</string>
+  <!---->
+  <string name="find">Troba</string>
+  <!---->
+  <string name="saveToFile">Desa a un fitxer…</string>
+  <!---->
+  <string name="loadFromFile">Importa…</string>
+  <!---->
+  <string name="removeAll">Esborra-ho tot</string>
+  <!---->
+  <string name="preferences">Configuració…</string>
+  <!---->
+  <string name="disableAds">Desactiva els anuncis</string>
+  <!---->
+  <string name="clearDB">Neteja la base de dades</string>
+  <!---->
+  <string name="songInfo">Informació</string>
+  <!---->
+  <string name="edit">Edita…</string>
+  <!---->
+  <string name="error">Error</string>
+  <!---->
+  <string name="errorHappened">Ha ocorregut un error (codi: %d)</string>
+  <!---->
+  <string name="favourites">Favorits</string>
+  <!---->
+  <string name="songAppendedToFavourites">S\'ha afegit \"%1s\" als favorits</string>
+  <!---->
+  <string name="appendToFavourites">Afegeix als favorits</string>
+  <!---->
+  <string name="removeFromFavourites">Elimina dels favorits</string>
+  <!---->
+  <string name="remove">Elimina</string>
+  <!---->
+  <string name="areYouSure">Esteu segur?</string>
+  <!---->
+  <string name="areYouSureToExit">Voleu sortir de l\'aplicació?</string>
+  <!---->
+  <string name="areYouSureToDelete">Els elements seleccionats s\'esborraran. Voleu continuar?</string>
+  <!---->
+  <string name="fileSaved">S\'ha desat el fitxer amb èxit</string>
+  <!---->
+  <string name="fileSaveError">No s\'ha pogut desar el fitxer</string>
+  <!---->
+  <string name="badVersionError">Hem actualitzat les dades de codificació al nostre servidor. Si us plau actualitzeu l\'aplicacio</string>
+  <!---->
+  <string name="authorName">Nom de l\'artista</string>
+  <!---->
+  <string name="songName">Nom</string>
+  <!---->
+  <string name="songText">Lletra</string>
+  <!---->
+  <string name="songDuration">Duració</string>
+  <!---->
+  <string name="songDelay">Pausa inicial</string>
+  <!---->
+  <string name="songComments">Comentaris als acords</string>
+  <!---->
+  <string name="userComments">Comentaris de l\'usuari</string>
+  <!---->
+  <string name="scrollSpeed">Velocitat de desplaçament</string>
+  <!---->
+  <string name="sender">Lliurat</string>
+  <!---->
+  <string name="speedUp">Més ràpid</string>
+  <!---->
+  <string name="speedDown">Més lent</string>
+  <!---->
+  <string name="na">Sense dades</string>
+  <!---->
+  <string name="unknown">Desconegut</string>
+  <!---->
+  <string name="language">Llengua</string>
+  <!---->
+  <string name="appearance">Aparença</string>
+  <!---->
+  <string name="songTextScreen">Pantalla amb la lletra de la cançó</string>
+  <!---->
+  <string name="other">Miscel·lani</string>
+  <!---->
+  <string name="attention">Atenció!</string>
+  <!---->
+  <string name="anonymous">Anònim</string>
+  <!---->
+  <string name="googlePlayNotFound">No s\'ha pogut obrir el Google Play</string>
+  <!---->
+  <string name="functionNotAllowed">Aquesta funció no està disponible a la versió lliure</string>
+  <!---->
+  <string name="chooseFileManager">Escolliu el vostre gestor de fitxers</string>
+  <!---->
+  <string name="empty">Buit</string>
+  <!---->
+  <string name="showSongPaused">Pausa inicial</string>
+  <!---->
+  <string name="showSongPausedSummary">No iniciïs un compteig automàticament</string>
+  <!---->
+  <string name="hideActionBar">Amaga els botons de control</string>
+  <!---->
+  <string name="hideActionBarSummary">Recomanat per a dispositius amb pantalla petita</string>
+  <!---->
+  <string name="design">Tema de l\'aparença</string>
+  <!---->
+  <string name="designSummary">Si us plau reinicieu l\'aplicació després de canviar el tema</string>
+  <!---->
+  <string name="instrument">Instrument</string>
+  <!---->
+  <string name="songTextSize">Mida del tipus de lletra</string>
+  <!---->
+  <string name="zoomIn">Augmenta la mida del tipus de lletra</string>
+  <!---->
+  <string name="zoomOut">Redueix la mida del tipus de lletra</string>
+  <!---->
+  <string name="fixedSongTextSize">Mida fixa del tipus de lletra</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Cada cançó usa la mateixa mida de tipus de lletra</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">L\'aplicació és ara lliure d\'anuncis!</string>
+  <!---->
+  <string name="selectFile">Seleccioneu el fitxer</string>
+  <!---->
+  <string name="select">Seleccioneu</string>
+  <!---->
+  <string name="haventAccessPrivileges">No teniu permissos d\'accés al directori</string>
+  <!---->
+  <string name="yesterday">ahir</string>
+  <!---->
+  <string name="chooseFolder">Escolliu la carpeta</string>
+  <!---->
+  <string name="songsAddedToFolder_">Les cançons s\'han afegit a la carpeta \"%1s\"</string>
+  <!---->
+  <string name="inputFolderName">Entreu el nom</string>
+  <!---->
+  <string name="allowAbusive">Cançons abusives</string>
+  <!---->
+  <string name="allowAbusiveSummary">Mostra les cançons abusives</string>
+  <!---->
+  <string name="helpToTranslate">Ajudeu a traduir</string>
+  <!---->
+  <string name="helpToTranslateSummary">Podeu ajudar a traduuir l\'aplicacio a la vostra llengua nativa</string>
+  <!---->
+  <string name="share">Envia</string>
+  <!---->
+  <string name="rateDialogTitle">Valora aquesta aplicació</string>
+  <!---->
+  <string name="rateDialogMessage">Si us agrada aquesta aplicació, si us plau dediqueu una estoneta a valorar aquesta aplicació. No us portarà més d\'un minut. Gràcies pel vostre suport!</string>
+  <!---->
+  <string name="rateNow">Valoreu-la ara</string>
+  <!---->
+  <string name="faqTextQuestion10">Vull ajudar amb la traducció de l\'aplicació a la meva llengua nativa. Com puc fer-ho?</string>
+  <!---->
+  <string name="faqTextAnswer10">Ho podeu fer directament des de l\'aplicació: aneu a la configuració i seleccioneu \"Ajudar a traduir\".</string>
+  <!---->
+  <string name="faqTextQuestion9">Com puc afegir una cançó nova a la base de dades?</string>
+  <!---->
+  <string name="faqTextAnswer9">Visiteu el lloc web en.guitarsongs.club, inicieu una sessió d\'usuari usant el vostre compte de Google i podreu afegir les vostres cançons favorites a una base de dades comuna. Les noves cançons queden immediatament disponibles per a tots els usuaris. Simplement cliqueu el botó \"Sincronitza\" a l\'aplicació.</string>
+  <!---->
+  <string name="faqTextQuestion8">Puc veure la cançó següent mentre executo la cançó actual sense tornar a la llista?</string>
+  <!---->
+  <string name="faqTextAnswer8">Sí, podeu usar  els gestos, arrosegueu cap a l\'esquerra o cap a la dreta (els gstos sols funcionen a la carpeta actual)</string>
+  <!---->
+  <string name="faqTextQuestion7">Que fan els números al costat dels noms de les cançons?</string>
+  <!---->
+  <string name="faqTextAnswer7">Aquests números són la valoració mitjana de les tabulacions i acords per a aquesta cançó. Podeu votar per les cançons des de l\'opció de menú \"Valoreu\" a la llista de visualització de les lletres. Hem afegir aquesta característica per evitar que hi ha hagi cançons de baixa qualitat a la nostra base de dades. Farem una moderació més curosa de les cançons amb baixa valoració i les intentarem millorar si és possible.</string>
+  <!---->
+  <string name="faqTextQuestion5">No puc escoltar les cançons, no tinc cap so!</string>
+  <!---->
+  <string name="faqTextAnswer5">Això és un cançoner, aquí sols podeu trobar les lletres de les cançons.</string>
+  <!---->
+  <string name="faqTextQuestion4">Després de l\'última actualització tinc moltíssims errores, què puc fer?</string>
+  <!---->
+  <string name="faqTextAnswer4">Si us plau, no dubteu de contactar-nos amb una descripció del vostre error, el model del vostre dispositiu i la seva versió de l\'Android.</string>
+  <!---->
+  <string name="faqTextQuestion3">Com es pot mirar la disposició de l\'acord?</string>
+  <!---->
+  <string name="faqTextAnswer3">Simplement premeu sobre l\'acord que us interessa.</string>
+  <!---->
+  <string name="faqTextQuestion1">Com puc afegir la meva cançó a la base de dades?</string>
+  <!---->
+  <string name="faqTextAnswer1">La millor manera és usar el lloc en.guitarsongs.club, així les vostres cançons afegides quedaran immediatament disponibles a d\'altres usuaris. Si voleu afegir una cançó sols per vós, feu el següent: quan esteu a la llista de cançons aneu al menú i escolliu l\'opció \"Importa\". A continuació escolliu la carpeta o el fitxer txt.\n\nAdvertiment! No intenteu carregar mp3 o cap format de fitxer d\'àudio al nostre servidor, no funcionarà.</string>
+  <!---->
+  <string name="faqTextQuestion0">Com informar d\'un error, fer una pregunta o avisar a un desenvolupador?</string>
+  <!---->
+  <string name="faqTextAnswer0">Si us plau escriviu el vostre missatge al nostre blog - https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="rootMenuSongs">Llista de cançons</string>
+  <!---->
+  <string name="rootMenuFolders">Carpetes</string>
+  <!---->
+  <string name="rootMenuInfo">Informació</string>
+  <!---->
+  <string name="rootMenuTopUsers">Usuaris principals</string>
+  <!---->
+  <string name="designWood">Fusta</string>
+  <!---->
+  <string name="designBlack">Negre</string>
+  <!---->
+  <string name="designWhite">Blanc</string>
+  <!---->
+  <string name="instrumentGuitar">Guitarra</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulele</string>
+  <!---->
+  <string name="goToAuthor">Mostra totes les cançons de l\'artista</string>
+  <!---->
+  <string name="moveToFolder">Canvia a la carpeta…</string>
+  <!---->
+  <string name="langId">33</string>
+  <!---->
+  <string name="chooseAuthor">Escolliu l\'artista</string>
+  <!---->
+  <string name="copyToFolder">Copia a la carpeta…</string>
+  <!---->
+  <string name="systemSettingsTitle">Sistema</string>
+  <!---->
+  <string name="backupSettingTitle">Còpia de seguretat</string>
+  <!---->
+  <string name="backupSummary">Crea una còpia de seguretat completa per a la base de dades</string>
+  <!---->
+  <string name="backupCreated">S\'ha creat el fitxer de còpia de seguretat %s</string>
+  <!---->
+  <string name="creatingBackup">S\'està creant el fitxer de la còpia de seguretat…</string>
+  <!---->
+  <string name="restoreSettingTitle">Restaura</string>
+  <!---->
+  <string name="restoreSummary">Restaura la base de dades a partir de la còpia de seguretat</string>
+  <!---->
+  <string name="restoreCompleted">S\'ha completat la restauració amb èxit</string>
+  <!---->
+  <string name="restoring">S\'està restaurant…</string>
+  <!---->
+  <string name="serverUnderConstructionError">El servidor no està disponible temporalment. Si us plau proveu més tard.</string>
+  <!---->
+  <string name="remindDbSyncDate">Recorda\'m de les cançons noves</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Recorda\'m sobre la base de ades de cançons desactualitzades i de la necessitat de sincronitzar amb el servidor</string>
+  <!---->
+  <string name="syncDialogMessage">La base de dades de les vostres cançons està desactualitzada. Hauríeu de sincronitzar amb el servidor per actualitzar-la. Voleu sincronitzar ara?</string>
+  <!---->
+  <string name="syncNow">Sincronitza ara</string>
+  <!---->
+  <string name="remindLater">Recorda-me\'n més tard</string>
+  <!---->
+  <string name="neverRemind">No em recordis mai</string>
+  <!---->
+  <string name="newsDialogShow">Mostra</string>
+  <!---->
+  <string name="newsDialogClose">Tanca</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Sincronitza els favorits…</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Compte per sincronitzar les cançons favorites</string>
+  <!---->
+  <string name="notation">Noms dels acords</string>
+  <!---->
+  <string name="notationUnknown">No definit</string>
+  <!---->
+  <string name="notationB">Predeterminat</string>
+  <!---->
+  <string name="notationH">Alemany (B-&gt;H)</string>
+  <!---->
+  <string name="appLanguage">Llengua de l\'aplicació</string>
+  <!---->
+  <string name="autoSyncWithServer">Sincronitza automàticament</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Sincronitza amb el servidor en mode rerefons</string>
+  <!---->
+  <string name="executingInProgress">Si us plau espera…</string>
+  <!---->
+  <string name="appendFolder">Afegeix la carpeta</string>
+  <!---->
+  <string name="appendVirtualFolder">Afegeix la carpeta virtual</string>
+  <!---->
+  <string name="databasePath">Camí de la base de dades</string>
+  <!---->
+  <string name="searchOnYoutube">Cerca al Youtube</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">No hi ha espai suficient</string>
+  <!---->
+  <string name="newsDialogLater">Recorda\'m més tard</string>
+  <!---->
+  <string name="incorrectField">Camp incorrecte</string>
+  <!---->
+  <string name="saveChanges">Voleu desar els canvis?</string>
+  <!---->
+  <string name="syncData">Sincronitza les dades</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Oferta especial</string>
+  <!---->
+  <string name="specialPriceDialogText">Gràcies per usar el Guitar Songs! En aquest precís moment podeu deshabilitar els anuncis amb un 60% de descompte. És una oportunitat única! Voleu usar aquesta oferta i oblidar-vos de la publicitat a l\'aplicació?</string>
+  <!---->
+  <string name="viewSettingsTitle">Visualitza</string>
+  <!---->
+  <string name="viewArtists">Llista d\'artistes</string>
+  <!---->
+  <string name="viewHideMySongs">Amaga les meves cançons</string>
+  <!---->
+  <string name="choosePlaylist">Escolliu una llista establerta</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">Cançons afegides a la llista establerta \"%s\"</string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">Sincronitza les llistes establertes…</string>
+  <!---->
+  <string name="copiedSongs">S\'han copiat %d cançons</string>
+  <!---->
+  <string name="appendPlaylist">Afegeix una llista establerta</string>
+  <!---->
+  <string name="copyToMySongs">Copia a \"Les meves cançons\"</string>
+  <!---->
+  <string name="audioFile">Fitxer d\'àudio</string>
+  <!---->
+  <string name="playAudio">Reprodueix l\'àudio</string>
+  <!---->
+  <string name="stopAudio">Atura l\'àudio</string>
+  <!---->
+  <string name="metronom">Metrònom</string>
+  <!---->
+  <string name="properties">Propietats…</string>
+  <!---->
+  <string name="mySongs">Les meves cançons</string>
+  <!---->
+  <string name="addToPlaylist">Afegeix a la llista establerta…</string>
+  <!---->
+  <string name="inputArtistName">Entreu el nom</string>
+  <!---->
+  <string name="syncedDataWillPublicWarning">Atenció! Quan escolliu que es sincronitzin dades personalitzades (*), esteu d\'acord que aquestes dades no contenen informació confidencial</string>
+  <!---->
+  <string name="synchronizationSettingsTitle">Sincronització</string>
+  <!---->
+  <string name="contentPrefCategory">Contingut</string>
+  <!---->
+  <string name="default_">Per defecte</string>
+  <!---->
+  <string name="value">Valor</string>
+  <!---->
+  <string name="rootMenuPlaylists">Llistes establertes</string>
+  <!---->
+  <string name="watchOnYoutube">Mireu-ho a Youtube</string>
+  <!---->
+  <string name="hide">Amaga</string>
+  <!---->
+  <string name="hidden">Amagat</string>
+  <!---->
+  <string name="showHidden">Mostra l\'amagat</string>
+  <!---->
+  <string name="areYouSureToHide">Els elements seleccionats s\'amagaran. Voleu continuar?</string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">Si us plau mireu un vídeu breu abans de començar la traducció</string>
+  <!---->
+  <string name="help">Ajuda</string>
+  <!---->
+  <string name="faqTextQuestion17">Com canviar la velocitat de desplaçament?</string>
+  <!---->
+  <string name="faqTextQuestion16">Com mostrar les cançons en una llengua específica?</string>
+  <!---->
+  <string name="faqTextQuestion15">Com afegir cançons a una llista determinada?</string>
+  <!---->
+  <string name="faqTextQuestion14">Com copiar cançons a la secció \"Les meves cançons\"?</string>
+  <!---->
+  <string name="faqTextQuestion13">Com amagar alguns artistes de la llista?</string>
+  <!---->
+  <string name="faqTextQuestion12">Com canviar la clau de les cançons (transposició)?</string>
+  <!---->
+  <string name="faqTextQuestion11">Com canviar la mida del tipus de lletra?</string>
+  <!---->
+  <string name="faqTextAnswer11">Podeu usar el gest \"ampliació\" o els botons de maquinari de volum del telèfon</string>
+</resources>

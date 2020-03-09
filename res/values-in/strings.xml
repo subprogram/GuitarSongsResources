@@ -1,0 +1,278 @@
+<resources>
+  <!---->
+  <string name="songLanguage">Bahasa</string>
+  <!---->
+  <string name="chooseLang">Pilih bahasa</string>
+  <!---->
+  <string name="dbAccordsCount">Akor dikenal: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Tanggal akhir penyelarasan</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Tambahan lagu terbaru</string>
+  <!---->
+  <string name="dbInitError">Kesalahan saat inisialisasi basisdata</string>
+  <!---->
+  <string name="inetReceiveMessage">Mengirim… Tunggu…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Pembaharuan daftar akor…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Pembaharuan komentar…</string>
+  <!---->
+  <string name="inetReceiveError">Error (%d) server tidak merespon… Cobalah periksa koneksi internet anda…</string>
+  <!---->
+  <string name="readingFileProgress">Membaca berkas (baris #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">Memproses daftar perubahan %d%%</string>
+  <!---->
+  <string name="loadedSongs">Ektsrak lagu: %d</string>
+  <!---->
+  <string name="loadingInProgress">Mengekstraksi. Mohon tunggu…</string>
+  <!---->
+  <string name="duration">Durasi</string>
+  <!---->
+  <string name="rateSong">Ranking</string>
+  <!---->
+  <string name="averageRating">Rata-rata ranking Tab</string>
+  <!---->
+  <string name="newLangAvailable">Bahasa baru: %s</string>
+  <!---->
+  <string name="langId">37</string>
+  <!---->
+  <string name="removingInProgress">Menghapus.\nTunggu sebentar…</string>
+  <!---->
+  <string name="dbServerSongsCount">Lagu tersedia: %d</string>
+  <!---->
+  <string name="rateSongText">Beri nilai Tab.\nPenilaian anda akan ditambahkan setelah sinkronisasi dengan server.</string>
+  <!---->
+  <string name="syncWithServer">Sinkronisasi</string>
+  <!---->
+  <string name="chooseKey">Pilih kunci</string>
+  <!---->
+  <string name="transpose">Ubah nada</string>
+  <!---->
+  <string name="append">Tambah</string>
+  <!---->
+  <string name="appending">Menambahkan %s</string>
+  <!---->
+  <string name="restart">Mengulang</string>
+  <!---->
+  <string name="pause">Tahan</string>
+  <!---->
+  <string name="save">Simpan</string>
+  <!---->
+  <string name="yes">Ya</string>
+  <!---->
+  <string name="no">Tidak</string>
+  <!---->
+  <string name="more">Pilihan</string>
+  <!---->
+  <string name="cancel">Batal</string>
+  <!---->
+  <string name="exit">Keluar</string>
+  <!---->
+  <string name="dbInfo">Hubungan Database</string>
+  <!---->
+  <string name="versionInfo">Versi Aplikasi</string>
+  <!---->
+  <string name="feedback">Feedback</string>
+  <!---->
+  <string name="search">Cari</string>
+  <!---->
+  <string name="find">Temukan</string>
+  <!---->
+  <string name="saveToFile">Simpan ke berkas</string>
+  <!---->
+  <string name="removeAll">Hapus semua</string>
+  <!---->
+  <string name="preferences">Pengaturan</string>
+  <!---->
+  <string name="disableAds">Buang iklan</string>
+  <!---->
+  <string name="clearDB">Bersihkan database</string>
+  <!---->
+  <string name="songInfo">Informasi</string>
+  <!---->
+  <string name="errorHappened">Terjadi kesalahan (kode: %d)</string>
+  <!---->
+  <string name="favourites">Favorit</string>
+  <!---->
+  <string name="loadFromFile">impor</string>
+  <!---->
+  <string name="edit">Ubah</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" ditambahkan ke favorit</string>
+  <!---->
+  <string name="appendToFavourites">Tambahkan ke favorit</string>
+  <!---->
+  <string name="removeFromFavourites">Keluarkan dari favorit</string>
+  <!---->
+  <string name="remove">Hapus</string>
+  <!---->
+  <string name="areYouSure">Anda yakin?</string>
+  <!---->
+  <string name="areYouSureToExit">Keluar dari aplikasi?</string>
+  <!---->
+  <string name="areYouSureToDelete">Item terpilih akan dihapus. Lanjut?</string>
+  <!---->
+  <string name="fileSaved">File berhasil disimpan</string>
+  <!---->
+  <string name="fileSaveError">File tidak dapat disimpan</string>
+  <!---->
+  <string name="authorName">Nama artis</string>
+  <!---->
+  <string name="songName">Nama</string>
+  <!---->
+  <string name="songText">Lirik</string>
+  <!---->
+  <string name="songDuration">Durasi</string>
+  <!---->
+  <string name="songComments">Komentar atas kunci</string>
+  <!---->
+  <string name="userComments">Komentar pengguna</string>
+  <!---->
+  <string name="scrollSpeed">Kecepatan scroll</string>
+  <!---->
+  <string name="sender">Terkirim</string>
+  <!---->
+  <string name="speedUp">Lebih cepat</string>
+  <!---->
+  <string name="speedDown">Lebih lambat</string>
+  <!---->
+  <string name="na">Tidak ada data</string>
+  <!---->
+  <string name="unknown">Tidak dikenal</string>
+  <!---->
+  <string name="language">Bahasa</string>
+  <!---->
+  <string name="appearance">Tampilan</string>
+  <!---->
+  <string name="songTextScreen">Layar lagu dengan lirik</string>
+  <!---->
+  <string name="other">Rupa-rupa</string>
+  <!---->
+  <string name="attention">Perhatian!</string>
+  <!---->
+  <string name="anonymous">Tanpa nama</string>
+  <!---->
+  <string name="googlePlayNotFound">Tidak dapat membuka Google Play</string>
+  <!---->
+  <string name="functionNotAllowed">Fungsi ini tidak terdapat di versi gratis</string>
+  <!---->
+  <string name="chooseFileManager">Pilih file manager anda</string>
+  <!---->
+  <string name="empty">Kosong</string>
+  <!---->
+  <string name="showSongPausedSummary">Jangan memulai perhitungan mundur</string>
+  <!---->
+  <string name="hideActionBar">Sembunyikan tombol kontrol</string>
+  <!---->
+  <string name="hideActionBarSummary">Direkomendasikan untuk layar kecil</string>
+  <!---->
+  <string name="design">Thema tampilan</string>
+  <!---->
+  <string name="designSummary">Restart applikasi setelah mengganti tema</string>
+  <!---->
+  <string name="instrument">Alat instrumen</string>
+  <!---->
+  <string name="songTextSize">Ukuran huruf</string>
+  <!---->
+  <string name="zoomIn">Tanbah ukuran huruf</string>
+  <!---->
+  <string name="zoomOut">Kurangi ukuran huruf</string>
+  <!---->
+  <string name="fixedSongTextSize">Ukuran huruf tetap</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Semua lagu gunakan ukuran huruf yang sama</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Sekarang aplikasi ini bebas iklan</string>
+  <!---->
+  <string name="selectFile">Pilih file</string>
+  <!---->
+  <string name="select">Pilih</string>
+  <!---->
+  <string name="haventAccessPrivileges">Anda tak mempunyai akses khusus ke direktori ini</string>
+  <!---->
+  <string name="yesterday">kemarin</string>
+  <!---->
+  <string name="chooseFolder">Pilih folder</string>
+  <!---->
+  <string name="songsAddedToFolder_">Lagu ditambahkan ke folder \"%s\"</string>
+  <!---->
+  <string name="inputFolderName">Masukan nama</string>
+  <!---->
+  <string name="allowAbusive">Lagu kasar</string>
+  <!---->
+  <string name="allowAbusiveSummary">Tunjukan lagu kasar</string>
+  <!---->
+  <string name="helpToTranslate">Bantu terjemahkan</string>
+  <!---->
+  <string name="helpToTranslateSummary">Anda bisa bantu terjemahkan aplikasi ke bahasa anda</string>
+  <!---->
+  <string name="share">Kirim</string>
+  <!---->
+  <string name="rateDialogTitle">Nilai aplikasi ini</string>
+  <!---->
+  <string name="rateDialogMessage">Bila anda menikmati aplikasi ini, luangkan sedikit waktu menilai nya. Terima kasih untuk dukungannya!</string>
+  <!---->
+  <string name="rateNow">Nilai sekarang</string>
+  <!---->
+  <string name="faqTextQuestion10">Saya ingin bantu menerjemahkan aplikasi ini ke bahasa saya. Bagaimana caranya?</string>
+  <!---->
+  <string name="faqTextAnswer10">Anda bisa melakukannya langsung dari aplikasi: masuk ke pengaturan &amp; pilih \"Bantu terjemahkan\"</string>
+  <!---->
+  <string name="faqTextQuestion9">Bagaimana cara saya menambahkan lagu baru ke database?</string>
+  <!---->
+  <string name="faqTextAnswer9">Kunjungi situs en.guitarsongs.club, masuk menggunakan akun google anda &amp; anda bisa tambahkan lagu favorit anda ke database umum. Lagu baru langsung tersedia untuk semua pengguna. Tekan saja tombol \"Sinkronisasi\" pada aplikasi</string>
+  <!---->
+  <string name="badVersionError">Kami memperbaharui data di server kami. Silahkan memperbaharui aplikasi anda.</string>
+  <!---->
+  <string name="songDelay">Initial pause</string>
+  <!---->
+  <string name="faqTextQuestion8">Bisakah saya melihat lagu selanjutnya saat memainkan lagu saat ini tanpa harus kembali ke list?</string>
+  <!---->
+  <string name="faqTextAnswer8">Ya, anda bisa menggeser layar ke \"kiri\" atau \"kanan\" (hanya bekerja di folder yang terbuka)</string>
+  <!---->
+  <string name="faqTextQuestion7">Apa fungsi angka-angka di samping nama - nama lagu?</string>
+  <!---->
+  <string name="faqTextAnswer7">Angka - angka itu adalah penilaian rata - rata tabulasi &amp; kord lagu. Anda bisa memberikan penilaian atas lagu di opsi menu \"Rate\" pada list lirik. Fitur ini berguna untuk menjaga database kami dari lagu - lagu kualitas rendah. Kami akan memilih lagu berkualitas rendah dengan hati - hati &amp; akan mencoba memperbaikinya sebisa mungkin.</string>
+  <!---->
+  <string name="faqTextQuestion5">Saya tidak bisa mendengar lagu, saya tidak punya lagu apapun.</string>
+  <!---->
+  <string name="faqTextAnswer5">Ini adalah buku lagu, di sini cuma ada lirik nya saja (Doough!!)</string>
+  <!---->
+  <string name="rootMenuInfo">informasi</string>
+  <!---->
+  <string name="rootMenuTopUsers">pilih atas</string>
+  <!---->
+  <string name="designBlack">hitam</string>
+  <!---->
+  <string name="designWhite">putih</string>
+  <!---->
+  <string name="instrumentGuitar">gitar</string>
+  <!---->
+  <string name="instrumentUkulele">ukulele</string>
+  <!---->
+  <string name="stopAudio">Stop suara</string>
+  <!---->
+  <string name="systemSettingsTitle">Sistem</string>
+  <!---->
+  <string name="backupSettingTitle">Cadangkan</string>
+  <!---->
+  <string name="restoreSettingTitle">Atur ulang</string>
+  <!---->
+  <string name="restoreCompleted">Atur ulang sukses</string>
+  <!---->
+  <string name="restoring">Pulihkan</string>
+  <!---->
+  <string name="newsDialogClose">Tutup</string>
+  <!---->
+  <string name="viewSettingsTitle">Lihat</string>
+  <!---->
+  <string name="disableAdsPaid">Selamanya</string>
+  <!---->
+  <string name="newPlaylist">Baru</string>
+  <!---->
+  <string name="buy">Beli</string>
+  <!---->
+  <string name="historyPageTitle">Riwayat</string>
+</resources>

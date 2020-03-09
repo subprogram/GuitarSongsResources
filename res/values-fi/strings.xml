@@ -1,0 +1,294 @@
+<resources>
+  <!---->
+  <string name="guitarSongs">Kappaleita Kitaralle</string>
+  <!---->
+  <string name="newLangAvailable">Uusi kieli: %s</string>
+  <!---->
+  <string name="songLanguage">Kielet</string>
+  <!---->
+  <string name="chooseLang">Valitse kieli</string>
+  <!---->
+  <string name="accordInfoTitle">Tietoa soinnuista</string>
+  <!---->
+  <string name="accordNotFound">Tuntematon sointu</string>
+  <!---->
+  <string name="removingInProgress">Poistetaan. Ole hyvä ja odota…</string>
+  <!---->
+  <string name="dbServerSongsCount">Saatavilla olevia kappaleita: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Tunnetut soinnut: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Viimeksi synkronoitu</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Äskettäin lisättyjä kappaleita</string>
+  <!---->
+  <string name="dbInitError">Virhe tietokannan käsittelyn aikana</string>
+  <!---->
+  <string name="inetReceiveMessage">Lähetetään tietoa. Ole hyvä ja odota</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Päivitetään sointulistaa</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Päivitetään kommentteja</string>
+  <!---->
+  <string name="inetReceiveError">Häiriö (%d). Palvelin ei vastaa! Tarkista internetasetuksesi ja yritä uudelleen</string>
+  <!---->
+  <string name="duration">Kesto</string>
+  <!---->
+  <string name="rateSong">Arvostelu</string>
+  <!---->
+  <string name="syncWithServer">Synkronoi</string>
+  <!---->
+  <string name="append">Lisää</string>
+  <!---->
+  <string name="save">Tallenna</string>
+  <!---->
+  <string name="yes">Kyllä</string>
+  <!---->
+  <string name="no">Ei</string>
+  <!---->
+  <string name="exit">Poistu</string>
+  <!---->
+  <string name="accords">Soinnut</string>
+  <!---->
+  <string name="feedback">Palaute</string>
+  <!---->
+  <string name="search">Etsi</string>
+  <!---->
+  <string name="removeAll">Poista kaikki</string>
+  <!---->
+  <string name="preferences">Asetukset</string>
+  <!---->
+  <string name="error">Häiriö</string>
+  <!---->
+  <string name="removeFromFavourites">Poista suosikeista</string>
+  <!---->
+  <string name="remove">Poista</string>
+  <!---->
+  <string name="areYouSure">Oletko varma?</string>
+  <!---->
+  <string name="areYouSureToDelete">Valitut kappaleet poistetaan. Haluatko jatkaa?</string>
+  <!---->
+  <string name="songName">Nimi</string>
+  <!---->
+  <string name="songText">Sanat</string>
+  <!---->
+  <string name="userComments">Käyttäjien kommentit</string>
+  <!---->
+  <string name="sender">Lähetä</string>
+  <!---->
+  <string name="langId">10</string>
+  <!---->
+  <string name="averageRating">Keskimääräinen arvio</string>
+  <!---->
+  <string name="rateSongText">Arvostele tab. \nArvostelusi lisätään, seuraavan synkronoinnin yhteydessä.</string>
+  <!---->
+  <string name="chooseKey">Valitse sävellaji</string>
+  <!---->
+  <string name="transpose">Muuta</string>
+  <!---->
+  <string name="restart">Aloita alusta</string>
+  <!---->
+  <string name="pause">Tauko</string>
+  <!---->
+  <string name="more">Asetukset</string>
+  <!---->
+  <string name="cancel">Peruuta</string>
+  <!---->
+  <string name="find">Etsi</string>
+  <!---->
+  <string name="saveToFile">Tallenna tiedostoon</string>
+  <!---->
+  <string name="loadFromFile">Tuo</string>
+  <!---->
+  <string name="disableAds">Poista mainokset</string>
+  <!---->
+  <string name="clearDB">Tyhjennä tietokanta</string>
+  <!---->
+  <string name="songInfo">Tiedot</string>
+  <!---->
+  <string name="edit">Muokkaa</string>
+  <!---->
+  <string name="errorHappened">Tapahtui virhe (koodi: %d)</string>
+  <!---->
+  <string name="favourites">Suosikit</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" lisätty suosikkeihin</string>
+  <!---->
+  <string name="appendToFavourites">Lisää suosikkeihin</string>
+  <!---->
+  <string name="areYouSureToExit">Poistu sovelluksesta?</string>
+  <!---->
+  <string name="fileSaved">Tiedosto tallennettu</string>
+  <!---->
+  <string name="fileSaveError">Tiedoston tallennus epäonnistui</string>
+  <!---->
+  <string name="badVersionError">Päivitimme servereitämme! Ole hyvä ja päivitä sovellus.</string>
+  <!---->
+  <string name="authorName">Artistin nimi </string>
+  <!---->
+  <string name="songDuration">Kesto</string>
+  <!---->
+  <string name="songDelay">Alustava tauko</string>
+  <!---->
+  <string name="songComments">Kommentit soinnuille</string>
+  <!---->
+  <string name="scrollSpeed">Vieritysnopeus</string>
+  <!---->
+  <string name="speedUp">Nopeampaa</string>
+  <!---->
+  <string name="speedDown">Hitaampaa</string>
+  <!---->
+  <string name="na">Ei dataa</string>
+  <!---->
+  <string name="unknown">Tuntematon</string>
+  <!---->
+  <string name="language">Kieli</string>
+  <!---->
+  <string name="appearance">Esiintyminen</string>
+  <!---->
+  <string name="attention">Huomio!</string>
+  <!---->
+  <string name="anonymous">Tuntematon</string>
+  <!---->
+  <string name="googlePlayNotFound">Googlen Playn avaaminen epäonnistui</string>
+  <!---->
+  <string name="functionNotAllowed">Tämä toiminto ei ole saatavilla ilmaisessa versiossa</string>
+  <!---->
+  <string name="chooseFileManager">Valitse tiedostonhallinta</string>
+  <!---->
+  <string name="empty">Tyhjä</string>
+  <!---->
+  <string name="showSongPaused">Alustava tauko</string>
+  <!---->
+  <string name="showSongPausedSummary">Älä aloita lähtölaskentaa automaattisesti</string>
+  <!---->
+  <string name="hideActionBar">Piilota toimintopainikkeet</string>
+  <!---->
+  <string name="hideActionBarSummary">Suositeltu laitteille, joissa pieni näyttö</string>
+  <!---->
+  <string name="designSummary">Teeman muuttamisen jälkeen, ole hyvä ja käynnistä sovellus uudelleen</string>
+  <!---->
+  <string name="instrument">Soitin</string>
+  <!---->
+  <string name="songTextSize">Fonttikoko</string>
+  <!---->
+  <string name="zoomIn">Suurempi fonttikoko</string>
+  <!---->
+  <string name="zoomOut">Pienempi fonttikoko</string>
+  <!---->
+  <string name="fixedSongTextSize">Muokattu fonttikoko</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Käytä samaa fonttikokoa jokaisessa kappaleessa</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Sovellus on nyt vapaa mainoksista!</string>
+  <!---->
+  <string name="selectFile">Valitse tiedosto</string>
+  <!---->
+  <string name="select">Valitse</string>
+  <!---->
+  <string name="yesterday">Eilen</string>
+  <!---->
+  <string name="chooseFolder">Valitse kansio</string>
+  <!---->
+  <string name="songsAddedToFolder_">Kappaleet lisätty kansioon \"%s\"</string>
+  <!---->
+  <string name="inputFolderName">Kirjoita nimi</string>
+  <!---->
+  <string name="helpToTranslate">Auta kääntämisessä</string>
+  <!---->
+  <string name="helpToTranslateSummary">Voit auttaa sovelluksen kääntämisessä äidinkielellesi</string>
+  <!---->
+  <string name="share">Lähetä</string>
+  <!---->
+  <string name="rateDialogTitle">Arvostele tämä sovellus</string>
+  <!---->
+  <string name="rateDialogMessage">Jos pidät sovelluksesta, käy antamassa sille arvio. Se vie alle minuutin. Kiitos tuestasi!</string>
+  <!---->
+  <string name="rateNow">Äänestä nyt</string>
+  <!---->
+  <string name="faqTextQuestion10">Haluan auttaa sovelluksen kääntämisessä äidinkielelleni. Kuinka voin tehdä niin?</string>
+  <!---->
+  <string name="faqTextAnswer10">Voit tehdä sen sovelluksessa: Mene asetuksiin ja valitse \"Auta kääntämisessä\".</string>
+  <!---->
+  <string name="faqTextQuestion9">Kuinka voin lisätä uusia kappaleita tietokantaan?</string>
+  <!---->
+  <string name="faqTextAnswer9">Mene osoitteeseen en.guitarsongs.club, kirjaudu sisään käyttäen google-tiliäsi ja voit lisätä uusia kappaleita tietokantaan. Uudet kappaleet tulevat välittömästi näkyviin kaikille käyttäjille. Paina vain \"Synkronoi\" painiketta sovelluksessa.</string>
+  <!---->
+  <string name="faqTextQuestion7">Mitä numerot tarkoittavat joidenkin kappaleiden vieressä?</string>
+  <!---->
+  <string name="faqTextQuestion5">En voi kuunnella kappaleita, minulla ei ole yhtään ääntä!</string>
+  <!---->
+  <string name="faqTextAnswer5">Tämä on laulukirja, löydät täältä vain sanat kappaleille.</string>
+  <!---->
+  <string name="faqTextQuestion4">Viimeisimmän päivityksen jälkeen sovellukseen ilmestyi bugeja, mitä teen?</string>
+  <!---->
+  <string name="faqTextAnswer4">Ota yhteyttä meihin ja kuvaile bugeja. Kerro myös puhelimesi malli ja Android-versio.</string>
+  <!---->
+  <string name="faqTextQuestion3">Mistä näen soinnun ulkomuodon?</string>
+  <!---->
+  <string name="faqTextAnswer3">Paina sointua, jonka haluat nähdä.</string>
+  <!---->
+  <string name="faqTextQuestion1">Kuinka voin lisätä kappaleen tietokantaan?</string>
+  <!---->
+  <string name="faqTextQuestion0">Kuinka kertoa bugista, kysyä kysymyksen tai ottaa kehittäjään yhteyttä?</string>
+  <!---->
+  <string name="faqTextAnswer0">Ole hyvä ja kirjoita viestisi viralliselle sivullemme - https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="rootMenuSongs">Kappaleet</string>
+  <!---->
+  <string name="designBlack">Musta</string>
+  <!---->
+  <string name="designWhite">Valkoinen</string>
+  <!---->
+  <string name="instrumentGuitar">Kitara</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulele</string>
+  <!---->
+  <string name="goToAuthor">Näytä kaikki artistin kappaleet</string>
+  <!---->
+  <string name="moveToFolder">Siirry kansioon..</string>
+  <!---->
+  <string name="chooseAuthor">Valitse artisti</string>
+  <!---->
+  <string name="copyToFolder">Kopioi kansioon..</string>
+  <!---->
+  <string name="serverUnderConstructionError">Serveri on väliaikaisesti poissa käytössä. Ole hyvä ja yritä myöhemmin uudelleen.</string>
+  <!---->
+  <string name="remindDbSyncDate">Muistuta uusista kappaleisya</string>
+  <!---->
+  <string name="syncNow">Synkronoi</string>
+  <!---->
+  <string name="remindLater">Muistuta myöhemmin</string>
+  <!---->
+  <string name="neverRemind">Älä muistuta uudestaan</string>
+  <!---->
+  <string name="newsDialogShow">Näytä</string>
+  <!---->
+  <string name="newsDialogLater">Muistuta myöhemmin </string>
+  <!---->
+  <string name="newsDialogClose">Sulje</string>
+  <!---->
+  <string name="notation">Sointujen nimet</string>
+  <!---->
+  <string name="appLanguage">Sovelluksen kieli</string>
+  <!---->
+  <string name="autoSyncWithServer">Automaattinen synkronointi</string>
+  <!---->
+  <string name="executingInProgress">Odota..</string>
+  <!---->
+  <string name="searchOnYoutube">Etsi YouTubesta</string>
+  <!---->
+  <string name="saveChanges">Tallenna muutokset?</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Erikoistarjous</string>
+  <!---->
+  <string name="viewSettingsTitle">Näytä</string>
+  <!---->
+  <string name="viewHideMySongs">Piilota kappaleeni</string>
+  <!---->
+  <string name="loadedSongs">Valitut kappaleet: %d</string>
+  <!---->
+  <string name="appending">Lisätään %s</string>
+  <!---->
+  <string name="versionInfo">Sovelluksen versio</string>
+</resources>

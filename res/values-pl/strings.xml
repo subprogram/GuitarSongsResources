@@ -1,0 +1,212 @@
+<resources>
+  <!---->
+  <string name="songLanguage">Języki</string>
+  <!---->
+  <string name="chooseLang">Wybierz ięzyk</string>
+  <!---->
+  <string name="accordInfoTitle">Informacje o akordach</string>
+  <!---->
+  <string name="accordNotFound">Nieznany akord</string>
+  <!---->
+  <string name="removingInProgress">Usuwanie proszę czekać</string>
+  <!---->
+  <string name="dbLastSyncDate">Data ostatniej synchronizacji</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Niedawno dodane piosenki</string>
+  <!---->
+  <string name="inetReceiveMessage">Wysyłanie danych proszę czekać</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Uaktualnianie listy akordów</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Aktualizowanie komentarzy</string>
+  <!---->
+  <string name="readingFileProgress">Odczytywanie pliku: %d</string>
+  <!---->
+  <string name="rateSong">Oceń</string>
+  <!---->
+  <string name="syncWithServer">Synchronizacja</string>
+  <!---->
+  <string name="chooseKey">Wybierz klucz</string>
+  <!---->
+  <string name="append">Dodaj</string>
+  <!---->
+  <string name="appending">Dodawanie %s</string>
+  <!---->
+  <string name="restart">Restart</string>
+  <!---->
+  <string name="pause">Pałza</string>
+  <!---->
+  <string name="save">Zapis</string>
+  <!---->
+  <string name="yes">Tak</string>
+  <!---->
+  <string name="no">Nie</string>
+  <!---->
+  <string name="more">Opcje</string>
+  <!---->
+  <string name="cancel">Anuluj</string>
+  <!---->
+  <string name="exit">Wyjście</string>
+  <!---->
+  <string name="accords">Akordy</string>
+  <!---->
+  <string name="versionInfo">Wersja aplikacji</string>
+  <!---->
+  <string name="search">Wyszukaj</string>
+  <!---->
+  <string name="find">Znajdź</string>
+  <!---->
+  <string name="saveToFile">Zapisz do pliku…</string>
+  <!---->
+  <string name="loadFromFile">Importuj</string>
+  <!---->
+  <string name="removeAll">Usuń wszystko</string>
+  <!---->
+  <string name="preferences">Ustawienia</string>
+  <!---->
+  <string name="disableAds">Wyłącz reklamy</string>
+  <!---->
+  <string name="clearDB">Wyczyść bazę danych</string>
+  <!---->
+  <string name="songInfo">Informacja</string>
+  <!---->
+  <string name="edit">Edytuj…</string>
+  <!---->
+  <string name="error">Błąd</string>
+  <!---->
+  <string name="favourites">Ulubione</string>
+  <!---->
+  <string name="appendToFavourites">Dodaj do ulubionych</string>
+  <!---->
+  <string name="removeFromFavourites">Usuń z ulubionych</string>
+  <!---->
+  <string name="remove">Usuń</string>
+  <!---->
+  <string name="areYouSure">Na pewno?</string>
+  <!---->
+  <string name="areYouSureToExit">Wyjść z aplikacji?</string>
+  <!---->
+  <string name="areYouSureToDelete">Wybrane przedmioty zostaną usunięte. Kontynułować?</string>
+  <!---->
+  <string name="fileSaved">Plik zapisany</string>
+  <!---->
+  <string name="authorName">Imię artysty</string>
+  <!---->
+  <string name="songName">Imię</string>
+  <!---->
+  <string name="songText">Tekst piosenki</string>
+  <!---->
+  <string name="userComments">Komętarze użytkowników</string>
+  <!---->
+  <string name="scrollSpeed">Prędkość scrollowania</string>
+  <!---->
+  <string name="sender">Wyślij</string>
+  <!---->
+  <string name="speedUp">Szybciej</string>
+  <!---->
+  <string name="speedDown">Wolniej</string>
+  <!---->
+  <string name="unknown">Nieznany</string>
+  <!---->
+  <string name="language">Język</string>
+  <!---->
+  <string name="appearance">Wygląd</string>
+  <!---->
+  <string name="attention">Uwaga!!!</string>
+  <!---->
+  <string name="anonymous">Anonimowy</string>
+  <!---->
+  <string name="empty">Pusty</string>
+  <!---->
+  <string name="newLangAvailable">Nowy język: %s</string>
+  <!---->
+  <string name="dbServerSongsCount">Dostępne piosenki: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Znane akordy: %d</string>
+  <!---->
+  <string name="duration">Czas trwania</string>
+  <!---->
+  <string name="averageRating">Średnia ocena tabulatury</string>
+  <!---->
+  <string name="rateSongText">Oceń jakość tabulatury. Twoja ocena zostanie dodana po synchronizacji z serwerem</string>
+  <!---->
+  <string name="langId">15</string>
+  <!---->
+  <string name="dbInitError">Błąd podczas startu bazy danych!</string>
+  <!---->
+  <string name="guitarSongs">Piosenki gitarowe</string>
+  <!---->
+  <string name="songComments">Komentarze do akordów </string>
+  <!---->
+  <string name="songTextSize">Rozmiar czcionki </string>
+  <!---->
+  <string name="yesterday">Wczoraj </string>
+  <!---->
+  <string name="chooseFolder">Wybierz folder</string>
+  <!---->
+  <string name="helpToTranslateSummary">Możesz pomóc w tłumaczeniu aplikacji na swój ojczysty język </string>
+  <!---->
+  <string name="rateDialogTitle">Oceń tę aplikację</string>
+  <!---->
+  <string name="rateNow">Oceń teraz</string>
+  <!---->
+  <string name="faqTextQuestion10">Chcę pomóc w tłumaczeniu aplikacji na mój ojczysty język. Jak mogę to zrobić.</string>
+  <!---->
+  <string name="rootMenuSongs">Lista piosenek</string>
+  <!---->
+  <string name="rootMenuInfo">Informacja</string>
+  <!---->
+  <string name="designWood">Drewno</string>
+  <!---->
+  <string name="designBlack">Czarny</string>
+  <!---->
+  <string name="designWhite">Biały</string>
+  <!---->
+  <string name="instrumentGuitar">Gitara</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulele</string>
+  <!---->
+  <string name="goToAuthor">Pokaż wszystkie piosenki artysty</string>
+  <!---->
+  <string name="chooseAuthor">Wybierz wykonawcę</string>
+  <!---->
+  <string name="remindLater">Przypomnij później </string>
+  <!---->
+  <string name="neverRemind">Nigdy nie przypominaj</string>
+  <!---->
+  <string name="newsDialogClose">Zamknij</string>
+  <!---->
+  <string name="notation">Nazwy akordów </string>
+  <!---->
+  <string name="executingInProgress">Proszę czekać…</string>
+  <!---->
+  <string name="inetReceiveError">Błąd (%d) serwer nie odpowiada! Sprawdź czy jesteś połączony z internetem i spróbuj ponownie</string>
+  <!---->
+  <string name="readingServerDataProgress">Przetwarzanie listy zmian %d%%</string>
+  <!---->
+  <string name="loadedSongs">Wypakowane piosenki: %d</string>
+  <!---->
+  <string name="loadingInProgress">Wypakowywanie. Proszę czekaj…</string>
+  <!---->
+  <string name="errorHappened">Wystąpił błąd (kod: %d)</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" Dodano do ulubionych</string>
+  <!---->
+  <string name="fileSaveError">Nie udało się zapisać pliku</string>
+  <!---->
+  <string name="songDuration">Czas trwania</string>
+  <!---->
+  <string name="songTextScreen">Ekran z tekstem piosenki</string>
+  <!---->
+  <string name="other">Różne</string>
+  <!---->
+  <string name="googlePlayNotFound">Nie udało się włączyć Google Play</string>
+  <!---->
+  <string name="functionNotAllowed">Ta funkcja jest nie dostępna w darmowej wersji</string>
+  <!---->
+  <string name="hideActionBarSummary">Zalecane dla urządzeń z małym ekranem</string>
+  <!---->
+  <string name="zoomIn">Zwiększenie rozmiaru czcionki</string>
+  <!---->
+  <string name="zoomOut">Zmniejszenie rozmiaru czcionki</string>
+</resources>

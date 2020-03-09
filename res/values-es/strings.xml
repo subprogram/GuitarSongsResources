@@ -1,0 +1,562 @@
+<resources>
+  <!---->
+  <string name="songLanguage">Idiomas</string>
+  <!---->
+  <string name="chooseLang">Elegir idioma</string>
+  <!---->
+  <string name="newLangAvailable">Nuevo idioma: %s</string>
+  <!---->
+  <string name="dbAccordsCount">Acordes conocidos: %d</string>
+  <!---->
+  <string name="accordInfoTitle">Información de acordes</string>
+  <!---->
+  <string name="accordNotFound">Acorde desconocido</string>
+  <!---->
+  <string name="removingInProgress">Eliminando.\nPor favor espere…</string>
+  <!---->
+  <string name="dbServerSongsCount">Canciones disponibles: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Fecha de la última sincronización</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Canciones añadidas recientemente</string>
+  <!---->
+  <string name="inetReceiveMessage">Enviando datos.\nPor favor espere…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Actualizando lista de acordes…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Actualizando comentarios…</string>
+  <!---->
+  <string name="inetReceiveError">Error (%d) ¡el servidor no responde!\nPor favor, verifica tu conexión y vuelve a intentarlo</string>
+  <!---->
+  <string name="readingFileProgress">Leyendo archivo (línea #%d) </string>
+  <!---->
+  <string name="readingServerDataProgress">Procesando lista de cambios %d%%</string>
+  <!---->
+  <string name="loadedSongs">Lista de canciones: %d</string>
+  <!---->
+  <string name="loadingInProgress">Extrayendo.\nPor favor espere…</string>
+  <!---->
+  <string name="duration">Duración</string>
+  <!---->
+  <string name="rateSong">Calificar</string>
+  <!---->
+  <string name="averageRating">Calificación media de la tablatura</string>
+  <!---->
+  <string name="pause">Pausar</string>
+  <!---->
+  <string name="yes">Sí</string>
+  <!---->
+  <string name="no">No</string>
+  <!---->
+  <string name="more">Opciones</string>
+  <!---->
+  <string name="cancel">Cancelar</string>
+  <!---->
+  <string name="versionInfo">Versión de la aplicación</string>
+  <!---->
+  <string name="search">Buscar</string>
+  <!---->
+  <string name="find">Encontrar</string>
+  <!---->
+  <string name="saveToFile">Guardar en archivo…</string>
+  <!---->
+  <string name="loadFromFile">Importar…</string>
+  <!---->
+  <string name="removeAll">Eliminar todo</string>
+  <!---->
+  <string name="preferences">Configuración…</string>
+  <!---->
+  <string name="select">Seleccionar</string>
+  <!---->
+  <string name="dbInitError">Error durante la inicialización de la base de datos. Por favor seleccione lo correcto en el apartado de configuracion</string>
+  <!---->
+  <string name="rateSongText">Índice calidad etiqueta. Su clasificación será adjuntada después de la próxima sincronización con el server</string>
+  <!---->
+  <string name="syncWithServer">Sincronizar</string>
+  <!---->
+  <string name="chooseKey">Elige la tecla</string>
+  <!---->
+  <string name="transpose">Transponer</string>
+  <!---->
+  <string name="append">Añadir</string>
+  <!---->
+  <string name="appending">Agregando %s</string>
+  <!---->
+  <string name="restart">Reiniciar</string>
+  <!---->
+  <string name="save">Guardar</string>
+  <!---->
+  <string name="accords">Acordes</string>
+  <!---->
+  <string name="dbInfo">Relevancia de la base de datos</string>
+  <!---->
+  <string name="disableAds">Desactivar anuncios</string>
+  <!---->
+  <string name="clearDB">Borrar la base de datos</string>
+  <!---->
+  <string name="songInfo">Información</string>
+  <!---->
+  <string name="edit">Editar…</string>
+  <!---->
+  <string name="error">Error</string>
+  <!---->
+  <string name="errorHappened">Un error ha ocurrido (código: %d) </string>
+  <!---->
+  <string name="favourites">Favoritos</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" añadido a favoritos</string>
+  <!---->
+  <string name="appendToFavourites">Añadir a favoritos</string>
+  <!---->
+  <string name="removeFromFavourites">Remover de favoritos</string>
+  <!---->
+  <string name="remove">Remover</string>
+  <!---->
+  <string name="areYouSure">Estas seguro? </string>
+  <!---->
+  <string name="areYouSureToExit">Salir de la aplicación? </string>
+  <!---->
+  <string name="areYouSureToDelete">Los elementos seleccionados serán eliminados. Desea continuar? </string>
+  <!---->
+  <string name="fileSaved">Archivo guardado correctamente</string>
+  <!---->
+  <string name="fileSaveError">No se puede guardar en archivo</string>
+  <!---->
+  <string name="badVersionError">Nosotros actualizamos sus datos en el ser ver. Por favor actualiza la aplicacion</string>
+  <!---->
+  <string name="authorName">Nombre del artista</string>
+  <!---->
+  <string name="songName">Nombre</string>
+  <!---->
+  <string name="songText">Letra</string>
+  <!---->
+  <string name="songDuration">Duración</string>
+  <!---->
+  <string name="songDelay">Pausa inicial</string>
+  <!---->
+  <string name="songComments">Comentarios a acordes</string>
+  <!---->
+  <string name="userComments">Comentarios de usuario</string>
+  <!---->
+  <string name="scrollSpeed">Velocidad de reproducción</string>
+  <!---->
+  <string name="sender">Enviar</string>
+  <!---->
+  <string name="speedUp">Más rápido</string>
+  <!---->
+  <string name="speedDown">Más lento</string>
+  <!---->
+  <string name="na">Sin datos</string>
+  <!---->
+  <string name="unknown">Desconocido</string>
+  <!---->
+  <string name="language">Lenguaje</string>
+  <!---->
+  <string name="appearance">Apariencia</string>
+  <!---->
+  <string name="songTextScreen">Pantalla con la letra de las canciones</string>
+  <!---->
+  <string name="other">Misceláneo</string>
+  <!---->
+  <string name="attention">Atención!</string>
+  <!---->
+  <string name="anonymous">Anónimo</string>
+  <!---->
+  <string name="googlePlayNotFound">No se puede abrir Google Play</string>
+  <!---->
+  <string name="functionNotAllowed">Esta función no está disponible en la versión gratuita</string>
+  <!---->
+  <string name="chooseFileManager">Selecciona tu administrador de archivos</string>
+  <!---->
+  <string name="empty">Vacío</string>
+  <!---->
+  <string name="showSongPaused">Pausa inicial</string>
+  <!---->
+  <string name="showSongPausedSummary">No iniciar automáticamente la cuenta regresiva</string>
+  <!---->
+  <string name="hideActionBar">Ocultar botones de control</string>
+  <!---->
+  <string name="hideActionBarSummary">Recomendado para dispositivos con pantalla pequeña</string>
+  <!---->
+  <string name="design">Tema visual</string>
+  <!---->
+  <string name="designSummary">Después de cambiar el tema, reinicia la aplicación, por favor</string>
+  <!---->
+  <string name="instrument">Instrumento</string>
+  <!---->
+  <string name="songTextSize">Tamaño de la fuente</string>
+  <!---->
+  <string name="zoomIn">Aumenta el tamaño de la fuente</string>
+  <!---->
+  <string name="zoomOut">Disminuye el tamaño de la fuente</string>
+  <!---->
+  <string name="fixedSongTextSize">Tamaño de la fuente fijado</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Usar el mismo tamaño de fuente para todas las canciones</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">La aplicación es ahora libre de publicidad! </string>
+  <!---->
+  <string name="selectFile">Selecciona un archivo</string>
+  <!---->
+  <string name="haventAccessPrivileges">No tienes privilegios para acceder al directorio</string>
+  <!---->
+  <string name="yesterday">Ayer</string>
+  <!---->
+  <string name="chooseFolder">Escoge ubicación</string>
+  <!---->
+  <string name="songsAddedToFolder_">Canciones añadidas a la carpeta \"%1s\"</string>
+  <!---->
+  <string name="allowAbusive">Canción insultante</string>
+  <!---->
+  <string name="allowAbusiveSummary">Mostrar canciones insultantes</string>
+  <!---->
+  <string name="helpToTranslate">Ayudar a traducir</string>
+  <!---->
+  <string name="helpToTranslateSummary">Puedes ayudar a traducir la aplicación a tu idioma</string>
+  <!---->
+  <string name="share">Enviar</string>
+  <!---->
+  <string name="rateDialogTitle">Califica esta aplicación</string>
+  <!---->
+  <string name="rateDialogMessage">Si te gusta esta app dedica un minuto a puntuarla. Gracias por tu ayuda</string>
+  <!---->
+  <string name="rateNow">Califica ahora</string>
+  <!---->
+  <string name="faqTextQuestion10">Quiero ayudar con la traducción de la aplicación a mi idioma nativo. ¿Cómo puedo hacerlo?</string>
+  <!---->
+  <string name="faqTextAnswer10">Puedes hacerlo directamente desde la aplicación: ve a configuración y selecciona \"Ayuda a traducir\"</string>
+  <!---->
+  <string name="faqTextQuestion9">¿Como puedo añadir una nueva canción a la base de datos?</string>
+  <!---->
+  <string name="faqTextAnswer9">Visita la web en.guitarsongs.club. Entra usando tu cuenta de google y podrás añadir tus canciones favoritas en la base de datos. Las nuevas canciones estarán disponibles inmediata mente para todos los usuarios. Solo Sincroniza tu aplicación pulsando el boton.</string>
+  <!---->
+  <string name="faqTextQuestion8">¿Puedo ver la siguiente canción mientras estoy tocando una canción, sin volver a la lista?</string>
+  <!---->
+  <string name="faqTextAnswer8">Sí, puedes usar gestos, desliza hacia la \"izquierda\" o \"derecha\" (los gestos sólo funcionan en el folder actual)</string>
+  <!---->
+  <string name="faqTextQuestion7">¿Por qué hay números junto al nombre de algunas canciones?</string>
+  <!---->
+  <string name="faqTextAnswer7">Estos números son las puntuaciones para cada canción. Puedes votar las canciones desde el menú opción. Puntuacion.</string>
+  <!---->
+  <string name="faqTextQuestion5">No puedo escuchar las canciones, No tengo sonido!</string>
+  <!---->
+  <string name="faqTextAnswer5">Esto es un cancionero, aquí tu puedes solo ver las letras de las canciones.</string>
+  <!---->
+  <string name="faqTextQuestion4">Después de la ultima actualización tengo fallos en la aplicación, que debo hacer?</string>
+  <!---->
+  <string name="faqTextAnswer4">Por favor contacta con nosotros describiendo el error, tu dispositivo y versión de Android.</string>
+  <!---->
+  <string name="faqTextQuestion3">Como ver el diseño del el acorde?</string>
+  <!---->
+  <string name="faqTextAnswer3">Solo pulsa en el acorde.</string>
+  <!---->
+  <string name="faqTextQuestion1">Como puedo añadir muy canción a l base de datos?</string>
+  <!---->
+  <string name="exit">Salir</string>
+  <!---->
+  <string name="inputFolderName">Introduce el nombre</string>
+  <!---->
+  <string name="faqTextAnswer1">Lo mejor de todo - utilice el sitio en.guitarsongs.club, las canciones que añada estarán disponibles inmediatamente para otros usuarios. Si quiere añadir una canción sólo para usted haga lo siguiente: mientras está en la lista de canciones vaya al menú y seleccione la opción \"Importar…\". Después elija la carpeta o el archivo txt.\n\nCuidado! No intente subir archivos mp3 o cualquier otro tipo de formatos de canciones a nuestro servidor. No funcionará.</string>
+  <!---->
+  <string name="faqTextQuestion0">Cómo comunicar un fallo, hacer una pregunta o notificar a un desarrollador?</string>
+  <!--color-->
+  <string name="designBlack">Negro </string>
+  <!---->
+  <string name="designWhite">Blanco</string>
+  <!---->
+  <string name="instrumentGuitar">Guitarra</string>
+  <!---->
+  <string name="instrumentUkulele">Ukulele</string>
+  <!---->
+  <string name="langId">17</string>
+  <!---->
+  <string name="rootMenuSongs">Lista de canciones</string>
+  <!---->
+  <string name="rootMenuInfo">Informacion</string>
+  <!---->
+  <string name="goToAuthor">Mostrar todas las canciones del artista</string>
+  <!---->
+  <string name="moveToFolder">Mover al folder</string>
+  <!---->
+  <string name="chooseAuthor">Elige un artista</string>
+  <!---->
+  <string name="copyToFolder">Copiar al folder</string>
+  <!---->
+  <string name="systemSettingsTitle">Sistema</string>
+  <!---->
+  <string name="rootMenuFolders">Carpetas</string>
+  <!---->
+  <string name="rootMenuTopUsers">Usuarios Top</string>
+  <!---->
+  <string name="designWood">Madera</string>
+  <!---->
+  <string name="feedback">Recargar</string>
+  <!---->
+  <string name="faqTextAnswer0">Por favor, escriba sus mensajes en nuestro blog oficial https://www.facebook.com/groups/guitarsongs.club/</string>
+  <!---->
+  <string name="backupSettingTitle">Copia de seguridad</string>
+  <!---->
+  <string name="backupSummary">Crear un respaldo de la base de datos completa</string>
+  <!---->
+  <string name="backupCreated">Copia de seguridad %1s creando</string>
+  <!---->
+  <string name="creatingBackup">Creando copia de archivo</string>
+  <!---->
+  <string name="restoreSettingTitle">Restablecer</string>
+  <!---->
+  <string name="restoreSummary">Restablecer la base de datos desde la copia de seguridad</string>
+  <!---->
+  <string name="restoreCompleted">Reestablecimiento completado</string>
+  <!---->
+  <string name="restoring">Restaurando…</string>
+  <!---->
+  <string name="serverUnderConstructionError">El servidor esta temporalmente inutilizado. Porfavor intente mas tarde</string>
+  <!---->
+  <string name="remindDbSyncDate">Recuerdeme acerca de nuevas canciones</string>
+  <!---->
+  <string name="notationH">Alemàn (B-&gt;H)</string>
+  <!---->
+  <string name="appLanguage">Idioma de la aplicación</string>
+  <!---->
+  <string name="neverRemind">Olvidalo</string>
+  <!---->
+  <string name="newsDialogClose">Serar</string>
+  <!---->
+  <string name="notationUnknown">Error defenido</string>
+  <!---->
+  <string name="executingInProgress">Por favor esperar</string>
+  <!---->
+  <string name="remindLater">Recordarme más tarde</string>
+  <!---->
+  <string name="newsDialogShow">Espectáculo</string>
+  <!---->
+  <string name="newsDialogLater">Recordarme más tarde</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Sincronizar favoritos</string>
+  <!--Cuenta para acceder a favoritos-->
+  <string name="accountForSyncFavsSummary">Cuenta para sincronizar tus canciones favoritas</string>
+  <!--Listas de favoritos-->
+  <string name="addToPlaylist">Añadir a la lista de…</string>
+  <!--datos de tu cuenta-->
+  <string name="alreadyHaveAccount">Ya tengo una cuenta</string>
+  <!--carpeta donde guardar tus archivos-->
+  <string name="appendFolder">Agregar carpeta</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Recordar sobre base de datos de canciones fuera de fecha y nessesidad de syncronizar con servidor</string>
+  <!---->
+  <string name="syncDialogMessage">La base de datos de tu canción no está sincronizada. tienes que sincronizarla con el servicio de datos. Quieres sincronizarla ahora?</string>
+  <!---->
+  <string name="syncNow">Sincronizar ahora</string>
+  <!---->
+  <string name="autoSyncWithServer">Auto sincronización</string>
+  <!---->
+  <string name="appendVirtualFolder">Agregar una carpeta virtual</string>
+  <!---->
+  <string name="searchOnYoutube">Buscar en Youtube</string>
+  <!---->
+  <string name="incorrectField">Campo incorrecto</string>
+  <!---->
+  <string name="saveChanges">Quardar los cambios?</string>
+  <!---->
+  <string name="guitarSongs">Canción para guitarra</string>
+  <!---->
+  <string name="notation">Nombres de acordes</string>
+  <!---->
+  <string name="syncData">Sincronizar datos</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Oferta especial</string>
+  <!---->
+  <string name="specialPriceDialogText">Gracias por usar Guitar Songs! Ahora puedes desactivar la publicidad con un 60% de descuento. Esta es su única oportunidad! Quiere aprovechar esta oferta y olvidarse de la publicidad en la aplicación? </string>
+  <!---->
+  <string name="viewSettingsTitle">Ver</string>
+  <!---->
+  <string name="viewArtists">Lista de artistas</string>
+  <!---->
+  <string name="viewHideMySongs">Ocultar mis canciones</string>
+  <!---->
+  <string name="databasePath">Ruta de la base de datos</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">No hay suficiente espacio libre</string>
+  <!---->
+  <string name="choosePlaylist">Escoger lista</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">Canción agregada a la lista \"%s\"</string>
+  <!---->
+  <string name="appendPlaylist">Agregar lista</string>
+  <!---->
+  <string name="sortMode">Modo de clasificación</string>
+  <!---->
+  <string name="copyToMySongs">Copiar a \"Mis canciones\"</string>
+  <!---->
+  <string name="audioFile">Archivo de audio</string>
+  <!---->
+  <string name="playAudio">Reproducir audio</string>
+  <!---->
+  <string name="stopAudio">Detener audio</string>
+  <!---->
+  <string name="metronom">Metrónomo</string>
+  <!---->
+  <string name="properties">Propiedades…</string>
+  <!---->
+  <string name="mySongs">Mis canciones</string>
+  <!---->
+  <string name="autoSyncWithServerSummary">Sincronizar con el servidor en segundo plano</string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">Sincronizar listas</string>
+  <!---->
+  <string name="copiedSongs">%d canciones copiadas</string>
+  <!---->
+  <string name="synchronizationSettingsTitle">Sincronización</string>
+  <!---->
+  <string name="contentPrefCategory">Contenido</string>
+  <!---->
+  <string name="default_">Por defecto</string>
+  <!---->
+  <string name="value">Valor</string>
+  <!---->
+  <string name="watchOnYoutube">Ver en Youtube</string>
+  <!---->
+  <string name="hide">Esconder</string>
+  <!---->
+  <string name="hidden">Escondido</string>
+  <!---->
+  <string name="showHidden">Mostrar oculto</string>
+  <!---->
+  <string name="areYouSureToHide">Los elementos seleccionados serán ocultados. Desea continuar? </string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">Por favor vea el video antes de comenzar la traducción</string>
+  <!---->
+  <string name="help">Ayuda</string>
+  <!---->
+  <string name="faqTextQuestion17">Como cambiar la velocidad de desplazamiento? </string>
+  <!---->
+  <string name="faqTextQuestion11">Como cambiar el tamaño de fuente? </string>
+  <!---->
+  <string name="password">Contraseña</string>
+  <!---->
+  <string name="signUpSuccess">Tu te has registrado exitosamente! Por favor revisa tu correo electrónico</string>
+  <!---->
+  <string name="selectFolder">Seleccionar carpeta</string>
+  <!---->
+  <string name="sortByArtistName">Ordenar por nombre de artista</string>
+  <!---->
+  <string name="sortBySongName">Ordenar por nombre de canción</string>
+  <!---->
+  <string name="sortByRandom">Orden aleatorio</string>
+  <!---->
+  <string name="exportDialogMessage">Por favor elige el formato de archivo</string>
+  <!---->
+  <string name="areYouSureToRemoveLang">Todas las canciones en este idioma serán eliminadas. Desea continuar? </string>
+  <!---->
+  <string name="sound">Sonido</string>
+  <!---->
+  <string name="proFeatureOnly">Disponible solo en Guitar Songs Pro</string>
+  <!---->
+  <string name="disableAdsPaid">Para siempre</string>
+  <!---->
+  <string name="disableAdsFree">Por una semana (gratis) </string>
+  <!---->
+  <string name="download">Descargar</string>
+  <!---->
+  <string name="newPlaylist">Nuevo</string>
+  <!---->
+  <string name="buy">Comprar</string>
+  <!---->
+  <string name="historyPageTitle">Historial</string>
+  <!---->
+  <string name="faqTextQuestion15">Como agregar canciones a la lista?</string>
+  <!---->
+  <string name="faqTextQuestion14">Como copiar canciones a la sección \"Mis canciones\"?</string>
+  <!---->
+  <string name="faqTextQuestion13">Cómo ocultar algunos artistas de la lista?</string>
+  <!---->
+  <string name="faqTextQuestion12">Cómo cambiar el tono de la canción (transponer)?</string>
+  <!---->
+  <string name="faqTextAnswer11">Puedes usar el gesto \"acercar\" o los botones de volumen del teléfono</string>
+  <!---->
+  <string name="viewHideNicknames">Ocultar apodos</string>
+  <!---->
+  <string name="signIn">Ingresar</string>
+  <!---->
+  <string name="signInWithGoogle">Ingresar con Google</string>
+  <!---->
+  <string name="signInWithFacebook">Ingresar con Facebook</string>
+  <!---->
+  <string name="signInWithTwitter">Ingresar con Twitter</string>
+  <!---->
+  <string name="signInWithEmail">Ingresar con correo electrónico</string>
+  <!---->
+  <string name="signUpInstructions">Por favor revisa tu correo electrónico después de hacer click en el botón \'Registrar\'. Te enviaremos información sobre tu contraseña</string>
+  <!---->
+  <string name="faqTextQuestion16">How to display songs in a certain lenguaje?</string>
+  <!---->
+  <string name="billingPurchasingFeatureSuccess">La función ha sido activada!</string>
+  <!---->
+  <string name="downloadAndRemoveLangDialogMessage">\nAquí puedes añadir o eliminar textos de canciones en diferentes idiomas</string>
+  <!---->
+  <string name="viewShowLettersScreen">Mostrar letras en pantalla</string>
+  <!---->
+  <string name="rateSongUnauthorized">Debe registrarse para evaluar canciones</string>
+  <!---->
+  <string name="rootMenuPlaylists">Lista de canciones</string>
+  <!---->
+  <string name="inputArtistName">Introduzca nombre</string>
+  <!---->
+  <string name="activatePremiumFeatureFree">Activar solo una ve ( gratis )</string>
+  <!---->
+  <string name="activatePremiumFeatureFreeInstruction">Para activar las funcines premium tu debes observar el video completo</string>
+  <!---->
+  <string name="activatePremiumFeaturePaid">Activar para siempre</string>
+  <!---->
+  <string name="activatePremiumFeatureTitle">Quieres activar esta función en tu app?</string>
+  <!---->
+  <string name="dbErrorMessage">Por favor, intenta reiniciar la aplicación.Si esto no ayuda, reporta este problema.</string>
+  <!--Ocultar acordes-->
+  <string name="dontShowChords">Ocultar acordes</string>
+  <!--No mostrar acordes en el texto de la canción-->
+  <string name="dontShowChordsSummary">No mostrar acordes en el texto de la canción</string>
+  <!---->
+  <string name="fileName_">Nombre del archivo:</string>
+  <!--Ninguno-->
+  <string name="keyActionNone">Ninguno</string>
+  <!---->
+  <string name="keyActionPause">Pausar / Continuar desplazamiento</string>
+  <!--Pagina anterior-->
+  <string name="keyActionPrevPage">Página anterior</string>
+  <!--Pagina siguiente-->
+  <string name="keyActionNextPage">Página siguiente</string>
+  <!--Reiniciar-->
+  <string name="keyActionRestart">Reiniciar</string>
+  <!--Acercar-->
+  <string name="keyActionZoomIn">Acercar</string>
+  <!--Alejar-->
+  <string name="keyActionZoomOut">Alejar</string>
+  <!--Abajo-->
+  <string name="keyAirTurnDown">Abajo</string>
+  <!--Izquierda-->
+  <string name="keyAirTurnLeft">Izquierda</string>
+  <!--Derecha-->
+  <string name="keyAirTurnRight">Derecha</string>
+  <!--Arriba-->
+  <string name="keyAirTurnUp">Arriba</string>
+  <!--Por favor descarga al menos un Idioma-->
+  <string name="noLangsDialogMessage">Por favor descarga al menos un Idioma</string>
+  <!---->
+  <string name="disableAdsFreeInstruction">Para deshabilitar la advertencia por una semana debes ver el video completo</string>
+  <!---->
+  <string name="enabled">Habilitado</string>
+  <!---->
+  <string name="keyVolDown">Volumen-</string>
+  <!---->
+  <string name="keyVolUp">Volumen+</string>
+  <!---->
+  <string name="print_">Imprimir…</string>
+  <!---->
+  <string name="privateNotes">Notas privadas</string>
+  <!---->
+  <string name="removedAuthors">Artistas removidos</string>
+  <!---->
+  <string name="rootMenuTopSongs">Exitos</string>
+  <!---->
+  <string name="showRemoved">Mostrar removidos</string>
+</resources>

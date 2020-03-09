@@ -1,0 +1,516 @@
+<resources>
+  <!---->
+  <string name="chooseLang">Өлеңнің тілін таңдаңыз</string>
+  <!---->
+  <string name="accordInfoTitle">Аккорд туралы ақпарат</string>
+  <!---->
+  <string name="accordNotFound">Белгісіз аккорд</string>
+  <!---->
+  <string name="removingInProgress">Жою орындалу барысында.\nКүте тұрыңыз…</string>
+  <!---->
+  <string name="dbServerSongsCount">Қолжетімді әндер: %d</string>
+  <!---->
+  <string name="dbAccordsCount">Белгілі аккордтар: %d</string>
+  <!---->
+  <string name="dbLastSyncDate">Соңғы жаңарту күні</string>
+  <!---->
+  <string name="dbLastUpdatedSongs">Соңғы жаңартылған әндер</string>
+  <!---->
+  <string name="dbInitError">\nДеректер базасын баптандыру процесінде қате!</string>
+  <!---->
+  <string name="inetReceiveMessage">Деректер берілу барысында.\nКүте тұрыңыз…</string>
+  <!---->
+  <string name="inetReceiveAccordsMessage">Аккордтар тізімі жаңартылуда…</string>
+  <!---->
+  <string name="inetReceiveCommentsMessage">Комментарийлер жаңартылу барысында…</string>
+  <!---->
+  <string name="inetReceiveError">Серверге жүгіну барысындағы қате(%d)!</string>
+  <!---->
+  <string name="readingFileProgress">Файл оқылуда (қатар #%d)</string>
+  <!---->
+  <string name="readingServerDataProgress">Өзгерістер тізімінің өңделуі %d%%</string>
+  <!---->
+  <string name="loadedSongs">Тіркелген өлеңдер: %d</string>
+  <!---->
+  <string name="loadingInProgress">Тиеу жүргізілуде</string>
+  <!---->
+  <string name="duration">Ұзақтығы</string>
+  <!---->
+  <string name="rateSong">Бағалау</string>
+  <!---->
+  <string name="averageRating">\nІріктеудің орташа бағасы</string>
+  <!---->
+  <string name="rateSongText">Іріктеудің сапасын бағалаңыз.\nСіздің бағаңыз келесі жаңартылуда назарға алынады.</string>
+  <!---->
+  <string name="syncWithServer">Қадамдастыру</string>
+  <!---->
+  <string name="chooseKey">Үнін таңдаңыз</string>
+  <!---->
+  <string name="transpose">Тасымалдау</string>
+  <!---->
+  <string name="append">Қосу</string>
+  <!---->
+  <string name="appending">Жаңарту %s</string>
+  <!---->
+  <string name="restart">қайта қосу</string>
+  <!---->
+  <string name="pause">Тоқтату</string>
+  <!---->
+  <string name="save">Сақтау</string>
+  <!---->
+  <string name="yes">Ия</string>
+  <!---->
+  <string name="no">Жоқ</string>
+  <!---->
+  <string name="more">Опциясы</string>
+  <!---->
+  <string name="cancel">Күшін жою</string>
+  <!---->
+  <string name="exit">Шығу</string>
+  <!---->
+  <string name="accords">Аккордтар</string>
+  <!---->
+  <string name="songLanguage">Өлеңдер тілі</string>
+  <!---->
+  <string name="search">Іздеу</string>
+  <!---->
+  <string name="find">Табу</string>
+  <!---->
+  <string name="saveToFile">Файлға сақтау</string>
+  <!---->
+  <string name="loadFromFile">Импорттау</string>
+  <!---->
+  <string name="removeAll">Бəрін өшіру</string>
+  <!---->
+  <string name="disableAds">Рекламаны өшіру</string>
+  <!---->
+  <string name="songInfo">Информация</string>
+  <!---->
+  <string name="edit">Өзгерту…</string>
+  <!---->
+  <string name="langId">38</string>
+  <!---->
+  <string name="dbInfo">Мәліметтер базасының актуалдылығы</string>
+  <!---->
+  <string name="versionInfo">Бағдарлама нұсқасы</string>
+  <!---->
+  <string name="feedback">Бізбен байланыс</string>
+  <!---->
+  <string name="preferences">Баптаулар</string>
+  <!---->
+  <string name="clearDB">Мәліметтер базасын тазалау</string>
+  <!---->
+  <string name="error">Дұрыс емес</string>
+  <!---->
+  <string name="errorHappened">Қателік орын алды (код: %d) </string>
+  <!---->
+  <string name="favourites">Таңдаулы</string>
+  <!---->
+  <string name="songAppendedToFavourites">\"%s\" таңдаулылар қатарына қосылды</string>
+  <!---->
+  <string name="appendToFavourites">Таңдаулылар қатарына </string>
+  <!---->
+  <string name="removeFromFavourites">Таңдаулылар қатарынан жою</string>
+  <!---->
+  <string name="remove">Өшіру</string>
+  <!---->
+  <string name="areYouSure">Сенімдісіз бе? </string>
+  <!---->
+  <string name="areYouSureToExit">Бағдарламадан шығу</string>
+  <!---->
+  <string name="areYouSureToDelete">Белгіленген бөлімдерді өшіру </string>
+  <!---->
+  <string name="fileSaved">Файл сәтті сақталды</string>
+  <!---->
+  <string name="fileSaveError">Файл сақталмады</string>
+  <!---->
+  <string name="badVersionError">Серверде өзгерістер бар! Бағдарламаны жаңартыңыз. </string>
+  <!---->
+  <string name="authorName">Орындаушының есімі</string>
+  <!---->
+  <string name="songName">Аталуы</string>
+  <!---->
+  <string name="songText">Өлең сөздері</string>
+  <!---->
+  <string name="songDuration">Ұзақтығы</string>
+  <!---->
+  <string name="songDelay">Бастапқы пауза</string>
+  <!---->
+  <string name="songComments">Теруге (подбор) пікір қалдыру</string>
+  <!---->
+  <string name="userComments">Қолданушыларлың пікірі</string>
+  <!---->
+  <string name="scrollSpeed">Айналдыру жылдамдығы</string>
+  <!---->
+  <string name="sender">Жіберді</string>
+  <!---->
+  <string name="speedUp">Жылдамдау</string>
+  <!---->
+  <string name="speedDown">Баяулау</string>
+  <!---->
+  <string name="na">Мәлімет жоқ</string>
+  <!---->
+  <string name="unknown">Белгісіз</string>
+  <!---->
+  <string name="language">Тіл</string>
+  <!---->
+  <string name="appearance">Сыртқы көрінісі</string>
+  <!---->
+  <string name="songTextScreen">Өлең сөздері бар экран</string>
+  <!---->
+  <string name="other">Әртүрлі</string>
+  <!---->
+  <string name="attention">Назар аударыңыз! </string>
+  <!---->
+  <string name="anonymous">Аноним</string>
+  <!---->
+  <string name="googlePlayNotFound">Google play ашылмады</string>
+  <!---->
+  <string name="functionNotAllowed">Бұл мәзір бағдарламаның тегін нұсқасында қолжетімді емес</string>
+  <!---->
+  <string name="chooseFileManager">Файл менеджерін таңдаңыз</string>
+  <!---->
+  <string name="showSongPaused">Бастапқы пауза</string>
+  <!---->
+  <string name="showSongPausedSummary">Артқа санауды өздігінен бастамау</string>
+  <!---->
+  <string name="hideActionBar">Басқару батырмаларын жасыру</string>
+  <!---->
+  <string name="hideActionBarSummary">Кіші экранды құрылғыларға ұсынылады</string>
+  <!---->
+  <string name="design">Сәндеу тақырыбы</string>
+  <!---->
+  <string name="designSummary">Өзгертуден кейін бағдарламадан шығып, қайта кіріңіз</string>
+  <!---->
+  <string name="songTextSize">Қаріп өлшемі</string>
+  <!---->
+  <string name="zoomIn">Қаріпті үлкейту</string>
+  <!---->
+  <string name="zoomOut">Қаріпті кішірейту</string>
+  <!---->
+  <string name="fixedSongTextSize">Белгіленген қаріп өлшемі</string>
+  <!---->
+  <string name="fixedSongTextSizeSummary">Бір қаріпті барлық өлеңде қолдану</string>
+  <!---->
+  <string name="billingPurchasingDisableAdsSuccess">Жарнама өшірілді!</string>
+  <!---->
+  <string name="selectFile">Файлды таңдаңыз</string>
+  <!---->
+  <string name="select">Таңдау</string>
+  <!---->
+  <string name="haventAccessPrivileges">Бұл мәзірге сіздің құқығыңыз жоқ </string>
+  <!---->
+  <string name="yesterday">Кеше</string>
+  <!---->
+  <string name="share">Жіберу</string>
+  <!---->
+  <string name="chooseFolder">Құжатты таңдаңыз</string>
+  <!---->
+  <string name="songsAddedToFolder_">Өлеңдер \"%s\"-ке сақталды</string>
+  <!---->
+  <string name="inputFolderName">Атауын енгізіңіз</string>
+  <!---->
+  <string name="allowAbusive">Боқауыз өлеңдер)</string>
+  <!---->
+  <string name="allowAbusiveSummary">Боқауыз өлеңдерді көрсету</string>
+  <!---->
+  <string name="helpToTranslate">Басқа тілге аударуға көмек беру</string>
+  <!---->
+  <string name="helpToTranslateSummary">Ана тіліңізге аударуға көмек бере аласыз</string>
+  <!---->
+  <string name="rateDialogTitle">Бағдарламаға баға беріңіз</string>
+  <!---->
+  <string name="rateDialogMessage">Егер сізге бағдарлама ұнаса, өтініш, кішкене уақытыңызды бөліп, баға қойып жіберіңіз! Қолғабыс көрсеткеңізге рақмет! </string>
+  <!---->
+  <string name="rateNow">Бағалау</string>
+  <!---->
+  <string name="faqTextQuestion10">Басқа тілге аударуға көмек бергім келеді. Оңай жолы қандай? </string>
+  <!---->
+  <string name="faqTextAnswer10">Сіз бұны бағдарламаның ішінен жасау аласыз: баптаулардан \"аударуға көмек беру\" батырмасын басыңыз</string>
+  <!---->
+  <string name="faqTextQuestion9">Жаңа өлеңді мәліметтер базасына қалай қосамын?</string>
+  <!---->
+  <string name="faqTextAnswer9">ru.quitarsongs.club сайтына кіріп, google аккаунтыңыздың көмегімен авторизация жасаңыз, сонда сіз сүйікті өлеңдеріңізді жалпы мәліметтер базасына қоса аласыз. Сайт арқылы қосылған өлеңдер бағдарламада шығу үшін \"Синхронизация\" батырмасын басыңыз</string>
+  <!---->
+  <string name="faqTextQuestion8">Жалпы өлеңдер тізіміне оралмай, қарап отырған өлеңнен басқа өлеңге өте аламын ба? </string>
+  <!---->
+  <string name="faqTextAnswer8">Иә, жасай аласыз. Ол үшін \"оңға\" немесе \"солға\" батырмасын басыңыз. (Бір папканың ішінде ғана жасауға болады) </string>
+  <!---->
+  <string name="faqTextQuestion7">Кейбір өлеңдердің жанында тұрған не цифрлар? </string>
+  <!---->
+  <string name="faqTextAnswer7">Ол аккордтарды теру (подбор) сапасының орта бағасы. Өз дауысыңызды \"Бағалау\" батырмасы арқылы бере аласыз. Бұл мәзір сапасыз терумен (подбор) күресу үшін жасалған. төмен баға алған өлеңдер, міндетті түрде тексеруден өтеді</string>
+  <!---->
+  <string name="faqTextQuestion5">Өлеңдерді тыңдай алмаймын, дауыс жоқ! </string>
+  <!---->
+  <string name="faqTextAnswer5">Бұл жерде тек өлеңнің сөздері ғана бар. </string>
+  <!---->
+  <string name="faqTextQuestion4">Бағдарламаны жаңартқан соң қатып қалып жатыр, не істеуге болады? </string>
+  <!---->
+  <string name="faqTextAnswer4">Бағдарлама авторына қандай қателік бар екенін нақтылап хат жолдаңыз, және телефоныңыздың маркасымен Android нұсқасын жазуды ұмытпаңыз</string>
+  <!---->
+  <string name="faqTextQuestion3">Аккорд қалай орындалатынын қалай көруге болады? </string>
+  <!---->
+  <string name="faqTextAnswer3">Аккордтың үстін басыңыз</string>
+  <!---->
+  <string name="faqTextQuestion1">Өзімнің өлеңімді қалай қосуға болады? </string>
+  <!---->
+  <string name="faqTextAnswer1">Ең дұрысы ru.quitarsongs.club сайты арқылы қосыңыз. Сол кезде сіз қосқан өлең басқа қолданушыларға бірден қолжетімді болады. Егер сіз тек өзіңіз үшін қосқыңыз келсе, Мәзірден \"…енгізу\" батырмасын басыңыз. Ашылған мәзірден керек папаканы таңдаңыз</string>
+  <!---->
+  <string name="faqTextQuestion0">Қателіктер табылған жағдайда автормен қалай байланысуға болады? </string>
+  <!---->
+  <string name="faqTextAnswer0">Вконтакте желісінде арнайы топқа хат жолдаңыз: http://vk.com/quitarsongs.club</string>
+  <!---->
+  <string name="rootMenuSongs">Өлеңдер тізімі</string>
+  <!---->
+  <string name="rootMenuFolders">Папкалар</string>
+  <!---->
+  <string name="rootMenuInfo">Ақпарат</string>
+  <!---->
+  <string name="rootMenuTopUsers">Үздік қолданушылар</string>
+  <!---->
+  <string name="designWood">Ағаш</string>
+  <!---->
+  <string name="designBlack">Қара</string>
+  <!---->
+  <string name="designWhite">Ақ</string>
+  <!---->
+  <string name="instrumentGuitar">Гитара </string>
+  <!---->
+  <string name="instrumentUkulele">Укулеле</string>
+  <!---->
+  <string name="goToAuthor">Орындаушының барлық өлеңдерін көрсету</string>
+  <!---->
+  <string name="moveToFolder">Папкаға орналастыру</string>
+  <!---->
+  <string name="chooseAuthor">Орындаушыны таңдаңыз</string>
+  <!---->
+  <string name="copyToFolder">Папкаға көшіру</string>
+  <!---->
+  <string name="systemSettingsTitle">Системалық баптаулар</string>
+  <!---->
+  <string name="backupSettingTitle">Бэкап</string>
+  <!---->
+  <string name="backupSummary">Көмекші(резервті) мәліметтер базасын жасау</string>
+  <!---->
+  <string name="backupCreated">%s бэкап-файлы жасалды</string>
+  <!---->
+  <string name="creatingBackup">Бэкап-файл жасалуда…</string>
+  <!---->
+  <string name="restoreSettingTitle">Бұрынғы қалпына келтіру</string>
+  <!---->
+  <string name="restoreSummary">Резервті көшірмеден мәліметтер базасын бұрынғы қалпына келтіру</string>
+  <!---->
+  <string name="restoreCompleted">Мәліметтер базасын бұрынғы қалпына келтіру сәтті аяқталды</string>
+  <!---->
+  <string name="restoring">Бұрынғы қалпына келтіру…</string>
+  <!---->
+  <string name="newsDialogShow">Көрсету</string>
+  <!---->
+  <string name="newsDialogLater">Қазір емес</string>
+  <!---->
+  <string name="newsDialogClose">Жабу (шығу)</string>
+  <!---->
+  <string name="serverUnderConstructionError">Серверде жоспарланған техникалық жөндеу жұмыстары жасалып жатыр. Кейінірек қайталап көріңіз. </string>
+  <!---->
+  <string name="remindDbSyncDate">Жаңа өлеңдер пайда болса, Ескерту</string>
+  <!---->
+  <string name="remindDbSyncDateSummary">Өлеңдер базасы ескірген жағдайда, синхронизация жасау керектігін ескерту</string>
+  <!---->
+  <string name="syncDialogMessage">Өлеңдер базасы ескірген. Жаңарту үшін синхронизация жасаңыз. Синхронизацияны қазір жасау керек па? </string>
+  <!---->
+  <string name="syncNow">Иә</string>
+  <!---->
+  <string name="remindLater">Кейін </string>
+  <!---->
+  <string name="neverRemind">Қайта ескертпеу</string>
+  <!---->
+  <string name="inetReceiveFavouritesMessage">Таңдаулыларды синхронизациялануда…</string>
+  <!---->
+  <string name="accountForSyncFavsSummary">Таңдаулы өлеңдері синхронизация жасау үшін қолданылатын аккаунт</string>
+  <!---->
+  <string name="notation">Аккорд атауы</string>
+  <!---->
+  <string name="notationUnknown">Белгіленбеген</string>
+  <!---->
+  <string name="notationB">Калыпты жағдай</string>
+  <!---->
+  <string name="notationH">Германдық жазба (B-&gt;H) </string>
+  <!---->
+  <string name="appLanguage">Бағдарлама тілі </string>
+  <!---->
+  <string name="autoSyncWithServer">Автосинхронизация</string>
+  <!---->
+  <string name="executingInProgress">Өтініш, күтіңіз…</string>
+  <!---->
+  <string name="appendFolder">Папка қосу</string>
+  <!---->
+  <string name="appendVirtualFolder">Виртуалды папка қосу </string>
+  <!---->
+  <string name="databasePath">Мәліметтер базасын орналасуы</string>
+  <!---->
+  <string name="searchOnYoutube">YouTube-тан іздеу</string>
+  <!---->
+  <string name="notEnoughFreeSpaceError">Бос орын жоқ </string>
+  <!---->
+  <string name="incorrectField">Дұрыс толтырылмаған</string>
+  <!---->
+  <string name="saveChanges">Өзгерістерді сақтау керек па? </string>
+  <!---->
+  <string name="syncData">Синхронизация үшін мәліметтер</string>
+  <!---->
+  <string name="specialPriceDialogTitle">Арнайы ұсыныс</string>
+  <!---->
+  <string name="specialPriceDialogText">\"Песни под гитару\"-ды таңдағаныңыз үшін рақмет! Тек қана қазір жарнаманы 60%-дық жеңілдікпен өшіре аласыз</string>
+  <!---->
+  <string name="viewSettingsTitle">Көрініс</string>
+  <!---->
+  <string name="viewArtists">Орындаушылар тізімі</string>
+  <!---->
+  <string name="viewHideMySongs">Менің өлеңдерімді жасыру</string>
+  <!---->
+  <string name="choosePlaylist">Плэйлистті таңдаңыз</string>
+  <!---->
+  <string name="songsAddedToPlaylist_">\"%s\" плэйлистіне қосылған өлеңдер</string>
+  <!---->
+  <string name="inetReceivePlaylistsMessage">Плэйлисттер синхронизациясы…</string>
+  <!---->
+  <string name="copiedSongs">%d  өлеңдер көшірілді</string>
+  <!---->
+  <string name="appendPlaylist">Плэйлистке қосу</string>
+  <!---->
+  <string name="sortMode">Сұрыптау нұсқасы</string>
+  <!---->
+  <string name="copyToMySongs">\"Менің өлеңдеріме\" қосу…</string>
+  <!---->
+  <string name="audioFile">Дыбыстық файл</string>
+  <!---->
+  <string name="playAudio">Тыңдау </string>
+  <!---->
+  <string name="stopAudio">Тоқтату</string>
+  <!---->
+  <string name="metronom">Метроном</string>
+  <!---->
+  <string name="properties">Мүмкіндіктері…</string>
+  <!---->
+  <string name="mySongs">Менің өлеңдерім</string>
+  <!---->
+  <string name="addToPlaylist">Плэйлистке қосу…</string>
+  <!---->
+  <string name="inputArtistName">Атауын енгізіңіз</string>
+  <!---->
+  <string name="syncedDataWillPublicWarning">Назар аударыңыз! Қолданылатын мәліметтерді синхронизациялау үшін таңдай отырып, сіз бұл мәліметтерде құпия ақпарат жоқ екеніне келісім бересіз </string>
+  <!---->
+  <string name="synchronizationSettingsTitle">Синхронизация</string>
+  <!---->
+  <string name="contentPrefCategory">Контент</string>
+  <!---->
+  <string name="default_">Қалыпты жағдай </string>
+  <!---->
+  <string name="value">Мағынасы </string>
+  <!---->
+  <string name="rootMenuPlaylists">Плэйлисттар</string>
+  <!---->
+  <string name="watchOnYoutube">YouTubeтан көру </string>
+  <!---->
+  <string name="hide">Жасыру</string>
+  <!---->
+  <string name="hidden">Жасырын тұрғандар </string>
+  <!---->
+  <string name="showHidden">Жасырылғандарды көрсету </string>
+  <!---->
+  <string name="areYouSureToHide">Осы бөлшектерді жасыру </string>
+  <!---->
+  <string name="helpToTranslateTutorialDialog">Аударудан алдын, нұсқаулары бар қысқа бейнетаспаны көріңіз </string>
+  <!---->
+  <string name="help">Көмек </string>
+  <!---->
+  <string name="faqTextQuestion17">Текстті жүргізу жылдамдығы </string>
+  <!---->
+  <string name="faqTextQuestion16">Көрсетілген өлеңдердің тілін қалай өзгертемін? </string>
+  <!---->
+  <string name="faqTextQuestion15">Плэйлистқа калай өлең қосмтын?</string>
+  <!---->
+  <string name="faqTextQuestion14">\"Менің өлеңдерім\" бөліміне өлеңдерді қалай көшіремін</string>
+  <!---->
+  <string name="faqTextQuestion13">Кейбір орындаушыларды тізімнен қалай алып тастаймын </string>
+  <!---->
+  <string name="faqTextQuestion12">Өлең тонын қалай өзгертемін? </string>
+  <!---->
+  <string name="faqTextQuestion11">Қаріп өлшемін қалай өзгертеді? </string>
+  <!---->
+  <string name="faqTextAnswer11">Бұны қарапайым масштабты өзгертетін қимылмен немесе телефонның дауысын өзгертетін батырмасы арқылы жасай аласыз. </string>
+  <!---->
+  <string name="viewHideNicknames">Лақап атын жасыру</string>
+  <!---->
+  <string name="signUp">Тіркелу </string>
+  <!---->
+  <string name="signIn">Кіру </string>
+  <!---->
+  <string name="signInWithGoogle">Google арқылы кіру</string>
+  <!---->
+  <string name="signInWithFacebook">Facebook арқылы кіру</string>
+  <!---->
+  <string name="signInWithTwitter">Twitter арқылы кіру</string>
+  <!---->
+  <string name="signInWithEmail">Email арқылы кіру</string>
+  <!---->
+  <string name="password">Құпия сөз </string>
+  <!---->
+  <string name="signUpSuccess">Тіркелу аяқталды, поштаңызды тексеріңіз</string>
+  <!---->
+  <string name="signUpInstructions">Тіркелу батырмасын басқан соң,  поштаңызға құпия сөзіңіз жайлы ақпарат келеді</string>
+  <!---->
+  <string name="alreadyHaveAccount">Менің аккаунтым бар</string>
+  <!---->
+  <string name="selectFolder">Папканы таңдаңыз </string>
+  <!---->
+  <string name="guitarSongs">Гитарамен айтылатын өлеңдер </string>
+  <!---->
+  <string name="langsManage">Өзгерту </string>
+  <!---->
+  <string name="sortByArtistName">Орындаушылар тізімі бойынша </string>
+  <!---->
+  <string name="sortBySongName">Атауы бойынша </string>
+  <!---->
+  <string name="sortByRandom">Араластыру</string>
+  <!---->
+  <string name="exportDialogMessage">Файл форматын таңдаңыз</string>
+  <!---->
+  <string name="areYouSureToRemoveLang">Осы тілдегі барлық өлеңдерді өшіру қажет пе? </string>
+  <!---->
+  <string name="notationSi">Испанша (B-&gt;Sl) </string>
+  <!---->
+  <string name="enabled">Қосу </string>
+  <!---->
+  <string name="proFeatureOnly">Песни под гитару Pro-да қолжетімді </string>
+  <!---->
+  <string name="sound">Дыбыс</string>
+  <!---->
+  <string name="disableAdsPaid">Әрқашан </string>
+  <!---->
+  <string name="disableAdsFree">1 аптаға (тегін)</string>
+  <!---->
+  <string name="disableAdsFreeInstruction">Жарнаманы 1 аптаға өшіру үшін бейнетаспаны соңына дейін көріңіз </string>
+  <!---->
+  <string name="tooShortSearchQuery">Өлеңді іздеу үшін кемінде 3 әріп жазыңыз </string>
+  <!---->
+  <string name="rootMenuHistory">Алдын қаралғандар/Топ</string>
+  <!---->
+  <string name="download">Жүктеу </string>
+  <!---->
+  <string name="downloadAvailableLangMessage">\"%s\" тілінде өлеңдер қолжетімді! Жүктеу керек па? </string>
+  <!---->
+  <string name="downloadAndRemoveLangDialogMessage">Бұл жерде белгілі бір тілдегі өлеңдерді қосып және өшіре аласыз</string>
+  <!---->
+  <string name="viewShowLettersScreen">Әліппесі бар экран</string>
+  <!---->
+  <string name="newPlaylist">Жаңа </string>
+  <!---->
+  <string name="buy">Сатып алу</string>
+  <!---->
+  <string name="rateSongUnauthorized">Өлеңдерді бағалау үшін аккаунтыңызға кіру қажет </string>
+  <!---->
+  <string name="billingPurchasingFeatureSuccess">Функция қосылды!</string>
+  <!---->
+  <string name="historyPageTitle">Алдын қаралғандар</string>
+</resources>
